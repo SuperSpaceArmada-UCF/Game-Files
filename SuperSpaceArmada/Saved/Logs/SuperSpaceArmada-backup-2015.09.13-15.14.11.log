@@ -1,0 +1,763 @@
+﻿[2015.09.12-23.59.43:795][  0]Log file open, 09/12/15 19:59:43
+[2015.09.12-23.59.43:795][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.09.12-23.59.43:795][  0]LogInit:Display: RandInit(-1523665249) SRandInit(-1523665249).
+[2015.09.12-23.59.43:795][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.12-23.59.43:795][  0]LogStats: Stats thread started at 0.064811
+[2015.09.12-23.59.43:795][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.12-23.59.43:795][  0]LogInit: API Version: 2672455
+[2015.09.12-23.59.43:795][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.12-23.59.43:795][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.12-23.59.43:795][  0]LogInit: Build Configuration: Development
+[2015.09.12-23.59.43:795][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.12-23.59.43:795][  0]LogInit: Command line: 
+[2015.09.12-23.59.43:795][  0]LogInit: Base directory: F:/Program Files/Unreal/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.12-23.59.43:795][  0]LogInit: Rocket: 1
+[2015.09.12-23.59.43:801][  0]LogInit: Using libcurl 7.41.0
+[2015.09.12-23.59.43:801][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.12-23.59.43:801][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.12-23.59.43:801][  0]LogInit:  - other features:
+[2015.09.12-23.59.43:801][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.12-23.59.43:801][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.12-23.59.43:801][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.12-23.59.43:801][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.12-23.59.43:801][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.12-23.59.43:801][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.12-23.59.43:801][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.12-23.59.43:801][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.12-23.59.43:801][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.12-23.59.43:801][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.12-23.59.43:807][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.12-23.59.43:812][  0]LogInit: Object subsystem initialized
+[2015.09.12-23.59.43:813][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-23.59.43:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.12-23.59.43:819][  0]LogInit: Computer: ANDREW_2015
+[2015.09.12-23.59.43:819][  0]LogInit: User: aehrlich92
+[2015.09.12-23.59.43:819][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.12-23.59.43:819][  0]LogInit: High frequency timer resolution =3.984649 MHz
+[2015.09.12-23.59.43:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.12-23.59.43:819][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.12-23.59.43:819][  0]LogMemory: Process Physical Memory: 53.80 MB used, 53.80 MB peak
+[2015.09.12-23.59.43:819][  0]LogMemory: Process Virtual Memory: 57.22 MB used, 57.22 MB peak
+[2015.09.12-23.59.43:819][  0]LogMemory: Physical Memory: 5634.34 MB used, 16322.88 MB total
+[2015.09.12-23.59.43:819][  0]LogMemory: Virtual Memory: 367.20 MB used, 134217728.00 MB total
+[2015.09.12-23.59.43:855][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.12-23.59.44:391][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.09.12-23.59.44:391][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 2 output[s]
+[2015.09.12-23.59.44:392][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.12-23.59.44:392][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
+[2015.09.12-23.59.44:392][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.12-23.59.44:395][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.12-23.59.44:395][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.12-23.59.44:404][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.12-23.59.44:419][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/11948/).
+[2015.09.12-23.59.44:419][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/5CFA865C42C881F6D96E79BC0E9BAC3C/'.
+[2015.09.12-23.59.44:419][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.12-23.59.45:158][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.12-23.59.45:162][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.12-23.59.45:166][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.12-23.59.45:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.12-23.59.45:173][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.12-23.59.45:176][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.12-23.59.45:179][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.12-23.59.45:182][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.12-23.59.45:184][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.12-23.59.45:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.12-23.59.45:190][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.12-23.59.45:193][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.12-23.59.45:194][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.12-23.59.45:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.12-23.59.45:213][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.12-23.59.45:216][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.12-23.59.45:219][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.12-23.59.45:219][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.12-23.59.45:283][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.12-23.59.45:315][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.12-23.59.45:424][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.12-23.59.45:436][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aehrlich92/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.12-23.59.45:546][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-23.59.45:548][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.12-23.59.45:627][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.12-23.59.45:627][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.12-23.59.45:790][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.12-23.59.46:243][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.12-23.59.46:351][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.09.12-23.59.46:466][  0]SourceControl: Info Source control is disabled
+[2015.09.12-23.59.46:475][  0]SourceControl: Info Source control is disabled
+[2015.09.12-23.59.46:482][  0]SourceControl: Info Source control is disabled
+[2015.09.12-23.59.46:489][  0]SourceControl: Info Source control is disabled
+[2015.09.12-23.59.46:579][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-23.59.46:626][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.12-23.59.46:626][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.12-23.59.46:667][  0]LogEngine: Initializing Engine...
+[2015.09.12-23.59.46:668][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.12-23.59.46:669][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.12-23.59.46:749][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.12-23.59.46:756][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.12-23.59.46:765][  0]LogInit: FAudioDevice initialized.
+[2015.09.12-23.59.46:779][  0]LogDerivedDataCache: Saved boot cache 0.01s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.12-23.59.46:781][  0]LogInit: Texture streaming: Enabled
+[2015.09.12-23.59.46:785][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.12-23.59.46:785][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.12-23.59.46:786][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7bdbd2584788e6e37f918c9187bab22c|b300224d71e64562a5bff06c2aaa78f8|45aed112-7b58-41bf-9eba-b8dcb7f9dd12
+[2015.09.12-23.59.46:786][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.12-23.59.46:815][  0]LogInit: Transaction tracking system initialized
+[2015.09.12-23.59.46:834][  0]BlueprintLog: New page: Editor Load
+[2015.09.12-23.59.46:887][  0]LocalizationService: Info Localization service is disabled
+[2015.09.12-23.59.46:939][  0]LogConsoleResponse:Display: 
+[2015.09.12-23.59.47:018][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.12-23.59.47:060][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/' took 0.01s
+[2015.09.12-23.59.47:060][  0]SourceControl: Info Source control is disabled
+[2015.09.12-23.59.47:060][  0]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.12-23.59.47:061][  0]LogEditorServer:Warning: Can't find file '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.09.12-23.59.47:061][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.12-23.59.47:085][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.689ms to complete.
+[2015.09.12-23.59.47:085][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.025
+[2015.09.12-23.59.47:191][  0]LogCollectionManager: Loaded 0 collections in 0.000968 seconds
+[2015.09.12-23.59.47:233][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.09.12-23.59.47:233][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Developers/aehrlich92/Collections/' took 0.01s
+[2015.09.12-23.59.47:233][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.09.12-23.59.47:233][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1867 classes and 333 folders.
+[2015.09.12-23.59.47:239][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.12-23.59.47:243][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.09.12-23.59.47:274][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.12-23.59.47:278][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.12-23.59.47:297][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.12-23.59.47:300][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.12-23.59.47:323][  0]LogLoad: Full Startup: 3.91 seconds (BP compile: 0.00 seconds)
+[2015.09.12-23.59.47:360][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.12-23.59.47:469][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.09.12-23.59.48:662][134]LogAssetRegistry: Asset discovery search completed in 2.3231 seconds
+[2015.09.12-23.59.48:663][134]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.12-23.59.48:663][134]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2015.09.13-00.00.52:729][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.00.52:731][819]PIE: New page: PIE session: Untitled_0 (Sep 12, 2015, 4:00:52 PM)
+[2015.09.13-00.00.52:731][819]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2015.09.13-00.00.52:731][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000341s)
+[2015.09.13-00.00.52:731][819]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.13-00.00.52:731][819]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2015.09.13-00.00.52:731][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.000851s)
+[2015.09.13-00.00.52:744][819]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.00.52:751][819]LogInit: FAudioDevice initialized.
+[2015.09.13-00.00.52:795][819]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.00.52:796][819]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.00.52:796][819]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.09.13-00.00.52:796][819]LogWorld: Game class is 'GameMode'
+[2015.09.13-00.00.52:797][819]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 0) at 2015.09.12-20.00.52
+[2015.09.13-00.00.52:797][819]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.00.52:797][819]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.00.52:797][819]LogWorld: Bringing up level for play took: 0.000592
+[2015.09.13-00.00.52:799][819]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 -0.236
+[2015.09.13-00.01.07:247][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F70E4B420
+[2015.09.13-00.01.13:328][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.01.13:329][885]PIE: New page: PIE session: Untitled_0 (Sep 12, 2015, 4:01:13 PM)
+[2015.09.13-00.01.13:329][885]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2015.09.13-00.01.13:329][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000252s)
+[2015.09.13-00.01.13:329][885]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.13-00.01.13:329][885]LogPlayLevel: PIE: World Init took: (0.000376s)
+[2015.09.13-00.01.13:329][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.000727s)
+[2015.09.13-00.01.13:340][885]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.01.13:345][885]LogInit: FAudioDevice initialized.
+[2015.09.13-00.01.13:400][885]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.13:400][885]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.13:400][885]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.09.13-00.01.13:400][885]LogWorld: Game class is 'GameMode'
+[2015.09.13-00.01.13:401][885]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 0) at 2015.09.12-20.01.13
+[2015.09.13-00.01.13:401][885]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.13:401][885]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.13:401][885]LogWorld: Bringing up level for play took: 0.000437
+[2015.09.13-00.01.13:403][885]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 0.368
+[2015.09.13-00.01.16:359][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4B9AC9A0
+[2015.09.13-00.01.26:057][394]LogTexture:Display: Building textures: HDRI_Space (AutoDXT)
+[2015.09.13-00.01.26:432][394]LogAIModule: Creating AISystem for world Menu
+[2015.09.13-00.01.26:444][394]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.13-00.01.26:445][394]LightingResults: New page: Lighting Build
+[2015.09.13-00.01.26:446][394]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2015.09.13-00.01.26:455][394]LoadErrors: New page: Loading map: Menu.umap
+[2015.09.13-00.01.26:455][394]MapCheck: New page: Map Check
+[2015.09.13-00.01.26:455][394]LightingResults: New page: Lighting Build
+[2015.09.13-00.01.26:462][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F3F84E160
+[2015.09.13-00.01.26:463][394]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.13-00.01.26:488][394]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.13-00.01.26:514][394]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.565ms to complete.
+[2015.09.13-00.01.26:514][394]LogFileHelpers: Loading map 'Menu' took 0.070
+[2015.09.13-00.01.28:866][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.01.28:866][674]PIE: New page: PIE session: Menu (Sep 12, 2015, 4:01:28 PM)
+[2015.09.13-00.01.28:866][674]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.09.13-00.01.28:868][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002401s)
+[2015.09.13-00.01.28:869][674]LogAIModule: Creating AISystem for world Menu
+[2015.09.13-00.01.28:869][674]LogPlayLevel: PIE: World Init took: (0.000361s)
+[2015.09.13-00.01.28:869][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002901s)
+[2015.09.13-00.01.28:880][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.01.28:886][674]LogInit: FAudioDevice initialized.
+[2015.09.13-00.01.28:920][674]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.28:920][674]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.28:920][674]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.09.13-00.01.28:920][674]LogWorld: Game class is 'GameMode'
+[2015.09.13-00.01.28:921][674]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.09.12-20.01.28
+[2015.09.13-00.01.28:921][674]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.28:922][674]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.28:922][674]LogWorld: Bringing up level for play took: 0.001647
+[2015.09.13-00.01.28:924][674]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.111
+[2015.09.13-00.01.34:006][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4B9CBCE0
+[2015.09.13-00.01.49:209][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:210][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:211][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:211][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:212][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:212][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:212][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:213][101]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:505][101]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.01.49:828][101]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.09.13-00.01.57:423][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.01.57:424][973]PIE: New page: PIE session: Menu (Sep 12, 2015, 4:01:57 PM)
+[2015.09.13-00.01.57:424][973]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.09.13-00.01.57:425][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001319s)
+[2015.09.13-00.01.57:425][973]LogAIModule: Creating AISystem for world Menu
+[2015.09.13-00.01.57:425][973]LogPlayLevel: PIE: World Init took: (0.000397s)
+[2015.09.13-00.01.57:425][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.001813s)
+[2015.09.13-00.01.57:449][973]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.01.57:454][973]LogInit: FAudioDevice initialized.
+[2015.09.13-00.01.57:502][973]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.57:502][973]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.01.57:502][973]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.09.13-00.01.57:502][973]LogWorld: Game class is 'GameMode'
+[2015.09.13-00.01.57:503][973]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.09.12-20.01.57
+[2015.09.13-00.01.57:503][973]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.57:503][973]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.01.57:503][973]LogWorld: Bringing up level for play took: 0.000522
+[2015.09.13-00.01.57:503][973]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.13-00.01.57:508][973]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.474
+[2015.09.13-00.01.57:512][974]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:13812).
+[2015.09.13-00.02.00:581][336]LogPackageName: SearchForPackageOnDisk took   0.029s to resolve PrototypeLevel.umap.
+[2015.09.13-00.02.00:610][336]LogPackageName: SearchForPackageOnDisk took   0.027s to resolve PrototypeLevel.umap.
+[2015.09.13-00.02.00:610][336]LogNet: Browse: /Game/SSA/Maps/PrototypeLevel
+[2015.09.13-00.02.00:613][336]LogLoad: LoadMap: /Game/SSA/Maps/PrototypeLevel
+[2015.09.13-00.02.00:641][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F00E74AE0
+[2015.09.13-00.02.00:644][336]Cmd: MEM
+[2015.09.13-00.02.00:670][336]LogMemory: Platform Memory Stats for Windows
+[2015.09.13-00.02.00:670][336]LogMemory: Process Physical Memory: 711.69 MB used, 718.33 MB peak
+[2015.09.13-00.02.00:670][336]LogMemory: Process Virtual Memory: 1234.27 MB used, 1421.14 MB peak
+[2015.09.13-00.02.00:670][336]LogMemory: Physical Memory: 5818.29 MB used, 16322.88 MB total
+[2015.09.13-00.02.00:670][336]LogMemory: Virtual Memory: 1990.91 MB used, 134217728.00 MB total
+[2015.09.13-00.02.00:670][336]LogMemory: 
+[2015.09.13-00.02.00:670][336]Allocator Stats for TBB: (not implemented)
+[2015.09.13-00.02.00:876][336]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.09.13-00.02.00:946][336]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.09.13-00.02.00:972][336]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.09.13-00.02.00:999][336]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.09.13-00.02.01:029][336]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.09.13-00.02.01:048][336]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.09.13-00.02.01:055][336]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.09.13-00.02.01:093][336]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.09.13-00.02.01:110][336]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.09.13-00.02.01:124][336]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.09.13-00.02.01:137][336]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.09.13-00.02.01:149][336]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.09.13-00.02.01:156][336]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.09.13-00.02.01:205][336]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.09.13-00.02.01:220][336]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.09.13-00.02.01:235][336]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.09.13-00.02.01:252][336]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.09.13-00.02.01:263][336]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.09.13-00.02.01:265][336]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.09.13-00.02.01:268][336]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2015.09.13-00.02.01:270][336]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.09.13-00.02.01:282][336]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.09.13-00.02.01:286][336]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.09.13-00.02.01:289][336]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.09.13-00.02.01:657][336]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.02.01:657][336]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.02.01:681][336]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.02.01:681][336]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.02.01
+[2015.09.13-00.02.01:681][336]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.02.01:681][336]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.02.01:694][336]LogWorld: Bringing up level for play took: 0.019016
+[2015.09.13-00.02.09:462][198]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve Menu.umap.
+[2015.09.13-00.02.09:493][199]LogPackageName: SearchForPackageOnDisk took   0.028s to resolve Menu.umap.
+[2015.09.13-00.02.09:493][199]LogNet: Browse: /Game/SSA/Maps/Menu
+[2015.09.13-00.02.09:493][199]LogLoad: LoadMap: /Game/SSA/Maps/Menu
+[2015.09.13-00.02.09:514][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F17EFF060
+[2015.09.13-00.02.09:521][199]Cmd: MEM
+[2015.09.13-00.02.09:536][199]LogMemory: Platform Memory Stats for Windows
+[2015.09.13-00.02.09:536][199]LogMemory: Process Physical Memory: 845.34 MB used, 850.43 MB peak
+[2015.09.13-00.02.09:536][199]LogMemory: Process Virtual Memory: 1455.73 MB used, 1490.39 MB peak
+[2015.09.13-00.02.09:536][199]LogMemory: Physical Memory: 5968.63 MB used, 16322.88 MB total
+[2015.09.13-00.02.09:536][199]LogMemory: Virtual Memory: 2169.11 MB used, 134217728.00 MB total
+[2015.09.13-00.02.09:536][199]LogMemory: 
+[2015.09.13-00.02.09:536][199]Allocator Stats for TBB: (not implemented)
+[2015.09.13-00.02.09:536][199]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.09.13-00.02.09:538][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001380s)
+[2015.09.13-00.02.09:538][199]LogAIModule: Creating AISystem for world Menu
+[2015.09.13-00.02.09:538][199]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2015.09.13-00.02.09:538][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.001899s)
+[2015.09.13-00.02.09:539][199]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.02.09:539][199]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.09.13-00.02.09:539][199]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.09.13-00.02.09:539][199]LogWorld: Game class is 'GameMode'
+[2015.09.13-00.02.09:541][199]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.09.12-20.02.09
+[2015.09.13-00.02.09:541][199]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.02.09:541][199]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.02.09:541][199]LogWorld: Bringing up level for play took: 0.000504
+[2015.09.13-00.02.09:541][199]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.13-00.02.12:914][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F02DFDB20
+[2015.09.13-00.04.09:442][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:443][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:443][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:444][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:445][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:445][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:446][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:446][909]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-00.04.09:514][909]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.04.09:543][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4F1FB4C0
+[2015.09.13-00.04.09:543][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4F1FBC40
+[2015.09.13-00.04.09:544][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4F224360
+[2015.09.13-00.04.09:545][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F72300540
+[2015.09.13-00.04.09:545][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7EAD7920
+[2015.09.13-00.04.09:548][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7EAD7100
+[2015.09.13-00.04.09:548][909]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.13-00.04.09:548][909]LightingResults: New page: Lighting Build
+[2015.09.13-00.04.09:558][909]LoadErrors: New page: Loading map: PrototypeLevel.umap
+[2015.09.13-00.04.09:558][909]MapCheck: New page: Map Check
+[2015.09.13-00.04.09:558][909]LightingResults: New page: Lighting Build
+[2015.09.13-00.04.09:572][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F49F7B560
+[2015.09.13-00.04.09:577][909]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.13-00.04.09:855][909]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.13-00.04.09:895][909]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.26ms to complete.
+[2015.09.13-00.04.09:895][909]LogFileHelpers: Loading map 'PrototypeLevel' took 0.349
+[2015.09.13-00.04.24:896][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.04.24:896][698]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:04:24 PM)
+[2015.09.13-00.04.24:896][698]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.04.24:913][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017146s)
+[2015.09.13-00.04.24:914][698]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.04.24:914][698]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2015.09.13-00.04.24:914][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.017891s)
+[2015.09.13-00.04.24:936][698]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.04.24:942][698]LogInit: FAudioDevice initialized.
+[2015.09.13-00.04.24:980][698]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.04.24:987][698]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.04.24:987][698]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.04.24
+[2015.09.13-00.04.24:987][698]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.04.24:987][698]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.04.24:988][698]LogWorld: Bringing up level for play took: 0.007054
+[2015.09.13-00.04.24:991][698]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel -0.043
+[2015.09.13-00.04.36:498][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F126E5260
+[2015.09.13-00.05.14:160][262]LogActorFactory: Actor Factory created Sphere
+[2015.09.13-00.05.16:436][505]LogActorFactory: Actor Factory created Sphere
+[2015.09.13-00.05.38:391][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.13-00.05.39:495][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2015.09.13-00.06.07:581][243]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2015.09.13-00.06.17:565][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.09.13-00.06.19:363][593]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2015.09.13-00.06.47:511][921]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2015.09.13-00.06.55:427][868]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.55:427][868]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.13-00.06.55:973][912]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.55:973][912]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.13-00.06.56:455][969]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.56:456][969]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.13-00.06.57:205][ 58]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.57:205][ 58]LogEditorTransaction: Undo Move Actors
+[2015.09.13-00.06.58:239][181]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.58:239][181]LogEditorTransaction: Undo Move Actors
+[2015.09.13-00.06.58:639][229]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.58:639][229]LogEditorTransaction: Undo Move Actors
+[2015.09.13-00.06.58:981][270]Cmd: TRANSACTION UNDO
+[2015.09.13-00.06.58:981][270]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.13-00.07.02:653][707]Cmd: TRANSACTION UNDO
+[2015.09.13-00.07.02:653][707]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.13-00.07.04:599][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.13-00.07.05:572][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.13-00.07.11:033][685]Cmd: TRANSACTION UNDO
+[2015.09.13-00.07.11:033][685]LogEditorTransaction: Undo Move Actors
+[2015.09.13-00.07.12:240][810]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.09.13-00.07.18:372][541]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2015.09.13-00.08.59:064][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.08.59:065][480]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:08:59 PM)
+[2015.09.13-00.08.59:065][480]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.08.59:078][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012986s)
+[2015.09.13-00.08.59:078][480]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.08.59:078][480]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2015.09.13-00.08.59:079][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.013992s)
+[2015.09.13-00.08.59:101][480]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.08.59:107][480]LogInit: FAudioDevice initialized.
+[2015.09.13-00.08.59:137][480]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.08.59:140][480]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.08.59:140][480]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.08.59
+[2015.09.13-00.08.59:140][480]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.08.59:140][480]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.08.59:141][480]LogWorld: Bringing up level for play took: 0.003198
+[2015.09.13-00.08.59:142][480]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel 0.107
+[2015.09.13-00.09.06:002][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7EA72FC0
+[2015.09.13-00.11.01:144][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.13-00.11.01:144][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.13-00.16.47:589][ 78]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.09.13-00.16.47:591][ 78]LogPlayLevel: [PlayLevel] Compiling Debris_collider before play...
+[2015.09.13-00.16.47:647][ 78]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
+[2015.09.13-00.16.47:663][ 78]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:16:47 PM)
+[2015.09.13-00.16.47:664][ 78]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.16.47:686][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022480s)
+[2015.09.13-00.16.47:686][ 78]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.16.47:687][ 78]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2015.09.13-00.16.47:687][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.023253s)
+[2015.09.13-00.16.47:708][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.16.47:714][ 78]LogInit: FAudioDevice initialized.
+[2015.09.13-00.16.47:759][ 78]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.16.47:766][ 78]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.16.47:766][ 78]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.16.47
+[2015.09.13-00.16.47:766][ 78]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.16.47:767][ 78]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.16.47:768][ 78]LogWorld: Bringing up level for play took: 0.007404
+[2015.09.13-00.16.47:771][ 78]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel 0.736
+[2015.09.13-00.16.50:828][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7EDEEF20
+[2015.09.13-00.21.18:945][326]Cmd: TRANSACTION UNDO
+[2015.09.13-00.21.18:945][326]LogEditorTransaction: Undo Remove Parameter
+[2015.09.13-00.23.10:110][514]LogSavePackage: Save=393.567169ms
+[2015.09.13-00.23.10:110][514]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel_Auto1D53472324D8F5C3AB57FC8992F2376AF.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto1.umap'
+[2015.09.13-00.23.10:110][514]LogSavePackage: Total save time: 401.715182ms
+[2015.09.13-00.23.10:110][514]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto1.umap
+[2015.09.13-00.23.10:111][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/PrototypeLevel' took 0.423
+[2015.09.13-00.23.10:111][514]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.423
+[2015.09.13-00.23.10:115][514]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SSA/Blueprints/Debris/Debris_collider] ([1] browsable assets)...
+[2015.09.13-00.23.10:126][514]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SSA/Blueprints/Debris/Debris_collider.Debris_collider]
+[2015.09.13-00.23.10:126][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/SSA/Blueprints/Debris/Debris_collider]
+[2015.09.13-00.23.10:146][514]LogSavePackage: Save=19.730972ms
+[2015.09.13-00.23.10:146][514]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider_Auto13B195632418379EC6ED277964C440CFB.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Debris/Debris_collider_Auto1.uasset'
+[2015.09.13-00.23.10:147][514]LogSavePackage: Total save time: 20.274308ms
+[2015.09.13-00.23.10:147][514]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Debris/Debris_collider_Auto1.uasset
+[2015.09.13-00.23.10:147][514]LogFileHelpers: Auto-saving content packages took 0.035
+[2015.09.13-00.33.05:004][280]LogSavePackage: Save=24.070877ms
+[2015.09.13-00.33.05:004][280]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider2E78A3164FE9B83861D092A19C56FCFC.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset'
+[2015.09.13-00.33.05:006][280]LogSavePackage: Total save time: 26.117984ms
+[2015.09.13-00.33.05:006][280]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset
+[2015.09.13-00.33.12:484][159]LogEditorViewport: Clicking on Actor (LMB): Debris_collider_C (Debris_collider)
+[2015.09.13-00.33.19:070][946]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.09.13-00.33.19:070][946]LogPlayLevel: [PlayLevel] Compiling Debris_collider before play...
+[2015.09.13-00.33.19:073][946]LogBlueprint:Error: [compiler Debris_collider] Error No delegate function name  Create Event 
+[2015.09.13-00.33.19:074][946]LogBlueprint:Error: [compiler Debris_collider] Error Event signature error:  No function name.  Create Event 
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 0 Warning(s) [in 81 ms]
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.09.13-00.33.19:153][946]LogBlueprint:Warning: [compiler Debris_collider] Warning [2015.74] Compile of Debris_collider failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.09.13-00.33.19:153][946]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2015.09.13-00.33.19:169][946]BlueprintLog: Info Blueprint Debris_collider failed to compile
+[2015.09.13-00.35.08:725][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/PrototypeLevel' took 0.018
+[2015.09.13-00.35.08:729][294]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SSA/Blueprints/Debris/Debris_collider] ([1] browsable assets)...
+[2015.09.13-00.35.08:729][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/SSA/Blueprints/Debris/Debris_collider]
+[2015.09.13-00.35.08:753][294]LogSavePackage: Save=18.303745ms
+[2015.09.13-00.35.08:753][294]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider_Auto23D28A8BE41C3D08B44665B8FA6650FA2.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Debris/Debris_collider_Auto2.uasset'
+[2015.09.13-00.35.08:753][294]LogSavePackage: Total save time: 23.800593ms
+[2015.09.13-00.35.08:753][294]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Debris/Debris_collider_Auto2.uasset
+[2015.09.13-00.35.08:753][294]LogFileHelpers: Auto-saving content packages took 0.028
+[2015.09.13-00.37.45:690][ 67]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.09.13-00.46.04:053][364]LogSavePackage: Save=20.510214ms
+[2015.09.13-00.46.04:053][364]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider2A02C09F4E30A2FB0E0959A28057F700.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset'
+[2015.09.13-00.46.04:054][364]LogSavePackage: Total save time: 25.706407ms
+[2015.09.13-00.46.04:054][364]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset
+[2015.09.13-00.46.08:672][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.13-00.46.10:919][181]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.09.13-00.46.10:923][181]LogPlayLevel: [PlayLevel] Compiling Debris_collider before play...
+[2015.09.13-00.46.10:926][181]LogBlueprint:Error: [compiler Debris_collider] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.09.13-00.46.10:980][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 0 Warning(s) [in 55 ms]
+[2015.09.13-00.46.10:980][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.09.13-00.46.10:980][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.09.13-00.46.10:980][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.13-00.46.10:982][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 4 Warning(s) [in 1 ms]
+[2015.09.13-00.46.10:982][181]LogBlueprint:Warning: [compiler Debris_collider] Warning [2787.57] Compile of Debris_collider failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.09.13-00.46.10:982][181]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2015.09.13-00.46.10:999][181]BlueprintLog: Info Blueprint Debris_collider failed to compile
+[2015.09.13-00.47.25:792][796]LogSavePackage: Save=150.916428ms
+[2015.09.13-00.47.25:792][796]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel068317D6450F81780D146FBB275627A7.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap'
+[2015.09.13-00.47.25:795][796]LogSavePackage: Total save time: 161.924172ms
+[2015.09.13-00.47.25:795][796]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap
+[2015.09.13-00.47.25:819][796]LogFileHelpers: Saving map 'PrototypeLevel' took 0.242
+[2015.09.13-00.47.25:855][796]LogSavePackage: Save=19.064415ms
+[2015.09.13-00.47.25:855][796]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider90CF2DCF4CA716DEDD347CAD4639C9BA.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset'
+[2015.09.13-00.47.25:856][796]LogSavePackage: Total save time: 22.076979ms
+[2015.09.13-00.47.25:856][796]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset
+[2015.09.13-00.47.26:646][886]LogSavePackage: Save=14.131232ms
+[2015.09.13-00.47.26:646][886]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Debris_collider2DB59D8941E09CA1D7D3A3AA6A022757.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset'
+[2015.09.13-00.47.26:647][886]LogSavePackage: Total save time: 16.419262ms
+[2015.09.13-00.47.26:647][886]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Debris/Debris_collider.uasset
+[2015.09.13-00.47.29:675][246]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.09.13-00.47.29:678][246]LogPlayLevel: [PlayLevel] Compiling Debris_collider before play...
+[2015.09.13-00.47.29:706][246]LogPlayLevel: PlayLevel: Blueprint regeneration took 31 ms (1 blueprints)
+[2015.09.13-00.47.29:722][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7ECC5C60
+[2015.09.13-00.47.29:723][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7DF18360
+[2015.09.13-00.47.29:726][246]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:47:29 PM)
+[2015.09.13-00.47.29:726][246]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.47.29:739][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013435s)
+[2015.09.13-00.47.29:740][246]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.47.29:740][246]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.09.13-00.47.29:740][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.014311s)
+[2015.09.13-00.47.29:760][246]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.47.29:766][246]LogInit: FAudioDevice initialized.
+[2015.09.13-00.47.29:796][246]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.47.29:799][246]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.47.29:799][246]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.47.29
+[2015.09.13-00.47.29:799][246]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.47.29:799][246]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.47.29:799][246]LogWorld: Bringing up level for play took: 0.002915
+[2015.09.13-00.47.29:801][246]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel 0.766
+[2015.09.13-00.47.47:645][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4A0EC220
+[2015.09.13-00.47.48:395][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.47.48:395][424]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:47:48 PM)
+[2015.09.13-00.47.48:395][424]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.47.48:407][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012702s)
+[2015.09.13-00.47.48:407][424]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.47.48:407][424]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2015.09.13-00.47.48:408][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.013400s)
+[2015.09.13-00.47.48:429][424]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.47.48:435][424]LogInit: FAudioDevice initialized.
+[2015.09.13-00.47.48:467][424]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.47.48:470][424]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.47.48:470][424]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.47.48
+[2015.09.13-00.47.48:470][424]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.47.48:470][424]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.47.48:471][424]LogWorld: Bringing up level for play took: 0.002879
+[2015.09.13-00.47.48:472][424]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel -0.562
+[2015.09.13-00.47.51:665][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F274858A0
+[2015.09.13-00.51.11:443][109]LogSavePackage: Save=156.915451ms
+[2015.09.13-00.51.11:443][109]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel73284A12444A4AEB5787A89BAB27A1C2.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap'
+[2015.09.13-00.51.11:444][109]LogSavePackage: Total save time: 160.007067ms
+[2015.09.13-00.51.11:444][109]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap
+[2015.09.13-00.51.20:618][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.13-00.51.20:618][198]PIE: New page: PIE session: PrototypeLevel (Sep 12, 2015, 4:51:20 PM)
+[2015.09.13-00.51.20:618][198]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_PrototypeLevel
+[2015.09.13-00.51.20:632][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013617s)
+[2015.09.13-00.51.20:633][198]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.13-00.51.20:633][198]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2015.09.13-00.51.20:633][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/PrototypeLevel.PrototypeLevel to /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.014485s)
+[2015.09.13-00.51.20:650][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F7ECC7A60
+[2015.09.13-00.51.20:656][198]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.13-00.51.20:662][198]LogInit: FAudioDevice initialized.
+[2015.09.13-00.51.20:694][198]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.09.13-00.51.20:697][198]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.13-00.51.20:697][198]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2015.09.12-20.51.20
+[2015.09.13-00.51.20:697][198]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.51.20:697][198]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_PrototypeLevel.PrototypeLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.13-00.51.20:698][198]LogWorld: Bringing up level for play took: 0.002743
+[2015.09.13-00.51.20:699][198]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_PrototypeLevel -0.335
+[2015.09.13-00.51.23:951][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F645BDEE0
+[2015.09.13-00.51.30:070][302]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.13-00.51.30:284][303]Cmd: QUIT_EDITOR
+[2015.09.13-00.51.31:435][303]LogExit: Preparing to exit.
+[2015.09.13-00.51.32:355][303]LogExit: Editor shut down
+[2015.09.13-00.51.32:355][303]LogExit: Transaction tracking system shut down
+[2015.09.13-00.51.32:356][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F599B8AE0
+[2015.09.13-00.51.32:356][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F5E75CE00
+[2015.09.13-00.51.32:362][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F4A0EF880
+[2015.09.13-00.51.32:362][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F126E5B20
+[2015.09.13-00.51.32:489][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F126E4400
+[2015.09.13-00.51.32:489][303]LogExit: Object subsystem successfully closed.
+[2015.09.13-00.51.32:506][303]LogD3D11RHI: Shutdown
+[2015.09.13-00.51.32:506][303]LogD3D11RHI: CleanupD3DDevice
+[2015.09.13-00.51.32:547][303]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.09.13-00.51.32:561][303]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.09.13-00.51.32:562][303]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.09.13-00.51.32:562][303]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.09.13-00.51.32:563][303]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.09.13-00.51.32:563][303]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.09.13-00.51.32:563][303]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.13-00.51.32:563][303]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.13-00.51.32:564][303]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.13-00.51.32:937][303]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.13-00.51.32:938][303]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.13-00.51.33:030][303]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.13-00.51.33:043][303]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.13-00.51.33:044][303]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.13-00.51.33:045][303]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.13-00.51.33:130][303]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.13-00.51.33:131][303]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.13-00.51.33:131][303]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.13-00.51.33:232][303]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.13-00.51.33:232][303]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.13-00.51.33:232][303]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.13-00.51.33:235][303]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.13-00.51.33:238][303]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.13-00.51.33:240][303]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.13-00.51.33:253][303]LogDerivedDataCache: Shutdown
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.13-00.51.33:253][303]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.13-00.51.34:255][303]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.13-00.51.34:280][303]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.13-00.51.34:281][303]LogExit: Exiting.
+[2015.09.13-00.51.34:308][303]Log file closed, 09/12/15 20:51:34
