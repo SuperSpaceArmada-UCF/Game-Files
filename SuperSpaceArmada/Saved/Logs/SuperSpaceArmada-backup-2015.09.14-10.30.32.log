@@ -1,0 +1,1328 @@
+﻿[2015.09.14-07.24.12:347][  0]Log file open, 09/14/15 03:24:12
+[2015.09.14-07.24.12:347][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.09.14-07.24.12:347][  0]LogInit:Display: RandInit(1106289993) SRandInit(1106289993).
+[2015.09.14-07.24.12:347][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.14-07.24.12:347][  0]LogStats: Stats thread started at 0.074388
+[2015.09.14-07.24.12:347][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-07.24.12:347][  0]LogInit: API Version: 2672455
+[2015.09.14-07.24.12:347][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.14-07.24.12:347][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.14-07.24.12:347][  0]LogInit: Build Configuration: Development
+[2015.09.14-07.24.12:347][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.14-07.24.12:347][  0]LogInit: Command line:  
+[2015.09.14-07.24.12:347][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.9/Engine/Binaries/Win64/
+[2015.09.14-07.24.12:347][  0]LogInit: Rocket: 1
+[2015.09.14-07.24.12:357][  0]LogInit: Using libcurl 7.41.0
+[2015.09.14-07.24.12:357][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.14-07.24.12:357][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.14-07.24.12:357][  0]LogInit:  - other features:
+[2015.09.14-07.24.12:357][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.14-07.24.12:357][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.14-07.24.12:357][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.14-07.24.12:357][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.14-07.24.12:357][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.14-07.24.12:357][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.14-07.24.12:357][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.14-07.24.12:357][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.14-07.24.12:357][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.14-07.24.12:357][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.14-07.24.12:364][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.14-07.24.12:371][  0]LogInit: Object subsystem initialized
+[2015.09.14-07.24.12:372][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-07.24.12:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.14-07.24.12:381][  0]LogInit: Computer: LOU
+[2015.09.14-07.24.12:381][  0]LogInit: User: LouIII
+[2015.09.14-07.24.12:381][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.14-07.24.12:381][  0]LogInit: High frequency timer resolution =2.338333 MHz
+[2015.09.14-07.24.12:381][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.14-07.24.12:381][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.14-07.24.12:381][  0]LogMemory: Process Physical Memory: 54.17 MB used, 54.17 MB peak
+[2015.09.14-07.24.12:381][  0]LogMemory: Process Virtual Memory: 55.40 MB used, 55.40 MB peak
+[2015.09.14-07.24.12:381][  0]LogMemory: Physical Memory: 5792.57 MB used, 16303.71 MB total
+[2015.09.14-07.24.12:381][  0]LogMemory: Virtual Memory: 364.54 MB used, 134217728.00 MB total
+[2015.09.14-07.24.12:418][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.14-07.24.13:117][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.09.14-07.24.13:117][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2015.09.14-07.24.13:122][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.14-07.24.13:123][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.09.14-07.24.13:124][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.14-07.24.13:124][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.09.14-07.24.13:124][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.14-07.24.13:129][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.14-07.24.13:129][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.14-07.24.13:142][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.14-07.24.13:157][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/5736/).
+[2015.09.14-07.24.13:157][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/BA641F524FBB1922EC44658708709545/'.
+[2015.09.14-07.24.13:157][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.14-07.24.14:159][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.14-07.24.14:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.14-07.24.14:169][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.14-07.24.14:175][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.14-07.24.14:180][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.14-07.24.14:183][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.14-07.24.14:186][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.14-07.24.14:190][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.14-07.24.14:193][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.14-07.24.14:196][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.14-07.24.14:200][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.14-07.24.14:203][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.14-07.24.14:204][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.14-07.24.14:223][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.14-07.24.14:226][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.14-07.24.14:229][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.14-07.24.14:233][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.14-07.24.14:233][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.14-07.24.14:314][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.14-07.24.14:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.14-07.24.14:494][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.14-07.24.14:505][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.14-07.24.14:668][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-07.24.14:671][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.14-07.24.14:788][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.14-07.24.14:788][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.14-07.24.15:005][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.14-07.24.15:650][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.14-07.24.15:747][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.09.14-07.24.15:894][  0]SourceControl: Info Source control is disabled
+[2015.09.14-07.24.15:902][  0]SourceControl: Info Source control is disabled
+[2015.09.14-07.24.15:912][  0]SourceControl: Info Source control is disabled
+[2015.09.14-07.24.15:922][  0]SourceControl: Info Source control is disabled
+[2015.09.14-07.24.16:048][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.16:117][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.14-07.24.16:117][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.14-07.24.16:172][  0]LogEngine: Initializing Engine...
+[2015.09.14-07.24.16:174][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.14-07.24.16:175][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.14-07.24.16:288][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.14-07.24.16:295][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.14-07.24.16:301][  0]LogInit: FAudioDevice initialized.
+[2015.09.14-07.24.16:320][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-07.24.16:324][  0]LogInit: Texture streaming: Enabled
+[2015.09.14-07.24.16:330][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.14-07.24.16:330][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-07.24.16:330][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
+[2015.09.14-07.24.16:330][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.14-07.24.16:345][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.14-07.24.16:345][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.14-07.24.16:360][  0]LogInit: Transaction tracking system initialized
+[2015.09.14-07.24.16:390][  0]BlueprintLog: New page: Editor Load
+[2015.09.14-07.24.16:471][  0]LocalizationService: Info Localization service is disabled
+[2015.09.14-07.24.16:545][  0]LogConsoleResponse:Display: 
+[2015.09.14-07.24.16:646][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.14-07.24.16:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/' took 0.01s
+[2015.09.14-07.24.16:698][  0]SourceControl: Info Source control is disabled
+[2015.09.14-07.24.16:698][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-07.24.16:698][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.09.14-07.24.16:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-07.24.16:732][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.112ms to complete.
+[2015.09.14-07.24.16:732][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.034
+[2015.09.14-07.24.16:832][  0]LogCollectionManager: Loaded 0 collections in 0.002049 seconds
+[2015.09.14-07.24.16:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.09.14-07.24.16:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Developers/LouIII/Collections/' took 0.01s
+[2015.09.14-07.24.16:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.09.14-07.24.16:872][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1867 classes and 333 folders.
+[2015.09.14-07.24.16:876][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.09.14-07.24.16:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.14-07.24.16:927][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.14-07.24.16:932][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.14-07.24.16:952][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.14-07.24.16:956][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.14-07.24.16:979][  0]LogLoad: Full Startup: 5.14 seconds (BP compile: 0.00 seconds)
+[2015.09.14-07.24.17:036][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.14-07.24.17:175][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.14-07.24.17:294][  2]LogAssetRegistry: Asset discovery search completed in 1.5590 seconds
+[2015.09.14-07.24.17:294][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.14-07.24.17:294][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2015.09.14-07.24.23:060][322]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-07.24.23:099][322]LightingResults: New page: Lighting Build
+[2015.09.14-07.24.23:103][322]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2015.09.14-07.24.23:122][322]LoadErrors: New page: Loading map: PrototypeLevel.umap
+[2015.09.14-07.24.23:123][322]MapCheck: New page: Map Check
+[2015.09.14-07.24.23:123][322]LightingResults: New page: Lighting Build
+[2015.09.14-07.24.23:134][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F6AD02160
+[2015.09.14-07.24.23:140][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:142][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:143][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:145][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:146][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:146][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:148][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:149][322]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-07.24.23:709][322]LogLinker:Warning: Can't find file '/Game/Geometry/Textures/humanShip_emissionmask'
+[2015.09.14-07.24.23:709][322]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Textures/humanShip_emissionmask' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap.
+[2015.09.14-07.24.23:709][322]LoadErrors:Error: Error /Game/SSA/Maps/PrototypeLevel : Can't find file for asset. /Game/Geometry/Textures/humanShip_emissionmask
+[2015.09.14-07.24.23:711][322]LogLinker:Warning: Can't find file '/Game/Geometry/Textures/humanShip_emissionmask'
+[2015.09.14-07.24.23:711][322]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Textures/humanShip_emissionmask' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap.
+[2015.09.14-07.24.23:712][322]LogLinker:Warning: Can't find file '/Game/Geometry/Textures/humanShip_emissionmask'
+[2015.09.14-07.24.23:712][322]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Textures/humanShip_emissionmask' while loading NULL.
+[2015.09.14-07.24.23:713][322]LogLinker:Warning: Can't find file '/Game/Geometry/Textures/humanShip_emissionmask'
+[2015.09.14-07.24.23:713][322]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Textures/humanShip_emissionmask' while loading NULL.
+[2015.09.14-07.24.23:740][322]LogLinker:Warning: Can't find file '/Game/Geometry/Textures/humanShip_emissionmask'
+[2015.09.14-07.24.23:740][322]LoadErrors: Info Failed to load /Game/Geometry/Textures/humanShip_emissionmask.humanShip_emissionmask Referenced by PersistentLevel
+[2015.09.14-07.24.23:740][322]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Textures/humanShip_emissionmask' while loading NULL.
+[2015.09.14-07.24.24:065][322]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.14-07.24.24:072][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.14-07.24.24:122][322]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-07.24.24:175][322]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.41ms to complete.
+[2015.09.14-07.24.24:175][322]LogFileHelpers: Loading map 'PrototypeLevel' took 1.116
+[2015.09.14-07.24.31:272][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (humanShip)
+[2015.09.14-07.24.31:664][658]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.24.34:038][753]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.34:143][753]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.34:149][753]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.34:175][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-07.24.34:180][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-07.24.34:184][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-07.24.34:187][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-07.24.34:191][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-07.24.34:197][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-07.24.34:202][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.24.34:205][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.24.34:209][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.09.14-07.24.34:211][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2015.09.14-07.24.34:217][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.09.14-07.24.35:395][790]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.24.35:395][790]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.24.35:395][790]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.24.40:203][981]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.40:208][981]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.40:981][  3]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.24.40:981][  3]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.24.40:981][  3]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.24.42:300][ 39]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.42:305][ 39]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.43:071][ 61]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.24.43:071][ 61]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.24.43:071][ 61]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.24.44:077][ 90]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.24.44:710][ 90]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.44:730][ 90]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.44:774][ 90]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.44:802][ 90]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.44:813][ 90]LogMaterial: 0.000788 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.46:718][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.24.46:740][ 90]LogSavePackage: Save=15.932718ms
+[2015.09.14-07.24.46:741][ 90]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low6B2904B04F24CB5C5D72F8A5FD490494.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.24.46:743][ 90]LogSavePackage: Total save time: 23.728441ms
+[2015.09.14-07.24.46:743][ 90]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.24.46:749][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2015.09.14-07.24.46:749][ 90]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.24.46:749][ 90]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.24.56:048][496]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.24.56:049][496]LogMaterial:Warning: Failed to compile Material /Engine/Transient.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-07.24.56:049][496]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.24.56:049][496]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.24.56:051][496]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.24.59:389][590]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.25.07:310][590]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.25.07:310][590]LogMaterial:Warning: Failed to compile Material /Engine/Transient.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-07.25.07:310][590]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.25.07:310][590]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.25.07:346][590]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.25.07:347][590]LogMaterial:Warning: Failed to compile Material /Game/Geometry/Meshes/mainShip_low.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-07.25.07:347][590]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.25.07:349][590]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.25.07:349][590]LogMaterial:Warning: Failed to compile Material /Game/Geometry/Meshes/mainShip_low.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-07.25.07:349][590]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.25.07:350][590]LogMaterial: 0.000578 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.25.07:438][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.25.07:460][590]LogSavePackage: Save=15.336567ms
+[2015.09.14-07.25.07:460][590]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low4A5601C3410D40DEF4CEB19057F5E7F8.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.25.07:462][590]LogSavePackage: Total save time: 22.455312ms
+[2015.09.14-07.25.07:462][590]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.25.29:068][232]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.25.29:069][232]LogMaterial:Warning: Failed to compile Material /Engine/Transient.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-07.25.29:069][232]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-07.25.29:069][232]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.25.31:325][296]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.25.31:361][296]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.25.33:060][343]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.25.33:060][343]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.25.33:060][343]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.25.58:057][498]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\luisr_000\Desktop\Super Space Armada\Textures\humanShip_emissionmask.png)
+[2015.09.14-07.25.58:221][498]LogTexture:Display: Building textures: humanShip_emissionmask (AutoDXT)
+[2015.09.14-07.25.58:520][498]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\luisr_000\Desktop\Super Space Armada\Textures\humanShip_emissionmaskGuns.png)
+[2015.09.14-07.25.58:678][498]LogTexture:Display: Building textures: humanShip_emissionmaskGuns (AutoDXT)
+[2015.09.14-07.26.04:458][639]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.04:463][639]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.04:465][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.14-07.26.04:497][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-07.26.04:501][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-07.26.04:505][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-07.26.04:509][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-07.26.04:512][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-07.26.04:515][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-07.26.04:518][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.26.04:521][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.26.04:524][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.14-07.26.05:773][696]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.26.05:773][696]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.05:773][696]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.26.10:658][929]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.10:664][929]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.10:689][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.26.10:694][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.26.11:541][965]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.26.11:541][965]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.11:541][965]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.26.14:881][143]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.14:888][143]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.14:937][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.26.14:940][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.26.15:793][182]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.26.15:793][182]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.15:793][182]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.26.17:117][248]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.17:124][248]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.17:149][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.26.18:033][289]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.26.18:033][289]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.18:033][289]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.26.20:984][427]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.26.21:605][427]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.21:625][427]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.21:669][427]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.21:691][427]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.26.21:702][427]LogMaterial: 0.000755 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.23:700][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.26.23:722][427]LogSavePackage: Save=15.875840ms
+[2015.09.14-07.26.23:722][427]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low47DD51B14A80208D824036B2869804BE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.26.23:725][427]LogSavePackage: Total save time: 23.737427ms
+[2015.09.14-07.26.23:725][427]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.26.23:731][427]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2015.09.14-07.26.23:731][427]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.23:731][427]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.09.14-07.26.29:064][699]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.26.29:095][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.26.29:107][699]LogSavePackage: Save=6.332716ms
+[2015.09.14-07.26.29:107][699]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low262691424B56E80F6F2C9EB9C88BC7C8.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.26.29:109][699]LogSavePackage: Total save time: 12.242056ms
+[2015.09.14-07.26.29:109][699]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.26.41:218][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F2066B4C0
+[2015.09.14-07.26.41:423][291]LogSavePackage: Save=152.840500ms
+[2015.09.14-07.26.41:423][291]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/humanShip_emissionmaskFC4CA6944D65F3B56234CDA6BF38E0A8.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Textures/humanShip_emissionmask.uasset'
+[2015.09.14-07.26.41:425][291]LogSavePackage: Total save time: 154.773507ms
+[2015.09.14-07.26.41:425][291]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Textures/humanShip_emissionmask.uasset
+[2015.09.14-07.26.41:587][291]LogSavePackage: Save=151.270157ms
+[2015.09.14-07.26.41:587][291]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/humanShip_emissionmaskGuns0378E19347D5FE23B3EAEFA6FC9B0E41.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Textures/humanShip_emissionmaskGuns.uasset'
+[2015.09.14-07.26.41:589][291]LogSavePackage: Total save time: 153.176215ms
+[2015.09.14-07.26.41:589][291]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Textures/humanShip_emissionmaskGuns.uasset
+[2015.09.14-07.26.53:253][663]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.26.53:383][663]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.26.53:389][663]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.26.53:418][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.26.53:424][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.26.53:428][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.09.14-07.26.53:432][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2015.09.14-07.26.53:436][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.09.14-07.26.53:441][663]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.09.14-07.26.54:577][690]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.26.54:577][690]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.26.54:577][690]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.26.59:853][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.14-07.26.59:983][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.14-07.26.59:988][887]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.00:015][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-07.27.00:019][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-07.27.00:022][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-07.27.00:026][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-07.27.00:030][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-07.27.00:034][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-07.27.00:038][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.27.00:042][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.27.00:045][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.27.00:048][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.27.00:773][899]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.27.00:773][899]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.00:773][899]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.27.18:740][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.18:741][584]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_36.MaterialExpressionMultiply_2')'
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EngineMaterials/HighResScreenshotCaptureRegion.HighResScreenshotCaptureRegion:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EditorMaterials/TilingAALineIntegral.TilingAALineIntegral:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EditorMaterials/LevelGridMaterial.LevelGridMaterial:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Game/Geometry/Meshes/mainShip_low.mainShip_low:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/Transient.mainShip_low:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/Transient.PreviewMaterial_0:MaterialExpressionMultiply_13
+[2015.09.14-07.27.18:741][584]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13) from referencer (MaterialExpressionMultiply /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_31.MaterialExpressionMultiply_0).  Import failed...
+[2015.09.14-07.27.18:741][584]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialExpressionMultiply_13')'
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.FlipBook:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/EngineMaterials/M_InvalidLightmapSettings.M_InvalidLightmapSettings:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/EngineResources/M_StreamingPause.M_StreamingPause:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Geometry/Meshes/cockpitGlass_low.cockpitGlass_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Geometry/Meshes/mainShip_low.mainShip_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Transient.mainShip_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Transient.PreviewMaterial_0:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.18:742][584]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1) from referencer (MaterialExpressionMultiply /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_35.MaterialExpressionMultiply_1).  Import failed...
+[2015.09.14-07.27.18:743][584]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialExpressionTextureSample_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2015.09.14-07.27.18:743][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_37
+[2015.09.14-07.27.18:744][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_35
+[2015.09.14-07.27.18:744][584]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_35.MaterialExpressionMultiply_1')'
+[2015.09.14-07.27.18:744][584]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_37
+[2015.09.14-07.27.18:744][584]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_37.MaterialExpressionScalarParameter_0')'
+[2015.09.14-07.27.18:775][584]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.18:781][584]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.19:085][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.19:085][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.19:085][593]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_36.MaterialExpressionMultiply_2')'
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EngineMaterials/HighResScreenshotCaptureRegion.HighResScreenshotCaptureRegion:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EditorMaterials/TilingAALineIntegral.TilingAALineIntegral:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/EditorMaterials/LevelGridMaterial.LevelGridMaterial:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Game/Geometry/Meshes/mainShip_low.mainShip_low:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/Transient.mainShip_low:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13 or MaterialExpressionMultiply /Engine/Transient.PreviewMaterial_0:MaterialExpressionMultiply_13
+[2015.09.14-07.27.19:086][593]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionMultiply /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat:MaterialExpressionMultiply_13) from referencer (MaterialExpressionMultiply /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_31.MaterialExpressionMultiply_0).  Import failed...
+[2015.09.14-07.27.19:086][593]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialExpressionMultiply_13')'
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_36
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.FlipBook:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/EngineMaterials/M_InvalidLightmapSettings.M_InvalidLightmapSettings:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/EngineResources/M_StreamingPause.M_StreamingPause:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Geometry/Meshes/cockpitGlass_low.cockpitGlass_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Game/Geometry/Meshes/mainShip_low.mainShip_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Transient.mainShip_low:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1 or MaterialExpressionTextureSample /Engine/Transient.PreviewMaterial_0:MaterialExpressionTextureSample_1
+[2015.09.14-07.27.19:087][593]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionTextureSample /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial:MaterialExpressionTextureSample_1) from referencer (MaterialExpressionMultiply /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_35.MaterialExpressionMultiply_1).  Import failed...
+[2015.09.14-07.27.19:087][593]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialExpressionTextureSample_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2015.09.14-07.27.19:088][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_37
+[2015.09.14-07.27.19:089][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_35
+[2015.09.14-07.27.19:089][593]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_35.MaterialExpressionMultiply_1')'
+[2015.09.14-07.27.19:089][593]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.guns_low:MaterialGraph_1.MaterialGraphNode_37
+[2015.09.14-07.27.19:089][593]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_37.MaterialExpressionScalarParameter_0')'
+[2015.09.14-07.27.19:103][593]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.19:113][593]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.20:011][619]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.27.20:011][619]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.20:011][619]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.27.23:690][741]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.23:696][741]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.24:477][764]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.27.24:477][764]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.24:477][764]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.27.37:160][251]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.37:165][251]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.37:190][251]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.09.14-07.27.37:970][274]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.27.37:970][274]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.37:970][274]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.27.44:695][459]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.44:701][459]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.44:702][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.09.14-07.27.44:732][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.27.44:735][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.27.44:739][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.09.14-07.27.44:743][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2015.09.14-07.27.44:747][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.09.14-07.27.44:751][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.09.14-07.27.44:755][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.09.14-07.27.45:496][481]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.27.45:497][481]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.45:497][481]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.27.47:743][570]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.27.47:748][570]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.27.47:777][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.09.14-07.27.48:550][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.09.14-07.27.48:550][592]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.27.48:550][592]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.14-07.28.01:196][228]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.28.01:204][228]LogMaterial: 0.000288 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.28.01:986][251]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.28.01:986][251]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.28.01:986][251]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.28.13:632][686]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.28.14:264][686]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.28.14:284][686]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.28.14:334][686]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.28.14:367][686]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.28.14:377][686]LogMaterial: 0.000740 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.28.16:281][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.28.16:305][686]LogSavePackage: Save=16.275698ms
+[2015.09.14-07.28.16:306][686]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_low92EDDFA249B1217A294D4FA00EFA6CAA.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.28.16:308][686]LogSavePackage: Total save time: 25.756810ms
+[2015.09.14-07.28.16:308][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.28.16:314][686]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 79 instructions
+[2015.09.14-07.28.16:314][686]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.28.16:314][686]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.28.57:998][991]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.28.58:004][991]LogMaterial: 0.000247 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.28.59:193][ 32]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.28.59:193][ 32]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.28.59:194][ 32]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.29.03:686][294]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.03:694][294]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.29.03:695][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.14-07.29.04:487][317]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.29.04:487][317]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.29.04:487][317]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.29.13:892][655]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.13:900][655]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.29.13:926][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.14-07.29.14:929][684]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.29.14:929][684]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.29.14:929][684]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.29.28:133][118]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.28:140][118]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.29.28:170][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.14-07.29.28:945][141]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.29.28:945][141]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.29.28:945][141]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.29.49:582][969]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.29.50:523][969]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.50:552][969]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.29.50:608][969]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.50:644][969]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.29.50:653][969]LogMaterial: 0.000711 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.29.52:913][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.29.52:935][969]LogSavePackage: Save=15.928869ms
+[2015.09.14-07.29.52:935][969]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_low4B343B43416468CF1D127FA22DB23FA4.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.29.52:938][969]LogSavePackage: Total save time: 23.255456ms
+[2015.09.14-07.29.52:938][969]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.29.52:944][969]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-07.29.52:944][969]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.29.52:944][969]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.30.21:979][969]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.21:986][969]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.22:014][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.14-07.30.23:502][ 11]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.30.23:502][ 11]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.30.23:502][ 11]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.30.28:517][154]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.28:525][154]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.29:570][183]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.30.29:570][183]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.30.29:570][183]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.30.30:306][204]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.30.31:024][204]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.31:044][204]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.31:095][204]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.31:124][204]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.31:134][204]LogMaterial: 0.000594 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.33:059][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.30.33:080][204]LogSavePackage: Save=15.313046ms
+[2015.09.14-07.30.33:080][204]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_lowA9BA2BD143425E8595A01996799FF9E5.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.30.33:082][204]LogSavePackage: Total save time: 22.291094ms
+[2015.09.14-07.30.33:082][204]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.30.33:088][204]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-07.30.33:088][204]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.30.33:088][204]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.30.55:319][908]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.55:325][908]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.56:502][941]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.30.56:502][941]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.30.56:502][941]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.30.56:722][947]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.30.57:350][947]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.57:369][947]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.57:405][947]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.57:431][947]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.30.57:441][947]LogMaterial: 0.000742 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.30.59:421][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.30.59:442][947]LogSavePackage: Save=15.325875ms
+[2015.09.14-07.30.59:442][947]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_lowC366A2CB416808B303326EB0F1095C7F.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.30.59:445][947]LogSavePackage: Total save time: 22.365507ms
+[2015.09.14-07.30.59:445][947]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.30.59:451][947]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-07.30.59:451][947]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.30.59:451][947]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.31.30:584][924]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.31.30:589][924]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.31.31:769][957]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.31.31:769][957]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.31.31:769][957]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.31.32:062][966]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.31.32:688][966]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.31.32:708][966]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.31.32:750][966]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.31.32:783][966]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.31.32:795][966]LogMaterial: 0.000840 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.31.34:700][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.31.34:722][966]LogSavePackage: Save=15.501641ms
+[2015.09.14-07.31.34:722][966]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_lowCBE7F42149A0C5D156A31C9282BD526D.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.31.34:724][966]LogSavePackage: Total save time: 22.870567ms
+[2015.09.14-07.31.34:724][966]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.31.34:730][966]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-07.31.34:730][966]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.31.34:730][966]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.31.37:771][ 52]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.31.37:809][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.31.37:820][ 52]LogSavePackage: Save=5.379473ms
+[2015.09.14-07.31.37:820][ 52]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_low504ECCB94BA565ADDDD65DBB95B58831.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.31.37:821][ 52]LogSavePackage: Total save time: 11.296082ms
+[2015.09.14-07.31.37:821][ 52]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.31.40:018][115]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.31.40:058][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.31.40:069][115]LogSavePackage: Save=5.382895ms
+[2015.09.14-07.31.40:069][115]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_low01C185BF4737BB62C3DE75A8A4FDC37A.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.31.40:070][115]LogSavePackage: Total save time: 11.063863ms
+[2015.09.14-07.31.40:070][115]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.31.58:376][681]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.31.58:381][681]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.31.59:518][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-07.31.59:518][711]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.31.59:518][711]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.32.01:146][759]LogMaterialEditor: Saving and Compiling material guns_low
+[2015.09.14-07.32.01:896][759]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.32.01:916][759]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.32.01:961][759]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.32.01:987][759]LogMaterial: Missing cached shader map for material guns_low, compiling. 
+[2015.09.14-07.32.01:998][759]LogMaterial: 0.000782 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.32.03:926][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/guns_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset" SILENT=true
+[2015.09.14-07.32.03:947][759]LogSavePackage: Save=15.290808ms
+[2015.09.14-07.32.03:947][759]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/guns_lowEFBB0F7443F528A57ABF57BEF7687100.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset'
+[2015.09.14-07.32.03:949][759]LogSavePackage: Total save time: 21.741129ms
+[2015.09.14-07.32.03:949][759]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/guns_low.uasset
+[2015.09.14-07.32.03:955][759]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-07.32.03:955][759]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.32.03:955][759]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-07.32.29:405][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F6A657380
+[2015.09.14-07.32.29:405][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F5AF013A0
+[2015.09.14-07.32.29:780][618]LogSavePackage: Save=233.797760ms
+[2015.09.14-07.32.29:780][618]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel4C9BB62F49BBF7CB83C64FA66BB1B9A1.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap'
+[2015.09.14-07.32.29:783][618]LogSavePackage: Total save time: 250.453208ms
+[2015.09.14-07.32.29:783][618]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap
+[2015.09.14-07.32.29:820][618]LogFileHelpers: Saving map 'PrototypeLevel' took 0.365
+[2015.09.14-07.32.36:620][811]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.32.36:753][811]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.32.36:758][811]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.32.36:783][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-07.32.36:786][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-07.32.36:790][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-07.32.36:794][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-07.32.36:799][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-07.32.36:803][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-07.32.36:807][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.32.36:811][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.32.36:816][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.32.36:819][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.32.37:931][834]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.32.37:931][834]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.32.37:931][834]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.32.45:722][ 71]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.32.45:728][ 71]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.32.46:482][ 92]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.32.46:482][ 92]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.32.46:482][ 92]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.02:410][450]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.02:416][450]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.03:208][472]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.03:208][472]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.03:208][472]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.08:008][600]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.08:014][600]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.08:769][621]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.08:769][621]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.08:769][621]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.21:420][ 73]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.21:426][ 73]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.21:453][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.22:198][ 87]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.22:199][ 87]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.22:199][ 87]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.34:994][447]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.35:000][447]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.35:031][447]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.35:814][462]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.35:815][462]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.35:815][462]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.43:915][717]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.43:922][717]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.43:951][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.44:619][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.44:619][730]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.44:619][730]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.48:874][856]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.48:881][856]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.48:911][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.49:659][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.49:659][870]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.49:659][870]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.53:364][984]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.53:370][984]LogMaterial: 0.000180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.53:397][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.54:172][999]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.54:172][999]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.54:172][999]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.33.57:648][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.33.57:654][ 97]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.33.57:681][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.33.58:406][111]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.33.58:406][111]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.33.58:406][111]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.03:100][250]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.03:107][250]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.03:132][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.03:872][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.03:872][264]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.03:872][264]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.09:329][438]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.09:335][438]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.09:364][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.10:097][452]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.10:097][452]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.10:097][452]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.21:263][872]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.21:269][872]LogMaterial: 0.000205 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.21:296][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.22:037][887]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.22:037][887]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.22:037][887]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.25:954][  5]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.25:960][  5]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.25:984][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.26:771][ 20]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.26:771][ 20]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.26:771][ 20]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.30:036][128]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.30:042][128]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.30:066][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.30:850][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.30:850][143]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.30:850][143]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.36:874][419]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.36:880][419]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.36:907][419]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.09.14-07.34.37:671][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.37:671][437]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.37:671][437]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.34.45:190][662]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.34.45:198][662]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.34.45:225][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.34.45:229][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.34.46:201][688]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.34.46:201][688]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.34.46:201][688]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.35.00:206][188]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.00:211][188]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.00:236][188]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.35.00:993][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.35.00:993][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.00:993][207]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.35.04:511][341]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.04:518][341]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.04:543][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.35.05:282][362]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.35.05:283][362]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.05:283][362]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.35.24:148][921]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.24:154][921]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.24:181][921]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.35.24:958][945]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.09.14-07.35.24:958][945]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.24:958][945]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.35.27:747][ 19]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.27:753][ 19]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.27:779][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.35.28:508][ 33]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.09.14-07.35.28:509][ 33]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.28:509][ 33]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.35.37:588][305]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.37:595][305]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.37:625][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.35.38:358][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.35.38:358][326]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.38:358][326]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.35.54:803][770]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.35.54:809][770]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.35.55:709][794]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.35.55:709][794]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.35.55:709][794]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.36.01:112][958]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.36.01:120][958]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.36.01:150][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.36.02:122][975]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.36.02:122][975]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.36.02:122][975]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.36.10:353][263]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.36.10:360][263]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.36.10:391][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.36.11:125][278]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.36.11:125][278]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.36.11:125][278]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.36.21:393][603]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.36.21:399][603]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.36.21:428][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.36.22:151][617]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.36.22:151][617]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.36.22:151][617]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.36.58:454][826]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.36.58:460][826]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.36.58:485][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.09.14-07.36.59:626][850]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.09.14-07.36.59:626][850]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.36.59:626][850]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.37.05:105][ 37]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.05:111][ 37]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.05:139][ 37]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.37.05:902][ 59]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.05:902][ 59]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.05:902][ 59]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.08:467][132]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.08:475][132]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.09:454][159]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.09:454][159]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.09:454][159]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.25:175][632]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.25:185][632]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.25:215][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.37.26:387][659]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.26:387][659]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.26:387][659]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.31:289][790]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.31:300][790]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.32:761][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.32:761][830]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.32:761][830]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.36:697][949]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.36:708][949]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.36:735][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.37.38:068][978]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.38:068][978]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.38:068][978]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.42:029][ 98]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.42:041][ 98]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.42:066][ 98]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.37.43:470][128]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.43:470][128]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.43:470][128]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.52:006][439]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.52:016][439]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.52:043][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.37.53:417][464]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.37.53:417][464]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.37.53:417][464]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.37.59:758][662]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.37.59:770][662]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.37.59:800][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.38.01:467][695]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.38.01:467][695]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.01:467][695]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.38.20:525][273]Cmd: DELETE
+[2015.09.14-07.38.20:525][273]Cmd: ACTOR DELETE
+[2015.09.14-07.38.20:526][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.14-07.38.20:562][273]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.09.14-07.38.21:709][306]Cmd: TRANSACTION UNDO
+[2015.09.14-07.38.21:709][306]LogEditorTransaction: Undo Delete Actors
+[2015.09.14-07.38.21:780][306]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.21:786][306]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.23:049][352]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.38.23:049][352]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.23:049][352]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.38.24:349][387]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.24:354][387]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (7 / 7)
+[2015.09.14-07.38.24:354][387]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.25:127][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.09.14-07.38.25:127][409]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.25:127][409]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.38.27:212][466]LogEditorTransaction: Undo Material Editor: Delete
+[2015.09.14-07.38.27:251][466]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.27:260][466]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.27:266][466]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.27:290][466]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.38.28:035][492]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.38.28:035][492]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.28:035][492]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.38.28:702][520]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.38.29:328][520]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.29:348][520]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.29:396][520]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.29:421][520]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.29:432][520]LogMaterial: 0.000839 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.31:408][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.38.31:433][520]LogSavePackage: Save=15.767643ms
+[2015.09.14-07.38.31:433][520]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low3B227B82403198D900C6D3820C76BABA.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.38.31:435][520]LogSavePackage: Total save time: 25.921457ms
+[2015.09.14-07.38.31:435][520]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.38.31:451][520]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2015.09.14-07.38.31:451][520]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.31:451][520]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.09.14-07.38.38:309][705]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.38:315][705]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.39:077][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.09.14-07.38.39:077][730]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.39:077][730]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.38.39:689][749]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.38.40:323][749]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.40:343][749]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.40:393][749]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.40:423][749]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.40:434][749]LogMaterial: 0.000731 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.42:341][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.38.42:362][749]LogSavePackage: Save=15.665861ms
+[2015.09.14-07.38.42:362][749]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low2D9353DF458F1F0DBA0221AE5D596C6E.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.38.42:365][749]LogSavePackage: Total save time: 22.939850ms
+[2015.09.14-07.38.42:365][749]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.38.42:371][749]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2015.09.14-07.38.42:371][749]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.42:371][749]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.38.50:653][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.50:660][  0]LogMaterial: 0.000181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.50:687][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.38.51:440][ 22]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.38.51:440][ 22]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.51:440][ 22]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.38.56:092][150]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.38.56:719][150]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.38.56:739][150]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.56:772][150]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.56:802][150]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.38.56:812][150]LogMaterial: 0.000716 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.38.58:805][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.38.58:826][150]LogSavePackage: Save=15.576909ms
+[2015.09.14-07.38.58:826][150]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_lowEFDF9E5042B39C33759881B4AB4D2391.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.38.58:828][150]LogSavePackage: Total save time: 22.191022ms
+[2015.09.14-07.38.58:828][150]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.38.58:835][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2015.09.14-07.38.58:835][150]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.38.58:835][150]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.09.14-07.39.07:187][420]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.39.07:194][420]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.07:220][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.39.07:892][430]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.39.07:892][430]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.39.07:892][430]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.39.09:494][475]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.39.10:122][475]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.39.10:142][475]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.10:185][475]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.39.10:209][475]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.39.10:218][475]LogMaterial: 0.000709 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.12:170][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.39.12:192][475]LogSavePackage: Save=16.027229ms
+[2015.09.14-07.39.12:192][475]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low0EEAD636431FB8BF4DD817853A25B807.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.39.12:195][475]LogSavePackage: Total save time: 23.017682ms
+[2015.09.14-07.39.12:195][475]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.39.12:202][475]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
+[2015.09.14-07.39.12:202][475]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.39.12:202][475]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.09.14-07.39.29:467][960]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.39.29:474][960]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.29:499][960]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.39.30:217][974]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.39.30:217][974]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.39.30:217][974]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.39.38:148][208]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.39.38:155][208]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.38:185][208]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.39.38:905][223]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.39.38:905][223]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.39.38:905][223]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.39.56:861][748]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.39.56:868][748]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.39.56:896][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.39.57:671][761]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.09.14-07.39.57:671][761]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.39.57:671][761]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.09.14-07.40.04:310][937]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.40.04:317][937]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.40.05:378][969]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.09.14-07.40.05:378][969]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.40.05:378][969]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.40.24:731][484]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.40.24:744][484]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.40.26:331][528]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.09.14-07.40.26:331][528]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.40.26:331][528]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-07.40.37:741][106]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.40.37:747][106]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.40.38:513][128]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.40.38:513][128]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.40.38:513][128]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.40.50:974][545]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.40.50:979][545]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.40.51:729][569]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.40.51:729][569]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.40.51:729][569]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.40.57:881][817]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.40.57:888][817]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.40.58:650][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.40.58:650][839]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.40.58:650][839]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.41.12:561][351]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.41.12:568][351]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.41.12:593][351]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.41.13:361][373]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.41.13:361][373]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.41.13:361][373]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.41.48:286][868]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.41.48:292][868]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.41.48:322][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.41.49:427][894]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.41.49:427][894]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.41.49:427][894]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.41.55:109][ 48]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.41.55:116][ 48]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.41.55:145][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.41.55:872][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.41.55:872][ 62]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.41.55:872][ 62]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.01:054][221]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.01:061][221]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.01:086][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.01:832][237]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.01:832][237]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.01:832][237]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.05:431][340]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.05:439][340]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.05:470][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.06:402][360]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.06:402][360]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.06:402][360]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.10:641][498]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.10:647][498]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.10:671][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.11:428][515]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.11:428][515]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.11:428][515]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.15:038][623]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.15:044][623]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.15:074][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.15:797][639]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.15:797][639]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.15:797][639]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.21:267][791]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.21:275][791]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.21:300][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.22:262][811]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.22:262][811]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.22:262][811]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.26:326][933]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.26:335][933]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.26:364][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.42.27:287][951]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.27:287][951]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.27:287][951]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.45:133][477]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.45:139][477]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.45:914][501]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.09.14-07.42.45:914][501]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.45:914][501]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.53:311][822]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.53:318][822]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.54:065][843]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.42.54:065][843]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.42.54:065][843]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.42.58:334][  0]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.42.58:960][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.42.58:980][  0]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.42.59:015][  0]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.42.59:041][  0]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.42.59:051][  0]LogMaterial: 0.000760 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.00:963][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.43.00:985][  0]LogSavePackage: Save=15.812975ms
+[2015.09.14-07.43.00:985][  0]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low2126EE92424675F495AC2EBEB1BADED1.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.43.00:987][  0]LogSavePackage: Total save time: 22.946689ms
+[2015.09.14-07.43.00:987][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.43.00:999][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.09.14-07.43.00:999][  0]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.00:999][  0]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.43.04:377][ 89]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.43.11:021][282]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.43.11:029][282]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.11:057][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.43.11:990][299]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.43.11:990][299]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.11:990][299]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.43.22:099][578]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.43.22:105][578]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.22:133][578]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.43.22:869][593]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.43.22:869][593]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.22:869][593]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.43.30:565][807]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.43.30:572][807]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.30:600][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.43.31:567][828]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.43.31:567][828]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.31:567][828]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.43.41:999][154]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.43.42:005][154]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.42:034][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.43.42:759][168]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.43.42:759][168]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.42:759][168]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.43.46:332][272]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.43.46:339][272]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.43.46:365][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.43.47:136][287]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.43.47:136][287]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.43.47:136][287]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.44.01:561][682]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.44.01:568][682]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.44.01:598][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.44.02:319][696]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.44.02:319][696]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.44.02:319][696]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.44.08:087][857]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.44.08:092][857]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.44.08:852][879]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.44.08:852][879]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.44.08:852][879]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.44.17:448][114]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.44.18:076][114]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.09.14-07.44.18:096][114]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.44.18:134][114]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.44.18:159][114]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.44.18:171][114]LogMaterial: 0.000775 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.44.20:187][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.44.20:212][114]LogSavePackage: Save=16.870565ms
+[2015.09.14-07.44.20:212][114]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_lowB5E218C940FAB9CCC7CBD59F0104D52C.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.44.20:214][114]LogSavePackage: Total save time: 26.487671ms
+[2015.09.14-07.44.20:214][114]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.44.20:221][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.09.14-07.44.20:221][114]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.44.20:221][114]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.44.29:492][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.44.54:354][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F42972020
+[2015.09.14-07.44.54:660][255]LogSavePackage: Save=178.967239ms
+[2015.09.14-07.44.54:660][255]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/PrototypeLevelB942901B468AA5EB788CC29AE71252BF.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap'
+[2015.09.14-07.44.54:663][255]LogSavePackage: Total save time: 196.003735ms
+[2015.09.14-07.44.54:663][255]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap
+[2015.09.14-07.44.54:700][255]LogFileHelpers: Saving map 'PrototypeLevel' took 0.311
+[2015.09.14-07.45.04:632][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.14-07.45.06:147][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (humanShip)
+[2015.09.14-07.45.20:508][ 66]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.26:543][289]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.33:406][543]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.35:697][626]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.37:624][694]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.41:713][840]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.44:030][920]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.45.52:646][245]Cmd: DELETE
+[2015.09.14-07.45.52:646][245]Cmd: ACTOR DELETE
+[2015.09.14-07.45.52:647][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.14-07.45.52:696][245]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2015.09.14-07.45.59:959][460]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/PrototypeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-07.45.59:993][460]LightingResults: New page: Lighting Build
+[2015.09.14-07.46.00:008][460]LoadErrors: New page: Loading map: PrototypeLevel.umap
+[2015.09.14-07.46.00:009][460]MapCheck: New page: Map Check
+[2015.09.14-07.46.00:009][460]LightingResults: New page: Lighting Build
+[2015.09.14-07.46.00:022][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F6778D300
+[2015.09.14-07.46.00:077][460]LogAIModule: Creating AISystem for world PrototypeLevel
+[2015.09.14-07.46.00:083][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.14-07.46.00:128][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-07.46.00:190][460]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.898ms to complete.
+[2015.09.14-07.46.00:190][460]LogFileHelpers: Loading map 'PrototypeLevel' took 0.234
+[2015.09.14-07.46.01:491][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (humanShip)
+[2015.09.14-07.46.02:236][519]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.46.30:592][483]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.30:728][483]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.30:734][483]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.46.30:762][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-07.46.30:766][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-07.46.30:772][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-07.46.30:776][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-07.46.30:779][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-07.46.30:782][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-07.46.30:785][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-07.46.30:790][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.46.30:792][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-07.46.30:795][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-07.46.31:919][505]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.46.31:919][505]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.46.31:919][505]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.46.45:412][960]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.45:419][960]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.46.45:446][960]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.46.46:224][977]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.46.46:224][977]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.46.46:224][977]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.46.52:742][149]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.52:749][149]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.46.52:773][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.46.53:572][171]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.46.53:572][171]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.46.53:572][171]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.46.55:266][221]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.46.55:887][221]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.55:907][221]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.46.55:941][221]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.55:965][221]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.46.55:976][221]LogMaterial: 0.000786 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.46.57:958][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.46.57:980][221]LogSavePackage: Save=15.847187ms
+[2015.09.14-07.46.57:980][221]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low9F669E2E4BE4B9487142B0AAC90E2DB5.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.46.57:983][221]LogSavePackage: Total save time: 24.095371ms
+[2015.09.14-07.46.57:983][221]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.46.57:990][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.09.14-07.46.57:990][221]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.46.57:990][221]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.47.02:375][355]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.47.02:383][355]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.47.02:410][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-07.47.03:395][382]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.47.03:395][382]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.47.03:395][382]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.47.26:824][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_13, compiling. 
+[2015.09.14-07.47.51:618][794]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.47.51:631][794]LogMaterial: 0.000168 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.47.51:657][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_13, compiling. 
+[2015.09.14-07.47.54:013][856]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.47.54:013][856]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.47.54:013][856]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.47.54:693][873]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.48.02:627][ 90]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.48.02:639][ 90]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.48.04:094][127]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-07.48.04:094][127]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.48.04:094][127]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-07.48.06:714][196]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.48.21:985][609]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-07.48.23:062][609]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.48.23:082][609]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.48.23:126][609]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.48.23:158][609]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-07.48.23:170][609]LogMaterial: 0.000778 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-07.48.25:108][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-07.48.25:130][609]LogSavePackage: Save=15.919460ms
+[2015.09.14-07.48.25:130][609]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low5469C4C14A6C2FE9EF7F78B268AF51F3.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-07.48.25:133][609]LogSavePackage: Total save time: 23.188744ms
+[2015.09.14-07.48.25:133][609]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-07.48.25:140][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.09.14-07.48.25:140][609]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-07.48.25:140][609]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-07.48.36:900][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F06C460C0
+[2015.09.14-07.51.11:483][591]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.09.14-07.52.07:142][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (humanShip)
+[2015.09.14-07.52.07:552][640]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.52.19:085][175]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-07.52.53:880][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.14-07.55.58:349][844]LogSavePackage: Save=227.686127ms
+[2015.09.14-07.55.58:349][844]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel_Auto19D55E3184B1DC0CCF2B9979B902650E5.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto1.umap'
+[2015.09.14-07.55.58:350][844]LogSavePackage: Total save time: 244.375374ms
+[2015.09.14-07.55.58:350][844]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto1.umap
+[2015.09.14-07.55.58:352][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/PrototypeLevel' took 0.266
+[2015.09.14-07.55.58:352][844]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.266
+[2015.09.14-08.03.58:619][686]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.03.58:723][686]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.03.58:731][686]LogMaterial: 0.000555 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.03.58:756][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-08.03.58:762][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-08.03.58:767][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-08.03.58:772][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-08.03.58:778][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-08.03.58:782][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_13, compiling. 
+[2015.09.14-08.03.58:786][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-08.03.58:789][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-08.03.58:794][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-08.03.58:799][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-08.03.58:802][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.09.14-08.04.00:050][735]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-08.04.00:050][735]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.04.00:050][735]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-08.04.07:599][104]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.04.07:606][104]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.04.08:503][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-08.04.08:503][150]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.04.08:503][150]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-08.04.13:093][368]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.04.13:098][368]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.04.13:967][407]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-08.04.13:967][407]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.04.13:967][407]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-08.04.19:710][677]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-08.04.20:343][677]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.04.20:363][677]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.04.20:399][677]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.20:433][677]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.20:448][677]LogMaterial: 0.001014 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.04.22:512][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-08.04.22:538][677]LogSavePackage: Save=15.644906ms
+[2015.09.14-08.04.22:538][677]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_lowFFCE474845C41C5042D24A988DF2A66A.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-08.04.22:540][677]LogSavePackage: Total save time: 26.890095ms
+[2015.09.14-08.04.22:540][677]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-08.04.22:546][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.09.14-08.04.22:546][677]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.04.22:546][677]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.09.14-08.04.33:813][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_5' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:813][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_4' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:815][944]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.33:816][944]LogMaterial:Warning: Failed to compile Material /Engine/Transient.mainShip_low for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.14-08.04.33:816][944]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.14-08.04.33:816][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'mainShip_low' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:817][944]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.33:825][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_5' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:825][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_4' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:827][944]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.09.14-08.04.33:832][944]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreviewMaterial_2' or package '/Engine/Transient'.
+[2015.09.14-08.04.33:834][944]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.33:943][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F2002AB60
+[2015.09.14-08.04.44:120][243]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\luisr_000\Desktop\Super Space Armada\Textures\humanShip_emissionmask.png)
+[2015.09.14-08.04.44:278][243]LogTexture:Display: Building textures: humanShip_emissionmask (AutoDXT)
+[2015.09.14-08.04.52:701][529]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.52:841][529]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.04.52:849][529]LogMaterial: 0.000222 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.04.52:874][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-08.04.52:878][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-08.04.52:884][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-08.04.52:890][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-08.04.52:894][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-08.04.52:900][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_13, compiling. 
+[2015.09.14-08.04.52:905][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-08.04.52:910][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-08.04.52:915][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-08.04.52:922][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-08.04.53:910][554]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-08.04.53:910][554]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.04.53:910][554]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-08.05.00:675][839]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.05.00:680][839]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.05.00:681][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.09.14-08.05.00:708][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.09.14-08.05.00:712][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.09.14-08.05.00:716][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2015.09.14-08.05.00:719][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.14-08.05.00:722][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.09.14-08.05.00:726][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_13, compiling. 
+[2015.09.14-08.05.00:729][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.09.14-08.05.00:732][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.14-08.05.00:735][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.09.14-08.05.00:737][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.09.14-08.05.00:739][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.09.14-08.05.01:503][868]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.14-08.05.01:503][868]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.05.01:503][868]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.14-08.05.03:919][980]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.05.03:926][980]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.05.03:957][980]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.09.14-08.05.04:778][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.14-08.05.04:778][ 14]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.05.04:778][ 14]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.14-08.05.07:562][128]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-08.05.08:194][128]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.05.08:214][128]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.05.08:256][128]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.05.08:286][128]LogMaterial: Missing cached shader map for material mainShip_low, compiling. 
+[2015.09.14-08.05.08:298][128]LogMaterial: 0.000846 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-08.05.10:221][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-08.05.10:242][128]LogSavePackage: Save=15.429368ms
+[2015.09.14-08.05.10:242][128]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low8B4AF080465E621490810889BE5E7953.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-08.05.10:244][128]LogSavePackage: Total save time: 22.510055ms
+[2015.09.14-08.05.10:244][128]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-08.05.10:251][128]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.09.14-08.05.10:251][128]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.14-08.05.10:251][128]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.09.14-08.05.20:138][578]LogMaterialEditor: Saving and Compiling material mainShip_low
+[2015.09.14-08.05.20:181][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mainShip_low" FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset" SILENT=true
+[2015.09.14-08.05.20:193][578]LogSavePackage: Save=6.223664ms
+[2015.09.14-08.05.20:193][578]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/mainShip_low7C9CD3A14F2BE7A27275219F47098C9C.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset'
+[2015.09.14-08.05.20:195][578]LogSavePackage: Total save time: 13.280399ms
+[2015.09.14-08.05.20:195][578]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/mainShip_low.uasset
+[2015.09.14-08.05.24:050][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (humanShip)
+[2015.09.14-08.05.24:612][740]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-08.05.36:841][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.14-08.06.21:591][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F20FEA8E0
+[2015.09.14-08.06.21:780][632]LogSavePackage: Save=189.020981ms
+[2015.09.14-08.06.21:780][632]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/PrototypeLevel_Auto20046CDB445F3200496B8A6B9F47E7ACF.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto2.umap'
+[2015.09.14-08.06.21:782][632]LogSavePackage: Total save time: 205.306087ms
+[2015.09.14-08.06.21:782][632]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/PrototypeLevel_Auto2.umap
+[2015.09.14-08.06.21:784][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/PrototypeLevel' took 0.225
+[2015.09.14-08.06.21:784][632]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.225
+[2015.09.14-08.06.21:788][632]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Textures/humanShip_emissionmask] ([1] browsable assets)...
+[2015.09.14-08.06.21:794][632]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Ge
