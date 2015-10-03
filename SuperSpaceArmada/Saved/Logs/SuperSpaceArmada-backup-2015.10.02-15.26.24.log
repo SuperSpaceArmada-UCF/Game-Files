@@ -1,0 +1,122 @@
+﻿[2015.09.28-23.15.27:604][  0]Log file open, 09/28/15 19:15:27
+[2015.09.28-23.15.27:604][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.09.28-23.15.27:604][  0]LogInit:Display: RandInit(325459911) SRandInit(325459912).
+[2015.09.28-23.15.27:604][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.28-23.15.27:604][  0]LogStats: Stats thread started at 0.066531
+[2015.09.28-23.15.27:604][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.28-23.15.27:604][  0]LogInit: API Version: 2672455
+[2015.09.28-23.15.27:604][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.28-23.15.27:604][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.28-23.15.27:604][  0]LogInit: Build Configuration: Development
+[2015.09.28-23.15.27:604][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.28-23.15.27:604][  0]LogInit: Command line:  
+[2015.09.28-23.15.27:604][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.28-23.15.27:604][  0]LogInit: Rocket: 1
+[2015.09.28-23.15.27:657][  0]LogInit: Using libcurl 7.41.0
+[2015.09.28-23.15.27:657][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.28-23.15.27:657][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.28-23.15.27:657][  0]LogInit:  - other features:
+[2015.09.28-23.15.27:657][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.28-23.15.27:657][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.28-23.15.27:657][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.28-23.15.27:657][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.28-23.15.27:657][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.28-23.15.27:657][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.28-23.15.27:657][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.28-23.15.27:657][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.28-23.15.27:657][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.28-23.15.27:657][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.28-23.15.27:672][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.28-23.15.27:686][  0]LogInit: Object subsystem initialized
+[2015.09.28-23.15.27:688][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.28-23.15.27:688][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.28-23.15.27:728][  0]LogInit: Computer: PERSONAL-PC
+[2015.09.28-23.15.27:728][  0]LogInit: User: MEnrique
+[2015.09.28-23.15.27:728][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.28-23.15.27:728][  0]LogInit: High frequency timer resolution =2.338336 MHz
+[2015.09.28-23.15.27:728][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.28-23.15.27:728][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.28-23.15.27:728][  0]LogMemory: Process Physical Memory: 53.16 MB used, 53.16 MB peak
+[2015.09.28-23.15.27:728][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.09.28-23.15.27:728][  0]LogMemory: Physical Memory: 3285.22 MB used, 16299.39 MB total
+[2015.09.28-23.15.27:728][  0]LogMemory: Virtual Memory: 350.02 MB used, 134217728.00 MB total
+[2015.09.28-23.15.27:771][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.28-23.15.28:727][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 940M          (Feature Level 11_0)
+[2015.09.28-23.15.28:727][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.28-23.15.28:738][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2015.09.28-23.15.28:738][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory, 0 output[s]
+[2015.09.28-23.15.28:740][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.28-23.15.28:740][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.28-23.15.28:740][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.28-23.15.28:745][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.28-23.15.28:745][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.28-23.15.28:755][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.28-23.15.28:772][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/3240/).
+[2015.09.28-23.15.28:773][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/2BDB2453417918B2DD0A87A96DB01871/'.
+[2015.09.28-23.15.28:773][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.28-23.15.30:236][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.28-23.15.30:243][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.28-23.15.30:250][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.28-23.15.30:257][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.28-23.15.30:264][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.28-23.15.30:269][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.28-23.15.30:274][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.28-23.15.30:279][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.28-23.15.30:283][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.28-23.15.30:288][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.28-23.15.30:292][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.28-23.15.30:297][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.28-23.15.30:298][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.28-23.15.30:318][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.28-23.15.30:324][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.28-23.15.30:330][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.28-23.15.30:336][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.28-23.15.30:336][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.28-23.15.30:484][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.28-23.15.30:537][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.28-23.15.30:708][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.28-23.15.30:720][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MEnrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.28-23.15.30:920][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.28-23.15.30:923][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.28-23.15.31:086][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.28-23.15.31:086][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.28-23.15.31:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.28-23.15.32:314][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.09.28-23.15.32:333][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.28-23.15.32:639][  0]SourceControl: Info Source control is disabled
+[2015.09.28-23.15.32:652][  0]SourceControl: Info Source control is disabled
+[2015.09.28-23.15.32:665][  0]SourceControl: Info Source control is disabled
+[2015.09.28-23.15.32:677][  0]SourceControl: Info Source control is disabled
+[2015.09.28-23.15.32:845][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-23.15.32:955][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.09.28-23.15.32:955][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.09.28-23.15.33:024][  0]LogEngine: Initializing Engine...
+[2015.09.28-23.15.33:026][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.28-23.15.33:027][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.28-23.15.33:179][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.28-23.15.33:184][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.28-23.15.33:248][  0]LogInit: FAudioDevice initialized.
+[2015.09.28-23.15.33:275][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.28-23.15.33:279][  0]LogInit: Texture streaming: Enabled
+[2015.09.28-23.15.33:286][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.28-23.15.33:286][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.28-23.15.33:286][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 90a4bcb3439f64e419d9378050b206b3|656f284bf5d54f8f9452234d119bf9d4|9a3458ae-8410-4c63-b423-f9054b45c157
+[2015.09.28-23.15.33:287][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.28-23.15.33:299][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.28-23.15.33:300][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.28-23.15.33:329][  0]LogInit: Transaction tracking system initialized
+[2015.09.28-23.15.33:369][  0]BlueprintLog: New page: Editor Load
+[2015.09.28-23.15.33:489][  0]LocalizationService: Info Localization service is disabled
+[2015.09.28-23.15.33:586][  0]LogConsoleResponse:Display: 
+[2015.09.28-23.15.33:758][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.28-23.15.33:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.09.28-23.15.33:842][  0]SourceControl: Info Source control is disabled
+[2015.09.28-23.15.33:842][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.28-23.15.33:842][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.09.28-23.15.33:842][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.28-23
