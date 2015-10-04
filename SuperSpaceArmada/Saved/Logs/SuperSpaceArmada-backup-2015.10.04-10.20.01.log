@@ -1,0 +1,730 @@
+﻿[2015.10.04-14.07.52:240][  0]Log file open, 10/04/15 10:07:52
+[2015.10.04-14.07.52:240][  0]LogInit:Display: Running engine without a game
+[2015.10.04-14.07.52:240][  0]LogInit:Display: Loading recent project file: ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/SuperSpaceArmada.uproject
+[2015.10.04-14.07.52:240][  0]LogInit:Display: RandInit(1547191847) SRandInit(1547191848).
+[2015.10.04-14.07.52:240][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.04-14.07.52:240][  0]LogStats: Stats thread started at 0.063216
+[2015.10.04-14.07.52:240][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.04-14.07.52:240][  0]LogInit: API Version: 2672455
+[2015.10.04-14.07.52:240][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.04-14.07.52:240][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.04-14.07.52:240][  0]LogInit: Build Configuration: Development
+[2015.10.04-14.07.52:240][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.04-14.07.52:240][  0]LogInit: Command line: 
+[2015.10.04-14.07.52:240][  0]LogInit: Base directory: F:/Program Files/Unreal/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.04-14.07.52:240][  0]LogInit: Rocket: 1
+[2015.10.04-14.07.52:247][  0]LogInit: Using libcurl 7.41.0
+[2015.10.04-14.07.52:247][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.04-14.07.52:247][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.04-14.07.52:247][  0]LogInit:  - other features:
+[2015.10.04-14.07.52:247][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.04-14.07.52:247][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.04-14.07.52:247][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.04-14.07.52:247][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.04-14.07.52:247][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.04-14.07.52:247][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.04-14.07.52:247][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.04-14.07.52:247][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.04-14.07.52:247][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.04-14.07.52:247][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.04-14.07.52:253][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.04-14.07.52:258][  0]LogInit: Object subsystem initialized
+[2015.10.04-14.07.52:259][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.04-14.07.52:259][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.04-14.07.52:265][  0]LogInit: Computer: ANDREW_2015
+[2015.10.04-14.07.52:265][  0]LogInit: User: aehrlich92
+[2015.10.04-14.07.52:265][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.04-14.07.52:265][  0]LogInit: High frequency timer resolution =3.984650 MHz
+[2015.10.04-14.07.52:265][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.04-14.07.52:265][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.04-14.07.52:265][  0]LogMemory: Process Physical Memory: 54.63 MB used, 54.63 MB peak
+[2015.10.04-14.07.52:265][  0]LogMemory: Process Virtual Memory: 55.36 MB used, 55.36 MB peak
+[2015.10.04-14.07.52:265][  0]LogMemory: Physical Memory: 5120.47 MB used, 16322.88 MB total
+[2015.10.04-14.07.52:265][  0]LogMemory: Virtual Memory: 364.36 MB used, 134217728.00 MB total
+[2015.10.04-14.07.52:304][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.04-14.07.52:826][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.10.04-14.07.52:826][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 2 output[s]
+[2015.10.04-14.07.52:827][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.04-14.07.52:827][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
+[2015.10.04-14.07.52:827][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.04-14.07.52:832][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.04-14.07.52:832][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.04-14.07.52:841][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.04-14.07.52:855][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/3916/).
+[2015.10.04-14.07.52:855][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/84623BE248E9D16683043DBB38EBEA68/'.
+[2015.10.04-14.07.52:855][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.04-14.07.53:607][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.04-14.07.53:611][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.04-14.07.53:615][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.04-14.07.53:619][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.04-14.07.53:622][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.04-14.07.53:625][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.04-14.07.53:628][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.04-14.07.53:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.04-14.07.53:633][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.04-14.07.53:636][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.04-14.07.53:639][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.04-14.07.53:642][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.04-14.07.53:643][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.04-14.07.53:659][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.04-14.07.53:662][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.04-14.07.53:666][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.04-14.07.53:669][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.04-14.07.53:669][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.04-14.07.53:727][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.04-14.07.53:756][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.04-14.07.53:855][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.04-14.07.53:866][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aehrlich92/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.04-14.07.53:976][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.04-14.07.53:978][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.04-14.07.54:057][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.04-14.07.54:057][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.04-14.07.54:221][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.04-14.07.54:689][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.10.04-14.07.54:698][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.04-14.07.54:872][  0]SourceControl: Info Source control is disabled
+[2015.10.04-14.07.54:881][  0]SourceControl: Info Source control is disabled
+[2015.10.04-14.07.54:887][  0]SourceControl: Info Source control is disabled
+[2015.10.04-14.07.54:893][  0]SourceControl: Info Source control is disabled
+[2015.10.04-14.07.54:970][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.55:022][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.10.04-14.07.55:022][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.10.04-14.07.55:063][  0]LogEngine: Initializing Engine...
+[2015.10.04-14.07.55:064][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.04-14.07.55:065][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.04-14.07.55:140][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.04-14.07.55:147][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.07.55:155][  0]LogInit: FAudioDevice initialized.
+[2015.10.04-14.07.55:169][  0]LogDerivedDataCache: Saved boot cache 0.01s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.04-14.07.55:172][  0]LogInit: Texture streaming: Enabled
+[2015.10.04-14.07.55:176][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.04-14.07.55:176][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.04-14.07.55:176][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7bdbd2584788e6e37f918c9187bab22c|b300224d71e64562a5bff06c2aaa78f8|45aed112-7b58-41bf-9eba-b8dcb7f9dd12
+[2015.10.04-14.07.55:176][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.04-14.07.55:205][  0]LogInit: Transaction tracking system initialized
+[2015.10.04-14.07.55:281][  0]BlueprintLog: New page: Editor Load
+[2015.10.04-14.07.55:404][  0]LocalizationService: Info Localization service is disabled
+[2015.10.04-14.07.55:457][  0]LogConsoleResponse:Display: 
+[2015.10.04-14.07.55:531][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.04-14.07.55:564][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/' took 0.01s
+[2015.10.04-14.07.55:564][  0]SourceControl: Info Source control is disabled
+[2015.10.04-14.07.55:564][  0]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.04-14.07.55:564][  0]LogEditorServer:Warning: Can't find file '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.10.04-14.07.55:564][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.04-14.07.55:590][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.421ms to complete.
+[2015.10.04-14.07.55:590][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.026
+[2015.10.04-14.07.55:694][  0]LogCollectionManager: Loaded 0 collections in 0.000893 seconds
+[2015.10.04-14.07.55:731][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.10.04-14.07.55:731][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Developers/aehrlich92/Collections/' took 0.01s
+[2015.10.04-14.07.55:731][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.10.04-14.07.55:731][  0]LogContentBrowser: Native class hierarchy populated in 0.0048 seconds. Added 1882 classes and 339 folders.
+[2015.10.04-14.07.55:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.04-14.07.55:739][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.04-14.07.55:764][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.04-14.07.55:766][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.04-14.07.55:781][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.04-14.07.55:787][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.04-14.07.55:808][  0]LogLoad: Full Startup: 3.97 seconds (BP compile: 0.00 seconds)
+[2015.10.04-14.07.55:851][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.04-14.07.55:943][  0]LogRenderer: Reallocating scene render targets to support 1208x584 (Frame:2).
+[2015.10.04-14.07.55:994][  1]LogAssetRegistry: Asset discovery search completed in 1.3160 seconds
+[2015.10.04-14.07.55:994][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.10.04-14.07.55:994][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2015.10.04-14.07.56:842][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:843][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:844][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:845][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:846][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:846][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:847][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.56:848][ 98]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.58:073][ 98]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-14.07.58:416][ 98]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.10.04-14.08.02:728][462]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.08.02:797][462]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.04-14.08.02:797][462]LightingResults: New page: Lighting Build
+[2015.10.04-14.08.02:798][462]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2015.10.04-14.08.02:813][462]LoadErrors: New page: Loading map: Home_Kratakos.umap
+[2015.10.04-14.08.02:813][462]MapCheck: New page: Map Check
+[2015.10.04-14.08.02:813][462]LightingResults: New page: Lighting Build
+[2015.10.04-14.08.02:828][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB4DD95620
+[2015.10.04-14.08.02:833][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.04-14.08.02:887][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.04-14.08.02:931][462]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.881ms to complete.
+[2015.10.04-14.08.02:931][462]LogFileHelpers: Loading map 'Home_Kratakos' took 0.135
+[2015.10.04-14.08.02:937][462]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Failed import for CurveFloat /Game/SSA/Blueprints/Objects/Crystal_Spawner.Crystal_Spawner_C:CurveFloat_0__256DA8D9
+[2015.10.04-14.08.08:191][  8]LogRenderer: Reallocating scene render targets to support 1208x744 (Frame:427).
+[2015.10.04-14.08.15:640][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.08.15:640][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.04-14.08.17:726][  8]BlueprintLog: New page: Compile Player
+[2015.10.04-14.08.18:068][  8]BlueprintEditorCompileResults: Info [0026.23] Compile of Player successful! [in 341 ms]
+[2015.10.04-14.08.19:674][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.08.19:674][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.04-14.08.19:728][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Player" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset" SILENT=true
+[2015.10.04-14.08.19:977][194]LogSavePackage: Save=242.957092ms
+[2015.10.04-14.08.19:977][194]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player08242F394665D3A3EDEDB4AF5623A770.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset'
+[2015.10.04-14.08.19:979][194]LogSavePackage: Total save time: 250.258118ms
+[2015.10.04-14.08.19:979][194]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset
+[2015.10.04-14.08.25:343][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.08.26:676][988]BlueprintLog: New page: Compile Player
+[2015.10.04-14.08.26:989][988]BlueprintEditorCompileResults: Info [0035.15] Compile of Player successful! [in 313 ms]
+[2015.10.04-14.08.32:633][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.08.32:633][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.04-14.08.32:651][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB7CC16A20
+[2015.10.04-14.08.32:652][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB7CC16520
+[2015.10.04-14.08.32:859][639]LogSavePackage: Save=99.501335ms
+[2015.10.04-14.08.32:859][639]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Home_Kratakos4BA598E445B391937F4CF5A3DE090813.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.10.04-14.08.32:861][639]LogSavePackage: Total save time: 110.431280ms
+[2015.10.04-14.08.32:861][639]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.10.04-14.08.32:915][639]LogFileHelpers: Saving map 'Home_Kratakos' took 0.236
+[2015.10.04-14.08.32:931][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Player" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset" SILENT=true
+[2015.10.04-14.08.33:193][639]LogSavePackage: Save=259.412750ms
+[2015.10.04-14.08.33:193][639]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/PlayerB8BEB7A141D9112758AC36886C083388.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset'
+[2015.10.04-14.08.33:195][639]LogSavePackage: Total save time: 263.300162ms
+[2015.10.04-14.08.33:195][639]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset
+[2015.10.04-14.08.52:242][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.08.52:242][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.04-14.08.52:242][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.04-14.08.52:242][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.04-14.08.52:312][739]LogSavePackage: Save=19.342728ms
+[2015.10.04-14.08.52:312][739]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player_Human2D7D1F584492BD3F960176A6C99C79F4.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset'
+[2015.10.04-14.08.52:313][739]LogSavePackage: Total save time: 20.482350ms
+[2015.10.04-14.08.52:313][739]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset
+[2015.10.04-14.09.00:969][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.09.04:789][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.04-14.09.06:908][464]BlueprintLog: New page: Compile Player_Human
+[2015.10.04-14.09.06:942][464]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.04-14.09.06:967][464]BlueprintEditorCompileResults: Info [0075.13] Compile of Player_Human successful! [in 58 ms]
+[2015.10.04-14.09.14:439][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.09.14:516][312]LogSavePackage: Save=18.939178ms
+[2015.10.04-14.09.14:516][312]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player_Human2DC0D53047BB0BA1E1E77285EA22EDEA.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset'
+[2015.10.04-14.09.14:518][312]LogSavePackage: Total save time: 24.947736ms
+[2015.10.04-14.09.14:518][312]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset
+[2015.10.04-14.09.14:523][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Player" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset" SILENT=true
+[2015.10.04-14.09.14:756][312]LogSavePackage: Save=229.633469ms
+[2015.10.04-14.09.14:756][312]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player8FF55607441AE7C25B394DA6FA1CA916.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset'
+[2015.10.04-14.09.14:758][312]LogSavePackage: Total save time: 233.377583ms
+[2015.10.04-14.09.14:758][312]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset
+[2015.10.04-14.09.15:525][404]BlueprintLog: New page: Compile Player_Human
+[2015.10.04-14.09.15:555][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.09.15:579][404]BlueprintEditorCompileResults: Info [0083.74] Compile of Player_Human successful! [in 54 ms]
+[2015.10.04-14.09.17:426][622]BlueprintLog: New page: Compile Player
+[2015.10.04-14.09.17:518][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.09.17:798][622]BlueprintEditorCompileResults: Info [0085.96] Compile of Player successful! [in 371 ms]
+[2015.10.04-14.09.18:889][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.09.18:889][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.09.18:890][746]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:09:18 AM)
+[2015.10.04-14.09.18:890][746]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.09.18:908][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017850s)
+[2015.10.04-14.09.18:908][746]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.09.18:908][746]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2015.10.04-14.09.18:908][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.018751s)
+[2015.10.04-14.09.18:908][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.09.18:908][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.04-14.09.18:908][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.04-14.09.18:934][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.09.18:940][746]LogInit: FAudioDevice initialized.
+[2015.10.04-14.09.18:993][746]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.09.18:996][746]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.09.18:996][746]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.09.18
+[2015.10.04-14.09.18:996][746]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.09.18:996][746]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.09.18:997][746]LogWorld: Bringing up level for play took: 0.002942
+[2015.10.04-14.09.18:999][746]LogBlueprintUserMessages: [Player_C_24] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.09.19:005][746]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.931
+[2015.10.04-14.09.19:005][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.09.19:018][747]LogRenderer: Reallocating scene render targets to support 1280x744 (Frame:9298).
+[2015.10.04-14.09.21:006][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.09.21:036][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.09.21:055][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB64A6BC40
+[2015.10.04-14.09.55:562][ 87]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.09.55:562][ 87]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.09.55:562][ 87]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.09.55:562][ 87]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.09.55:562][ 87]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.09.56:122][147]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.09.56:122][147]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.09.56:123][147]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.09.56:123][147]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.10.01:953][817]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.05:171][202]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.13:226][162]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.13:231][162]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.13:235][162]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.13:248][162]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.13:984][250]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.15:573][439]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.16:283][522]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Home_Kratakos', cached variable property's owner is '/Game/SSA/Maps/Home_Kratakos.SKEL_Home_Kratakos_C'
+[2015.10.04-14.10.19:228][874]BlueprintLog: New page: Compile Home_Kratakos
+[2015.10.04-14.10.19:269][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.10.19:269][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.04-14.10.19:269][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.04-14.10.19:269][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.04-14.10.19:293][874]BlueprintEditorCompileResults: Info [0147.46] Compile of Home_Kratakos successful! [in 64 ms]
+[2015.10.04-14.10.20:488][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.20:488][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.10.20:488][ 13]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:10:20 AM)
+[2015.10.04-14.10.20:488][ 13]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.10.20:506][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018062s)
+[2015.10.04-14.10.20:506][ 13]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.10.20:506][ 13]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2015.10.04-14.10.20:507][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.018776s)
+[2015.10.04-14.10.20:533][ 13]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.10.20:539][ 13]LogInit: FAudioDevice initialized.
+[2015.10.04-14.10.20:576][ 13]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.10.20:579][ 13]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.10.20:579][ 13]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.10.20
+[2015.10.04-14.10.20:579][ 13]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.10.20:580][ 13]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.10.20:580][ 13]LogWorld: Bringing up level for play took: 0.003242
+[2015.10.04-14.10.20:582][ 13]LogBlueprintUserMessages: [Player_C_25] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.10.20:588][ 13]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.513
+[2015.10.04-14.10.20:588][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.27:583][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.27:616][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.27:652][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB5EC584A0
+[2015.10.04-14.10.37:776][ 61]BlueprintLog: New page: Compile Home_Kratakos
+[2015.10.04-14.10.37:839][ 61]BlueprintEditorCompileResults: Info [0166.00] Compile of Home_Kratakos successful! [in 63 ms]
+[2015.10.04-14.10.38:516][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.38:516][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.10.38:516][138]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:10:38 AM)
+[2015.10.04-14.10.38:516][138]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.10.38:533][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016773s)
+[2015.10.04-14.10.38:533][138]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.10.38:534][138]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2015.10.04-14.10.38:534][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.017525s)
+[2015.10.04-14.10.38:562][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.10.38:568][138]LogInit: FAudioDevice initialized.
+[2015.10.04-14.10.38:609][138]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.10.38:612][138]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.10.38:612][138]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.10.38
+[2015.10.04-14.10.38:612][138]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.10.38:612][138]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.10.38:613][138]LogWorld: Bringing up level for play took: 0.002816
+[2015.10.04-14.10.38:615][138]LogBlueprintUserMessages: [Player_C_26] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.10.38:621][138]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.547
+[2015.10.04-14.10.38:621][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.41:974][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.42:008][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.10.42:028][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB5EBF4400
+[2015.10.04-14.10.47:057][109]LogSavePackage: Save=105.599487ms
+[2015.10.04-14.10.47:057][109]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Home_KratakosBECDB45F450FFE5D9A0F05AAA94AB674.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.10.04-14.10.47:058][109]LogSavePackage: Total save time: 109.755687ms
+[2015.10.04-14.10.47:058][109]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.10.04-14.10.47:111][109]LogFileHelpers: Saving map 'Home_Kratakos' took 0.233
+[2015.10.04-14.10.47:476][152]BlueprintLog: New page: Compile Home_Kratakos
+[2015.10.04-14.10.47:542][152]BlueprintEditorCompileResults: Info [0175.71] Compile of Home_Kratakos successful! [in 66 ms]
+[2015.10.04-14.11.17:950][773]BlueprintLog: New page: Compile Home_Kratakos
+[2015.10.04-14.11.18:012][773]BlueprintEditorCompileResults: Info [0206.18] Compile of Home_Kratakos successful! [in 62 ms]
+[2015.10.04-14.11.18:775][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.11.18:775][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.11.18:775][860]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:11:18 AM)
+[2015.10.04-14.11.18:775][860]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.11.18:794][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018672s)
+[2015.10.04-14.11.18:794][860]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.11.18:794][860]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2015.10.04-14.11.18:794][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.019461s)
+[2015.10.04-14.11.18:822][860]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.11.18:828][860]LogInit: FAudioDevice initialized.
+[2015.10.04-14.11.18:865][860]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.11.18:868][860]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.11.18:868][860]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.11.18
+[2015.10.04-14.11.18:868][860]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.11.18:868][860]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.11.18:869][860]LogWorld: Bringing up level for play took: 0.002699
+[2015.10.04-14.11.18:871][860]LogBlueprintUserMessages: [Player_C_27] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.11.18:879][860]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.805
+[2015.10.04-14.11.18:880][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.11.24:861][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.11.24:893][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.11.24:913][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB00B27A60
+[2015.10.04-14.11.46:320][115]LogSavePackage: Save=99.533463ms
+[2015.10.04-14.11.46:320][115]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Home_Kratakos7D9E6730472E5EAF3A4F85AB8BC19533.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.10.04-14.11.46:322][115]LogSavePackage: Total save time: 103.662055ms
+[2015.10.04-14.11.46:322][115]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.10.04-14.11.46:374][115]LogFileHelpers: Saving map 'Home_Kratakos' took 0.229
+[2015.10.04-14.15.04:180][790]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.10.04-14.16.53:865][473]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.16.53:865][473]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.16.53:865][473]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.16.53:865][473]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.16.53:865][473]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.16.55:492][658]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.16.55:493][658]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.16.55:493][658]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.04-14.16.55:493][658]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.04-14.16.57:060][844]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.04-14.17.01:685][347]LogActor:Warning: GameNetworkManager /Engine/Transient.World_12:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.17.04:179][614]LogActor:Warning: GameNetworkManager /Engine/Transient.World_13:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.17.28:643][529]BlueprintLog: New page: Compile TopDownGameMode
+[2015.10.04-14.17.28:675][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.17.28:675][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.04-14.17.28:675][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.04-14.17.28:675][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.10.04-14.17.28:695][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB00CAFB00
+[2015.10.04-14.17.28:696][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB12309080
+[2015.10.04-14.17.28:701][529]BlueprintEditorCompileResults: Info [0576.86] Compile of TopDownGameMode successful! [in 57 ms]
+[2015.10.04-14.17.30:136][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.17.30:137][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.17.30:137][696]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:17:30 AM)
+[2015.10.04-14.17.30:137][696]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.17.30:155][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018572s)
+[2015.10.04-14.17.30:156][696]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.17.30:156][696]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2015.10.04-14.17.30:156][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.019346s)
+[2015.10.04-14.17.30:187][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.17.30:193][696]LogInit: FAudioDevice initialized.
+[2015.10.04-14.17.30:231][696]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.17.30:234][696]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.17.30:234][696]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.17.30
+[2015.10.04-14.17.30:234][696]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.17.30:234][696]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.17.30:235][696]LogWorld: Bringing up level for play took: 0.002792
+[2015.10.04-14.17.30:237][696]LogBlueprintUserMessages: [Player_Human_C_14] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.17.30:243][696]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.169
+[2015.10.04-14.17.30:243][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.17.34:709][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.17.34:748][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.17.34:769][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB040F7CE0
+[2015.10.04-14.17.35:876][351]LogSavePackage: Save=5.397463ms
+[2015.10.04-14.17.35:876][351]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/TopDownGameMode4DEFB34F42CC1779D3473981BB8E34AA.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/TopDownGameMode.uasset'
+[2015.10.04-14.17.35:877][351]LogSavePackage: Total save time: 11.243898ms
+[2015.10.04-14.17.35:877][351]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/TopDownGameMode.uasset
+[2015.10.04-14.18.02:557][461]LogEditorTransaction: Undo Delete current selection
+[2015.10.04-14.18.03:079][480]LogEditorTransaction: Undo Delete current selection
+[2015.10.04-14.18.03:099][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.18.13:267][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.10.04-14.18.22:408][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_292 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_292
+[2015.10.04-14.18.22:408][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_292.EdGraphPin_9251) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_InputKey_378.EdGraphPin_8633).  Import failed...
+[2015.10.04-14.18.22:408][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_292.EdGraphPin_9251''
+[2015.10.04-14.18.22:408][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12827 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12827
+[2015.10.04-14.18.22:408][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12827.EdGraphPin_16648) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12826.EdGraphPin_16641).  Import failed...
+[2015.10.04-14.18.22:408][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12827.EdGraphPin_16648''
+[2015.10.04-14.18.22:409][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12828 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12828.EdGraphPin_16662) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12826.EdGraphPin_16641).  Import failed...
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12828.EdGraphPin_16662''
+[2015.10.04-14.18.22:409][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_16685) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12827.EdGraphPin_16647).  Import failed...
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_16685''
+[2015.10.04-14.18.22:409][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_43 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_57595) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12827.EdGraphPin_16650).  Import failed...
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_43.EdGraphPin_57595''
+[2015.10.04-14.18.22:409][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12829 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12829.EdGraphPin_16671) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828.EdGraphPin_16663).  Import failed...
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12829.EdGraphPin_16671''
+[2015.10.04-14.18.22:409][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_16683) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829.EdGraphPin_16673).  Import failed...
+[2015.10.04-14.18.22:409][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_16683''
+[2015.10.04-14.18.22:410][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12830 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12830
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12830.EdGraphPin_16695) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_16684).  Import failed...
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12830.EdGraphPin_16695''
+[2015.10.04-14.18.22:410][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4917.EdGraphPin_9347) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_57593).  Import failed...
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4917.EdGraphPin_9347''
+[2015.10.04-14.18.22:410][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4914 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4914
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4914.EdGraphPin_16845) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_57592).  Import failed...
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4914.EdGraphPin_16845''
+[2015.10.04-14.18.22:410][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4915 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4915
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4915.EdGraphPin_16857) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4914.EdGraphPin_16844).  Import failed...
+[2015.10.04-14.18.22:410][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4915.EdGraphPin_16857''
+[2015.10.04-14.18.22:411][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4915 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4915
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4915.EdGraphPin_16864) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4914.EdGraphPin_16846).  Import failed...
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4915.EdGraphPin_16864''
+[2015.10.04-14.18.22:411][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2196 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2196
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2196.EdGraphPin_9270) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4915.EdGraphPin_16856).  Import failed...
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2196.EdGraphPin_9270''
+[2015.10.04-14.18.22:411][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_770 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_770
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_770.EdGraphPin_9263) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_292.EdGraphPin_9252).  Import failed...
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_770.EdGraphPin_9263''
+[2015.10.04-14.18.22:411][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1002 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1002
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1002.EdGraphPin_9407) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_292.EdGraphPin_9253).  Import failed...
+[2015.10.04-14.18.22:411][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1002.EdGraphPin_9407''
+[2015.10.04-14.18.22:412][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1002 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1002
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1002.EdGraphPin_9409) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2196.EdGraphPin_9269).  Import failed...
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1002.EdGraphPin_9409''
+[2015.10.04-14.18.22:412][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4916 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4916
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4916.EdGraphPin_16884) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_637.EdGraphPin_9284).  Import failed...
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4916.EdGraphPin_16884''
+[2015.10.04-14.18.22:412][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4917.EdGraphPin_9348) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4916.EdGraphPin_16883).  Import failed...
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4917.EdGraphPin_9348''
+[2015.10.04-14.18.22:412][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4918.EdGraphPin_16904) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917.EdGraphPin_9350).  Import failed...
+[2015.10.04-14.18.22:412][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_16904''
+[2015.10.04-14.18.22:413][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_4918.EdGraphPin_16903) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_909.EdGraphPin_9359).  Import failed...
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_16903''
+[2015.10.04-14.18.22:413][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12838 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12838
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12838.EdGraphPin_16916) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1002.EdGraphPin_9408).  Import failed...
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12838.EdGraphPin_16916''
+[2015.10.04-14.18.22:413][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12838 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12838
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12838.EdGraphPin_16914) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_2635.EdGraphPin_9419).  Import failed...
+[2015.10.04-14.18.22:413][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12838.EdGraphPin_16914''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1601 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1601
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_9491) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_InputKey_207.EdGraphPin_9437).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1601.EdGraphPin_9491''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_8110 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_8110
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_8110.EdGraphPin_16927) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_1581.EdGraphPin_9446).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8110.EdGraphPin_16927''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356 or K2Node_MacroInstance /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_356
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356.EdGraphPin_17400) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_1581.EdGraphPin_9446).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_356.EdGraphPin_17400''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356 or K2Node_MacroInstance /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_356
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356.EdGraphPin_17401) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_8110.EdGraphPin_16925).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_356.EdGraphPin_17401''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_8109 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_8109
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_8109.EdGraphPin_17318) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_8110.EdGraphPin_16926).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8109.EdGraphPin_17318''
+[2015.10.04-14.18.22:414][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356 or K2Node_MacroInstance /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_356
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_356.EdGraphPin_17399) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2910.EdGraphPin_9462).  Import failed...
+[2015.10.04-14.18.22:414][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_356.EdGraphPin_17399''
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1601 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1601
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_9493) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_3017.EdGraphPin_9476).  Import failed...
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1601.EdGraphPin_9493''
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12836 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_12836.EdGraphPin_9521) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_3017.EdGraphPin_9477).  Import failed...
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12836.EdGraphPin_9521''
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3354
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354.EdGraphPin_16937) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_9492).  Import failed...
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3354.EdGraphPin_16937''
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3354
+[2015.10.04-14.18.22:415][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3354.EdGraphPin_16935) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_392.EdGraphPin_9503).  Import failed...
+[2015.10.04-14.18.22:415][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3354.EdGraphPin_16935''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57142) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836.EdGraphPin_9522).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_57142''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3357
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_3357.EdGraphPin_16949) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836.EdGraphPin_9524).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3357.EdGraphPin_16949''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_394 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_394
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_394.EdGraphPin_9545) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357.EdGraphPin_16948).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_394.EdGraphPin_9545''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2558
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558.EdGraphPin_9591) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6196.EdGraphPin_16958).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2558.EdGraphPin_9591''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_877 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_877
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_877.EdGraphPin_9641) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6196.EdGraphPin_16959).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_877.EdGraphPin_9641''
+[2015.10.04-14.18.22:416][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2558
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558.EdGraphPin_9593) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6196.EdGraphPin_16960).  Import failed...
+[2015.10.04-14.18.22:416][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2558.EdGraphPin_9593''
+[2015.10.04-14.18.22:417][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_9776) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6195.EdGraphPin_16970).  Import failed...
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1912.EdGraphPin_9776''
+[2015.10.04-14.18.22:417][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_9800) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6195.EdGraphPin_16970).  Import failed...
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1965.EdGraphPin_9800''
+[2015.10.04-14.18.22:417][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2558
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558.EdGraphPin_9590) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6195.EdGraphPin_16971).  Import failed...
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2558.EdGraphPin_9590''
+[2015.10.04-14.18.22:417][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_2558
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_2558.EdGraphPin_9592) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_6195.EdGraphPin_16978).  Import failed...
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2558.EdGraphPin_9592''
+[2015.10.04-14.18.22:417][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_17735 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_17735
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_17735.EdGraphPin_16999) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_4200.EdGraphPin_9605).  Import failed...
+[2015.10.04-14.18.22:417][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17735.EdGraphPin_16999''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10125 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_10125
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10125.EdGraphPin_9626) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_17735.EdGraphPin_17000).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10125.EdGraphPin_9626''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10384 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_10384
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10384.EdGraphPin_17382) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_10125.EdGraphPin_9623).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10384.EdGraphPin_17382''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_5109 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_5109
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_5109.EdGraphPin_10280) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_10125.EdGraphPin_9624).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5109.EdGraphPin_10280''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_158
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158.EdGraphPin_10269) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_4734.EdGraphPin_9635).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_158.EdGraphPin_10269''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_9775) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_877.EdGraphPin_9641).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1912.EdGraphPin_9775''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11667 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_11667
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11667.EdGraphPin_17012) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_877.EdGraphPin_9642).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11667.EdGraphPin_17012''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10384 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_10384
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_10384.EdGraphPin_17381) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_877.EdGraphPin_9643).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10384.EdGraphPin_17381''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_3581 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_3581
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableSet_3581.EdGraphPin_9689) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_877.EdGraphPin_9644).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_3581.EdGraphPin_9689''
+[2015.10.04-14.18.22:418][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11667 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_11667
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11667.EdGraphPin_17010) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_2280.EdGraphPin_9653).  Import failed...
+[2015.10.04-14.18.22:418][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11667.EdGraphPin_17010''
+[2015.10.04-14.18.22:419][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11158 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_11158
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11158.EdGraphPin_17024) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_11667.EdGraphPin_17011).  Import failed...
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11158.EdGraphPin_17024''
+[2015.10.04-14.18.22:419][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11158 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_11158
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_11158.EdGraphPin_17023) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_2024.EdGraphPin_9671).  Import failed...
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11158.EdGraphPin_17023''
+[2015.10.04-14.18.22:419][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_158
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158.EdGraphPin_10268) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CustomEvent_1416.EdGraphPin_7847).  Import failed...
+[2015.10.04-14.18.22:419][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_158.EdGraphPin_10268''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AddComponent /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_AddComponent_62 or K2Node_AddComponent /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_AddComponent_62
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AddComponent /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_AddComponent_62 or K2Node_AddComponent /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_AddComponent_62
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AddComponent /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_AddComponent_62 or K2Node_AddComponent /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_AddComponent_62
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_AddComponent_62.EdGraphPin_17328) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_18395.EdGraphPin_9716).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_62.EdGraphPin_17328''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_9799) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_9773).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1965.EdGraphPin_9799''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20551.EdGraphPin_17064) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_9774).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20551.EdGraphPin_17064''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20551.EdGraphPin_17063) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_5221.EdGraphPin_9785).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20551.EdGraphPin_17063''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20987.EdGraphPin_17070) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_5221.EdGraphPin_9785).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20987.EdGraphPin_17070''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_158
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_IfThenElse_158.EdGraphPin_10270) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_9797).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_158.EdGraphPin_10270''
+[2015.10.04-14.18.22:420][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_20987.EdGraphPin_17071) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_9798).  Import failed...
+[2015.10.04-14.18.22:420][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20987.EdGraphPin_17071''
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57148) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_8109.EdGraphPin_17320).  Import failed...
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_57148''
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57143) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_AddComponent_62.EdGraphPin_17327).  Import failed...
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_57143''
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57148) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_AddComponent_62.EdGraphPin_17329).  Import failed...
+[2015.10.04-14.18.22:421][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_57148''
+[2015.10.04-14.18.22:422][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_14004
+[2015.10.04-14.18.22:422][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_14004
+[2015.10.04-14.18.22:422][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004.EdGraphPin_17413) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57148).  Import failed...
+[2015.10.04-14.18.22:422][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14004.EdGraphPin_17413''
+[2015.10.04-14.18.22:422][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741
+[2015.10.04-14.18.22:422][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_9741
+[2015.10.04-14.18.22:422][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_9741.EdGraphPin_17376) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_57145).  Import failed...
+[2015.10.04-14.18.22:422][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9741.EdGraphPin_17376''
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_14004
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_14004
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_14004.EdGraphPin_17411) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_158.EdGraphPin_10271).  Import failed...
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14004.EdGraphPin_17411''
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_330 or K2Node_MacroInstance /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_330
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_330.EdGraphPin_17429) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_14004.EdGraphPin_17412).  Import failed...
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_330.EdGraphPin_17429''
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_330 or K2Node_MacroInstance /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_330
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_MacroInstance_330.EdGraphPin_17431) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_14321.EdGraphPin_17420).  Import failed...
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_330.EdGraphPin_17431''
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_3071 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_3071
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_3071.EdGraphPin_10325) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_14321.EdGraphPin_17422).  Import failed...
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3071.EdGraphPin_10325''
+[2015.10.04-14.18.22:423][646]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_3071 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_3071
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_3071.EdGraphPin_10325) from referencer (EdGraphPin /Game/SSA/Blueprints/Player_Human.Player_Human:EventGraph.K2Node_MacroInstance_330.EdGraphPin_17430).  Import failed...
+[2015.10.04-14.18.22:423][646]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3071.EdGraphPin_10325''
+[2015.10.04-14.18.22:436][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.10.04-14.18.25:511][  7]BlueprintLog: New page: Compile Player_Human
+[2015.10.04-14.18.25:569][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.10.04-14.18.25:601][  7]BlueprintEditorCompileResults: Info [0633.76] Compile of Player_Human successful! [in 90 ms]
+[2015.10.04-14.18.26:309][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.18.26:441][ 90]LogSavePackage: Save=75.962257ms
+[2015.10.04-14.18.26:441][ 90]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player_HumanD6C2840A4CB8318C9FAC21935A7939B4.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset'
+[2015.10.04-14.18.26:443][ 90]LogSavePackage: Total save time: 82.011219ms
+[2015.10.04-14.18.26:443][ 90]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset
+[2015.10.04-14.18.26:449][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Player" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset" SILENT=true
+[2015.10.04-14.18.26:693][ 90]LogSavePackage: Save=237.842728ms
+[2015.10.04-14.18.26:693][ 90]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player89CA900A4797EA4AC2DDF4BC9F92ED9F.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset'
+[2015.10.04-14.18.26:695][ 90]LogSavePackage: Total save time: 244.902313ms
+[2015.10.04-14.18.26:695][ 90]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset
+[2015.10.04-14.18.32:587][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.18.32:633][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Player" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset" SILENT=true
+[2015.10.04-14.18.32:885][766]LogSavePackage: Save=248.939301ms
+[2015.10.04-14.18.32:885][766]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player1F5A809A4521CF71A9DFD38DDF9F6C1E.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset'
+[2015.10.04-14.18.32:886][766]LogSavePackage: Total save time: 252.787825ms
+[2015.10.04-14.18.32:886][766]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player.uasset
+[2015.10.04-14.18.33:388][824]BlueprintLog: New page: Compile Player
+[2015.10.04-14.18.33:802][824]BlueprintEditorCompileResults: Info [0641.97] Compile of Player successful! [in 415 ms]
+[2015.10.04-14.18.35:104][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.18.35:104][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.18.35:104][958]PIE: New page: PIE session: Home_Kratakos (Oct 4, 2015, 6:18:35 AM)
+[2015.10.04-14.18.35:104][958]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.04-14.18.35:123][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017959s)
+[2015.10.04-14.18.35:123][958]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.04-14.18.35:123][958]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.10.04-14.18.35:123][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.018674s)
+[2015.10.04-14.18.35:123][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.18.35:123][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.10.04-14.18.35:123][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.10.04-14.18.35:123][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.10.04-14.18.35:151][958]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-14.18.35:157][958]LogInit: FAudioDevice initialized.
+[2015.10.04-14.18.35:198][958]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.04-14.18.35:201][958]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-14.18.35:201][958]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.10.04-10.18.35
+[2015.10.04-14.18.35:201][958]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.18.35:201][958]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-14.18.35:202][958]LogWorld: Bringing up level for play took: 0.002735
+[2015.10.04-14.18.35:204][958]LogBlueprintUserMessages: [Player_Human_C_7] X=270.000 Y=750.000 Z=265.594
+[2015.10.04-14.18.35:242][958]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.832
+[2015.10.04-14.18.35:242][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.18.41:460][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.18.41:499][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.18.41:519][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BB90A732E0
+[2015.10.04-14.19.05:691][512]LogEditorTransaction: Undo Resize Node
+[2015.10.04-14.19.10:375][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.19.10:506][ 46]LogSavePackage: Save=75.944687ms
+[2015.10.04-14.19.10:506][ 46]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Player_HumanD155C7F04A27E9CB1752BC9A2E2A454A.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset'
+[2015.10.04-14.19.10:507][ 46]LogSavePackage: Total save time: 79.602472ms
+[2015.10.04-14.19.10:507][ 46]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Human.uasset
+[2015.10.04-14.19.10:989][100]BlueprintLog: New page: Compile Player_Human
+[2015.10.04-14.19.11:043][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.19.11:070][100]BlueprintEditorCompileResults: Info [0679.23] Compile of Player_Human successful! [in 79 ms]
+[2015.10.04-14.19.37:025][ 50]LogEditorTransaction: Undo Delete current selection
+[2015.10.04-14.19.37:065][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-14.19.42:723][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.10.04-14.19.45:153][892]BlueprintLog: New page: Compile Player
+[2015.10.04-14.19.45:248][892]LogBlueprint:Error: [compiler Player_Human] Error Could not find a function named "Phasers" in 'Player_Human_C'.
+Make sure 'Player_Human_C' has been compiled for  Phasers 
+[2015.10.04-14.19.45:248][892]LogBlueprint:Error: [compiler Player_Human] Error Could not find a function named "Phasers" in 'Player_Human_C'.
+Make sure 'Player_Human_C' has been compiled for  Phasers 
+[2015.10.04-14.19.45:256][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.10.04-14.19.45:582][892]BlueprintEditorCompileResults: Info [0713.74] Compile of Player successful! [in 427 ms]
+[2015.10.04-14.19.46:689][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.04-14.19.46:689][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.04-14.19.57:332][ 84]LogEditorTransaction: Undo Delete current selection
+[2015.10.04-14.19.57:339][ 84]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.10.04-14.19.57:541][ 84]LogCrashTracker: 
+
+
+[2015.10.04-14.19.57:541][ 84]LogCrashTracker: 
+
+
+[2015.10.04-14.19.57:541][ 84]LogWindows: === Critical error: ===
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 678] 
+Array index out of bounds: 1107820544 from an array of size 3
+
+
+
+
+[2015.10.04-14.19.57:651][ 84]LogExit: Executing StaticShutdownAfterError
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:655][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.04-14.19.57:656][ 84]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.04-14.19.57:656][ 84]Log file closed, 10/04/15 10:19:57
