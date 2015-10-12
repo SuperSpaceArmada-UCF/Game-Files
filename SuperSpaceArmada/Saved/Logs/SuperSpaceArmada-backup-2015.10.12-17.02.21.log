@@ -1,0 +1,1093 @@
+﻿[2015.10.05-16.21.33:705][  0]Log file open, 10/05/15 12:21:33
+[2015.10.05-16.21.33:705][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.10.05-16.21.33:705][  0]LogInit:Display: RandInit(-1261938372) SRandInit(-1261938372).
+[2015.10.05-16.21.33:705][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.05-16.21.33:705][  0]LogStats: Stats thread started at 0.082538
+[2015.10.05-16.21.33:705][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.05-16.21.33:705][  0]LogInit: API Version: 2672455
+[2015.10.05-16.21.33:705][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.05-16.21.33:705][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.05-16.21.33:705][  0]LogInit: Build Configuration: Development
+[2015.10.05-16.21.33:705][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.05-16.21.33:705][  0]LogInit: Command line:  
+[2015.10.05-16.21.33:705][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.05-16.21.33:705][  0]LogInit: Rocket: 1
+[2015.10.05-16.21.33:724][  0]LogInit: Using libcurl 7.41.0
+[2015.10.05-16.21.33:724][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.05-16.21.33:724][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.05-16.21.33:724][  0]LogInit:  - other features:
+[2015.10.05-16.21.33:724][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.05-16.21.33:724][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.05-16.21.33:724][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.05-16.21.33:724][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.05-16.21.33:724][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.05-16.21.33:724][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.05-16.21.33:724][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.05-16.21.33:724][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.05-16.21.33:724][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.05-16.21.33:724][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.05-16.21.33:733][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.05-16.21.33:739][  0]LogInit: Object subsystem initialized
+[2015.10.05-16.21.33:740][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-16.21.33:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.05-16.21.33:748][  0]LogInit: Computer: EXIA
+[2015.10.05-16.21.33:748][  0]LogInit: User: SGJin
+[2015.10.05-16.21.33:748][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.05-16.21.33:748][  0]LogInit: High frequency timer resolution =2.338341 MHz
+[2015.10.05-16.21.33:748][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.05-16.21.33:748][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.05-16.21.33:748][  0]LogMemory: Process Physical Memory: 54.92 MB used, 54.92 MB peak
+[2015.10.05-16.21.33:748][  0]LogMemory: Process Virtual Memory: 55.33 MB used, 55.33 MB peak
+[2015.10.05-16.21.33:748][  0]LogMemory: Physical Memory: 4352.80 MB used, 8124.02 MB total
+[2015.10.05-16.21.33:748][  0]LogMemory: Virtual Memory: 364.63 MB used, 134217728.00 MB total
+[2015.10.05-16.21.34:153][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.05-16.21.34:939][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 740M          (Feature Level 11_0)
+[2015.10.05-16.21.34:939][  0]LogD3D11RHI: Adapter has 1997MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 1 output[s]
+[2015.10.05-16.21.34:944][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.05-16.21.34:944][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 0 output[s]
+[2015.10.05-16.21.34:946][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.05-16.21.34:946][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 0 output[s]
+[2015.10.05-16.21.34:946][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.05-16.21.34:951][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.05-16.21.34:951][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.05-16.21.34:967][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.05-16.21.34:978][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/8008/).
+[2015.10.05-16.21.34:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/A30C08E943913A89125AE3B217D0BF59/'.
+[2015.10.05-16.21.34:978][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.05-16.21.36:317][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.05-16.21.36:323][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.05-16.21.36:330][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.05-16.21.36:337][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.05-16.21.36:344][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.05-16.21.36:349][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.05-16.21.36:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.05-16.21.36:359][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.05-16.21.36:364][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.05-16.21.36:371][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.05-16.21.36:378][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.05-16.21.36:384][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.05-16.21.36:386][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.05-16.21.36:406][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.05-16.21.36:409][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.05-16.21.36:413][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.05-16.21.36:418][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.05-16.21.36:418][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-16.21.36:538][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.05-16.21.36:580][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Jin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-16.21.36:580][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.05-16.21.36:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.05-16.21.36:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.05-16.21.36:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.05-16.21.36:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.05-16.21.36:719][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.05-16.21.36:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.05-16.21.36:927][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-16.21.36:929][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.05-16.21.37:054][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.05-16.21.37:054][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.05-16.21.37:294][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.05-16.21.38:310][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.05-16.21.38:328][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.05-16.21.38:625][  0]SourceControl: Info Source control is disabled
+[2015.10.05-16.21.38:654][  0]SourceControl: Info Source control is disabled
+[2015.10.05-16.21.38:668][  0]SourceControl: Info Source control is disabled
+[2015.10.05-16.21.38:681][  0]SourceControl: Info Source control is disabled
+[2015.10.05-16.21.38:874][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.38:989][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.10.05-16.21.38:989][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.10.05-16.21.39:047][  0]LogEngine: Initializing Engine...
+[2015.10.05-16.21.39:051][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.05-16.21.39:052][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.05-16.21.39:182][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.05-16.21.39:190][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.21.39:211][  0]LogInit: FAudioDevice initialized.
+[2015.10.05-16.21.39:237][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Jin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-16.21.39:240][  0]LogInit: Texture streaming: Enabled
+[2015.10.05-16.21.39:247][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.05-16.21.39:247][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.05-16.21.39:247][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 435ea4a8489b84c6f4feaab84cbae6c8|e03effeb7bdf4ddc9c712682a578c51b|8a2a019e-36d5-4c55-97e1-833141022920
+[2015.10.05-16.21.39:247][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.05-16.21.39:315][  0]LogInit: Transaction tracking system initialized
+[2015.10.05-16.21.39:354][  0]BlueprintLog: New page: Editor Load
+[2015.10.05-16.21.39:467][  0]LocalizationService: Info Localization service is disabled
+[2015.10.05-16.21.39:556][  0]LogConsoleResponse:Display: 
+[2015.10.05-16.21.39:683][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.05-16.21.39:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.10.05-16.21.39:760][  0]SourceControl: Info Source control is disabled
+[2015.10.05-16.21.39:761][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-16.21.39:761][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.10.05-16.21.39:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-16.21.39:847][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.352ms to complete.
+[2015.10.05-16.21.39:847][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.086
+[2015.10.05-16.21.39:964][  0]LogCollectionManager: Loaded 0 collections in 0.002989 seconds
+[2015.10.05-16.21.40:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.10.05-16.21.40:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Developers/SGJin/Collections/' took 0.01s
+[2015.10.05-16.21.40:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.10.05-16.21.40:004][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1882 classes and 339 folders.
+[2015.10.05-16.21.40:012][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.05-16.21.40:020][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.05-16.21.40:088][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.05-16.21.40:093][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.05-16.21.40:119][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.05-16.21.40:126][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.05-16.21.40:149][  0]LogLoad: Full Startup: 7.05 seconds (BP compile: 0.00 seconds)
+[2015.10.05-16.21.40:524][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.05-16.21.40:643][  0]LogRenderer: Reallocating scene render targets to support 1156x564 (Frame:2).
+[2015.10.05-16.21.41:280][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:283][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:285][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:287][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:289][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:290][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:292][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.41:294][  3]LogLinker:Warning: Asset '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.21.44:537][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2015.10.05-16.21.46:856][ 99]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.05-16.22.05:172][976]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2015.10.05-16.22.06:388][996]LogAssetRegistry: Asset discovery search completed in 28.0899 seconds
+[2015.10.05-16.22.06:388][996]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2015.10.05-16.22.45:587][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.22.45:632][325]LogSavePackage: Save=19.967148ms
+[2015.10.05-16.22.45:632][325]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterC92666BA4CCE3DCA5C3E8C92BE296C89.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.22.45:635][325]LogSavePackage: Total save time: 46.701483ms
+[2015.10.05-16.22.45:635][325]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.22.54:384][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.22.54:421][622]LogSavePackage: Save=18.888605ms
+[2015.10.05-16.22.54:421][622]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster7CA38F014AFD4352675C6D8DC78660F7.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.22.54:424][622]LogSavePackage: Total save time: 38.418692ms
+[2015.10.05-16.22.54:424][622]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.22.55:145][648]LogCascade: Quitting Cascade. FXSystem=0x000000C60E3C0F40
+[2015.10.05-16.23.19:832][679]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.05-16.23.19:922][679]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.05-16.23.19:984][679]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.05-16.23.37:443][210]Cmd: TRANSACTION UNDO
+[2015.10.05-16.23.37:443][210]LogEditorTransaction: Undo Add Anim Notify
+[2015.10.05-16.23.48:408][614]LogEditorTransaction: Undo Move Anim Notify
+[2015.10.05-16.23.49:051][633]LogEditorTransaction: Undo Move Anim Notify
+[2015.10.05-16.23.49:537][653]LogEditorTransaction: Undo Add Anim Notify
+[2015.10.05-16.25.11:956][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60E39B560
+[2015.10.05-16.25.11:958][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60E3C0F40
+[2015.10.05-16.25.12:051][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Ship1Movement" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset" SILENT=true
+[2015.10.05-16.25.12:084][358]LogSavePackage: Save=10.808946ms
+[2015.10.05-16.25.12:084][358]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Ship1MovementFF806D8A4C7795F16DA280A7F7F23C91.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset'
+[2015.10.05-16.25.12:086][358]LogSavePackage: Total save time: 33.141445ms
+[2015.10.05-16.25.12:086][358]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset
+[2015.10.05-16.25.16:241][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.25.16:244][498]PIE: New page: PIE session: Untitled_0 (Oct 5, 2015, 8:25:16 AM)
+[2015.10.05-16.25.16:244][498]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2015.10.05-16.25.16:245][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000476s)
+[2015.10.05-16.25.16:245][498]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.05-16.25.16:245][498]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2015.10.05-16.25.16:246][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.001279s)
+[2015.10.05-16.25.16:275][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C61624D580
+[2015.10.05-16.25.16:276][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615902E80
+[2015.10.05-16.25.16:277][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C62157D3A0
+[2015.10.05-16.25.16:278][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C621552980
+[2015.10.05-16.25.16:292][498]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.25.16:308][498]LogInit: FAudioDevice initialized.
+[2015.10.05-16.25.16:360][498]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.05-16.25.16:360][498]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.10.05-16.25.16:360][498]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.10.05-16.25.16:360][498]LogWorld: Game class is 'GameMode'
+[2015.10.05-16.25.16:362][498]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 60) at 2015.10.05-12.25.16
+[2015.10.05-16.25.16:363][498]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.25.16:363][498]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.25.16:363][498]LogWorld: Bringing up level for play took: 0.000858
+[2015.10.05-16.25.16:381][498]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 -0.456
+[2015.10.05-16.25.16:404][499]LogRenderer: Reallocating scene render targets to support 1232x692 (Frame:10584).
+[2015.10.05-16.25.17:827][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6905487C0
+[2015.10.05-16.25.34:705][743]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-16.25.36:900][799]LogRenderer: Reallocating scene render targets to support 1232x712 (Frame:11062).
+[2015.10.05-16.25.57:531][313]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton humanShip_withBones_Skeleton, removing AnimBP from actor.
+[2015.10.05-16.25.57:531][313]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton humanShip_withBones_Skeleton, removing AnimBP from actor.
+[2015.10.05-16.25.57:535][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.25.57:535][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.05-16.25.57:535][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.05-16.25.57:535][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.05-16.26.04:848][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.05-16.26.06:777][635]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.05-16.26.13:709][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.05-16.27.13:329][149]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.05-16.27.14:958][186]LogSavePackage: Save=102.632591ms
+[2015.10.05-16.27.14:958][186]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Player_Kratakos7238ABAB40B2C1313B2C72A07BF7B25E.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player/Player_Kratakos.uasset'
+[2015.10.05-16.27.14:961][186]LogSavePackage: Total save time: 125.004008ms
+[2015.10.05-16.27.14:961][186]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player/Player_Kratakos.uasset
+[2015.10.05-16.27.20:603][325]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.27.20:604][325]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.10.05-16.27.20:604][325]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.10.05-16.27.20:604][325]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.10.05-16.27.20:604][325]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.10.05-16.27.20:614][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.05-16.27.20:614][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.05-16.27.20:676][325]Cmd: MAP LOAD FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-16.27.20:676][325]LightingResults: New page: Lighting Build
+[2015.10.05-16.27.20:680][325]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2015.10.05-16.27.20:707][325]LoadErrors: New page: Loading map: Home_Kratakos.umap
+[2015.10.05-16.27.20:707][325]MapCheck: New page: Map Check
+[2015.10.05-16.27.20:707][325]LightingResults: New page: Lighting Build
+[2015.10.05-16.27.20:729][325]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66694C2C0
+[2015.10.05-16.27.20:732][325]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615FC6020
+[2015.10.05-16.27.20:739][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-16.27.20:818][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-16.27.20:978][325]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.037ms to complete.
+[2015.10.05-16.27.20:978][325]LogFileHelpers: Loading map 'Home_Kratakos' took 0.303
+[2015.10.05-16.27.21:919][355]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.27.21:919][355]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.05-16.27.21:920][355]LogPlayLevel: [PlayLevel] Compiling Player_Kratakos before play...
+[2015.10.05-16.27.22:175][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (3 blueprints)
+[2015.10.05-16.27.22:178][355]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2015.10.05-16.27.22:376][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.27.22:376][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.05-16.27.22:789][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 868 ms (19 blueprints)
+[2015.10.05-16.27.22:791][355]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2015.10.05-16.27.22:903][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 983 ms (19 blueprints)
+[2015.10.05-16.27.22:904][355]LogPlayLevel: [PlayLevel] Compiling Enemy_Human before play...
+[2015.10.05-16.27.23:005][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1085 ms (19 blueprints)
+[2015.10.05-16.27.23:005][355]LogPlayLevel: [PlayLevel] Compiling Debris before play...
+[2015.10.05-16.27.23:090][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1170 ms (19 blueprints)
+[2015.10.05-16.27.23:091][355]LogPlayLevel: [PlayLevel] Compiling Enemy_Kratakos before play...
+[2015.10.05-16.27.23:210][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1290 ms (19 blueprints)
+[2015.10.05-16.27.23:210][355]LogPlayLevel: [PlayLevel] Compiling Player_Human before play...
+[2015.10.05-16.27.23:551][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1631 ms (19 blueprints)
+[2015.10.05-16.27.23:552][355]LogPlayLevel: [PlayLevel] Compiling Human_Torpedo before play...
+[2015.10.05-16.27.23:641][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1721 ms (19 blueprints)
+[2015.10.05-16.27.23:642][355]LogPlayLevel: [PlayLevel] Compiling Kratakos_Rail_Gun before play...
+[2015.10.05-16.27.23:724][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1805 ms (19 blueprints)
+[2015.10.05-16.27.23:725][355]LogPlayLevel: [PlayLevel] Compiling Player_Ram_Trigger before play...
+[2015.10.05-16.27.23:790][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1871 ms (19 blueprints)
+[2015.10.05-16.27.23:791][355]LogPlayLevel: [PlayLevel] Compiling AI_Ram_Trigger before play...
+[2015.10.05-16.27.23:867][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 1948 ms (19 blueprints)
+[2015.10.05-16.27.23:868][355]LogPlayLevel: [PlayLevel] Compiling Player_Phaser_Trigger before play...
+[2015.10.05-16.27.23:948][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2028 ms (19 blueprints)
+[2015.10.05-16.27.23:948][355]LogPlayLevel: [PlayLevel] Compiling Energy_Crate before play...
+[2015.10.05-16.27.24:012][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2093 ms (19 blueprints)
+[2015.10.05-16.27.24:013][355]LogPlayLevel: [PlayLevel] Compiling Health_Crate before play...
+[2015.10.05-16.27.24:077][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2158 ms (19 blueprints)
+[2015.10.05-16.27.24:078][355]LogPlayLevel: [PlayLevel] Compiling PP_Crate before play...
+[2015.10.05-16.27.24:141][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2222 ms (19 blueprints)
+[2015.10.05-16.27.24:142][355]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2015.10.05-16.27.24:226][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2307 ms (19 blueprints)
+[2015.10.05-16.27.24:227][355]LogPlayLevel: [PlayLevel] Compiling Crystal_Spawner before play...
+[2015.10.05-16.27.24:307][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2387 ms (19 blueprints)
+[2015.10.05-16.27.24:307][355]LogPlayLevel: [PlayLevel] Compiling Debris_Spawner before play...
+[2015.10.05-16.27.24:381][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2460 ms (19 blueprints)
+[2015.10.05-16.27.24:381][355]LogPlayLevel: [PlayLevel] Compiling Home_Kratakos before play...
+[2015.10.05-16.27.24:455][355]LogPlayLevel: PlayLevel: Blueprint regeneration took 2535 ms (19 blueprints)
+[2015.10.05-16.27.24:528][355]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:27:24 AM)
+[2015.10.05-16.27.24:528][355]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.27.24:557][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028787s)
+[2015.10.05-16.27.24:558][355]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.27.24:558][355]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2015.10.05-16.27.24:558][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.030004s)
+[2015.10.05-16.27.24:591][355]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.27.24:606][355]LogInit: FAudioDevice initialized.
+[2015.10.05-16.27.24:617][355]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.27.24:623][355]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.27.24:623][355]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.27.24
+[2015.10.05-16.27.24:624][355]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.27.24:624][355]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.27.24:625][355]LogWorld: Bringing up level for play took: 0.006764
+[2015.10.05-16.27.24:629][355]LogBlueprintUserMessages: [Player_Kratakos_C_0] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.27.24:645][355]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 1.809
+[2015.10.05-16.27.24:645][355]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.27.39:110][806]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.27.42:684][920]LogCharacterMovement: Enemy_Human_C_0 is stuck and failed to move!
+[2015.10.05-16.27.42:755][922]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue'
+	EnemyAI1_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.EnemyAI1_C_1
+	Function /Game/SSA/Blueprints/AI/EnemyAI1.EnemyAI1_C:ExecuteUbergraph_EnemyAI1:008C
+[2015.10.05-16.27.42:755][922]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue' from node Set Value as Vector in graph 'EventGraph' in blueprint EnemyAI1
+[2015.10.05-16.27.42:755][922]LogBlueprintUserMessages: [Player_Kratakos_C_0] X=724.662 Y=-517.991 Z=265.594
+[2015.10.05-16.27.54:177][280]LogCharacterMovement: Enemy_Human_C_1 is stuck and failed to move!
+[2015.10.05-16.27.54:209][281]LogCharacterMovement: Enemy_Human_C_1 is stuck and failed to move!
+[2015.10.05-16.27.56:542][354]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.27.59:569][428]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve Menu.umap.
+[2015.10.05-16.27.59:657][429]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Menu.umap.
+[2015.10.05-16.27.59:657][429]LogNet: Browse: /Game/SSA/Maps/Menu
+[2015.10.05-16.27.59:658][429]LogLoad: LoadMap: /Game/SSA/Maps/Menu
+[2015.10.05-16.27.59:661][429]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.27.59:661][429]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.05-16.27.59:697][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DD06480
+[2015.10.05-16.27.59:697][429]Cmd: MEM
+[2015.10.05-16.27.59:724][429]LogMemory: Platform Memory Stats for Windows
+[2015.10.05-16.27.59:724][429]LogMemory: Process Physical Memory: 1134.05 MB used, 1153.32 MB peak
+[2015.10.05-16.27.59:724][429]LogMemory: Process Virtual Memory: 2076.72 MB used, 2089.13 MB peak
+[2015.10.05-16.27.59:724][429]LogMemory: Physical Memory: 5055.79 MB used, 8124.02 MB total
+[2015.10.05-16.27.59:724][429]LogMemory: Virtual Memory: 2936.16 MB used, 134217728.00 MB total
+[2015.10.05-16.27.59:724][429]LogMemory: 
+[2015.10.05-16.27.59:724][429]Allocator Stats for TBB: (not implemented)
+[2015.10.05-16.28.00:235][429]LogAIModule: Creating AISystem for world Menu
+[2015.10.05-16.28.00:235][429]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.28.00:236][429]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.10.05-12.28.00
+[2015.10.05-16.28.00:236][429]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.28.00:236][429]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.28.00:237][429]LogWorld: Bringing up level for play took: 0.000901
+[2015.10.05-16.28.00:237][429]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.10.05-16.28.02:049][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.02:128][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.02:168][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C654834E00
+[2015.10.05-16.28.21:748][148]LogCascade: Quitting Cascade. FXSystem=0x000000C60F24F060
+[2015.10.05-16.28.42:982][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.28.43:025][669]LogSavePackage: Save=18.781693ms
+[2015.10.05-16.28.43:025][669]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterC1B0BB594CDF33DB8025298DB6153E82.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.28.43:028][669]LogSavePackage: Total save time: 44.117603ms
+[2015.10.05-16.28.43:028][669]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.28.43:960][695]LogCascade: Quitting Cascade. FXSystem=0x000000C60C9D8180
+[2015.10.05-16.28.44:904][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.44:904][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.28.44:904][723]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:28:44 AM)
+[2015.10.05-16.28.44:904][723]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.28.44:932][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028608s)
+[2015.10.05-16.28.44:933][723]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.28.44:933][723]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2015.10.05-16.28.44:934][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.029767s)
+[2015.10.05-16.28.44:965][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60C9D8180
+[2015.10.05-16.28.44:965][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60F24F060
+[2015.10.05-16.28.44:975][723]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.28.44:990][723]LogInit: FAudioDevice initialized.
+[2015.10.05-16.28.45:027][723]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.28.45:034][723]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.28.45:034][723]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.28.45
+[2015.10.05-16.28.45:034][723]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.28.45:034][723]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.28.45:035][723]LogWorld: Bringing up level for play took: 0.006856
+[2015.10.05-16.28.45:039][723]LogBlueprintUserMessages: [Player_Kratakos_C_2] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.28.45:050][723]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.214
+[2015.10.05-16.28.45:051][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.48:508][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.48:585][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.28.48:614][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60F1C13A0
+[2015.10.05-16.29.08:865][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.29.08:903][427]LogSavePackage: Save=18.517830ms
+[2015.10.05-16.29.08:903][427]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster7BB998E243C758838DE628A2E1BA6FA5.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.29.08:906][427]LogSavePackage: Total save time: 39.323177ms
+[2015.10.05-16.29.08:906][427]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.29.09:764][451]LogCascade: Quitting Cascade. FXSystem=0x000000C6632718A0
+[2015.10.05-16.29.10:533][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.29.10:533][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.29.10:533][472]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:29:10 AM)
+[2015.10.05-16.29.10:533][472]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.29.10:561][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027839s)
+[2015.10.05-16.29.10:562][472]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.29.10:562][472]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2015.10.05-16.29.10:562][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.028972s)
+[2015.10.05-16.29.10:591][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6632718A0
+[2015.10.05-16.29.10:600][472]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.29.10:615][472]LogInit: FAudioDevice initialized.
+[2015.10.05-16.29.10:653][472]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.29.10:660][472]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.29.10:660][472]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.29.10
+[2015.10.05-16.29.10:660][472]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.29.10:660][472]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.29.10:661][472]LogWorld: Bringing up level for play took: 0.006423
+[2015.10.05-16.29.10:664][472]LogBlueprintUserMessages: [Player_Kratakos_C_3] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.29.10:678][472]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.159
+[2015.10.05-16.29.10:678][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.29.28:764][ 45]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.28:764][ 45]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.28:764][ 45]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.37:543][323]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.37:543][323]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.37:543][323]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.29.54:018][831]LogCharacterMovement: Enemy_Kratakos_C_0 is stuck and failed to move!
+[2015.10.05-16.29.55:484][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.29.55:520][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.29.55:557][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DFF80E0
+[2015.10.05-16.30.11:403][282]LogEditorTransaction: Undo Edit Z
+[2015.10.05-16.30.12:059][300]LogEditorTransaction: Undo Edit Y
+[2015.10.05-16.30.14:480][372]LogEditorTransaction: Undo Edit X
+[2015.10.05-16.30.30:861][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.30.30:913][ 20]LogSavePackage: Save=26.825857ms
+[2015.10.05-16.30.30:913][ 20]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterC1DF323B4A2EC6702A51AFB0C266F668.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.30.30:917][ 20]LogSavePackage: Total save time: 54.482643ms
+[2015.10.05-16.30.30:917][ 20]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.30.31:722][ 42]LogCascade: Quitting Cascade. FXSystem=0x000000C606ACBCE0
+[2015.10.05-16.30.32:681][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.30.32:681][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.30.32:681][ 69]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:30:32 AM)
+[2015.10.05-16.30.32:681][ 69]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.30.32:710][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029141s)
+[2015.10.05-16.30.32:711][ 69]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.30.32:711][ 69]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2015.10.05-16.30.32:711][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.030310s)
+[2015.10.05-16.30.32:740][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C606ACBCE0
+[2015.10.05-16.30.32:750][ 69]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.30.32:764][ 69]LogInit: FAudioDevice initialized.
+[2015.10.05-16.30.32:797][ 69]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.30.32:804][ 69]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.30.32:804][ 69]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.30.32
+[2015.10.05-16.30.32:804][ 69]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.30.32:804][ 69]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.30.32:805][ 69]LogWorld: Bringing up level for play took: 0.006298
+[2015.10.05-16.30.32:808][ 69]LogBlueprintUserMessages: [Player_Kratakos_C_4] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.30.32:820][ 69]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.017
+[2015.10.05-16.30.32:821][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.30.43:046][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.30.43:125][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.30.43:154][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60E6318A0
+[2015.10.05-16.31.17:694][313]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.10.05-16.31.17:773][313]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.05-16.31.17:838][313]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.05-16.31.58:487][292]LogCascade: Quitting Cascade. FXSystem=0x000000C615FC6DE0
+[2015.10.05-16.32.03:895][438]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2015.10.05-16.32.03:994][438]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.05-16.32.04:063][438]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.05-16.32.26:662][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.32.26:662][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.05-16.32.26:662][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.05-16.32.26:663][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.05-16.32.26:693][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615FC6DE0
+[2015.10.05-16.32.26:694][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C65ACDD4E0
+[2015.10.05-16.32.26:694][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DC6E340
+[2015.10.05-16.32.26:695][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C675F54C20
+[2015.10.05-16.32.26:696][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C675F57F60
+[2015.10.05-16.32.26:697][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D2993A0
+[2015.10.05-16.32.27:106][ 41]LogSavePackage: Save=156.684586ms
+[2015.10.05-16.32.27:106][ 41]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Home_Kratakos5BAC25B04E9D30511D2F4CA5F406F078.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.10.05-16.32.27:110][ 41]LogSavePackage: Total save time: 184.412368ms
+[2015.10.05-16.32.27:110][ 41]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.10.05-16.32.27:185][ 41]LogFileHelpers: Saving map 'Home_Kratakos' took 0.452
+[2015.10.05-16.32.27:190][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Ship1Movement" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset" SILENT=true
+[2015.10.05-16.32.27:212][ 41]LogSavePackage: Save=3.215955ms
+[2015.10.05-16.32.27:212][ 41]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Ship1Movement2BAD6ADE4544579CA136A7BFFF8A40E0.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset'
+[2015.10.05-16.32.27:214][ 41]LogSavePackage: Total save time: 23.273766ms
+[2015.10.05-16.32.27:214][ 41]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/Ship1Movement.uasset
+[2015.10.05-16.32.34:333][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.32.34:334][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.32.34:334][248]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:32:34 AM)
+[2015.10.05-16.32.34:334][248]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.32.34:370][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036173s)
+[2015.10.05-16.32.34:371][248]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.32.34:371][248]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2015.10.05-16.32.34:371][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.037533s)
+[2015.10.05-16.32.34:409][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C614BBA3E0
+[2015.10.05-16.32.34:410][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C621550F40
+[2015.10.05-16.32.34:411][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615FC7EC0
+[2015.10.05-16.32.34:411][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615FC6F20
+[2015.10.05-16.32.34:424][248]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.32.34:444][248]LogInit: FAudioDevice initialized.
+[2015.10.05-16.32.34:484][248]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.32.34:493][248]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.32.34:493][248]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.32.34
+[2015.10.05-16.32.34:493][248]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.32.34:493][248]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.32.34:494][248]LogWorld: Bringing up level for play took: 0.009056
+[2015.10.05-16.32.34:499][248]LogBlueprintUserMessages: [Player_Kratakos_C_15] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.32.34:517][248]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.319
+[2015.10.05-16.32.34:518][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.32.52:265][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.32.52:341][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.32.52:373][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60EFF0A40
+[2015.10.05-16.33.17:047][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.33.17:089][438]LogSavePackage: Save=19.176416ms
+[2015.10.05-16.33.17:089][438]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterD28858D34963E804C46FF49F60235365.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.33.17:092][438]LogSavePackage: Total save time: 43.995723ms
+[2015.10.05-16.33.17:092][438]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.33.53:177][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.33.53:268][366]LogSavePackage: Save=45.332138ms
+[2015.10.05-16.33.53:268][366]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster51E8E33E4BE730E0FB26D09D96A73130.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.33.53:275][366]LogSavePackage: Total save time: 95.498901ms
+[2015.10.05-16.33.53:275][366]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.33.54:311][395]LogCascade: Quitting Cascade. FXSystem=0x000000C60D1AD440
+[2015.10.05-16.33.55:252][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.33.55:252][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.33.55:252][415]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:33:55 AM)
+[2015.10.05-16.33.55:253][415]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.33.55:315][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062546s)
+[2015.10.05-16.33.55:317][415]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.33.55:317][415]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2015.10.05-16.33.55:317][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.064683s)
+[2015.10.05-16.33.55:376][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D1AD440
+[2015.10.05-16.33.55:396][415]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.33.55:430][415]LogInit: FAudioDevice initialized.
+[2015.10.05-16.33.55:480][415]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.33.55:496][415]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.33.55:496][415]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.33.55
+[2015.10.05-16.33.55:496][415]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.33.55:496][415]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.33.55:498][415]LogWorld: Bringing up level for play took: 0.016113
+[2015.10.05-16.33.55:506][415]LogBlueprintUserMessages: [Player_Kratakos_C_16] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.33.55:537][415]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.7
+[2015.10.05-16.33.55:537][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.34.02:051][621]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.34.02:051][621]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.34.02:051][621]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.34.13:297][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.34.13:443][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.34.13:562][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D5A3F60
+[2015.10.05-16.34.25:971][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.34.26:062][292]LogSavePackage: Save=45.882957ms
+[2015.10.05-16.34.26:062][292]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster771BE97642698BF8DD46E5BCED6CE4BF.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.34.26:068][292]LogSavePackage: Total save time: 94.961770ms
+[2015.10.05-16.34.26:068][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.34.26:538][306]LogCascade: Quitting Cascade. FXSystem=0x000000C60DC513A0
+[2015.10.05-16.34.27:588][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.34.27:588][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.34.27:589][337]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:34:27 AM)
+[2015.10.05-16.34.27:589][337]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.34.27:618][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028915s)
+[2015.10.05-16.34.27:618][337]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.34.27:618][337]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2015.10.05-16.34.27:619][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.029988s)
+[2015.10.05-16.34.27:648][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DC513A0
+[2015.10.05-16.34.27:657][337]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.34.27:671][337]LogInit: FAudioDevice initialized.
+[2015.10.05-16.34.27:711][337]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.34.27:718][337]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.34.27:719][337]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.34.27
+[2015.10.05-16.34.27:719][337]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.34.27:719][337]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.34.27:720][337]LogWorld: Bringing up level for play took: 0.006450
+[2015.10.05-16.34.27:723][337]LogBlueprintUserMessages: [Player_Kratakos_C_17] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.34.27:735][337]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.898
+[2015.10.05-16.34.27:735][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.11:658][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.11:736][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.11:766][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D1AEB60
+[2015.10.05-16.35.21:795][  2]LogCascade: Quitting Cascade. FXSystem=0x000000C60DC52480
+[2015.10.05-16.35.46:037][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.35.46:076][869]LogSavePackage: Save=19.402218ms
+[2015.10.05-16.35.46:076][869]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster8832CA7741F5C9D51C5095B3F2490DD6.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.35.46:079][869]LogSavePackage: Total save time: 40.673282ms
+[2015.10.05-16.35.46:079][869]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.35.46:858][891]LogCascade: Quitting Cascade. FXSystem=0x000000C60DC016C0
+[2015.10.05-16.35.47:877][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.47:877][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.35.47:877][923]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:35:47 AM)
+[2015.10.05-16.35.47:878][923]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.35.47:908][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030573s)
+[2015.10.05-16.35.47:909][923]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.35.47:909][923]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2015.10.05-16.35.47:909][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.031781s)
+[2015.10.05-16.35.47:940][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DC016C0
+[2015.10.05-16.35.47:940][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DC52480
+[2015.10.05-16.35.47:950][923]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.35.47:965][923]LogInit: FAudioDevice initialized.
+[2015.10.05-16.35.48:002][923]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.35.48:009][923]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.35.48:010][923]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.35.48
+[2015.10.05-16.35.48:010][923]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.35.48:010][923]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.35.48:011][923]LogWorld: Bringing up level for play took: 0.006894
+[2015.10.05-16.35.48:014][923]LogBlueprintUserMessages: [Player_Kratakos_C_18] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.35.48:026][923]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.811
+[2015.10.05-16.35.48:026][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.53:276][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.53:358][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.35.53:387][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D7537E0
+[2015.10.05-16.35.58:737][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.35.58:772][227]LogSavePackage: Save=16.800800ms
+[2015.10.05-16.35.58:772][227]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterA6907AEF48B5263F8EF5D1A3E094B852.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.35.58:774][227]LogSavePackage: Total save time: 36.145285ms
+[2015.10.05-16.35.58:774][227]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.35.59:444][247]LogCascade: Quitting Cascade. FXSystem=0x000000C60E3C3E20
+[2015.10.05-16.36.00:385][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.36.00:385][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.36.00:385][276]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:36:00 AM)
+[2015.10.05-16.36.00:385][276]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.36.00:422][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036653s)
+[2015.10.05-16.36.00:423][276]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.36.00:423][276]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2015.10.05-16.36.00:423][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.037943s)
+[2015.10.05-16.36.00:460][276]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60E3C3E20
+[2015.10.05-16.36.00:472][276]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.36.00:491][276]LogInit: FAudioDevice initialized.
+[2015.10.05-16.36.00:532][276]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.36.00:541][276]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.36.00:541][276]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.36.00
+[2015.10.05-16.36.00:541][276]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.36.00:541][276]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.36.00:542][276]LogWorld: Bringing up level for play took: 0.008646
+[2015.10.05-16.36.00:547][276]LogBlueprintUserMessages: [Player_Kratakos_C_19] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.36.00:563][276]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos -0.274
+[2015.10.05-16.36.00:563][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.36.28:820][167]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.36.31:477][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.36.31:552][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.36.31:584][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60D7531A0
+[2015.10.05-16.37.08:999][650]BlueprintLog: New page: Compile Kratakos_Rail_Gun
+[2015.10.05-16.37.09:083][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.37.09:083][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.05-16.37.09:117][650]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_155) had an invalid function signature - it has now been fixed.
+[2015.10.05-16.37.09:117][650]BlueprintEditorCompileResults: Info [0936.02] Compile of Kratakos_Rail_Gun successful! [in 118 ms]
+[2015.10.05-16.37.11:220][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.11:220][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.37.11:220][740]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:37:11 AM)
+[2015.10.05-16.37.11:220][740]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.37.11:249][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028483s)
+[2015.10.05-16.37.11:249][740]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.37.11:250][740]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2015.10.05-16.37.11:250][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.029673s)
+[2015.10.05-16.37.11:250][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.37.11:279][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60C798FE0
+[2015.10.05-16.37.11:289][740]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.37.11:304][740]LogInit: FAudioDevice initialized.
+[2015.10.05-16.37.11:338][740]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.37.11:346][740]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.37.11:346][740]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.37.11
+[2015.10.05-16.37.11:346][740]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.37.11:346][740]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.37.11:347][740]LogWorld: Bringing up level for play took: 0.007352
+[2015.10.05-16.37.11:350][740]LogBlueprintUserMessages: [Player_Kratakos_C_20] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.37.11:362][740]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.525
+[2015.10.05-16.37.11:362][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.26:063][209]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.37.26:064][209]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.37.26:064][209]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.37.30:720][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.30:800][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.30:829][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C654835BC0
+[2015.10.05-16.37.53:985][660]BlueprintLog: New page: Compile Kratakos_Rail_Gun
+[2015.10.05-16.37.54:105][660]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_155) had an invalid function signature - it has now been fixed.
+[2015.10.05-16.37.54:105][660]BlueprintEditorCompileResults: Info [0981.01] Compile of Kratakos_Rail_Gun successful! [in 120 ms]
+[2015.10.05-16.37.55:808][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.55:808][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.37.55:808][740]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:37:55 AM)
+[2015.10.05-16.37.55:808][740]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.37.55:837][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029037s)
+[2015.10.05-16.37.55:838][740]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.37.55:838][740]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2015.10.05-16.37.55:839][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.030205s)
+[2015.10.05-16.37.55:839][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-16.37.55:881][740]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.37.55:896][740]LogInit: FAudioDevice initialized.
+[2015.10.05-16.37.55:935][740]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.37.55:941][740]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.37.55:941][740]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.37.55
+[2015.10.05-16.37.55:941][740]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.37.55:943][740]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.37.55:943][740]LogWorld: Bringing up level for play took: 0.006598
+[2015.10.05-16.37.55:947][740]LogBlueprintUserMessages: [Player_Kratakos_C_21] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.37.55:958][740]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 1.121
+[2015.10.05-16.37.55:958][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.37.58:983][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.37.58:983][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.37.58:983][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.38.21:707][559]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.38.25:708][686]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.38.29:737][809]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.38.30:630][837]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue'
+	EnemyAI1_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.EnemyAI1_C_12
+	Function /Game/SSA/Blueprints/AI/EnemyAI1.EnemyAI1_C:ExecuteUbergraph_EnemyAI1:008C
+[2015.10.05-16.38.30:632][837]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue' from node Set Value as Vector in graph 'EventGraph' in blueprint EnemyAI1
+[2015.10.05-16.38.30:632][837]LogBlueprintUserMessages: [Player_Kratakos_C_21] X=-335.795 Y=858.821 Z=265.594
+[2015.10.05-16.38.35:743][  3]LogScript:Warning: Cannot access 'AI_Ram_Trigger_C_39'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue2'
+	Enemy_Kratakos_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.Enemy_Kratakos_C_4
+	Function /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos_C:ExecuteUbergraph_Enemy_Kratakos:0C60
+[2015.10.05-16.38.35:743][  3]PIE:Error: Error Cannot access 'AI_Ram_Trigger_C_39'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue2' from node Add Child Actor Component in graph 'EventGraph' in blueprint Enemy_Kratakos
+[2015.10.05-16.38.36:476][ 17]LogScript:Warning: Cannot access 'AI_Ram_Trigger_C_39'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue2'
+	Enemy_Kratakos_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.Enemy_Kratakos_C_4
+	Function /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos_C:ExecuteUbergraph_Enemy_Kratakos:012D
+[2015.10.05-16.38.36:476][ 17]PIE:Error: Error Cannot access 'AI_Ram_Trigger_C_39'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue2' from node DestroyActor in graph 'EventGraph' in blueprint Enemy_Kratakos
+[2015.10.05-16.38.45:724][292]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.38.49:748][418]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.38.50:341][437]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.38.50:341][437]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.38.50:341][437]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.38.51:552][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.38.51:631][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.38.51:664][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60DC51260
+[2015.10.05-16.39.23:290][927]BlueprintLog: New page: Compile Crystal
+[2015.10.05-16.39.23:523][927]BlueprintEditorCompileResults: Info [1070.42] Compile of Crystal successful! [in 233 ms]
+[2015.10.05-16.39.24:932][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.39.24:932][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.39.24:932][982]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:39:24 AM)
+[2015.10.05-16.39.24:932][982]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.39.24:969][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036642s)
+[2015.10.05-16.39.24:970][982]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.39.24:970][982]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2015.10.05-16.39.24:970][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.037967s)
+[2015.10.05-16.39.25:019][982]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.39.25:039][982]LogInit: FAudioDevice initialized.
+[2015.10.05-16.39.25:078][982]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.39.25:088][982]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.39.25:088][982]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.39.25
+[2015.10.05-16.39.25:088][982]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.39.25:088][982]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.39.25:089][982]LogWorld: Bringing up level for play took: 0.009698
+[2015.10.05-16.39.25:094][982]LogBlueprintUserMessages: [Player_Kratakos_C_22] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.39.25:112][982]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.275
+[2015.10.05-16.39.25:112][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.39.47:021][673]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.39.47:021][673]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.39.47:021][673]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.05-16.39.56:205][962]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.00:234][ 89]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.04:239][214]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.08:273][341]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.12:295][467]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.15:674][572]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue'
+	EnemyAI1_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.EnemyAI1_C_14
+	Function /Game/SSA/Blueprints/AI/EnemyAI1.EnemyAI1_C:ExecuteUbergraph_EnemyAI1:008C
+[2015.10.05-16.40.15:674][572]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue' from node Set Value as Vector in graph 'EventGraph' in blueprint EnemyAI1
+[2015.10.05-16.40.15:674][572]LogBlueprintUserMessages: [Player_Kratakos_C_22] X=610.889 Y=-854.488 Z=265.594
+[2015.10.05-16.40.29:417][  5]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.32:730][108]LogCharacterMovement: Enemy_Human_C_6 is stuck and failed to move!
+[2015.10.05-16.40.32:761][109]LogCharacterMovement: Enemy_Human_C_6 is stuck and failed to move!
+[2015.10.05-16.40.33:423][129]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.37:438][255]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.41:461][383]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.40.44:925][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.40.45:007][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.40.45:040][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C63C768A40
+[2015.10.05-16.40.54:703][745]LogCascade: Quitting Cascade. FXSystem=0x000000C60F175300
+[2015.10.05-16.41.10:271][225]LogCascade: Quitting Cascade. FXSystem=0x000000C6209E8A40
+[2015.10.05-16.41.27:914][954]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.05-16.41.27:915][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/P_Grass'
+[2015.10.05-16.41.27:915][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/P_Grass' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/P_Magic.uasset.
+[2015.10.05-16.41.27:915][954]LoadErrors:Error: Error /Game/Effects/Effects/P_Magic : Can't find file for asset. /Game/Assets/Effects/P_Grass
+[2015.10.05-16.41.27:915][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/P_Grass'
+[2015.10.05-16.41.27:916][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/P_Grass' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/P_Magic.uasset.
+[2015.10.05-16.41.27:916][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/P_Grass'
+[2015.10.05-16.41.27:916][954]LoadErrors: Info Failed to load /Game/Assets/Effects/P_Grass.P_Grass Referenced by P_Magic
+[2015.10.05-16.41.27:916][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/P_Grass' while loading NULL.
+[2015.10.05-16.41.27:917][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Laser_Pulse'
+[2015.10.05-16.41.27:917][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Laser_Pulse' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Mat_Laser.uasset.
+[2015.10.05-16.41.27:917][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Mat_Laser : Can't find file for asset. /Game/Assets/Effects/Materials/Mat_Laser_Pulse
+[2015.10.05-16.41.27:917][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Laser_Pulse'
+[2015.10.05-16.41.27:918][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Laser_Pulse' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Mat_Laser.uasset.
+[2015.10.05-16.41.27:918][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Laser_Pulse'
+[2015.10.05-16.41.27:918][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Materials/Mat_Laser_Pulse.Mat_Laser_Pulse Referenced by Mat_Laser
+[2015.10.05-16.41.27:918][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Laser_Pulse' while loading NULL.
+[2015.10.05-16.41.27:973][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Leaf'
+[2015.10.05-16.41.27:973][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Leaf' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Mat_Rock.uasset.
+[2015.10.05-16.41.27:973][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Mat_Rock : Can't find file for asset. /Game/Assets/Effects/Materials/Mat_Leaf
+[2015.10.05-16.41.27:973][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Leaf'
+[2015.10.05-16.41.27:973][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Leaf' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Mat_Rock.uasset.
+[2015.10.05-16.41.27:974][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Mat_Leaf'
+[2015.10.05-16.41.27:974][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Materials/Mat_Leaf.Mat_Leaf Referenced by Mat_Rock
+[2015.10.05-16.41.27:974][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Mat_Leaf' while loading NULL.
+[2015.10.05-16.41.27:976][954]LogMaterial: Missing cached shader map for material Mat_Smoke, compiling. 
+[2015.10.05-16.41.28:036][954]LogMaterial: Missing cached shader map for material Mat_Trail, compiling. 
+[2015.10.05-16.41.28:053][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Heat'
+[2015.10.05-16.41.28:053][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Heat' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/M_HeatDistort.uasset.
+[2015.10.05-16.41.28:053][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Fire/M_HeatDistort : Can't find file for asset. /Game/Assets/Effects/Materials/Fire/Mat_Heat
+[2015.10.05-16.41.28:053][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Heat'
+[2015.10.05-16.41.28:053][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Heat' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/M_HeatDistort.uasset.
+[2015.10.05-16.41.28:054][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Heat'
+[2015.10.05-16.41.28:054][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Materials/Fire/Mat_Heat.Mat_Heat Referenced by M_HeatDistort
+[2015.10.05-16.41.28:054][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Heat' while loading NULL.
+[2015.10.05-16.41.28:064][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N'
+[2015.10.05-16.41.28:064][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/Mat_Heat.uasset.
+[2015.10.05-16.41.28:064][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Fire/Mat_Heat : Can't find file for asset. /Game/Assets/Effects/Textures/Noise/T_HeatTile3_N
+[2015.10.05-16.41.28:064][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03'
+[2015.10.05-16.41.28:064][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/Mat_Heat.uasset.
+[2015.10.05-16.41.28:064][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Fire/Mat_Heat : Can't find file for asset. /Game/Assets/Effects/Textures/Noise/T_TilingNoise03
+[2015.10.05-16.41.28:065][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N'
+[2015.10.05-16.41.28:065][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/Mat_Heat.uasset.
+[2015.10.05-16.41.28:065][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03'
+[2015.10.05-16.41.28:065][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/Mat_Heat.uasset.
+[2015.10.05-16.41.28:067][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03'
+[2015.10.05-16.41.28:067][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Textures/Noise/T_TilingNoise03.T_TilingNoise03 Referenced by MaterialExpressionTextureSample_3
+[2015.10.05-16.41.28:067][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_TilingNoise03' while loading NULL.
+[2015.10.05-16.41.28:067][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N'
+[2015.10.05-16.41.28:068][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Textures/Noise/T_HeatTile3_N.T_HeatTile3_N Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2015.10.05-16.41.28:068][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N' while loading NULL.
+[2015.10.05-16.41.28:068][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N'
+[2015.10.05-16.41.28:068][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Textures/Noise/T_HeatTile3_N.T_HeatTile3_N Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2015.10.05-16.41.28:068][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Textures/Noise/T_HeatTile3_N' while loading NULL.
+[2015.10.05-16.41.28:077][954]LogMaterial: Missing cached shader map for material Mat_Heat, compiling. 
+[2015.10.05-16.41.28:077][954]LogMaterial:Warning: Failed to compile Material /Game/Effects/Effects/Materials/Fire/Mat_Heat.Mat_Heat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.05-16.41.28:077][954]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.05-16.41.28:077][954]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.05-16.41.28:080][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Fire'
+[2015.10.05-16.41.28:080][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Fire' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset.
+[2015.10.05-16.41.28:080][954]LoadErrors:Error: Error /Game/Effects/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise : Can't find file for asset. /Game/Assets/Effects/Materials/Fire/Mat_Fire
+[2015.10.05-16.41.28:081][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Fire'
+[2015.10.05-16.41.28:081][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Fire' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset.
+[2015.10.05-16.41.28:081][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Materials/Fire/Mat_Fire'
+[2015.10.05-16.41.28:081][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Materials/Fire/Mat_Fire.Mat_Fire Referenced by M_Fire_SubUV_11X11_Noise
+[2015.10.05-16.41.28:081][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Materials/Fire/Mat_Fire' while loading NULL.
+[2015.10.05-16.41.28:258][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Particles/P_Fireball_Yellow'
+[2015.10.05-16.41.28:258][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Particles/P_Fireball_Yellow' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Particles/P_LightningBall.uasset.
+[2015.10.05-16.41.28:259][954]LoadErrors:Error: Error /Game/Effects/Effects/Particles/P_LightningBall : Can't find file for asset. /Game/Assets/Effects/Particles/P_Fireball_Yellow
+[2015.10.05-16.41.28:259][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Particles/P_Fireball_Yellow'
+[2015.10.05-16.41.28:259][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Particles/P_Fireball_Yellow' while loading ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Effects/Particles/P_LightningBall.uasset.
+[2015.10.05-16.41.28:259][954]LogLinker:Warning: Can't find file '/Game/Assets/Effects/Particles/P_Fireball_Yellow'
+[2015.10.05-16.41.28:260][954]LoadErrors: Info Failed to load /Game/Assets/Effects/Particles/P_Fireball_Yellow.P_Fireball_Yellow Referenced by P_LightningBall
+[2015.10.05-16.41.28:260][954]LogLinker:Warning: Can't find file for asset '/Game/Assets/Effects/Particles/P_Fireball_Yellow' while loading NULL.
+[2015.10.05-16.41.28:435][954]LogTexture:Display: Building textures: Smoke (AutoDXT)
+[2015.10.05-16.41.28:638][954]LogTexture:Display: Building textures: T_HeatTile3_N (BC5)
+[2015.10.05-16.41.29:413][954]LogTexture:Display: Building textures: T_TilingNoise03 (AutoDXT)
+[2015.10.05-16.41.31:893][954]LogTexture:Display: Building textures: T_TilingNoise12 (AutoDXT)
+[2015.10.05-16.41.34:890][954]LogTexture:Display: Building textures: T_TilingNoise16 (AutoDXT)
+[2015.10.05-16.41.35:393][954]LogTexture:Display: Building textures: T_Snow01_Packed (AutoDXT)
+[2015.10.05-16.41.35:516][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6209E8A40
+[2015.10.05-16.41.35:517][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60F175300
+[2015.10.05-16.42.17:857][576]LogSavePackage: Save=119.290131ms
+[2015.10.05-16.42.17:857][576]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Kratakos_Rail_Gun951734AC440CD1340D9FA483ED9543DA.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Weapons/Kratakos_Rail_Gun.uasset'
+[2015.10.05-16.42.17:861][576]LogSavePackage: Total save time: 161.164690ms
+[2015.10.05-16.42.17:861][576]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Weapons/Kratakos_Rail_Gun.uasset
+[2015.10.05-16.42.17:884][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.42.17:949][576]LogSavePackage: Save=31.912796ms
+[2015.10.05-16.42.17:949][576]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_ThrusterA811DCDC4FE07F40E67C7095BC8A8CFA.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.42.17:952][576]LogSavePackage: Total save time: 66.976544ms
+[2015.10.05-16.42.17:952][576]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.42.17:995][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Objects/Crystal" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal.uasset" SILENT=true
+[2015.10.05-16.42.18:182][576]LogSavePackage: Save=155.459793ms
+[2015.10.05-16.42.18:182][576]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/CrystalB02EBC384DF48398029BDD89F74BDAC4.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal.uasset'
+[2015.10.05-16.42.18:187][576]LogSavePackage: Total save time: 189.931240ms
+[2015.10.05-16.42.18:187][576]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal.uasset
+[2015.10.05-16.42.19:287][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/P_Thruster" FILE="../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset" SILENT=true
+[2015.10.05-16.42.19:333][605]LogSavePackage: Save=21.742765ms
+[2015.10.05-16.42.19:333][605]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/P_Thruster55D663A944415BF9CB617F815FA9F63B.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset'
+[2015.10.05-16.42.19:334][605]LogSavePackage: Total save time: 46.045896ms
+[2015.10.05-16.42.19:334][605]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/Effects/Particles/P_Thruster.uasset
+[2015.10.05-16.42.20:265][631]LogCascade: Quitting Cascade. FXSystem=0x000000C67756A480
+[2015.10.05-16.42.21:646][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.42.21:646][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-16.42.21:646][673]PIE: New page: PIE session: Home_Kratakos (Oct 5, 2015, 8:42:21 AM)
+[2015.10.05-16.42.21:647][673]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.10.05-16.42.21:674][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027085s)
+[2015.10.05-16.42.21:674][673]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.10.05-16.42.21:675][673]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2015.10.05-16.42.21:675][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.028347s)
+[2015.10.05-16.42.21:710][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C67756A480
+[2015.10.05-16.42.21:722][673]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-16.42.21:742][673]LogInit: FAudioDevice initialized.
+[2015.10.05-16.42.21:781][673]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.10.05-16.42.21:789][673]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.05-16.42.21:789][673]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 60) at 2015.10.05-12.42.21
+[2015.10.05-16.42.21:789][673]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.42.21:790][673]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-16.42.21:791][673]LogWorld: Bringing up level for play took: 0.008746
+[2015.10.05-16.42.21:796][673]LogBlueprintUserMessages: [Player_Kratakos_C_23] X=270.000 Y=750.000 Z=265.594
+[2015.10.05-16.42.21:812][673]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 0.975
+[2015.10.05-16.42.21:812][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.42.37:420][164]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.42.41:442][291]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.42.45:472][418]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.42.49:505][544]LogScript:Warning: Attempted to get an item from array CallFunc_GetComponentsByTag_ReturnValue out of bounds [0/0]!
+[2015.10.05-16.42.50:090][562]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue'
+	EnemyAI1_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.EnemyAI1_C_16
+	Function /Game/SSA/Blueprints/AI/EnemyAI1.EnemyAI1_C:ExecuteUbergraph_EnemyAI1:008C
+[2015.10.05-16.42.50:090][562]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue' from node Set Value as Vector in graph 'EventGraph' in blueprint EnemyAI1
+[2015.10.05-16.42.50:090][562]LogBlueprintUserMessages: [Player_Kratakos_C_23] X=421.613 Y=-730.766 Z=265.594
+[2015.10.05-16.42.52:138][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.42.52:241][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.10.05-16.42.52:281][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6A96BE980
+[2015.10.05-16.42.56:507][777]LogSavePackage: Save=157.590363ms
+[2015.10.05-16.42.56:507][777]LogSavePackage: Moving '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Saved/Home_KratakosDCB50A944BAEC08B1CA2E0BCAEC1AED4.tmp' to '../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.10.05-16.42.56:509][777]LogSavePackage: Total save time: 188.132953ms
+[2015.10.05-16.42.56:509][777]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jin/Desktop/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.10.05-16.43.31:174][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.05-16.43.31:255][256]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2015.10.05-16.43.31:527][257]Cmd: QUIT_EDITOR
+[2015.10.05-16.43.32:674][257]LogExit: Preparing to exit.
+[2015.10.05-16.43.33:107][257]LogExit: Editor shut down
+[2015.10.05-16.43.33:107][257]LogExit: Transaction tracking system shut down
+[2015.10.05-16.43.33:113][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C65672EB60
+[2015.10.05-16.43.33:113][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6553E6520
+[2015.10.05-16.43.33:124][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C654B71800
+[2015.10.05-16.43.33:134][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C662E254E0
+[2015.10.05-16.43.33:138][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615A73D80
+[2015.10.05-16.43.33:138][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6319D05E0
+[2015.10.05-16.43.33:138][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6319D1DA0
+[2015.10.05-16.43.33:139][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C606A85440
+[2015.10.05-16.43.33:140][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60F174EA0
+[2015.10.05-16.43.33:387][257]LogExit: Object subsystem successfully closed.
+[2015.10.05-16.43.33:402][257]LogD3D11RHI: Shutdown
+[2015.10.05-16.43.33:402][257]LogD3D11RHI: CleanupD3DDevice
+[2015.10.05-16.43.33:512][257]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module StatsViewer (202)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module DistCurveEditor (201)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module Cascade (200)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.10.05-16.43.33:541][257]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.10.05-16.43.33:542][257]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.10.05-16.43.33:543][257]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.10.05-16.43.33:544][257]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.10.05-16.43.34:164][257]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.10.05-16.43.34:165][257]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.10.05-16.43.34:166][257]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.05-16.43.34:399][257]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.05-16.43.34:420][257]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.05-16.43.34:421][257]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.05-16.43.34:421][257]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.05-16.43.34:422][257]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.10.05-16.43.34:423][257]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.10.05-16.43.34:423][257]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.10.05-16.43.34:524][257]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.10.05-16.43.34:525][257]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.10.05-16.43.34:667][257]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.10.05-16.43.34:667][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.05-16.43.34:667][257]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.05-16.43.34:667][257]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.05-16.43.34:673][257]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.05-16.43.34:673][257]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.05-16.43.34:673][257]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.05-16.43.34:674][257]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.05-16.43.34:676][257]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.05-16.43.34:676][257]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.05-16.43.34:676][257]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.05-16.43.34:676][257]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.05-16.43.34:677][257]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.05-16.43.34:680][257]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.05-16.43.34:722][257]LogDerivedDataCache: Shutdown
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.05-16.43.34:722][257]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.05-16.43.35:723][257]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.05-16.43.35:725][257]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.05-16.43.35:725][257]LogExit: Exiting.
+[2015.10.05-16.43.35:764][257]Log file closed, 10/05/15 12:43:35
