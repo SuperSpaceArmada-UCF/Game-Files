@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>2892</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>SuperSpaceArmada</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.1-2689999+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/4.9/</RootDir>
+<MachineId>435EA4A8489B84C6F4FEAAB84CBAE6C8</MachineId>
+<EpicAccountId>e03effeb7bdf4ddc9c712682a578c51b</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Assertion failed: ((UObject*)ContainerPtr)->IsA((UClass*)GetOuter()) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h] [Line: 308] 
+'Default__Player_Kratakos_C' is of class 'Player_Kratakos_C' however property 'ObjectProperty_849' belongs to class 'TRASHCLASS_Player_150'
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 4600</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8518656000</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>4024729600</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140734075453440</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>1470394368</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1493585920</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>2521640960</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>2558218240</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
