@@ -1,0 +1,45 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	SuperSpaceArmada/Intermediate/CachedAssetRegistry.bin
+	SuperSpaceArmada/Saved/AutoScreenshot.png
+	SuperSpaceArmada/Saved/Backup/Home_Kratakos_2015-11-12-11-48-44.umap
+	SuperSpaceArmada/Saved/Config/Windows/Editor.ini
+	SuperSpaceArmada/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+	SuperSpaceArmada/Saved/Logs/SuperSpaceArmada.log
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   SuperSpaceArmada/Content/Effects/Particles/P_Blackhole.uasset
+#	modified:   SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+#	modified:   SuperSpaceArmada/Saved/Autosaves/Game/SSA/Maps/Home_Kratakos_Auto1.umap
+#	renamed:    SuperSpaceArmada/Saved/Backup/Home_Kratakos_2015-11-04-23-17-47.umap -> SuperSpaceArmada/Saved/Backup/Home_Kratakos_2015-11-12-11-48-44.umap
+#	new file:   SuperSpaceArmada/Saved/Backup/Home_Kratakos_2015-11-12-12-07-13.umap
+#	new file:   SuperSpaceArmada/Saved/Backup/P_Blackhole_2015-11-12-11-44-37.uasset
+#	new file:   SuperSpaceArmada/Saved/Backup/P_Blackhole_2015-11-12-12-02-12.uasset
+#	modified:   SuperSpaceArmada/Saved/Config/Windows/Editor.ini
+#	modified:   SuperSpaceArmada/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+#	modified:   SuperSpaceArmada/Saved/Config/WorldState/2049528865.json
+#	new file:   SuperSpaceArmada/Saved/Logs/SuperSpaceArmada-backup-2015.11.12-08.42.24.log
+#	modified:   SuperSpaceArmada/Saved/Logs/SuperSpaceArmada.log
+#	new file:   SuperSpaceArmada/Saved/Logs/SuperSpaceArmada_2-backup-2015.11.12-11.31.09.log
+#	modified:   SuperSpaceArmada/Saved/Logs/SuperSpaceArmada_2.log
+#	new file:   SuperSpaceArmada/Saved/Logs/SuperSpaceArmada_3.log
+#	deleted:    SuperSpaceArmada/Saved/Logs/UE4CC-Windows-71B552364A9497AD2D20BA9E2D79EF7C/CrashContext.runtime-xml
+#	deleted:    SuperSpaceArmada/Saved/Logs/UE4CC-Windows-71B552364A9497AD2D20BA9E2D79EF7C/UE4Minidump.dmp
+#
+
