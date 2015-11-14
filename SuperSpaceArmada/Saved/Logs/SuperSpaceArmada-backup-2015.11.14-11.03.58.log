@@ -1,0 +1,1273 @@
+﻿[2015.11.14-15.38.26:309][  0]Log file open, 11/14/15 10:38:26
+[2015.11.14-15.38.26:309][  0]LogInit:Display: Running engine without a game
+[2015.11.14-15.38.26:309][  0]LogInit:Display: Loading recent project file: ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/SuperSpaceArmada.uproject
+[2015.11.14-15.38.26:309][  0]LogInit:Display: RandInit(873268921) SRandInit(873268922).
+[2015.11.14-15.38.26:309][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.14-15.38.26:309][  0]LogStats: Stats thread started at 0.063579
+[2015.11.14-15.38.26:309][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.14-15.38.26:309][  0]LogInit: API Version: 2672455
+[2015.11.14-15.38.26:309][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.11.14-15.38.26:309][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.14-15.38.26:309][  0]LogInit: Build Configuration: Development
+[2015.11.14-15.38.26:309][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.14-15.38.26:309][  0]LogInit: Command line: 
+[2015.11.14-15.38.26:309][  0]LogInit: Base directory: F:/Program Files/Unreal/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.14-15.38.26:309][  0]LogInit: Rocket: 1
+[2015.11.14-15.38.26:315][  0]LogInit: Using libcurl 7.41.0
+[2015.11.14-15.38.26:315][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.14-15.38.26:315][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.14-15.38.26:315][  0]LogInit:  - other features:
+[2015.11.14-15.38.26:315][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.14-15.38.26:315][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.14-15.38.26:315][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.14-15.38.26:315][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.14-15.38.26:315][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.14-15.38.26:315][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.14-15.38.26:316][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.14-15.38.26:316][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.14-15.38.26:316][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.14-15.38.26:316][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.14-15.38.26:321][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.14-15.38.26:326][  0]LogInit: Object subsystem initialized
+[2015.11.14-15.38.26:327][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-15.38.26:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.14-15.38.26:333][  0]LogInit: Computer: ANDREW_2015
+[2015.11.14-15.38.26:333][  0]LogInit: User: aehrlich92
+[2015.11.14-15.38.26:333][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.14-15.38.26:333][  0]LogInit: High frequency timer resolution =3.984650 MHz
+[2015.11.14-15.38.26:333][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.14-15.38.26:333][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.38.26:333][  0]LogMemory: Process Physical Memory: 54.67 MB used, 54.67 MB peak
+[2015.11.14-15.38.26:333][  0]LogMemory: Process Virtual Memory: 55.31 MB used, 55.31 MB peak
+[2015.11.14-15.38.26:333][  0]LogMemory: Physical Memory: 5706.65 MB used, 16322.88 MB total
+[2015.11.14-15.38.26:333][  0]LogMemory: Virtual Memory: 364.35 MB used, 134217728.00 MB total
+[2015.11.14-15.38.26:371][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.14-15.38.26:892][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.11.14-15.38.26:892][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 2 output[s]
+[2015.11.14-15.38.26:893][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.14-15.38.26:894][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
+[2015.11.14-15.38.26:894][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.14-15.38.26:898][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.14-15.38.26:898][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.14-15.38.26:906][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.14-15.38.26:922][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/16072/).
+[2015.11.14-15.38.26:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/338A1CCF4989F9C2905640AD9E9B5373/'.
+[2015.11.14-15.38.26:922][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.14-15.38.28:124][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.14-15.38.28:128][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.14-15.38.28:132][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.14-15.38.28:136][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.14-15.38.28:139][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.14-15.38.28:142][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.14-15.38.28:145][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.14-15.38.28:147][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.14-15.38.28:150][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.14-15.38.28:153][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.14-15.38.28:156][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.14-15.38.28:159][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.14-15.38.28:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.14-15.38.28:177][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.14-15.38.28:180][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.14-15.38.28:183][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.14-15.38.28:187][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.14-15.38.28:187][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.14-15.38.28:245][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.14-15.38.28:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.14-15.38.28:370][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.14-15.38.28:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aehrlich92/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.14-15.38.28:503][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-15.38.28:505][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.14-15.38.28:602][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.14-15.38.28:602][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.14-15.38.28:796][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.14-15.38.29:778][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.11.14-15.38.29:823][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.14-15.38.30:340][  0]SourceControl: Info Source control is disabled
+[2015.11.14-15.38.30:347][  0]SourceControl: Info Source control is disabled
+[2015.11.14-15.38.30:374][  0]SourceControl: Info Source control is disabled
+[2015.11.14-15.38.30:406][  0]SourceControl: Info Source control is disabled
+[2015.11.14-15.38.30:679][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.30:831][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.11.14-15.38.30:831][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.11.14-15.38.30:915][  0]LogEngine: Initializing Engine...
+[2015.11.14-15.38.30:916][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.14-15.38.30:931][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.14-15.38.31:034][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.14-15.38.31:054][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.38.31:073][  0]LogInit: FAudioDevice initialized.
+[2015.11.14-15.38.31:087][  0]LogDerivedDataCache: Saved boot cache 0.01s 41MB C:/Users/aehrlich92/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.14-15.38.31:090][  0]LogInit: Texture streaming: Enabled
+[2015.11.14-15.38.31:116][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.14-15.38.31:116][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.14-15.38.31:117][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7bdbd2584788e6e37f918c9187bab22c|b300224d71e64562a5bff06c2aaa78f8|45aed112-7b58-41bf-9eba-b8dcb7f9dd12
+[2015.11.14-15.38.31:117][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.14-15.38.31:267][  0]LogInit: Transaction tracking system initialized
+[2015.11.14-15.38.31:533][  0]BlueprintLog: New page: Editor Load
+[2015.11.14-15.38.32:055][  0]LocalizationService: Info Localization service is disabled
+[2015.11.14-15.38.32:329][  0]LogConsoleResponse:Display: 
+[2015.11.14-15.38.32:429][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.14-15.38.32:603][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/' took 0.01s
+[2015.11.14-15.38.32:635][  0]SourceControl: Info Source control is disabled
+[2015.11.14-15.38.32:635][  0]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.14-15.38.32:635][  0]LightingResults: New page: Lighting Build
+[2015.11.14-15.38.32:637][  0]MapCheck: New page: Map Check
+[2015.11.14-15.38.32:637][  0]LightingResults: New page: Lighting Build
+[2015.11.14-15.38.32:644][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B386E1620
+[2015.11.14-15.38.32:706][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:707][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:709][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:710][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:711][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:712][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:713][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.32:714][  0]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.38.34:780][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.38.34:781][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.14-15.38.34:781][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.38.34:781][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.38.34:781][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.14-15.38.34:781][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.38.34:782][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.38.34:782][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.14-15.38.34:782][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.38.34:782][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.38.34:782][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.14-15.38.34:782][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.38.34:783][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.38.34:783][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.14-15.38.34:783][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.14-15.38.34:783][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.14-15.38.34:783][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.38.35:350][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.11.14-15.38.35:350][  0]LogMaterial:Warning: Failed to compile Material /Game/Geometry/Meshes/KratakosFrigate/lambert1.lambert1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.14-15.38.35:350][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.14-15.38.35:652][  0]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.14-15.38.35:657][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.14-15.38.35:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.14-15.38.35:726][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.297ms to complete.
+[2015.11.14-15.38.35:726][  0]LogFileHelpers: Loading map 'Home_Kratakos' took 3.091
+[2015.11.14-15.38.35:846][  0]LogCollectionManager: Loaded 0 collections in 0.000956 seconds
+[2015.11.14-15.38.35:884][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.11.14-15.38.35:884][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Developers/aehrlich92/Collections/' took 0.01s
+[2015.11.14-15.38.35:884][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.11.14-15.38.35:884][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1882 classes and 339 folders.
+[2015.11.14-15.38.35:889][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.14-15.38.35:892][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.11.14-15.38.35:933][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.11.14-15.38.35:965][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.14-15.38.36:001][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.14-15.38.36:005][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.14-15.38.36:026][  0]LogLoad: Full Startup: 10.17 seconds (BP compile: 0.92 seconds)
+[2015.11.14-15.38.36:034][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.11.14-15.38.36:073][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.14-15.38.36:175][  0]LogRenderer: Reallocating scene render targets to support 1208x584 (Frame:2).
+[2015.11.14-15.38.36:687][ 14]LogAssetRegistry: Asset discovery search completed in 6.9191 seconds
+[2015.11.14-15.38.36:687][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.14-15.38.36:687][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2015.11.14-15.44.09:511][320]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.44.09:604][320]Cmd: MAP LOAD FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.14-15.44.09:604][320]LightingResults: New page: Lighting Build
+[2015.11.14-15.44.09:617][320]LoadErrors: New page: Loading map: Menu.umap
+[2015.11.14-15.44.09:617][320]MapCheck: New page: Map Check
+[2015.11.14-15.44.09:617][320]LightingResults: New page: Lighting Build
+[2015.11.14-15.44.09:630][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B49853D80
+[2015.11.14-15.44.09:634][320]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.14-15.44.09:673][320]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.14-15.44.09:739][320]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.764ms to complete.
+[2015.11.14-15.44.09:739][320]LogFileHelpers: Loading map 'Menu' took 0.136
+[2015.11.14-15.44.11:624][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.44.11:624][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.44.11:624][543]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:44:11 AM)
+[2015.11.14-15.44.11:624][543]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.44.11:626][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001761s)
+[2015.11.14-15.44.11:627][543]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.44.11:627][543]LogPlayLevel: PIE: World Init took: (0.000403s)
+[2015.11.14-15.44.11:627][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002298s)
+[2015.11.14-15.44.11:647][543]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.44.11:654][543]LogInit: FAudioDevice initialized.
+[2015.11.14-15.44.11:700][543]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.44.11:702][543]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.44.11
+[2015.11.14-15.44.11:702][543]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.44.11:702][543]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.44.11:703][543]LogWorld: Bringing up level for play took: 0.001045
+[2015.11.14-15.44.11:725][543]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.44.11:725][543]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.646
+[2015.11.14-15.44.11:725][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.44.11:801][549]LogBlueprintUserMessages: [MainMenu_C_0] Hello
+[2015.11.14-15.44.11:801][549]LogBlueprintUserMessages: [MainMenu_C_0] yes
+[2015.11.14-15.44.12:926][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.44.12:960][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.44.12:986][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B1916DBC0
+[2015.11.14-15.46.22:384][  9]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.46.22:738][  9]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.11.14-15.47.24:221][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\BACKGROUND.png)
+[2015.11.14-15.47.24:291][  5]LogTexture:Display: Building textures: BACKGROUND (AutoDXT)
+[2015.11.14-15.47.25:002][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\BARS.png)
+[2015.11.14-15.47.25:004][  5]LogTexture:Display: Building textures: BARS (BGRA8)
+[2015.11.14-15.47.25:010][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\BIGBAR.png)
+[2015.11.14-15.47.25:011][  5]LogTexture:Display: Building textures: BIGBAR (BGRA8)
+[2015.11.14-15.47.25:019][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\LOGO_TEMP.png)
+[2015.11.14-15.47.25:030][  5]LogTexture:Display: Building textures: LOGO_TEMP (BGRA8)
+[2015.11.14-15.47.25:058][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_01.png)
+[2015.11.14-15.47.25:061][  5]LogTexture:Display: Building textures: RING_01 (BGRA8)
+[2015.11.14-15.47.25:070][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_02.png)
+[2015.11.14-15.47.25:072][  5]LogTexture:Display: Building textures: RING_02 (BGRA8)
+[2015.11.14-15.47.25:081][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_03.png)
+[2015.11.14-15.47.25:086][  5]LogTexture:Display: Building textures: RING_03 (BGRA8)
+[2015.11.14-15.47.25:101][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_04.png)
+[2015.11.14-15.47.25:105][  5]LogTexture:Display: Building textures: RING_04 (AutoDXT)
+[2015.11.14-15.47.25:117][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_05.png)
+[2015.11.14-15.47.25:123][  5]LogTexture:Display: Building textures: RING_05 (AutoDXT)
+[2015.11.14-15.47.25:140][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_06.png)
+[2015.11.14-15.47.25:154][  5]LogTexture:Display: Building textures: RING_06 (BGRA8)
+[2015.11.14-15.47.25:200][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\Desktop\STARTSCREEN-2015-11-14\STARTSCREEN\RING_07.png)
+[2015.11.14-15.47.25:215][  5]LogTexture:Display: Building textures: RING_07 (BGRA8)
+[2015.11.14-15.47.45:627][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.14-15.47.45:627][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.14-15.47.45:841][288]LogSavePackage: Save=157.090088ms
+[2015.11.14-15.47.45:841][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu0D7EE98B4CADF6A2F77EF8995ABFAC24.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.47.45:842][288]LogSavePackage: Total save time: 168.159813ms
+[2015.11.14-15.47.45:843][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.47.46:045][288]LogSavePackage: Save=192.693466ms
+[2015.11.14-15.47.46:045][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/BACKGROUNDA150DCE14CF86A989EA7D6B689120DB6.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BACKGROUND.uasset'
+[2015.11.14-15.47.46:046][288]LogSavePackage: Total save time: 194.386207ms
+[2015.11.14-15.47.46:046][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BACKGROUND.uasset
+[2015.11.14-15.47.46:053][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/BARS" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BARS.uasset" SILENT=true
+[2015.11.14-15.47.46:057][288]LogSavePackage: Save=3.216092ms
+[2015.11.14-15.47.46:057][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/BARS9367E396417E8FE33D7360929DB57FD0.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BARS.uasset'
+[2015.11.14-15.47.46:058][288]LogSavePackage: Total save time: 4.212413ms
+[2015.11.14-15.47.46:058][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BARS.uasset
+[2015.11.14-15.47.46:063][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/BIGBAR" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BIGBAR.uasset" SILENT=true
+[2015.11.14-15.47.46:068][288]LogSavePackage: Save=4.037494ms
+[2015.11.14-15.47.46:068][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/BIGBAREBD0A5B34CB6B508AB83C09448E41C0D.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BIGBAR.uasset'
+[2015.11.14-15.47.46:069][288]LogSavePackage: Total save time: 5.162813ms
+[2015.11.14-15.47.46:069][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/BIGBAR.uasset
+[2015.11.14-15.47.46:075][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/LOGO_TEMP" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/LOGO_TEMP.uasset" SILENT=true
+[2015.11.14-15.47.46:107][288]LogSavePackage: Save=30.789404ms
+[2015.11.14-15.47.46:107][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/LOGO_TEMP476052E642A5BCEFAB4A5CBDDC5877D0.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/LOGO_TEMP.uasset'
+[2015.11.14-15.47.46:108][288]LogSavePackage: Total save time: 31.842444ms
+[2015.11.14-15.47.46:108][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/LOGO_TEMP.uasset
+[2015.11.14-15.47.46:119][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_01" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_01.uasset" SILENT=true
+[2015.11.14-15.47.46:128][288]LogSavePackage: Save=8.159060ms
+[2015.11.14-15.47.46:128][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_015DB3800F43FAB457CD779E891627CA99.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_01.uasset'
+[2015.11.14-15.47.46:129][288]LogSavePackage: Total save time: 9.219881ms
+[2015.11.14-15.47.46:129][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_01.uasset
+[2015.11.14-15.47.46:139][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_02" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_02.uasset" SILENT=true
+[2015.11.14-15.47.46:147][288]LogSavePackage: Save=7.500031ms
+[2015.11.14-15.47.46:147][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_02EBC61CBF4CDADA8FC72AEAB911BC0024.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_02.uasset'
+[2015.11.14-15.47.46:148][288]LogSavePackage: Total save time: 8.516181ms
+[2015.11.14-15.47.46:148][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_02.uasset
+[2015.11.14-15.47.46:159][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_03" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_03.uasset" SILENT=true
+[2015.11.14-15.47.46:168][288]LogSavePackage: Save=8.807800ms
+[2015.11.14-15.47.46:168][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_038779234748A58D28CE313189D544A6A6.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_03.uasset'
+[2015.11.14-15.47.46:174][288]LogSavePackage: Total save time: 14.494371ms
+[2015.11.14-15.47.46:174][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_03.uasset
+[2015.11.14-15.47.46:185][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_04" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_04.uasset" SILENT=true
+[2015.11.14-15.47.46:195][288]LogSavePackage: Save=9.454782ms
+[2015.11.14-15.47.46:195][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_04F9AD641F4DAE4FA3A36632A5756FA55F.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_04.uasset'
+[2015.11.14-15.47.46:196][288]LogSavePackage: Total save time: 10.528903ms
+[2015.11.14-15.47.46:196][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_04.uasset
+[2015.11.14-15.47.46:207][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_05" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_05.uasset" SILENT=true
+[2015.11.14-15.47.46:220][288]LogSavePackage: Save=12.471107ms
+[2015.11.14-15.47.46:220][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_05787F46B740DF58DFBA255BA39B1A2912.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_05.uasset'
+[2015.11.14-15.47.46:221][288]LogSavePackage: Total save time: 13.565309ms
+[2015.11.14-15.47.46:221][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_05.uasset
+[2015.11.14-15.47.46:231][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_06" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_06.uasset" SILENT=true
+[2015.11.14-15.47.46:256][288]LogSavePackage: Save=23.754658ms
+[2015.11.14-15.47.46:256][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_061E85037048D37EE08AA1DAB86FCF40A3.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_06.uasset'
+[2015.11.14-15.47.46:256][288]LogSavePackage: Total save time: 24.827026ms
+[2015.11.14-15.47.46:257][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_06.uasset
+[2015.11.14-15.47.46:266][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/UI/MainMenu/RING_07" FILE="../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_07.uasset" SILENT=true
+[2015.11.14-15.47.46:290][288]LogSavePackage: Save=23.569448ms
+[2015.11.14-15.47.46:290][288]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/RING_07AD44D3EE46BA67978551DE8741CAE05D.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_07.uasset'
+[2015.11.14-15.47.46:291][288]LogSavePackage: Total save time: 24.669670ms
+[2015.11.14-15.47.46:291][288]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/UI/MainMenu/RING_07.uasset
+[2015.11.14-15.47.46:598][325]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.47.46:712][325]BlueprintEditorCompileResults: Info [0560.86] Compile of MainMenu successful! [in 113 ms]
+[2015.11.14-15.47.47:440][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.47.47:440][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.47.47:440][408]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:47:47 AM)
+[2015.11.14-15.47.47:440][408]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.47.47:442][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001702s)
+[2015.11.14-15.47.47:442][408]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.47.47:443][408]LogPlayLevel: PIE: World Init took: (0.000367s)
+[2015.11.14-15.47.47:443][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002193s)
+[2015.11.14-15.47.47:470][408]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.47.47:475][408]LogInit: FAudioDevice initialized.
+[2015.11.14-15.47.47:513][408]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.47.47:513][408]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.47.47
+[2015.11.14-15.47.47:514][408]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.47.47:514][408]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.47.47:514][408]LogWorld: Bringing up level for play took: 0.000488
+[2015.11.14-15.47.47:514][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.47.47:515][408]LogBlueprintUserMessages: [SSAGameInstance_C_1] 30
+[2015.11.14-15.47.47:520][408]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.441
+[2015.11.14-15.47.47:520][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.47.47:524][409]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:19752).
+[2015.11.14-15.47.47:603][417]LogBlueprintUserMessages: [MainMenu_C_1] Hello
+[2015.11.14-15.47.47:603][417]LogBlueprintUserMessages: [MainMenu_C_1] yes
+[2015.11.14-15.47.54:011][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.47.54:064][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.47.54:088][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B08AF8C20
+[2015.11.14-15.49.07:260][868]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.49.07:433][868]BlueprintEditorCompileResults: Info [0641.58] Compile of MainMenu successful! [in 172 ms]
+[2015.11.14-15.49.08:463][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.08:463][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.49.08:463][977]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:49:08 AM)
+[2015.11.14-15.49.08:463][977]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.49.08:465][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001777s)
+[2015.11.14-15.49.08:465][977]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.49.08:466][977]LogPlayLevel: PIE: World Init took: (0.000420s)
+[2015.11.14-15.49.08:466][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002367s)
+[2015.11.14-15.49.08:492][977]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.49.08:497][977]LogInit: FAudioDevice initialized.
+[2015.11.14-15.49.08:540][977]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.49.08:541][977]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.49.08
+[2015.11.14-15.49.08:541][977]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.08:541][977]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.08:541][977]LogWorld: Bringing up level for play took: 0.000512
+[2015.11.14-15.49.08:541][977]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.49.08:542][977]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.49.08:561][977]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.519
+[2015.11.14-15.49.08:561][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.08:635][985]LogBlueprintUserMessages: [MainMenu_C_6] Hello
+[2015.11.14-15.49.08:635][985]LogBlueprintUserMessages: [MainMenu_C_6] yes
+[2015.11.14-15.49.10:433][197]LogPackageName: SearchForPackageOnDisk took   0.032s to resolve Ship_Selection.umap.
+[2015.11.14-15.49.10:469][198]LogPackageName: SearchForPackageOnDisk took   0.030s to resolve Ship_Selection.umap.
+[2015.11.14-15.49.10:469][198]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.49.10:469][198]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.49.10:491][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B09DBCD60
+[2015.11.14-15.49.10:495][198]Cmd: MEM
+[2015.11.14-15.49.10:518][198]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.49.10:518][198]LogMemory: Process Physical Memory: 1309.61 MB used, 1501.75 MB peak
+[2015.11.14-15.49.10:518][198]LogMemory: Process Virtual Memory: 2284.62 MB used, 2401.76 MB peak
+[2015.11.14-15.49.10:518][198]LogMemory: Physical Memory: 7155.89 MB used, 16322.88 MB total
+[2015.11.14-15.49.10:518][198]LogMemory: Virtual Memory: 3099.33 MB used, 134217728.00 MB total
+[2015.11.14-15.49.10:518][198]LogMemory: 
+[2015.11.14-15.49.10:518][198]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.49.11:802][198]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.49.11:804][198]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.49.11:804][198]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.49.11:804][198]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.49.11:804][198]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.49.11:805][198]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.11:805][198]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.11:805][198]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.11:805][198]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.11:806][198]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.49.11
+[2015.11.14-15.49.11:806][198]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.11:806][198]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.11:807][198]LogWorld: Bringing up level for play took: 0.002240
+[2015.11.14-15.49.11:807][198]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.49.11:808][198]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.49.13:504][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.13:539][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.13:564][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B14F48A40
+[2015.11.14-15.49.33:740][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.33:740][781]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.14-15.49.33:751][781]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2015.11.14-15.49.33:772][781]LogBlueprint:Error: [compiler MainMenu] Error Could not find a function named "First Spawn" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  First Spawn 
+[2015.11.14-15.49.33:902][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 142 ms]
+[2015.11.14-15.49.33:902][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.14-15.49.33:902][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.14-15.49.33:902][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.14-15.49.33:908][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 4 Warning(s) [in 5 ms]
+[2015.11.14-15.49.33:908][781]LogBlueprint:Warning: [compiler MainMenu] Warning [0668.05] Compile of MainMenu failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.11.14-15.49.33:908][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 167 ms (3 blueprints)
+[2015.11.14-15.49.33:909][781]LogPlayLevel: [PlayLevel] Compiling SSAGameInstance before play...
+[2015.11.14-15.49.34:008][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 267 ms (18 blueprints)
+[2015.11.14-15.49.34:008][781]LogPlayLevel: [PlayLevel] Compiling Menu before play...
+[2015.11.14-15.49.34:047][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 307 ms (18 blueprints)
+[2015.11.14-15.49.34:048][781]LogPlayLevel: [PlayLevel] Compiling Arena_Boundary before play...
+[2015.11.14-15.49.34:092][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 352 ms (18 blueprints)
+[2015.11.14-15.49.34:095][781]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2015.11.14-15.49.35:135][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 1395 ms (33 blueprints)
+[2015.11.14-15.49.35:136][781]LogPlayLevel: [PlayLevel] Compiling Enemy_Human before play...
+[2015.11.14-15.49.35:220][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 1480 ms (33 blueprints)
+[2015.11.14-15.49.35:221][781]LogPlayLevel: [PlayLevel] Compiling Human_Torpedo before play...
+[2015.11.14-15.49.35:289][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 1548 ms (33 blueprints)
+[2015.11.14-15.49.35:290][781]LogPlayLevel: [PlayLevel] Compiling Enemy_Kratakos before play...
+[2015.11.14-15.49.35:383][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 1643 ms (33 blueprints)
+[2015.11.14-15.49.35:384][781]LogPlayLevel: [PlayLevel] Compiling Player_Human before play...
+[2015.11.14-15.49.35:608][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 1867 ms (33 blueprints)
+[2015.11.14-15.49.35:608][781]LogPlayLevel: [PlayLevel] Compiling Player_Kratakos before play...
+[2015.11.14-15.49.35:805][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2064 ms (33 blueprints)
+[2015.11.14-15.49.35:805][781]LogPlayLevel: [PlayLevel] Compiling Player_Cephalon before play...
+[2015.11.14-15.49.35:928][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2187 ms (33 blueprints)
+[2015.11.14-15.49.35:929][781]LogPlayLevel: [PlayLevel] Compiling Player_Dragomir before play...
+[2015.11.14-15.49.36:050][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2309 ms (33 blueprints)
+[2015.11.14-15.49.36:051][781]LogPlayLevel: [PlayLevel] Compiling Hive_Drones before play...
+[2015.11.14-15.49.36:117][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2377 ms (33 blueprints)
+[2015.11.14-15.49.36:118][781]LogPlayLevel: [PlayLevel] Compiling Player_Hive before play...
+[2015.11.14-15.49.36:231][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2490 ms (33 blueprints)
+[2015.11.14-15.49.36:231][781]LogPlayLevel: [PlayLevel] Compiling Player_Vultaari before play...
+[2015.11.14-15.49.36:348][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2607 ms (33 blueprints)
+[2015.11.14-15.49.36:348][781]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2015.11.14-15.49.36:422][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2681 ms (33 blueprints)
+[2015.11.14-15.49.36:424][781]LogPlayLevel: [PlayLevel] Compiling ProfileSelector before play...
+[2015.11.14-15.49.36:508][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2768 ms (33 blueprints)
+[2015.11.14-15.49.36:511][781]LogPlayLevel: [PlayLevel] Compiling Ship_Selection before play...
+[2015.11.14-15.49.36:671][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 2930 ms (33 blueprints)
+[2015.11.14-15.49.36:671][781]LogPlayLevel: [PlayLevel] Compiling Debris before play...
+[2015.11.14-15.49.36:754][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3014 ms (33 blueprints)
+[2015.11.14-15.49.36:755][781]LogPlayLevel: [PlayLevel] Compiling AI_Ram_Trigger before play...
+[2015.11.14-15.49.36:818][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3078 ms (33 blueprints)
+[2015.11.14-15.49.36:819][781]LogPlayLevel: [PlayLevel] Compiling Player_Phaser_Trigger before play...
+[2015.11.14-15.49.36:889][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3148 ms (33 blueprints)
+[2015.11.14-15.49.36:889][781]LogPlayLevel: [PlayLevel] Compiling Kratakos_Rail_Gun before play...
+[2015.11.14-15.49.36:962][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3222 ms (33 blueprints)
+[2015.11.14-15.49.36:962][781]LogPlayLevel: [PlayLevel] Compiling Player_Ram_Trigger before play...
+[2015.11.14-15.49.37:024][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3284 ms (33 blueprints)
+[2015.11.14-15.49.37:025][781]LogPlayLevel: [PlayLevel] Compiling Player_PowerWave_Trigger before play...
+[2015.11.14-15.49.37:098][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3357 ms (33 blueprints)
+[2015.11.14-15.49.37:098][781]LogPlayLevel: [PlayLevel] Compiling Player_FireBreath before play...
+[2015.11.14-15.49.37:164][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3423 ms (33 blueprints)
+[2015.11.14-15.49.37:164][781]LogPlayLevel: [PlayLevel] Compiling Hive_SelfDestruct before play...
+[2015.11.14-15.49.37:225][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3484 ms (33 blueprints)
+[2015.11.14-15.49.37:225][781]LogPlayLevel: [PlayLevel] Compiling Player_Mine before play...
+[2015.11.14-15.49.37:291][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3551 ms (33 blueprints)
+[2015.11.14-15.49.37:292][781]LogPlayLevel: [PlayLevel] Compiling Energy_Crate before play...
+[2015.11.14-15.49.37:354][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3613 ms (33 blueprints)
+[2015.11.14-15.49.37:354][781]LogPlayLevel: [PlayLevel] Compiling Health_Crate before play...
+[2015.11.14-15.49.37:415][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3675 ms (33 blueprints)
+[2015.11.14-15.49.37:416][781]LogPlayLevel: [PlayLevel] Compiling PP_Crate before play...
+[2015.11.14-15.49.37:475][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3735 ms (33 blueprints)
+[2015.11.14-15.49.37:475][781]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2015.11.14-15.49.37:550][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3810 ms (33 blueprints)
+[2015.11.14-15.49.37:551][781]LogPlayLevel: [PlayLevel] Compiling Crystal_Spawner before play...
+[2015.11.14-15.49.37:620][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3880 ms (33 blueprints)
+[2015.11.14-15.49.37:621][781]LogPlayLevel: [PlayLevel] Compiling Debris_Spawner before play...
+[2015.11.14-15.49.37:687][781]LogPlayLevel: PlayLevel: Blueprint regeneration took 3947 ms (33 blueprints)
+[2015.11.14-15.49.37:785][781]BlueprintLog: Info Blueprint MainMenu failed to compile
+[2015.11.14-15.49.40:902][873]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.49.40:924][873]LogBlueprint:Error: [compiler MainMenu] Error Could not find a function named "First Spawn" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  First Spawn 
+[2015.11.14-15.49.41:041][873]LogBlueprint:Warning: [compiler MainMenu] Warning [0675.18] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 137 ms]
+[2015.11.14-15.49.41:041][873]BlueprintEditorCompileResults:Error: Error Could not find a function named "First Spawn" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  First Spawn 
+[2015.11.14-15.49.41:041][873]BlueprintEditorCompileResults:Warning: Warning [0675.18] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 137 ms]
+[2015.11.14-15.49.41:092][879]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.49.41:114][879]LogBlueprint:Error: [compiler MainMenu] Error Could not find a function named "First Spawn" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  First Spawn 
+[2015.11.14-15.49.41:233][879]LogBlueprint:Warning: [compiler MainMenu] Warning [0675.38] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 140 ms]
+[2015.11.14-15.49.41:233][879]BlueprintEditorCompileResults:Error: Error Could not find a function named "First Spawn" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  First Spawn 
+[2015.11.14-15.49.41:233][879]BlueprintEditorCompileResults:Warning: Warning [0675.38] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 140 ms]
+[2015.11.14-15.49.52:011][158]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.49.52:106][158]BlueprintEditorCompileResults: Info [0686.25] Compile of MainMenu successful! [in 94 ms]
+[2015.11.14-15.49.53:125][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.53:125][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.49.53:125][277]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:49:53 AM)
+[2015.11.14-15.49.53:125][277]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.49.53:127][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001679s)
+[2015.11.14-15.49.53:127][277]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.49.53:127][277]LogPlayLevel: PIE: World Init took: (0.000367s)
+[2015.11.14-15.49.53:128][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002170s)
+[2015.11.14-15.49.53:155][277]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.49.53:161][277]LogInit: FAudioDevice initialized.
+[2015.11.14-15.49.53:198][277]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.49.53:199][277]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.49.53
+[2015.11.14-15.49.53:199][277]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.53:200][277]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.53:200][277]LogWorld: Bringing up level for play took: 0.000762
+[2015.11.14-15.49.53:200][277]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.49.53:202][277]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.49.53:214][277]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.135
+[2015.11.14-15.49.53:214][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.49.53:293][286]LogBlueprintUserMessages: [MainMenu_C_1] Hello
+[2015.11.14-15.49.53:293][286]LogBlueprintUserMessages: [MainMenu_C_1] yes
+[2015.11.14-15.49.55:647][565]LogPackageName: SearchForPackageOnDisk took   0.029s to resolve Ship_Selection.umap.
+[2015.11.14-15.49.55:685][566]LogPackageName: SearchForPackageOnDisk took   0.033s to resolve Ship_Selection.umap.
+[2015.11.14-15.49.55:685][566]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.49.55:686][566]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.49.55:708][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BBFAAF6A0
+[2015.11.14-15.49.55:712][566]Cmd: MEM
+[2015.11.14-15.49.55:737][566]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.49.55:737][566]LogMemory: Process Physical Memory: 1808.68 MB used, 1939.46 MB peak
+[2015.11.14-15.49.55:737][566]LogMemory: Process Virtual Memory: 2802.08 MB used, 2835.38 MB peak
+[2015.11.14-15.49.55:737][566]LogMemory: Physical Memory: 7572.02 MB used, 16322.88 MB total
+[2015.11.14-15.49.55:737][566]LogMemory: Virtual Memory: 3613.18 MB used, 134217728.00 MB total
+[2015.11.14-15.49.55:737][566]LogMemory: 
+[2015.11.14-15.49.55:737][566]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.49.55:801][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:802][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:803][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:803][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:804][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:804][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:805][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.55:805][566]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.56:074][566]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.49.56:074][566]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.49.56:074][566]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.49.56:074][566]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.49.56:074][566]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.49.56:075][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.56:075][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.56:075][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.56:075][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.49.56:076][566]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.49.56
+[2015.11.14-15.49.56:076][566]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.56:076][566]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.56:077][566]LogWorld: Bringing up level for play took: 0.002117
+[2015.11.14-15.49.56:077][566]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.49.56:078][566]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.49.56:089][567]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.11.14-15.49.58:747][886]LogBlueprintUserMessages: [Ship_Selection_C_0] Opening now
+[2015.11.14-15.49.59:272][944]LogPackageName: SearchForPackageOnDisk took   0.030s to resolve Home_Kratakos.umap.
+[2015.11.14-15.49.59:308][945]LogPackageName: SearchForPackageOnDisk took   0.031s to resolve Home_Kratakos.umap.
+[2015.11.14-15.49.59:308][945]LogNet: Browse: /Game/SSA/Maps/Home_Kratakos
+[2015.11.14-15.49.59:308][945]LogLoad: LoadMap: /Game/SSA/Maps/Home_Kratakos
+[2015.11.14-15.49.59:336][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B505E6340
+[2015.11.14-15.49.59:336][945]Cmd: MEM
+[2015.11.14-15.49.59:359][945]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.49.59:359][945]LogMemory: Process Physical Memory: 1834.49 MB used, 1939.46 MB peak
+[2015.11.14-15.49.59:359][945]LogMemory: Process Virtual Memory: 2743.29 MB used, 2853.45 MB peak
+[2015.11.14-15.49.59:359][945]LogMemory: Physical Memory: 7600.41 MB used, 16322.88 MB total
+[2015.11.14-15.49.59:359][945]LogMemory: Virtual Memory: 3631.49 MB used, 134217728.00 MB total
+[2015.11.14-15.49.59:359][945]LogMemory: 
+[2015.11.14-15.49.59:359][945]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.49.59:378][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:379][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:380][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:381][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:381][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:381][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:382][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:382][945]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.49.59:673][945]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.49.59:673][945]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.14-15.49.59:673][945]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.14-15.49.59:674][945]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.14-15.49.59:674][945]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.14-15.49.59:747][945]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.14-15.49.59:747][945]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.49.59:752][945]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.14-15.49.59:752][945]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.11.14-10.49.59
+[2015.11.14-15.49.59:752][945]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.59:752][945]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.49.59:752][945]LogWorld: Bringing up level for play took: 0.003943
+[2015.11.14-15.50.01:478][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.50.01:530][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.50.01:570][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B9796A340
+[2015.11.14-15.50.04:895][546]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.50.04:987][546]BlueprintEditorCompileResults: Info [0699.13] Compile of MainMenu successful! [in 92 ms]
+[2015.11.14-15.50.33:195][895]LogEditorTransaction: Undo Move Node
+[2015.11.14-15.51.03:775][509]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.51.03:933][509]BlueprintEditorCompileResults: Info [0758.08] Compile of MainMenu successful! [in 157 ms]
+[2015.11.14-15.51.04:899][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.51.04:900][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.51.04:900][615]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:51:04 AM)
+[2015.11.14-15.51.04:900][615]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.51.04:902][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2015.11.14-15.51.04:902][615]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.51.04:902][615]LogPlayLevel: PIE: World Init took: (0.000378s)
+[2015.11.14-15.51.04:903][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002866s)
+[2015.11.14-15.51.04:931][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.51.04:937][615]LogInit: FAudioDevice initialized.
+[2015.11.14-15.51.04:978][615]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.51.04:979][615]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.51.04
+[2015.11.14-15.51.04:979][615]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.51.04:979][615]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.51.04:979][615]LogWorld: Bringing up level for play took: 0.000534
+[2015.11.14-15.51.04:979][615]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.51.04:981][615]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.51.04:996][615]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.084
+[2015.11.14-15.51.04:996][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.51.05:076][624]LogBlueprintUserMessages: [MainMenu_C_5] Hello
+[2015.11.14-15.51.05:076][624]LogBlueprintUserMessages: [MainMenu_C_5] yes
+[2015.11.14-15.51.07:456][905]LogPackageName: SearchForPackageOnDisk took   0.031s to resolve Ship_Selection.umap.
+[2015.11.14-15.51.07:491][906]LogPackageName: SearchForPackageOnDisk took   0.031s to resolve Ship_Selection.umap.
+[2015.11.14-15.51.07:491][906]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.51.07:491][906]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.51.07:514][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B3ED3F420
+[2015.11.14-15.51.07:518][906]Cmd: MEM
+[2015.11.14-15.51.07:540][906]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.51.07:540][906]LogMemory: Process Physical Memory: 1865.55 MB used, 1944.50 MB peak
+[2015.11.14-15.51.07:541][906]LogMemory: Process Virtual Memory: 2858.35 MB used, 2967.96 MB peak
+[2015.11.14-15.51.07:541][906]LogMemory: Physical Memory: 7659.26 MB used, 16322.88 MB total
+[2015.11.14-15.51.07:541][906]LogMemory: Virtual Memory: 3667.18 MB used, 134217728.00 MB total
+[2015.11.14-15.51.07:541][906]LogMemory: 
+[2015.11.14-15.51.07:541][906]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.51.07:605][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:606][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:607][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:608][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:608][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:608][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:609][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:610][906]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.51.07:877][906]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.51.07:877][906]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.51.07:878][906]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.51.07:878][906]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.51.07:878][906]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.51.07:879][906]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.51.07:879][906]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.51.07:879][906]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.51.07:879][906]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.51.07:880][906]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.51.07
+[2015.11.14-15.51.07:880][906]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.51.07:880][906]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.51.07:881][906]LogWorld: Bringing up level for play took: 0.002293
+[2015.11.14-15.51.07:881][906]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.51.07:882][906]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.51.08:685][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.51.08:715][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.51.08:748][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B5880EC00
+[2015.11.14-15.51.14:509][682]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.51.14:657][682]BlueprintEditorCompileResults: Info [0768.80] Compile of MainMenu successful! [in 146 ms]
+[2015.11.14-15.52.02:150][318]LogSavePackage: Save=68.206238ms
+[2015.11.14-15.52.02:150][318]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenuE63FEBFE41F24E6E706B358B1A9EF1E0.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.52.02:151][318]LogSavePackage: Total save time: 76.513372ms
+[2015.11.14-15.52.02:151][318]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.52.02:981][418]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.52.03:142][418]BlueprintEditorCompileResults: Info [0817.29] Compile of MainMenu successful! [in 160 ms]
+[2015.11.14-15.52.03:756][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.03:756][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.52.03:757][482]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:52:03 AM)
+[2015.11.14-15.52.03:757][482]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.52.03:758][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001740s)
+[2015.11.14-15.52.03:759][482]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.52.03:759][482]LogPlayLevel: PIE: World Init took: (0.000405s)
+[2015.11.14-15.52.03:759][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002265s)
+[2015.11.14-15.52.03:788][482]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.52.03:794][482]LogInit: FAudioDevice initialized.
+[2015.11.14-15.52.03:838][482]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.52.03:839][482]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.52.03
+[2015.11.14-15.52.03:839][482]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.03:839][482]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.03:839][482]LogWorld: Bringing up level for play took: 0.000519
+[2015.11.14-15.52.03:839][482]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.52.03:840][482]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.52.03:852][482]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.773
+[2015.11.14-15.52.03:853][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.03:928][491]LogBlueprintUserMessages: [MainMenu_C_2] Hello
+[2015.11.14-15.52.03:928][491]LogBlueprintUserMessages: [MainMenu_C_2] yes
+[2015.11.14-15.52.06:761][831]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.52.08:138][996]LogBlueprintUserMessages: [SSAGameInstance_C_0] saved
+[2015.11.14-15.52.08:138][996]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.52.11:745][429]LogBlueprintUserMessages: [SSAGameInstance_C_0] saved
+[2015.11.14-15.52.11:746][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.11:799][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.11:821][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B410177E0
+[2015.11.14-15.52.13:110][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.13:110][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.52.13:110][580]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:52:13 AM)
+[2015.11.14-15.52.13:110][580]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.52.13:112][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001676s)
+[2015.11.14-15.52.13:112][580]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.52.13:112][580]LogPlayLevel: PIE: World Init took: (0.000361s)
+[2015.11.14-15.52.13:112][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002158s)
+[2015.11.14-15.52.13:141][580]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.52.13:146][580]LogInit: FAudioDevice initialized.
+[2015.11.14-15.52.13:188][580]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.52.13:189][580]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.52.13
+[2015.11.14-15.52.13:189][580]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.13:189][580]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.13:189][580]LogWorld: Bringing up level for play took: 0.000525
+[2015.11.14-15.52.13:190][580]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.52.13:191][580]LogBlueprintUserMessages: [SSAGameInstance_C_1] 30
+[2015.11.14-15.52.13:201][580]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.122
+[2015.11.14-15.52.13:201][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.13:285][590]LogBlueprintUserMessages: [MainMenu_C_6] Hello
+[2015.11.14-15.52.13:285][590]LogBlueprintUserMessages: [MainMenu_C_6] yes
+[2015.11.14-15.52.14:416][722]LogPackageName: SearchForPackageOnDisk took   0.031s to resolve Ship_Selection.umap.
+[2015.11.14-15.52.14:449][723]LogPackageName: SearchForPackageOnDisk took   0.029s to resolve Ship_Selection.umap.
+[2015.11.14-15.52.14:449][723]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.52.14:449][723]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.52.14:474][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B3EDD2660
+[2015.11.14-15.52.14:478][723]Cmd: MEM
+[2015.11.14-15.52.14:501][723]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.52.14:501][723]LogMemory: Process Physical Memory: 1861.03 MB used, 1944.50 MB peak
+[2015.11.14-15.52.14:501][723]LogMemory: Process Virtual Memory: 2777.91 MB used, 2967.96 MB peak
+[2015.11.14-15.52.14:501][723]LogMemory: Physical Memory: 7689.16 MB used, 16322.88 MB total
+[2015.11.14-15.52.14:501][723]LogMemory: Virtual Memory: 3662.36 MB used, 134217728.00 MB total
+[2015.11.14-15.52.14:501][723]LogMemory: 
+[2015.11.14-15.52.14:501][723]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.52.14:565][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:567][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:567][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:568][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:568][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:569][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:569][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:570][723]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.14:832][723]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.52.14:833][723]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.52.14:833][723]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.52.14:833][723]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.52.14:833][723]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.52.14:834][723]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.14:835][723]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.14:835][723]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.14:835][723]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.14:835][723]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.52.14
+[2015.11.14-15.52.14:836][723]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.14:836][723]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.14:836][723]LogWorld: Bringing up level for play took: 0.002163
+[2015.11.14-15.52.14:836][723]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.52.14:837][723]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.52.15:437][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.15:488][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.15:522][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B403342C0
+[2015.11.14-15.52.22:896][653]LogSavePackage: Save=67.146172ms
+[2015.11.14-15.52.22:896][653]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenuC94682F749D681B2624AEBB6E79D75FD.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.52.22:897][653]LogSavePackage: Total save time: 75.068828ms
+[2015.11.14-15.52.22:897][653]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.52.23:518][727]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.52.23:660][727]BlueprintEditorCompileResults: Info [0837.80] Compile of MainMenu successful! [in 142 ms]
+[2015.11.14-15.52.33:132][847]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.52.33:280][847]BlueprintEditorCompileResults: Info [0847.42] Compile of MainMenu successful! [in 147 ms]
+[2015.11.14-15.52.33:859][899]LogSavePackage: Save=46.819672ms
+[2015.11.14-15.52.33:859][899]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu367D9FCD4A645BC5D1FFA69487492F3C.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.52.33:860][899]LogSavePackage: Total save time: 53.471196ms
+[2015.11.14-15.52.33:860][899]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.52.54:760][368]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.52.54:904][368]BlueprintEditorCompileResults: Info [0869.05] Compile of MainMenu successful! [in 143 ms]
+[2015.11.14-15.52.56:336][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.56:336][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.52.56:336][535]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:52:56 AM)
+[2015.11.14-15.52.56:336][535]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.52.56:338][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001713s)
+[2015.11.14-15.52.56:338][535]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.52.56:338][535]LogPlayLevel: PIE: World Init took: (0.000412s)
+[2015.11.14-15.52.56:338][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002252s)
+[2015.11.14-15.52.56:367][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.52.56:372][535]LogInit: FAudioDevice initialized.
+[2015.11.14-15.52.56:411][535]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.52.56:412][535]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.52.56
+[2015.11.14-15.52.56:412][535]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.56:413][535]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.56:413][535]LogWorld: Bringing up level for play took: 0.000748
+[2015.11.14-15.52.56:413][535]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.52.56:414][535]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.52.56:420][535]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.66
+[2015.11.14-15.52.56:420][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.56:493][544]LogBlueprintUserMessages: [MainMenu_C_2] Hello
+[2015.11.14-15.52.56:493][544]LogBlueprintUserMessages: [MainMenu_C_2] yes
+[2015.11.14-15.52.58:359][764]LogPackageName: SearchForPackageOnDisk took   0.032s to resolve Ship_Selection.umap.
+[2015.11.14-15.52.58:392][765]LogPackageName: SearchForPackageOnDisk took   0.029s to resolve Ship_Selection.umap.
+[2015.11.14-15.52.58:392][765]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.52.58:392][765]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.52.58:423][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B8692A200
+[2015.11.14-15.52.58:423][765]Cmd: MEM
+[2015.11.14-15.52.58:445][765]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.52.58:445][765]LogMemory: Process Physical Memory: 1855.74 MB used, 1944.50 MB peak
+[2015.11.14-15.52.58:445][765]LogMemory: Process Virtual Memory: 2769.25 MB used, 2967.96 MB peak
+[2015.11.14-15.52.58:445][765]LogMemory: Physical Memory: 7688.41 MB used, 16322.88 MB total
+[2015.11.14-15.52.58:445][765]LogMemory: Virtual Memory: 3662.36 MB used, 134217728.00 MB total
+[2015.11.14-15.52.58:445][765]LogMemory: 
+[2015.11.14-15.52.58:445][765]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.52.58:511][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:512][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:513][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:514][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:514][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:514][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:515][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:516][765]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.52.58:781][765]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.52.58:781][765]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.52.58:781][765]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.52.58:781][765]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.52.58:781][765]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.52.58:783][765]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.58:783][765]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.58:783][765]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.58:783][765]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.52.58:784][765]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.52.58
+[2015.11.14-15.52.58:784][765]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.58:784][765]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.52.58:784][765]LogWorld: Bringing up level for play took: 0.002449
+[2015.11.14-15.52.58:785][765]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.52.58:786][765]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.52.59:571][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.59:622][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.52.59:655][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B41E0FEC0
+[2015.11.14-15.53.00:795][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.00:795][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.53.00:795][994]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:53:00 AM)
+[2015.11.14-15.53.00:795][994]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.53.00:796][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2015.11.14-15.53.00:797][994]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.53.00:797][994]LogPlayLevel: PIE: World Init took: (0.000353s)
+[2015.11.14-15.53.00:797][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002169s)
+[2015.11.14-15.53.00:827][994]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.53.00:832][994]LogInit: FAudioDevice initialized.
+[2015.11.14-15.53.00:867][994]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.53.00:868][994]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.53.00
+[2015.11.14-15.53.00:868][994]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.00:868][994]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.00:869][994]LogWorld: Bringing up level for play took: 0.000680
+[2015.11.14-15.53.00:869][994]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.53.00:870][994]LogBlueprintUserMessages: [SSAGameInstance_C_1] 30
+[2015.11.14-15.53.00:875][994]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.205
+[2015.11.14-15.53.00:875][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.00:971][  6]LogBlueprintUserMessages: [MainMenu_C_3] Hello
+[2015.11.14-15.53.00:971][  6]LogBlueprintUserMessages: [MainMenu_C_3] yes
+[2015.11.14-15.53.01:755][100]LogBlueprintUserMessages: [SSAGameInstance_C_1] saved
+[2015.11.14-15.53.01:755][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.01:804][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.01:836][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B40E33A60
+[2015.11.14-15.53.03:799][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.03:799][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.53.03:799][333]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:53:03 AM)
+[2015.11.14-15.53.03:799][333]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.53.03:801][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002072s)
+[2015.11.14-15.53.03:801][333]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.53.03:801][333]LogPlayLevel: PIE: World Init took: (0.000369s)
+[2015.11.14-15.53.03:801][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002574s)
+[2015.11.14-15.53.03:828][333]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.53.03:834][333]LogInit: FAudioDevice initialized.
+[2015.11.14-15.53.03:872][333]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.53.03:873][333]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.53.03
+[2015.11.14-15.53.03:873][333]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.03:873][333]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.03:873][333]LogWorld: Bringing up level for play took: 0.000521
+[2015.11.14-15.53.03:874][333]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.53.03:875][333]LogBlueprintUserMessages: [SSAGameInstance_C_2] 30
+[2015.11.14-15.53.03:879][333]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.8
+[2015.11.14-15.53.03:879][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.03:969][343]LogBlueprintUserMessages: [MainMenu_C_4] Hello
+[2015.11.14-15.53.03:969][343]LogBlueprintUserMessages: [MainMenu_C_4] yes
+[2015.11.14-15.53.06:943][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.06:995][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.07:029][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B7E967920
+[2015.11.14-15.53.08:329][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.08:329][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.53.08:329][854]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:53:08 AM)
+[2015.11.14-15.53.08:329][854]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.53.08:331][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2015.11.14-15.53.08:331][854]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.53.08:332][854]LogPlayLevel: PIE: World Init took: (0.000367s)
+[2015.11.14-15.53.08:332][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002268s)
+[2015.11.14-15.53.08:359][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.53.08:364][854]LogInit: FAudioDevice initialized.
+[2015.11.14-15.53.08:402][854]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.53.08:403][854]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.53.08
+[2015.11.14-15.53.08:403][854]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.08:403][854]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.53.08:403][854]LogWorld: Bringing up level for play took: 0.000559
+[2015.11.14-15.53.08:404][854]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.53.08:404][854]LogBlueprintUserMessages: [SSAGameInstance_C_3] 30
+[2015.11.14-15.53.08:409][854]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.67
+[2015.11.14-15.53.08:409][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.08:497][865]LogBlueprintUserMessages: [MainMenu_C_5] Hello
+[2015.11.14-15.53.08:497][865]LogBlueprintUserMessages: [MainMenu_C_5] yes
+[2015.11.14-15.53.19:559][192]LogBlueprintUserMessages: [SSAGameInstance_C_3] 30
+[2015.11.14-15.53.20:094][256]LogBlueprintUserMessages: [SSAGameInstance_C_3] saved
+[2015.11.14-15.53.20:094][256]LogBlueprintUserMessages: [SSAGameInstance_C_3] 30
+[2015.11.14-15.53.22:476][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.22:526][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.53.22:559][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B14F48180
+[2015.11.14-15.54.11:734][235]LogEditorTransaction: Undo Edit Properties
+[2015.11.14-15.54.26:273][944]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.54.26:285][944]LogBlueprint:Warning: [compiler MainMenu] Warning Could not find a variable named "Title" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Title 
+[2015.11.14-15.54.26:285][944]LogBlueprint:Error: [compiler MainMenu] Error The property associated with  Title  could not be found
+[2015.11.14-15.54.26:454][944]LogBlueprint:Warning: [compiler MainMenu] Warning [0960.60] Compile of MainMenu failed. 1 Fatal Issue(s) 1 Warning(s) [in 181 ms]
+[2015.11.14-15.54.26:454][944]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Title" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Title 
+[2015.11.14-15.54.26:454][944]BlueprintEditorCompileResults:Error: Error The property associated with  Title  could not be found
+[2015.11.14-15.54.26:454][944]BlueprintEditorCompileResults:Warning: Warning [0960.60] Compile of MainMenu failed. 1 Fatal Issue(s) 1 Warning(s) [in 181 ms]
+[2015.11.14-15.54.39:914][543]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-15.54.53:643][186]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.54.53:722][186]BlueprintEditorCompileResults: Info [0987.87] Compile of MainMenu successful! [in 78 ms]
+[2015.11.14-15.54.54:389][254]LogSavePackage: Save=40.435169ms
+[2015.11.14-15.54.54:389][254]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu782B0261468401AF3A37698B0352BF30.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.54.54:390][254]LogSavePackage: Total save time: 50.632551ms
+[2015.11.14-15.54.54:390][254]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.54.55:254][355]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.54.55:254][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.54.55:254][355]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:54:55 AM)
+[2015.11.14-15.54.55:254][355]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.54.55:256][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001772s)
+[2015.11.14-15.54.55:256][355]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.54.55:256][355]LogPlayLevel: PIE: World Init took: (0.000375s)
+[2015.11.14-15.54.55:256][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002272s)
+[2015.11.14-15.54.55:283][355]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.54.55:290][355]LogInit: FAudioDevice initialized.
+[2015.11.14-15.54.55:330][355]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.54.55:331][355]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.54.55
+[2015.11.14-15.54.55:331][355]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.54.55:331][355]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.54.55:331][355]LogWorld: Bringing up level for play took: 0.000509
+[2015.11.14-15.54.55:331][355]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.54.55:332][355]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.54.55:339][355]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.26
+[2015.11.14-15.54.55:339][355]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.54.55:428][366]LogBlueprintUserMessages: [MainMenu_C_2] Hello
+[2015.11.14-15.54.55:428][366]LogBlueprintUserMessages: [MainMenu_C_2] yes
+[2015.11.14-15.54.57:633][627]LogPackageName: SearchForPackageOnDisk took   0.030s to resolve Ship_Selection.umap.
+[2015.11.14-15.54.57:667][628]LogPackageName: SearchForPackageOnDisk took   0.030s to resolve Ship_Selection.umap.
+[2015.11.14-15.54.57:667][628]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.54.57:667][628]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.54.57:690][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B6C94B380
+[2015.11.14-15.54.57:694][628]Cmd: MEM
+[2015.11.14-15.54.57:717][628]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.54.57:717][628]LogMemory: Process Physical Memory: 1872.98 MB used, 1944.50 MB peak
+[2015.11.14-15.54.57:717][628]LogMemory: Process Virtual Memory: 2888.57 MB used, 2967.96 MB peak
+[2015.11.14-15.54.57:717][628]LogMemory: Physical Memory: 7653.58 MB used, 16322.88 MB total
+[2015.11.14-15.54.57:717][628]LogMemory: Virtual Memory: 3722.67 MB used, 134217728.00 MB total
+[2015.11.14-15.54.57:717][628]LogMemory: 
+[2015.11.14-15.54.57:717][628]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.54.57:781][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:782][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:783][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:783][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:784][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:784][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:785][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.57:785][628]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.54.58:047][628]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.54.58:048][628]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.54.58:048][628]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.54.58:048][628]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.54.58:048][628]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.54.58:049][628]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.54.58:049][628]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.54.58:049][628]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.54.58:049][628]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.54.58:051][628]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.54.58
+[2015.11.14-15.54.58:051][628]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.54.58:051][628]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.54.58:051][628]LogWorld: Bringing up level for play took: 0.002518
+[2015.11.14-15.54.58:052][628]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.54.58:052][628]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.54.58:819][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.54.58:872][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.54.58:905][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B7A3DD260
+[2015.11.14-15.55.31:440][760]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/Menu' took 0.023
+[2015.11.14-15.55.31:444][760]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SSA/Blueprints/Menues/MainMenu] ([1] browsable assets)...
+[2015.11.14-15.55.31:444][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/SSA/Blueprints/Menues/MainMenu]
+[2015.11.14-15.55.31:491][760]LogSavePackage: Save=38.063068ms
+[2015.11.14-15.55.31:491][760]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu_Auto1BA21BF0C4160A22E2915E19DCA96E389.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Menues/MainMenu_Auto1.uasset'
+[2015.11.14-15.55.31:491][760]LogSavePackage: Total save time: 45.574389ms
+[2015.11.14-15.55.31:491][760]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Menues/MainMenu_Auto1.uasset
+[2015.11.14-15.55.31:491][760]LogFileHelpers: Auto-saving content packages took 0.051
+[2015.11.14-15.56.18:002][  9]LogSavePackage: Save=38.798641ms
+[2015.11.14-15.56.18:002][  9]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu2FB9B4944CB9D3BCC58746B4BE95B263.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.56.18:003][  9]LogSavePackage: Total save time: 46.871118ms
+[2015.11.14-15.56.18:003][  9]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.56.18:821][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.18:821][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.56.18:821][104]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:56:18 AM)
+[2015.11.14-15.56.18:821][104]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.56.18:822][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001706s)
+[2015.11.14-15.56.18:823][104]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.56.18:823][104]LogPlayLevel: PIE: World Init took: (0.000391s)
+[2015.11.14-15.56.18:823][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002218s)
+[2015.11.14-15.56.18:851][104]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.56.18:858][104]LogInit: FAudioDevice initialized.
+[2015.11.14-15.56.18:894][104]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.56.18:895][104]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.56.18
+[2015.11.14-15.56.18:895][104]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.56.18:895][104]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.56.18:895][104]LogWorld: Bringing up level for play took: 0.000530
+[2015.11.14-15.56.18:896][104]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.56.18:897][104]LogBlueprintUserMessages: [SSAGameInstance_C_1] 30
+[2015.11.14-15.56.18:906][104]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.173
+[2015.11.14-15.56.18:906][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.18:995][115]LogBlueprintUserMessages: [MainMenu_C_8] Hello
+[2015.11.14-15.56.18:995][115]LogBlueprintUserMessages: [MainMenu_C_8] yes
+[2015.11.14-15.56.21:612][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.21:669][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.21:691][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B508DCEA0
+[2015.11.14-15.56.55:478][456]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.56.55:564][456]BlueprintEditorCompileResults: Info [1109.71] Compile of MainMenu successful! [in 85 ms]
+[2015.11.14-15.56.56:069][505]LogSavePackage: Save=40.617119ms
+[2015.11.14-15.56.56:069][505]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu894CB66649AC713D6806BE97B219167A.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.56.56:070][505]LogSavePackage: Total save time: 47.585357ms
+[2015.11.14-15.56.56:070][505]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.56.56:594][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.56:594][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.56.56:594][564]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:56:56 AM)
+[2015.11.14-15.56.56:595][564]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.56.56:596][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001679s)
+[2015.11.14-15.56.56:597][564]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.56.56:597][564]LogPlayLevel: PIE: World Init took: (0.000387s)
+[2015.11.14-15.56.56:597][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002193s)
+[2015.11.14-15.56.56:623][564]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.56.56:628][564]LogInit: FAudioDevice initialized.
+[2015.11.14-15.56.56:667][564]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.56.56:668][564]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.56.56
+[2015.11.14-15.56.56:668][564]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.56.56:668][564]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.56.56:668][564]LogWorld: Bringing up level for play took: 0.000600
+[2015.11.14-15.56.56:669][564]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.56.56:669][564]LogBlueprintUserMessages: [SSAGameInstance_C_2] 30
+[2015.11.14-15.56.56:675][564]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.404
+[2015.11.14-15.56.56:675][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.56:760][573]LogBlueprintUserMessages: [MainMenu_C_1] Hello
+[2015.11.14-15.56.56:760][573]LogBlueprintUserMessages: [MainMenu_C_1] yes
+[2015.11.14-15.56.59:560][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.59:611][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.56.59:646][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B4188A520
+[2015.11.14-15.57.03:996][431]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.57.04:082][431]BlueprintEditorCompileResults: Info [1118.23] Compile of MainMenu successful! [in 85 ms]
+[2015.11.14-15.57.04:650][487]LogSavePackage: Save=38.069843ms
+[2015.11.14-15.57.04:650][487]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu390FA6E648B317893CD5D1A3EEB2312D.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.57.04:652][487]LogSavePackage: Total save time: 45.285534ms
+[2015.11.14-15.57.04:652][487]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.57.05:175][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.57.05:175][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.57.05:175][547]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:57:05 AM)
+[2015.11.14-15.57.05:175][547]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.57.05:176][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2015.11.14-15.57.05:177][547]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.57.05:177][547]LogPlayLevel: PIE: World Init took: (0.000368s)
+[2015.11.14-15.57.05:177][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002202s)
+[2015.11.14-15.57.05:204][547]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.57.05:210][547]LogInit: FAudioDevice initialized.
+[2015.11.14-15.57.05:250][547]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.57.05:251][547]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.57.05
+[2015.11.14-15.57.05:251][547]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.57.05:251][547]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.57.05:251][547]LogWorld: Bringing up level for play took: 0.000569
+[2015.11.14-15.57.05:252][547]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.57.05:253][547]LogBlueprintUserMessages: [SSAGameInstance_C_3] 30
+[2015.11.14-15.57.05:258][547]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.179
+[2015.11.14-15.57.05:258][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.57.05:351][557]LogBlueprintUserMessages: [MainMenu_C_2] Hello
+[2015.11.14-15.57.05:352][557]LogBlueprintUserMessages: [MainMenu_C_2] yes
+[2015.11.14-15.57.07:584][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.57.07:634][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.57.07:668][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B7C62DF80
+[2015.11.14-15.58.52:543][670]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-15.58.52:681][670]BlueprintEditorCompileResults: Info [1226.83] Compile of MainMenu successful! [in 139 ms]
+[2015.11.14-15.58.53:154][714]LogSavePackage: Save=41.447304ms
+[2015.11.14-15.58.53:154][714]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu1790696846FC17C608AAE2A168461617.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-15.58.53:155][714]LogSavePackage: Total save time: 48.168346ms
+[2015.11.14-15.58.53:155][714]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-15.58.53:817][791]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.58.53:817][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-15.58.53:817][791]PIE: New page: PIE session: Menu (Nov 14, 2015, 5:58:53 AM)
+[2015.11.14-15.58.53:818][791]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-15.58.53:819][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001755s)
+[2015.11.14-15.58.53:820][791]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-15.58.53:820][791]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2015.11.14-15.58.53:820][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002523s)
+[2015.11.14-15.58.53:847][791]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-15.58.53:852][791]LogInit: FAudioDevice initialized.
+[2015.11.14-15.58.53:891][791]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-15.58.53:892][791]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-10.58.53
+[2015.11.14-15.58.53:892][791]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.58.53:892][791]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.58.53:892][791]LogWorld: Bringing up level for play took: 0.000537
+[2015.11.14-15.58.53:893][791]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.58.53:894][791]LogBlueprintUserMessages: [SSAGameInstance_C_0] 30
+[2015.11.14-15.58.53:899][791]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.82
+[2015.11.14-15.58.53:899][791]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.58.53:993][802]LogBlueprintUserMessages: [MainMenu_C_8] Hello
+[2015.11.14-15.58.53:993][802]LogBlueprintUserMessages: [MainMenu_C_8] yes
+[2015.11.14-15.58.57:925][270]LogPackageName: SearchForPackageOnDisk took   0.032s to resolve Ship_Selection.umap.
+[2015.11.14-15.58.57:959][271]LogPackageName: SearchForPackageOnDisk took   0.030s to resolve Ship_Selection.umap.
+[2015.11.14-15.58.57:959][271]LogNet: Browse: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.58.57:959][271]LogLoad: LoadMap: /Game/SSA/Maps/Ship_Selection
+[2015.11.14-15.58.57:982][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B5E0F5300
+[2015.11.14-15.58.57:985][271]Cmd: MEM
+[2015.11.14-15.58.58:008][271]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-15.58.58:008][271]LogMemory: Process Physical Memory: 1873.11 MB used, 1944.50 MB peak
+[2015.11.14-15.58.58:008][271]LogMemory: Process Virtual Memory: 2892.82 MB used, 2998.75 MB peak
+[2015.11.14-15.58.58:008][271]LogMemory: Physical Memory: 7734.57 MB used, 16322.88 MB total
+[2015.11.14-15.58.58:008][271]LogMemory: Virtual Memory: 3725.35 MB used, 134217728.00 MB total
+[2015.11.14-15.58.58:008][271]LogMemory: 
+[2015.11.14-15.58.58:008][271]Allocator Stats for TBB: (not implemented)
+[2015.11.14-15.58.58:076][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:077][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:078][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:078][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:079][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:079][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:080][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:080][271]LogLinker:Warning: Asset '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-15.58.58:350][271]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.11.14-15.58.58:351][271]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.58.58:351][271]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.11.14-15.58.58:351][271]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.11.14-15.58.58:351][271]LogWorld: Game class is 'GameMode'
+[2015.11.14-15.58.58:352][271]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.58.58:352][271]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.58.58:352][271]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.58.58:352][271]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.11.14-15.58.58:353][271]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 0) at 2015.11.14-10.58.58
+[2015.11.14-15.58.58:353][271]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.58.58:354][271]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-15.58.58:354][271]LogWorld: Bringing up level for play took: 0.002284
+[2015.11.14-15.58.58:354][271]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-15.58.58:355][271]LogBlueprintUserMessages: [SparklerCharacter_C_1] Hello
+[2015.11.14-15.58.59:092][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.58.59:143][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-15.58.59:177][360]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B424BE980
+[2015.11.14-16.00.36:439][779]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.00.36:576][779]BlueprintEditorCompileResults: Info [1330.72] Compile of MainMenu successful! [in 136 ms]
+[2015.11.14-16.00.37:210][838]LogSavePackage: Save=37.463013ms
+[2015.11.14-16.00.37:210][838]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenuB42C0BA44D3E798ED10B83BBA9B920E7.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-16.00.37:211][838]LogSavePackage: Total save time: 54.544814ms
+[2015.11.14-16.00.37:211][838]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-16.00.59:285][456]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.00.59:298][456]LogBlueprint:Warning: [SSAGameInstance] CreatePinForVariable: 'Profile Name' variable not found. Base class was probably changed.
+[2015.11.14-16.00.59:311][456]LogBlueprint:Warning: [compiler SSAGameInstance] Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.00.59:313][456]LogBlueprint:Error: [compiler SSAGameInstance] Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.00.59:482][456]BlueprintEditorCompileResults: Info [1353.63] Compile of MainMenu successful! [in 196 ms]
+[2015.11.14-16.01.00:798][602]LogSavePackage: Save=35.624710ms
+[2015.11.14-16.01.00:798][602]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenuAF128AE9446582A3E497C4BDB1FD8459.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-16.01.00:799][602]LogSavePackage: Total save time: 42.305347ms
+[2015.11.14-16.01.00:799][602]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-16.01.01:676][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.01.01:676][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-16.01.13:318][856]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.01.13:327][856]LogBlueprint:Warning: [SSAGameInstance] CreatePinForVariable: 'Profile Name' variable not found. Base class was probably changed.
+[2015.11.14-16.01.13:351][856]LogBlueprint:Warning: [compiler SSAGameInstance] Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.01.13:353][856]LogBlueprint:Error: [compiler SSAGameInstance] Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.01.13:571][856]BlueprintEditorCompileResults: Info [1367.71] Compile of MainMenu successful! [in 253 ms]
+[2015.11.14-16.01.14:045][899]LogSavePackage: Save=33.211197ms
+[2015.11.14-16.01.14:045][899]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenuB855268F45C5F540690458970941A344.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-16.01.14:047][899]LogSavePackage: Total save time: 40.015560ms
+[2015.11.14-16.01.14:047][899]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-16.01.14:568][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.01.14:568][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-16.01.17:709][152]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.01.17:720][152]LogBlueprint:Warning: [SSAGameInstance] CreatePinForVariable: 'Profile Name' variable not found. Base class was probably changed.
+[2015.11.14-16.01.17:789][152]BlueprintEditorCompileResults: Info [1371.93] Compile of MainMenu successful! [in 79 ms]
+[2015.11.14-16.01.19:550][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.01.19:550][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-16.01.32:455][954]BlueprintLog: New page: Compile SSAGameInstance
+[2015.11.14-16.01.32:476][954]LogBlueprint:Warning: [compiler SSAGameInstance] Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.01.32:478][954]LogBlueprint:Error: [compiler SSAGameInstance] Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.01.32:612][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.14-16.01.32:612][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.14-16.01.32:644][954]LogBlueprint:Warning: [compiler SSAGameInstance] Warning [1386.79] Compile of SSAGameInstance failed. 1 Fatal Issue(s) 1 Warning(s) [in 187 ms]
+[2015.11.14-16.01.32:644][954]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.01.32:644][954]BlueprintEditorCompileResults:Error: Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.01.32:644][954]BlueprintEditorCompileResults:Warning: Warning [1386.79] Compile of SSAGameInstance failed. 1 Fatal Issue(s) 1 Warning(s) [in 187 ms]
+[2015.11.14-16.01.55:207][618]BlueprintLog: New page: Compile SSAGameInstance
+[2015.11.14-16.01.55:230][618]LogBlueprint:Warning: [compiler SSAGameInstance] Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.01.55:231][618]LogBlueprint:Error: [compiler SSAGameInstance] Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.01.55:366][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.14-16.01.55:366][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.14-16.01.55:399][618]LogBlueprint:Warning: [compiler SSAGameInstance] Warning [1409.54] Compile of SSAGameInstance failed. 1 Fatal Issue(s) 1 Warning(s) [in 191 ms]
+[2015.11.14-16.01.55:399][618]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Profile Name" in 'MainMenu_C'.
+Make sure 'MainMenu_C' has been compiled for  Get Profile Name 
+[2015.11.14-16.01.55:399][618]BlueprintEditorCompileResults:Error: Error The property associated with  Profile Name  could not be found
+[2015.11.14-16.01.55:399][618]BlueprintEditorCompileResults:Warning: Warning [1409.54] Compile of SSAGameInstance failed. 1 Fatal Issue(s) 1 Warning(s) [in 191 ms]
+[2015.11.14-16.01.58:597][998]BlueprintLog: New page: Compile SSAGameInstance
+[2015.11.14-16.01.58:718][998]BlueprintEditorCompileResults: Info [1412.86] Compile of SSAGameInstance successful! [in 121 ms]
+[2015.11.14-16.01.59:537][ 80]LogSavePackage: Save=71.676056ms
+[2015.11.14-16.01.59:537][ 80]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/SSAGameInstance6D5B289A466F80202598029697382A9C.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/SSAGameInstance.uasset'
+[2015.11.14-16.01.59:545][ 80]LogSavePackage: Total save time: 89.230169ms
+[2015.11.14-16.01.59:545][ 80]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/SSAGameInstance.uasset
+[2015.11.14-16.02.00:163][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.00:163][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-16.02.00:163][151]PIE: New page: PIE session: Menu (Nov 14, 2015, 6:02:00 AM)
+[2015.11.14-16.02.00:163][151]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-16.02.00:165][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001668s)
+[2015.11.14-16.02.00:165][151]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-16.02.00:165][151]LogPlayLevel: PIE: World Init took: (0.000372s)
+[2015.11.14-16.02.00:166][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002205s)
+[2015.11.14-16.02.00:194][151]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-16.02.00:200][151]LogInit: FAudioDevice initialized.
+[2015.11.14-16.02.00:243][151]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-16.02.00:244][151]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-11.02.00
+[2015.11.14-16.02.00:244][151]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-16.02.00:244][151]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-16.02.00:244][151]LogWorld: Bringing up level for play took: 0.000549
+[2015.11.14-16.02.00:244][151]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-16.02.00:259][151]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu -0.82
+[2015.11.14-16.02.00:259][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.00:332][160]LogBlueprintUserMessages: [MainMenu_C_20] Hello
+[2015.11.14-16.02.00:332][160]LogBlueprintUserMessages: [MainMenu_C_20] yes
+[2015.11.14-16.02.02:680][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.02:730][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.02:752][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B506BE160
+[2015.11.14-16.02.10:048][312]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.19:198][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.20:923][605]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.22:909][842]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.02.23:017][842]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.23:050][842]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.23:051][842]BlueprintEditorCompileResults: Info [1437.19] Compile of MainMenu successful! [in 141 ms]
+[2015.11.14-16.02.23:059][842]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.23:834][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.23:834][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-16.02.23:834][928]PIE: New page: PIE session: Menu (Nov 14, 2015, 6:02:23 AM)
+[2015.11.14-16.02.23:834][928]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Menu
+[2015.11.14-16.02.23:835][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2015.11.14-16.02.23:836][928]LogAIModule: Creating AISystem for world Menu
+[2015.11.14-16.02.23:836][928]LogPlayLevel: PIE: World Init took: (0.000379s)
+[2015.11.14-16.02.23:836][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Menu.Menu to /Game/SSA/Maps/UEDPIE_0_Menu.Menu (0.002170s)
+[2015.11.14-16.02.23:863][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.11.14-16.02.23:869][928]LogInit: FAudioDevice initialized.
+[2015.11.14-16.02.23:911][928]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.14-16.02.23:912][928]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.11.14-11.02.23
+[2015.11.14-16.02.23:912][928]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-16.02.23:912][928]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-16.02.23:912][928]LogWorld: Bringing up level for play took: 0.000496
+[2015.11.14-16.02.23:912][928]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.14-16.02.23:922][928]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Menu 0.842
+[2015.11.14-16.02.23:922][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.24:005][938]LogBlueprintUserMessages: [MainMenu_C_2] Hello
+[2015.11.14-16.02.24:006][938]LogBlueprintUserMessages: [MainMenu_C_2] yes
+[2015.11.14-16.02.25:341][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.25:395][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/SSA/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/SSA/Maps/Menu.Menu:PersistentLevel.Menu'
+[2015.11.14-16.02.25:418][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B3F58F240
+[2015.11.14-16.02.26:608][240]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.36:318][395]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.02.36:474][395]BlueprintEditorCompileResults: Info [1450.62] Compile of MainMenu successful! [in 155 ms]
+[2015.11.14-16.02.38:361][614]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.45:113][969]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.47:592][261]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.48:082][319]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.02.59:451][673]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.23:851][589]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.34:175][826]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.34:662][884]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.34:794][900]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.39:321][440]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/Menues/MainMenu.SKEL_MainMenu_C'
+[2015.11.14-16.03.41:962][751]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/SSAGameInstance.SSAGameInstance_C'
+[2015.11.14-16.03.44:678][ 67]LogSavePackage: Save=31.782717ms
+[2015.11.14-16.03.44:678][ 67]LogSavePackage: Moving '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Saved/MainMenu14781C80421D1AE357ED4EB9A8E99478.tmp' to '../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.11.14-16.03.44:679][ 67]LogSavePackage: Total save time: 38.670398ms
+[2015.11.14-16.03.44:679][ 67]LogSavePackage:Warning: Finished SavePackage ../../../../../../../My Media/UCF Documents/DIG 4725/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.11.14-16.03.45:384][151]BlueprintLog: New page: Compile MainMenu
+[2015.11.14-16.03.45:536][151]BlueprintEditorCompileResults: Info [1519.68] Compile of MainMenu successful! [in 151 ms]
+[2015.11.14-16.03.51:740][891]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu', cached variable property's owner is '/Game/SSA/Blueprints/SSAGameInstance.SSAGameInstance_C'
+[2015.11.14-16.03.52:820][ 21]LogEditorTransaction: Undo Move Node
+[2015.11.14-16.03.53:319][ 58]LogEditorTransaction: Undo Move Node
+[2015.11.14-16.03.53:361][ 58]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.11.14-16.03.53:766][ 58]LogCrashTracker: 
+
+
+[2015.11.14-16.03.53:766][ 58]LogCrashTracker: 
+
+
+[2015.11.14-16.03.53:766][ 58]LogWindows: === Critical error: ===
+Assertion failed: Schema [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\GraphEditor\Private\SGraphPin.cpp] [Line: 170] 
+Missing schema for pin: EdGraphPin_152227 with outer: /Engine/Transient of type Package
+
+
+
+
+[2015.11.14-16.03.53:857][ 58]LogExit: Executing StaticShutdownAfterError
+[2015.11.14-16.03.53:862][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:862][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:862][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:862][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:862][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:863][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:863][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:863][ 58]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.14-16.03.53:863][ 58]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.14-16.03.53:863][ 58]Log file closed, 11/14/15 11:03:53
