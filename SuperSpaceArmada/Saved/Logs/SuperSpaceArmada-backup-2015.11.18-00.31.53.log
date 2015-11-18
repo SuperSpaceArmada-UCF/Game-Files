@@ -1,0 +1,1393 @@
+﻿[2015.11.17-02.40.45:520][  0]Log file open, 11/16/15 21:40:45
+[2015.11.17-02.40.45:520][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.11.17-02.40.45:520][  0]LogInit:Display: RandInit(-921834444) SRandInit(-921834444).
+[2015.11.17-02.40.45:520][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.17-02.40.45:520][  0]LogStats: Stats thread started at 0.125283
+[2015.11.17-02.40.45:520][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.17-02.40.45:520][  0]LogInit: API Version: 2672455
+[2015.11.17-02.40.45:520][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.11.17-02.40.45:520][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.17-02.40.45:520][  0]LogInit: Build Configuration: Development
+[2015.11.17-02.40.45:520][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.17-02.40.45:521][  0]LogInit: Command line:  
+[2015.11.17-02.40.45:521][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.9/Engine/Binaries/Win64/
+[2015.11.17-02.40.45:521][  0]LogInit: Rocket: 1
+[2015.11.17-02.40.45:622][  0]LogInit: Using libcurl 7.41.0
+[2015.11.17-02.40.45:622][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.17-02.40.45:622][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.17-02.40.45:622][  0]LogInit:  - other features:
+[2015.11.17-02.40.45:622][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.17-02.40.45:622][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.17-02.40.45:622][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.17-02.40.45:622][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.17-02.40.45:622][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.17-02.40.45:622][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.17-02.40.45:622][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.17-02.40.45:622][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.17-02.40.45:622][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.17-02.40.45:622][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.17-02.40.45:716][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.17-02.40.45:722][  0]LogInit: Object subsystem initialized
+[2015.11.17-02.40.45:724][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.17-02.40.45:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.17-02.40.45:738][  0]LogInit: Computer: LOU
+[2015.11.17-02.40.45:738][  0]LogInit: User: LouIII
+[2015.11.17-02.40.45:738][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.17-02.40.45:738][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2015.11.17-02.40.45:738][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.17-02.40.45:738][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.17-02.40.45:738][  0]LogMemory: Process Physical Memory: 54.83 MB used, 54.83 MB peak
+[2015.11.17-02.40.45:738][  0]LogMemory: Process Virtual Memory: 55.30 MB used, 55.30 MB peak
+[2015.11.17-02.40.45:738][  0]LogMemory: Physical Memory: 4203.28 MB used, 16303.71 MB total
+[2015.11.17-02.40.45:738][  0]LogMemory: Virtual Memory: 364.56 MB used, 134217728.00 MB total
+[2015.11.17-02.40.46:126][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.17-02.40.46:953][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.11.17-02.40.46:953][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2015.11.17-02.40.46:958][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.17-02.40.46:958][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.11.17-02.40.46:959][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.17-02.40.46:959][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.11.17-02.40.46:959][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.17-02.40.46:963][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.17-02.40.46:963][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.17-02.40.46:975][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.17-02.40.46:990][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/1596/).
+[2015.11.17-02.40.46:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/81EAB7924B227E4A15F7818823C49C56/'.
+[2015.11.17-02.40.46:991][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.17-02.40.49:475][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.17-02.40.49:480][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.17-02.40.49:486][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.17-02.40.49:491][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.17-02.40.49:496][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.17-02.40.49:501][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.17-02.40.49:504][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.17-02.40.49:508][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.17-02.40.49:511][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.17-02.40.49:514][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.17-02.40.49:518][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.17-02.40.49:521][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.17-02.40.49:522][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.17-02.40.49:587][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.17-02.40.49:590][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.17-02.40.49:593][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.17-02.40.49:598][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.17-02.40.49:599][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.17-02.40.50:110][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache: Loaded boot cache 0.40s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.17-02.40.50:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.17-02.40.50:763][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.17-02.40.50:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.17-02.40.59:456][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.17-02.40.59:504][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.17-02.41.00:405][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.17-02.41.00:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.17-02.41.02:967][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.17-02.41.21:570][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.11.17-02.41.21:635][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.17-02.41.25:607][  0]SourceControl: Info Source control is disabled
+[2015.11.17-02.41.25:655][  0]SourceControl: Info Source control is disabled
+[2015.11.17-02.41.25:740][  0]SourceControl: Info Source control is disabled
+[2015.11.17-02.41.25:774][  0]SourceControl: Info Source control is disabled
+[2015.11.17-02.41.27:104][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.27:628][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.11.17-02.41.27:628][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.11.17-02.41.28:608][  0]LogEngine: Initializing Engine...
+[2015.11.17-02.41.28:666][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.17-02.41.28:716][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.17-02.41.29:917][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.17-02.41.30:221][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.17-02.41.30:250][  0]LogInit: FAudioDevice initialized.
+[2015.11.17-02.41.30:268][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.17-02.41.30:273][  0]LogInit: Texture streaming: Enabled
+[2015.11.17-02.41.30:307][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.17-02.41.30:307][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.17-02.41.30:307][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
+[2015.11.17-02.41.30:367][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.17-02.41.30:850][  0]LogInit: Transaction tracking system initialized
+[2015.11.17-02.41.31:405][  0]BlueprintLog: New page: Editor Load
+[2015.11.17-02.41.33:317][  0]LocalizationService: Info Localization service is disabled
+[2015.11.17-02.41.34:691][  0]LogConsoleResponse:Display: 
+[2015.11.17-02.41.36:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.11.17-02.41.36:560][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.17-02.41.37:700][  0]SourceControl: Info Source control is disabled
+[2015.11.17-02.41.37:753][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.17-02.41.37:867][  0]LightingResults: New page: Lighting Build
+[2015.11.17-02.41.38:008][  0]MapCheck: New page: Map Check
+[2015.11.17-02.41.38:008][  0]LightingResults: New page: Lighting Build
+[2015.11.17-02.41.38:017][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF1DABC400
+[2015.11.17-02.41.38:702][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.38:749][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.38:834][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.38:918][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.38:967][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.38:997][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.39:035][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.39:079][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.17-02.41.56:691][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.17-02.41.56:691][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.17-02.41.56:691][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.17-02.41.56:692][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.17-02.41.56:692][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.17-02.41.56:692][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.17-02.41.56:714][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.17-02.41.56:715][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.17-02.41.56:715][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.17-02.41.56:715][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.17-02.41.56:715][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.17-02.41.56:715][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.17-02.41.56:716][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.17-02.41.56:716][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.17-02.41.56:716][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.17-02.41.56:716][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.17-02.41.56:716][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.17-02.42.12:837][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.11.17-02.42.12:947][  0]LogMaterial:Warning: Failed to compile Material /Game/Geometry/Meshes/KratakosFrigate/lambert1.lambert1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.17-02.42.12:947][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.17-02.42.17:584][  0]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.17-02.42.18:392][  0]LogEditorServer: Finished looking for orphan Actors (0.015 secs)
+[2015.11.17-02.42.18:502][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.17-02.42.18:670][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.48ms to complete.
+[2015.11.17-02.42.18:670][  0]LogFileHelpers: Loading map 'Home_Kratakos' took 40.927
+[2015.11.17-02.42.19:603][  0]LogCollectionManager: Loaded 0 collections in 0.002585 seconds
+[2015.11.17-02.42.19:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.11.17-02.42.19:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Developers/LouIII/Collections/' took 0.01s
+[2015.11.17-02.42.19:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.11.17-02.42.19:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0461 seconds. Added 1882 classes and 339 folders.
+[2015.11.17-02.42.19:887][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.17-02.42.19:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.17-02.42.22:516][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.17-02.42.22:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.17-02.42.22:949][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.17-02.42.23:141][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.17-02.42.23:198][  0]LogLoad: Full Startup: 98.81 seconds (BP compile: 2.21 seconds)
+[2015.11.17-02.42.23:208][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.11.17-02.42.23:539][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.17-02.42.23:958][  0]LogRenderer: Reallocating scene render targets to support 1312x552 (Frame:2).
+[2015.11.17-02.42.25:214][ 22]LogAssetRegistry: Asset discovery search completed in 63.6546 seconds
+[2015.11.17-02.42.25:214][ 22]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.11.17-02.42.25:268][ 22]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2015.11.17-02.43.26:431][907]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/cephalonPlanet.fbx)
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: Material, ItemCount : 3
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: Texture, ItemCount : 4
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: Model, ItemCount : 3
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: AnimationCurveNode, ItemCount : 8
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: AnimationCurve, ItemCount : 20
+[2015.11.17-02.43.26:603][907]LogFbx: ItemName: Video, ItemCount : 4
+[2015.11.17-02.43.26:610][907]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/cephalonPlanet.fbx
+[2015.11.17-02.43.26:791][907]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.43.30:241][907]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/cephalonPlanet.fbx
+[2015.11.17-02.43.30:350][907]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 999889104.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 994773720.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 357152320.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 999898464.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 994774336.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.30:375][907]LogFbx: =================================================
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.30:375][907]LogFbx: 	Total Deformer Count 357152320.
+[2015.11.17-02.43.30:375][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.30:375][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.30:375][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.30:412][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/light_clouds'
+[2015.11.17-02.43.30:412][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/light_clouds'
+[2015.11.17-02.43.30:451][907]LogMaterial: Missing cached shader map for material light_clouds, compiling. 
+[2015.11.17-02.43.30:566][907]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.43.30:674][907]LogSkeletalMesh: Chunk 0: 446 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.43.30:675][907]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.43.30:768][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_PhysicsAsset'
+[2015.11.17-02.43.30:768][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_PhysicsAsset'
+[2015.11.17-02.43.30:768][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_PhysicsAsset.cephalonPlanet_cloud_PhysicsAsset'
+[2015.11.17-02.43.30:859][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Skeleton'
+[2015.11.17-02.43.30:859][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Skeleton'
+[2015.11.17-02.43.30:860][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Skeleton.cephalonPlanet_cloud_Skeleton'
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 999899088.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 994775232.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 357140552.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 999889440.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 994771984.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.31:074][907]LogFbx: =================================================
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.31:074][907]LogFbx: 	Total Deformer Count 357140552.
+[2015.11.17-02.43.31:074][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:074][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.31:074][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.31:100][907]LogFbx: SortedLinks :(0) cloud
+[2015.11.17-02.43.31:198][907]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.43.31:269][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Anim'
+[2015.11.17-02.43.31:269][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Anim'
+[2015.11.17-02.43.31:269][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Anim.cephalonPlanet_cloud_Anim'
+[2015.11.17-02.43.31:437][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/darkclouds'
+[2015.11.17-02.43.31:437][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/darkclouds'
+[2015.11.17-02.43.31:442][907]LogMaterial: Missing cached shader map for material darkclouds, compiling. 
+[2015.11.17-02.43.31:452][907]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.43.31:456][907]LogSkeletalMesh: Chunk 0: 453 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.43.31:457][907]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.43.31:562][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.43.31:563][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.43.31:563][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_PhysicsAsset.cephalonPlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.43.31:565][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Skeleton'
+[2015.11.17-02.43.31:565][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Skeleton'
+[2015.11.17-02.43.31:565][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Skeleton.cephalonPlanet_cloud1_Skeleton'
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 999889776.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 999483488.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 367672824.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 999887904.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 999483040.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.31:567][907]LogFbx: =================================================
+[2015.11.17-02.43.31:567][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.31:567][907]LogFbx: 	Total Deformer Count 367672824.
+[2015.11.17-02.43.31:567][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.31:567][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.31:568][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.31:568][907]LogFbx: SortedLinks :(0) cloud1
+[2015.11.17-02.43.31:568][907]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.43.31:573][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Anim'
+[2015.11.17-02.43.31:573][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Anim'
+[2015.11.17-02.43.31:573][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Anim.cephalonPlanet_cloud1_Anim'
+[2015.11.17-02.43.31:735][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_Mat'
+[2015.11.17-02.43.31:735][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_Mat'
+[2015.11.17-02.43.31:736][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/CephalonPlanet_Color'
+[2015.11.17-02.43.31:737][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/CephalonPlanet_Color'
+[2015.11.17-02.43.31:737][907]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/CephalonPlanet/CephalonPlanet_Color.CephalonPlanet_Color'
+[2015.11.17-02.43.33:285][907]LogTexture:Display: Building textures: CephalonPlanet_Color (AutoDXT)
+[2015.11.17-02.43.48:405][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/CephalonNormal'
+[2015.11.17-02.43.48:405][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/CephalonNormal'
+[2015.11.17-02.43.48:405][907]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/CephalonPlanet/CephalonNormal.CephalonNormal'
+[2015.11.17-02.43.48:405][907]LogStreaming:Warning: Failed to read file 'C:/Users/jcc44_000/Documents/maya/projects/SpaceArmada//images/CephalonNormal.dds' error.
+[2015.11.17-02.43.48:405][907]LogStreaming:Warning: Failed to read file '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/..\..\..\..\..\jcc44_000\Documents\maya\projects\SpaceArmada\images\CephalonNormal.dds' error.
+[2015.11.17-02.43.48:405][907]LogStreaming:Warning: Failed to read file '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/CephalonNormal.dds' error.
+[2015.11.17-02.43.48:405][907]LogFbxMaterialImport:Warning: Unable to find TEXTure file CephalonNormal.dds. Tried:
+ - C:/Users/jcc44_000/Documents/maya/projects/SpaceArmada//images/CephalonNormal.dds
+ - ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/..\..\..\..\..\jcc44_000\Documents\maya\projects\SpaceArmada\images\CephalonNormal.dds
+ - ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Cephalon/CephalonNormal.dds
+[2015.11.17-02.43.48:440][907]LogMaterial: Missing cached shader map for material cephalonPlanet_Mat, compiling. 
+[2015.11.17-02.43.48:449][907]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.43.48:452][907]LogSkeletalMesh: Chunk 0: 446 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.43.48:453][907]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.43.48:555][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_PhysicsAsset'
+[2015.11.17-02.43.48:556][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_PhysicsAsset'
+[2015.11.17-02.43.48:556][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_PhysicsAsset.cephalonPlanet_dup_PhysicsAsset'
+[2015.11.17-02.43.48:558][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Skeleton'
+[2015.11.17-02.43.48:558][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Skeleton'
+[2015.11.17-02.43.48:558][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Skeleton.cephalonPlanet_dup_Skeleton'
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 999894576.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 999476152.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 682000968.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 999893136.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 999477440.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.43.48:560][907]LogFbx: =================================================
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.43.48:560][907]LogFbx: 	Total Deformer Count 682000968.
+[2015.11.17-02.43.48:560][907]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.43.48:560][907]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.43.48:560][907]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.43.48:560][907]LogFbx: SortedLinks :(0) dup
+[2015.11.17-02.43.48:560][907]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.43.48:565][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Anim'
+[2015.11.17-02.43.48:565][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Anim'
+[2015.11.17-02.43.48:565][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Anim.cephalonPlanet_dup_Anim'
+[2015.11.17-02.43.48:744][907]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.43.48:744][907]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.43.48:744][907]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.43.49:023][909]LogMaterial:Warning: Material /Game/Geometry/Meshes/CephalonPlanet/cephalonPlanet_Mat.cephalonPlanet_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.43.49:037][909]LogMaterial: Missing cached shader map for material cephalonPlanet_Mat, compiling. 
+[2015.11.17-02.43.49:062][909]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.43.49:073][910]LogMaterial:Warning: Material /Game/Geometry/Meshes/CephalonPlanet/darkclouds.darkclouds needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.43.49:115][910]LogMaterial: Missing cached shader map for material darkclouds, compiling. 
+[2015.11.17-02.43.49:138][910]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.43.49:150][911]LogMaterial:Warning: Material /Game/Geometry/Meshes/CephalonPlanet/light_clouds.light_clouds needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.43.49:160][911]LogMaterial: Missing cached shader map for material light_clouds, compiling. 
+[2015.11.17-02.43.49:182][911]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.49.46:584][922]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.11.17-02.49.46:824][922]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.49.47:070][922]LogRenderer: Reallocating scene render targets to support 1856x880 (Frame:7754).
+[2015.11.17-02.49.59:767][284]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.11.17-02.49.59:882][284]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.50.00:021][284]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.11.17-02.50.51:299][421]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Dragomir/dragomirPlanet.fbx)
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.17-02.50.51:374][421]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.17-02.50.51:379][421]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Dragomir/dragomirPlanet.fbx
+[2015.11.17-02.50.51:506][421]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.50.53:737][421]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Dragomir/dragomirPlanet.fbx
+[2015.11.17-02.50.53:947][421]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.50.54:077][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/dragomirPlanet_Mat'
+[2015.11.17-02.50.54:077][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/dragomirPlanet_Mat'
+[2015.11.17-02.50.54:079][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/DragmoirPlanet_Color'
+[2015.11.17-02.50.54:079][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/DragmoirPlanet_Color'
+[2015.11.17-02.50.54:079][421]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/DragomirPlanet/DragmoirPlanet_Color.DragmoirPlanet_Color'
+[2015.11.17-02.50.55:183][421]LogTexture:Display: Building textures: DragmoirPlanet_Color (AutoDXT)
+[2015.11.17-02.51.09:066][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/DragomirPlanet_NormalMap'
+[2015.11.17-02.51.09:066][421]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/DragomirPlanet/DragomirPlanet_NormalMap'
+[2015.11.17-02.51.09:066][421]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/DragomirPlanet/DragomirPlanet_NormalMap.DragomirPlanet_NormalMap'
+[2015.11.17-02.51.09:106][421]LogTexture:Display: Building textures: DragomirPlanet_NormalMap (BGRA8)
+[2015.11.17-02.51.09:743][421]LogTexture:Display: Building textures: DragomirPlanet_NormalMap (BGRA8)
+[2015.11.17-02.51.09:955][421]LogMaterial: Missing cached shader map for material dragomirPlanet_Mat, compiling. 
+[2015.11.17-02.51.10:125][421]LogStaticMesh: Building static mesh dragomirPlanet...
+[2015.11.17-02.51.10:158][421]LogStaticMesh: Built static mesh [0.032965.2s] /Game/Geometry/Meshes/DragomirPlanet/dragomirPlanet.dragomirPlanet
+[2015.11.17-02.51.25:460][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.25:470][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.17-02.51.25:477][156]PIE: New page: PIE session: Home_Kratakos (Nov 16, 2015, 4:51:25 PM)
+[2015.11.17-02.51.25:478][156]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.11.17-02.51.25:559][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081043s)
+[2015.11.17-02.51.25:559][156]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.17-02.51.25:559][156]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2015.11.17-02.51.25:560][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.082265s)
+[2015.11.17-02.51.25:560][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.17-02.51.25:560][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.17-02.51.25:560][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.17-02.51.25:561][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.17-02.51.25:561][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.17-02.51.25:671][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3601DC60
+[2015.11.17-02.51.25:671][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3601CCC0
+[2015.11.17-02.51.25:755][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF820960C0
+[2015.11.17-02.51.25:755][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF82095EE0
+[2015.11.17-02.51.25:755][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF28AEB240
+[2015.11.17-02.51.25:755][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF82096980
+[2015.11.17-02.51.25:755][156]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.17-02.51.25:760][156]LogInit: FAudioDevice initialized.
+[2015.11.17-02.51.25:890][156]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.17-02.51.25:896][156]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.17-02.51.25:896][156]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.11.16-21.51.25
+[2015.11.17-02.51.25:896][156]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.17-02.51.25:897][156]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.17-02.51.25:917][156]LogWorld: Bringing up level for play took: 0.025658
+[2015.11.17-02.51.26:327][156]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 1.144
+[2015.11.17-02.51.26:327][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.35:542][550]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue'
+	EnemyAI1_C /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.EnemyAI1_C_0
+	Function /Game/SSA/Blueprints/AI/EnemyAI1.EnemyAI1_C:ExecuteUbergraph_EnemyAI1:008C
+[2015.11.17-02.51.35:553][550]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue' from node Set Value as Vector in graph 'EventGraph' in blueprint EnemyAI1
+[2015.11.17-02.51.35:580][550]LogBlueprintUserMessages: [Player_Human_C_0] X=501.205 Y=-925.291 Z=312.525
+[2015.11.17-02.51.37:780][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.37:903][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.37:930][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF7AA84AE0
+[2015.11.17-02.51.37:979][646]Cmd: SELECT NONE
+[2015.11.17-02.51.40:044][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.40:044][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.17-02.51.40:044][784]PIE: New page: PIE session: Home_Kratakos (Nov 16, 2015, 4:51:40 PM)
+[2015.11.17-02.51.40:044][784]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Home_Kratakos
+[2015.11.17-02.51.40:060][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016147s)
+[2015.11.17-02.51.40:061][784]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.17-02.51.40:061][784]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2015.11.17-02.51.40:061][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Home_Kratakos.Home_Kratakos to /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos (0.017217s)
+[2015.11.17-02.51.40:091][784]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.17-02.51.40:095][784]LogInit: FAudioDevice initialized.
+[2015.11.17-02.51.40:132][784]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.11.17-02.51.40:138][784]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.17-02.51.40:138][784]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos up for play (max tick rate 0) at 2015.11.16-21.51.40
+[2015.11.17-02.51.40:138][784]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.17-02.51.40:138][784]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Home_Kratakos.Home_Kratakos:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.17-02.51.40:139][784]LogWorld: Bringing up level for play took: 0.005424
+[2015.11.17-02.51.40:202][784]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Home_Kratakos 1.03
+[2015.11.17-02.51.40:202][784]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.42:850][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.42:915][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos' with GeneratedClass '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos_C' with ClassGeneratedBy '/Game/SSA/Maps/Home_Kratakos.Home_Kratakos:PersistentLevel.Home_Kratakos'
+[2015.11.17-02.51.42:956][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF284E6200
+[2015.11.17-02.51.50:390][166]LogRenderer: Reallocating scene render targets to support 1856x924 (Frame:12969).
+[2015.11.17-02.51.50:497][168]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2015.11.17-02.53.11:958][701]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/earthPlanet.fbx)
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: Material, ItemCount : 2
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: Model, ItemCount : 2
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: AnimationCurveNode, ItemCount : 4
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: AnimationCurve, ItemCount : 10
+[2015.11.17-02.53.11:964][701]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.17-02.53.11:969][701]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/earthPlanet.fbx
+[2015.11.17-02.53.11:985][701]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.53.13:975][701]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/earthPlanet.fbx
+[2015.11.17-02.53.13:991][701]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.53.13:994][701]LogFbx: =================================================
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.13:994][701]LogFbx: 	Total Deformer Count 716434624.
+[2015.11.17-02.53.13:994][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.13:994][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.13:994][701]LogFbx: =================================================
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.13:994][701]LogFbx: 	Total Deformer Count 655285376.
+[2015.11.17-02.53.13:994][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.13:994][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.13:994][701]LogFbx: =================================================
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.13:994][701]LogFbx: 	Total Deformer Count 716432048.
+[2015.11.17-02.53.13:994][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.13:994][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.13:994][701]LogFbx: =================================================
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.13:994][701]LogFbx: 	Total Deformer Count 655285376.
+[2015.11.17-02.53.13:994][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.13:994][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.13:994][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.13:996][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_Mat'
+[2015.11.17-02.53.13:997][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_Mat'
+[2015.11.17-02.53.13:998][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/HumanPlanet_Color'
+[2015.11.17-02.53.13:998][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/HumanPlanet_Color'
+[2015.11.17-02.53.13:998][701]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HumanPlanet/HumanPlanet_Color.HumanPlanet_Color'
+[2015.11.17-02.53.14:795][701]LogTexture:Display: Building textures: HumanPlanet_Color (AutoDXT)
+[2015.11.17-02.53.16:929][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/HumanPlanet_BumpMap'
+[2015.11.17-02.53.16:929][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/HumanPlanet_BumpMap'
+[2015.11.17-02.53.16:929][701]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HumanPlanet/HumanPlanet_BumpMap.HumanPlanet_BumpMap'
+[2015.11.17-02.53.16:929][701]LogStreaming:Warning: Failed to read file 'C:/Users/jcc44_000/Documents/maya/projects/SpaceArmada//images/HumanPlanet_BumpMap.png' error.
+[2015.11.17-02.53.16:929][701]LogStreaming:Warning: Failed to read file '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/..\..\..\..\..\jcc44_000\Documents\maya\projects\SpaceArmada\images\HumanPlanet_BumpMap.png' error.
+[2015.11.17-02.53.16:929][701]LogStreaming:Warning: Failed to read file '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/HumanPlanet_BumpMap.png' error.
+[2015.11.17-02.53.16:929][701]LogFbxMaterialImport:Warning: Unable to find TEXTure file HumanPlanet_BumpMap.png. Tried:
+ - C:/Users/jcc44_000/Documents/maya/projects/SpaceArmada//images/HumanPlanet_BumpMap.png
+ - ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/..\..\..\..\..\jcc44_000\Documents\maya\projects\SpaceArmada\images\HumanPlanet_BumpMap.png
+ - ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Human/HumanPlanet_BumpMap.png
+[2015.11.17-02.53.16:952][701]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.16:962][701]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.53.16:965][701]LogSkeletalMesh: Chunk 0: 447 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.53.16:965][701]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.53.16:983][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_PhysicsAsset'
+[2015.11.17-02.53.16:983][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_PhysicsAsset'
+[2015.11.17-02.53.16:983][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_PhysicsAsset.earthPlanet_TheEarth_PhysicsAsset'
+[2015.11.17-02.53.16:986][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Skeleton'
+[2015.11.17-02.53.16:986][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Skeleton'
+[2015.11.17-02.53.16:986][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Skeleton.earthPlanet_TheEarth_Skeleton'
+[2015.11.17-02.53.16:988][701]LogFbx: =================================================
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.16:988][701]LogFbx: 	Total Deformer Count 716439440.
+[2015.11.17-02.53.16:988][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.16:988][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.16:988][701]LogFbx: =================================================
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.16:988][701]LogFbx: 	Total Deformer Count 654611712.
+[2015.11.17-02.53.16:988][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.16:988][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.16:988][701]LogFbx: =================================================
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.16:988][701]LogFbx: 	Total Deformer Count 716434568.
+[2015.11.17-02.53.16:988][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.16:988][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.16:988][701]LogFbx: =================================================
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.16:988][701]LogFbx: 	Total Deformer Count 654611712.
+[2015.11.17-02.53.16:988][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.16:988][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.16:988][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.16:988][701]LogFbx: SortedLinks :(0) TheEarth
+[2015.11.17-02.53.16:988][701]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.53.16:991][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Anim'
+[2015.11.17-02.53.16:991][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Anim'
+[2015.11.17-02.53.16:991][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Anim.earthPlanet_TheEarth_Anim'
+[2015.11.17-02.53.17:071][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/atmosph'
+[2015.11.17-02.53.17:071][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/atmosph'
+[2015.11.17-02.53.17:085][701]LogMaterial: Missing cached shader map for material atmosph, compiling. 
+[2015.11.17-02.53.17:096][701]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.53.17:100][701]LogSkeletalMesh: Chunk 0: 439 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.53.17:101][701]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 760 triangles
+[2015.11.17-02.53.17:117][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_PhysicsAsset'
+[2015.11.17-02.53.17:117][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_PhysicsAsset'
+[2015.11.17-02.53.17:117][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_PhysicsAsset.earthPlanet_atmosphere_PhysicsAsset'
+[2015.11.17-02.53.17:119][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Skeleton'
+[2015.11.17-02.53.17:119][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Skeleton'
+[2015.11.17-02.53.17:119][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Skeleton.earthPlanet_atmosphere_Skeleton'
+[2015.11.17-02.53.17:121][701]LogFbx: =================================================
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.17:121][701]LogFbx: 	Total Deformer Count 716427344.
+[2015.11.17-02.53.17:121][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.17:121][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.17:121][701]LogFbx: =================================================
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.17:121][701]LogFbx: 	Total Deformer Count 606294144.
+[2015.11.17-02.53.17:121][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.17:121][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.17:121][701]LogFbx: =================================================
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node START [TheEarth] 
+[2015.11.17-02.53.17:121][701]LogFbx: 	Total Deformer Count 716432496.
+[2015.11.17-02.53.17:121][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.17:121][701]LogFbx: 		[Node Attribute Child 1] TheEarth (Type Mesh).
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node END [TheEarth]
+[2015.11.17-02.53.17:121][701]LogFbx: =================================================
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node START [atmosphere] 
+[2015.11.17-02.53.17:121][701]LogFbx: 	Total Deformer Count 606294144.
+[2015.11.17-02.53.17:121][701]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.53.17:121][701]LogFbx: 		[Node Attribute Child 1] atmosphere (Type Mesh).
+[2015.11.17-02.53.17:121][701]LogFbx: Dumping Node END [atmosphere]
+[2015.11.17-02.53.17:121][701]LogFbx: SortedLinks :(0) atmosphere
+[2015.11.17-02.53.17:121][701]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.53.17:124][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Anim'
+[2015.11.17-02.53.17:124][701]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Anim'
+[2015.11.17-02.53.17:124][701]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Anim.earthPlanet_atmosphere_Anim'
+[2015.11.17-02.53.17:212][701]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.53.17:213][701]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.53.17:260][702]LogMaterial:Warning: Material /Game/Geometry/Meshes/HumanPlanet/earthPlanet_Mat.earthPlanet_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.53.17:301][702]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.17:323][702]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.53.17:341][703]LogMaterial:Warning: Material /Game/Geometry/Meshes/HumanPlanet/atmosph.atmosph needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.53.17:350][703]LogMaterial: Missing cached shader map for material atmosph, compiling. 
+[2015.11.17-02.53.17:373][703]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.53.34:868][380]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.34:985][380]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.34:998][380]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.53.35:024][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.17-02.53.37:615][454]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.17-02.53.37:615][454]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-02.53.37:615][454]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.17-02.53.46:591][695]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.46:620][695]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.53.46:674][695]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.46:736][695]LogMaterial: Missing cached shader map for material earthPlanet_Mat, compiling. 
+[2015.11.17-02.53.46:760][695]LogMaterial: 0.000983 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.53.49:586][804]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2015.11.17-02.53.49:609][804]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.53.55:475][923]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2015.11.17-02.53.55:489][923]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.54.08:190][ 53]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2015.11.17-02.54.08:203][ 53]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.54.34:628][493]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Hive/hivePlanet.fbx)
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: Material, ItemCount : 3
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: Texture, ItemCount : 4
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: Model, ItemCount : 3
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: AnimationCurveNode, ItemCount : 8
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: AnimationCurve, ItemCount : 20
+[2015.11.17-02.54.34:692][493]LogFbx: ItemName: Video, ItemCount : 4
+[2015.11.17-02.54.34:697][493]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Hive/hivePlanet.fbx
+[2015.11.17-02.54.34:774][493]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.54.36:189][493]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Hive/hivePlanet.fbx
+[2015.11.17-02.54.36:250][493]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 620668496.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 1001375576.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 633174424.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 620664176.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 1001379496.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:258][493]LogFbx: =================================================
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:258][493]LogFbx: 	Total Deformer Count 633174424.
+[2015.11.17-02.54.36:258][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:258][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:258][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:260][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/light_clouds'
+[2015.11.17-02.54.36:261][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/light_clouds'
+[2015.11.17-02.54.36:265][493]LogMaterial: Missing cached shader map for material light_clouds, compiling. 
+[2015.11.17-02.54.36:276][493]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.54.36:279][493]LogSkeletalMesh: Chunk 0: 447 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.54.36:279][493]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.54.36:424][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_PhysicsAsset'
+[2015.11.17-02.54.36:424][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_PhysicsAsset'
+[2015.11.17-02.54.36:424][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_PhysicsAsset.hivePlanet_cloud_PhysicsAsset'
+[2015.11.17-02.54.36:427][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Skeleton'
+[2015.11.17-02.54.36:427][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Skeleton'
+[2015.11.17-02.54.36:428][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Skeleton.hivePlanet_cloud_Skeleton'
+[2015.11.17-02.54.36:429][493]LogFbx: =================================================
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:429][493]LogFbx: 	Total Deformer Count 620665856.
+[2015.11.17-02.54.36:429][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:429][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:429][493]LogFbx: =================================================
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:429][493]LogFbx: 	Total Deformer Count 1001387728.
+[2015.11.17-02.54.36:429][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:429][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:429][493]LogFbx: =================================================
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:429][493]LogFbx: 	Total Deformer Count 633164768.
+[2015.11.17-02.54.36:429][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:429][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:429][493]LogFbx: =================================================
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:429][493]LogFbx: 	Total Deformer Count 620671136.
+[2015.11.17-02.54.36:429][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:429][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:429][493]LogFbx: =================================================
+[2015.11.17-02.54.36:429][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:430][493]LogFbx: 	Total Deformer Count 1001387952.
+[2015.11.17-02.54.36:430][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:430][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:430][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:430][493]LogFbx: =================================================
+[2015.11.17-02.54.36:430][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:430][493]LogFbx: 	Total Deformer Count 633164768.
+[2015.11.17-02.54.36:430][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:430][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:430][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:430][493]LogFbx: SortedLinks :(0) cloud
+[2015.11.17-02.54.36:430][493]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.54.36:433][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Anim'
+[2015.11.17-02.54.36:433][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Anim'
+[2015.11.17-02.54.36:433][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Anim.hivePlanet_cloud_Anim'
+[2015.11.17-02.54.36:635][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/darkclouds'
+[2015.11.17-02.54.36:635][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/darkclouds'
+[2015.11.17-02.54.36:676][493]LogMaterial: Missing cached shader map for material darkclouds, compiling. 
+[2015.11.17-02.54.36:687][493]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.54.36:692][493]LogSkeletalMesh: Chunk 0: 447 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.54.36:692][493]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.54.36:838][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.54.36:838][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.54.36:838][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_PhysicsAsset.hivePlanet_cloud1_PhysicsAsset'
+[2015.11.17-02.54.36:840][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Skeleton'
+[2015.11.17-02.54.36:841][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Skeleton'
+[2015.11.17-02.54.36:841][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Skeleton.hivePlanet_cloud1_Skeleton'
+[2015.11.17-02.54.36:842][493]LogFbx: =================================================
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:842][493]LogFbx: 	Total Deformer Count 625563904.
+[2015.11.17-02.54.36:842][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:842][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:842][493]LogFbx: =================================================
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:842][493]LogFbx: 	Total Deformer Count 1849807096.
+[2015.11.17-02.54.36:842][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:842][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:842][493]LogFbx: =================================================
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:842][493]LogFbx: 	Total Deformer Count 222324712.
+[2015.11.17-02.54.36:842][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:842][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:842][493]LogFbx: =================================================
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.36:842][493]LogFbx: 	Total Deformer Count 625566544.
+[2015.11.17-02.54.36:842][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:842][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.36:842][493]LogFbx: =================================================
+[2015.11.17-02.54.36:842][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.36:842][493]LogFbx: 	Total Deformer Count 1849816280.
+[2015.11.17-02.54.36:842][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:843][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.36:843][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.36:843][493]LogFbx: =================================================
+[2015.11.17-02.54.36:843][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.36:843][493]LogFbx: 	Total Deformer Count 222324712.
+[2015.11.17-02.54.36:843][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.36:843][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.36:843][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.36:843][493]LogFbx: SortedLinks :(0) cloud1
+[2015.11.17-02.54.36:843][493]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.54.36:848][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Anim'
+[2015.11.17-02.54.36:848][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Anim'
+[2015.11.17-02.54.36:848][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Anim.hivePlanet_cloud1_Anim'
+[2015.11.17-02.54.37:079][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet'
+[2015.11.17-02.54.37:079][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/HivePlanet_Color'
+[2015.11.17-02.54.37:080][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/HivePlanet_Color'
+[2015.11.17-02.54.37:080][493]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HivePlanet/HivePlanet_Color.HivePlanet_Color'
+[2015.11.17-02.54.38:439][493]LogTexture:Display: Building textures: HivePlanet_Color (AutoDXT)
+[2015.11.17-02.54.47:040][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/HivePlanet_Normal_Map'
+[2015.11.17-02.54.47:040][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/HivePlanet_Normal_Map'
+[2015.11.17-02.54.47:040][493]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HivePlanet/HivePlanet_Normal_Map.HivePlanet_Normal_Map'
+[2015.11.17-02.54.47:108][493]LogTexture:Display: Building textures: HivePlanet_Normal_Map (AutoDXT)
+[2015.11.17-02.54.49:694][493]LogTexture:Display: Building textures: HivePlanet_Normal_Map (BC5)
+[2015.11.17-02.54.50:170][493]LogMaterial: Missing cached shader map for material hivePlanet, compiling. 
+[2015.11.17-02.54.50:180][493]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.54.50:183][493]LogSkeletalMesh: Chunk 0: 442 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.54.50:183][493]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.54.50:322][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_PhysicsAsset'
+[2015.11.17-02.54.50:322][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_PhysicsAsset'
+[2015.11.17-02.54.50:322][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_PhysicsAsset.hivePlanet_dup_PhysicsAsset'
+[2015.11.17-02.54.50:324][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Skeleton'
+[2015.11.17-02.54.50:324][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Skeleton'
+[2015.11.17-02.54.50:324][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Skeleton.hivePlanet_dup_Skeleton'
+[2015.11.17-02.54.50:325][493]LogFbx: =================================================
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.50:325][493]LogFbx: 	Total Deformer Count 625563568.
+[2015.11.17-02.54.50:325][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:325][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.50:325][493]LogFbx: =================================================
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.50:325][493]LogFbx: 	Total Deformer Count 1849819080.
+[2015.11.17-02.54.50:325][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:325][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.50:325][493]LogFbx: =================================================
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.50:325][493]LogFbx: 	Total Deformer Count 642292728.
+[2015.11.17-02.54.50:325][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:325][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.50:325][493]LogFbx: =================================================
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node START [cloud] 
+[2015.11.17-02.54.50:325][493]LogFbx: 	Total Deformer Count 625558480.
+[2015.11.17-02.54.50:325][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:325][493]LogFbx: 		[Node Attribute Child 1] cloud (Type Mesh).
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node END [cloud]
+[2015.11.17-02.54.50:325][493]LogFbx: =================================================
+[2015.11.17-02.54.50:325][493]LogFbx: Dumping Node START [cloud1] 
+[2015.11.17-02.54.50:325][493]LogFbx: 	Total Deformer Count 1849817400.
+[2015.11.17-02.54.50:326][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:326][493]LogFbx: 		[Node Attribute Child 1] cloud1 (Type Mesh).
+[2015.11.17-02.54.50:326][493]LogFbx: Dumping Node END [cloud1]
+[2015.11.17-02.54.50:326][493]LogFbx: =================================================
+[2015.11.17-02.54.50:326][493]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.54.50:326][493]LogFbx: 	Total Deformer Count 642292728.
+[2015.11.17-02.54.50:326][493]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.54.50:326][493]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.54.50:326][493]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.54.50:326][493]LogFbx: SortedLinks :(0) dup
+[2015.11.17-02.54.50:326][493]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.54.50:330][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Anim'
+[2015.11.17-02.54.50:330][493]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Anim'
+[2015.11.17-02.54.50:330][493]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HivePlanet/hivePlanet_dup_Anim.hivePlanet_dup_Anim'
+[2015.11.17-02.54.50:548][493]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.54.50:548][493]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.54.50:548][493]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.54.50:619][494]LogMaterial:Warning: Material /Game/Geometry/Meshes/HivePlanet/hivePlanet.hivePlanet needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.54.50:664][494]LogMaterial: Missing cached shader map for material hivePlanet, compiling. 
+[2015.11.17-02.54.50:686][494]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.54.50:701][495]LogMaterial:Warning: Material /Game/Geometry/Meshes/HivePlanet/darkclouds.darkclouds needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.54.50:724][495]LogMaterial: Missing cached shader map for material darkclouds, compiling. 
+[2015.11.17-02.54.50:743][495]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.54.50:755][496]LogMaterial:Warning: Material /Game/Geometry/Meshes/HivePlanet/light_clouds.light_clouds needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.54.50:844][496]LogMaterial: Missing cached shader map for material light_clouds, compiling. 
+[2015.11.17-02.54.50:868][496]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.55.17:718][277]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2015.11.17-02.55.17:734][277]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.55.58:047][158]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Vultarri/vultarriPlanet.fbx)
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: AnimationCurveNode, ItemCount : 4
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: AnimationCurve, ItemCount : 10
+[2015.11.17-02.55.58:093][158]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.17-02.55.58:098][158]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Vultarri/vultarriPlanet.fbx
+[2015.11.17-02.55.58:136][158]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.55.59:358][158]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Planets/Vultarri/vultarriPlanet.fbx
+[2015.11.17-02.55.59:451][158]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-02.55.59:457][158]LogFbx: =================================================
+[2015.11.17-02.55.59:457][158]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.55.59:457][158]LogFbx: 	Total Deformer Count 631856712.
+[2015.11.17-02.55.59:457][158]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.55.59:457][158]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.55.59:457][158]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.55.59:457][158]LogFbx: =================================================
+[2015.11.17-02.55.59:457][158]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.55.59:457][158]LogFbx: 	Total Deformer Count 631856712.
+[2015.11.17-02.55.59:457][158]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.55.59:457][158]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.55.59:457][158]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.55.59:460][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Mat'
+[2015.11.17-02.55.59:460][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Mat'
+[2015.11.17-02.55.59:462][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Color'
+[2015.11.17-02.55.59:462][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Color'
+[2015.11.17-02.55.59:462][158]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Color.VultarriPlanet_Color'
+[2015.11.17-02.56.00:661][158]LogTexture:Display: Building textures: VultarriPlanet_Color (AutoDXT)
+[2015.11.17-02.56.09:230][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Normal'
+[2015.11.17-02.56.09:230][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Normal'
+[2015.11.17-02.56.09:230][158]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Normal.VultarriPlanet_Normal'
+[2015.11.17-02.56.09:319][158]LogTexture:Display: Building textures: VultarriPlanet_Normal (AutoDXT)
+[2015.11.17-02.56.11:931][158]LogTexture:Display: Building textures: VultarriPlanet_Normal (BC5)
+[2015.11.17-02.56.12:412][158]LogMaterial: Missing cached shader map for material vultarriPlanet_Mat, compiling. 
+[2015.11.17-02.56.12:422][158]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.17-02.56.12:425][158]LogSkeletalMesh: Chunk 0: 447 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.17-02.56.12:425][158]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 480 triangles
+[2015.11.17-02.56.12:521][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_PhysicsAsset'
+[2015.11.17-02.56.12:522][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_PhysicsAsset'
+[2015.11.17-02.56.12:522][158]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_PhysicsAsset.vultarriPlanet_PhysicsAsset'
+[2015.11.17-02.56.12:523][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Skeleton'
+[2015.11.17-02.56.12:523][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Skeleton'
+[2015.11.17-02.56.12:523][158]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Skeleton.vultarriPlanet_Skeleton'
+[2015.11.17-02.56.12:525][158]LogFbx: =================================================
+[2015.11.17-02.56.12:525][158]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.56.12:525][158]LogFbx: 	Total Deformer Count 631856440.
+[2015.11.17-02.56.12:525][158]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.56.12:525][158]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.56.12:525][158]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.56.12:525][158]LogFbx: =================================================
+[2015.11.17-02.56.12:525][158]LogFbx: Dumping Node START [dup] 
+[2015.11.17-02.56.12:525][158]LogFbx: 	Total Deformer Count 631856440.
+[2015.11.17-02.56.12:525][158]LogFbx: 	Attribute () Type (4).
+[2015.11.17-02.56.12:525][158]LogFbx: 		[Node Attribute Child 1] dup (Type Mesh).
+[2015.11.17-02.56.12:525][158]LogFbx: Dumping Node END [dup]
+[2015.11.17-02.56.12:525][158]LogFbx: SortedLinks :(0) dup
+[2015.11.17-02.56.12:525][158]LogFbx: Parsing AnimStack Take 001
+[2015.11.17-02.56.12:526][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Anim'
+[2015.11.17-02.56.12:526][158]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Anim'
+[2015.11.17-02.56.12:526][158]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Anim.vultarriPlanet_Anim'
+[2015.11.17-02.56.12:699][158]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.17-02.56.12:746][159]LogMaterial:Warning: Material /Game/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Mat.vultarriPlanet_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.17-02.56.12:794][159]LogMaterial: Missing cached shader map for material vultarriPlanet_Mat, compiling. 
+[2015.11.17-02.56.12:815][159]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-02.56.22:426][569]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2015.11.17-02.56.22:440][569]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.17-02.57.10:226][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2755FA60
+[2015.11.17-02.57.10:227][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2755D800
+[2015.11.17-02.57.10:227][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2536B6A0
+[2015.11.17-02.57.10:228][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2536AC00
+[2015.11.17-02.57.10:228][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF26FE7B00
+[2015.11.17-02.57.10:229][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF26FE7920
+[2015.11.17-02.57.10:229][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF25795E40
+[2015.11.17-02.57.10:230][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF25794B80
+[2015.11.17-02.57.10:231][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF272000E0
+[2015.11.17-02.57.10:231][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2322A840
+[2015.11.17-02.57.10:231][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF276E7A60
+[2015.11.17-02.57.10:310][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF276E6480
+[2015.11.17-02.57.10:475][469]LogSavePackage: Save=55.314903ms
+[2015.11.17-02.57.10:475][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_Mat5E6DA1F64676FD1B7CEA889222AC79E7.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_Mat.uasset'
+[2015.11.17-02.57.10:503][469]LogSavePackage: Total save time: 97.889144ms
+[2015.11.17-02.57.10:503][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_Mat.uasset
+[2015.11.17-02.57.10:591][469]LogSavePackage: Save=26.426451ms
+[2015.11.17-02.57.10:591][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet6E0FA1A64EC38D8CFC095E8AB19CD261.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet.uasset'
+[2015.11.17-02.57.10:593][469]LogSavePackage: Total save time: 28.743051ms
+[2015.11.17-02.57.10:593][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet.uasset
+[2015.11.17-02.57.10:637][469]LogSavePackage: Save=11.985431ms
+[2015.11.17-02.57.10:637][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/light_cloudsB16C8B3C48820397FE1C3CB4F4C5D198.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/light_clouds.uasset'
+[2015.11.17-02.57.10:639][469]LogSavePackage: Total save time: 13.971027ms
+[2015.11.17-02.57.10:639][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/light_clouds.uasset
+[2015.11.17-02.57.10:650][469]LogSavePackage: Save=3.437910ms
+[2015.11.17-02.57.10:650][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud_PhysicsAsset81F8B3B24CCB3555B7DD0B88E7BF397B.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_PhysicsAsset.uasset'
+[2015.11.17-02.57.10:652][469]LogSavePackage: Total save time: 5.510751ms
+[2015.11.17-02.57.10:652][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_PhysicsAsset.uasset
+[2015.11.17-02.57.10:665][469]LogSavePackage: Save=2.970912ms
+[2015.11.17-02.57.10:666][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud_Skeleton12FF548141F4381BB5C1C594DAC4A4CB.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Skeleton.uasset'
+[2015.11.17-02.57.10:667][469]LogSavePackage: Total save time: 5.066846ms
+[2015.11.17-02.57.10:667][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Skeleton.uasset
+[2015.11.17-02.57.10:688][469]LogSavePackage: Save=8.328562ms
+[2015.11.17-02.57.10:688][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud_Anim0D3D966147F4F2C1E3D41480E3F2FED4.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Anim.uasset'
+[2015.11.17-02.57.10:690][469]LogSavePackage: Total save time: 10.603681ms
+[2015.11.17-02.57.10:690][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud_Anim.uasset
+[2015.11.17-02.57.10:728][469]LogSavePackage: Save=13.126411ms
+[2015.11.17-02.57.10:728][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/darkcloudsBDDC18994E84A185C2123EAB622E2E26.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/darkclouds.uasset'
+[2015.11.17-02.57.10:730][469]LogSavePackage: Total save time: 15.248429ms
+[2015.11.17-02.57.10:730][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/darkclouds.uasset
+[2015.11.17-02.57.10:741][469]LogSavePackage: Save=3.483669ms
+[2015.11.17-02.57.10:741][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud1_PhysicsAsset621C4D4D42150BDE315B32976A64C5CE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_PhysicsAsset.uasset'
+[2015.11.17-02.57.10:742][469]LogSavePackage: Total save time: 5.547527ms
+[2015.11.17-02.57.10:742][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_PhysicsAsset.uasset
+[2015.11.17-02.57.10:752][469]LogSavePackage: Save=3.028218ms
+[2015.11.17-02.57.10:752][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud1_Skeleton0BE514B147B2C8229D807EA82761BCE8.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Skeleton.uasset'
+[2015.11.17-02.57.10:754][469]LogSavePackage: Total save time: 5.096778ms
+[2015.11.17-02.57.10:754][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Skeleton.uasset
+[2015.11.17-02.57.10:774][469]LogSavePackage: Save=8.139539ms
+[2015.11.17-02.57.10:774][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_cloud1_Anim3868251A4602C7B4263E8DBFD588ABA0.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Anim.uasset'
+[2015.11.17-02.57.10:776][469]LogSavePackage: Total save time: 10.074243ms
+[2015.11.17-02.57.10:776][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_cloud1_Anim.uasset
+[2015.11.17-02.57.10:816][469]LogSavePackage: Save=14.775873ms
+[2015.11.17-02.57.10:816][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_Mat7FE7FB4C475C19777BB2E18544E848BE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_Mat.uasset'
+[2015.11.17-02.57.10:817][469]LogSavePackage: Total save time: 16.915001ms
+[2015.11.17-02.57.10:818][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_Mat.uasset
+[2015.11.17-02.57.12:739][469]LogSavePackage: Save=1903.487061ms
+[2015.11.17-02.57.12:739][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/CephalonPlanet_ColorBE8DFD284566F9515D8824A09BBB20FE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/CephalonPlanet_Color.uasset'
+[2015.11.17-02.57.12:741][469]LogSavePackage: Total save time: 1905.704003ms
+[2015.11.17-02.57.12:741][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/CephalonPlanet_Color.uasset
+[2015.11.17-02.57.12:803][469]LogSavePackage: Save=19.040010ms
+[2015.11.17-02.57.12:803][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanetF1055EFB4CD655D429197A8A341793BE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet.uasset'
+[2015.11.17-02.57.12:805][469]LogSavePackage: Total save time: 21.456685ms
+[2015.11.17-02.57.12:805][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet.uasset
+[2015.11.17-02.57.12:815][469]LogSavePackage: Save=3.534988ms
+[2015.11.17-02.57.12:816][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_dup_PhysicsAsset2AEC63204E09DC18888F23AB6A40EF3C.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_PhysicsAsset.uasset'
+[2015.11.17-02.57.12:817][469]LogSavePackage: Total save time: 5.508181ms
+[2015.11.17-02.57.12:817][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_PhysicsAsset.uasset
+[2015.11.17-02.57.12:827][469]LogSavePackage: Save=3.017527ms
+[2015.11.17-02.57.12:827][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_dup_SkeletonFD814B6D462F6ACEF116EE85B75FA235.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Skeleton.uasset'
+[2015.11.17-02.57.12:829][469]LogSavePackage: Total save time: 5.361926ms
+[2015.11.17-02.57.12:829][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Skeleton.uasset
+[2015.11.17-02.57.12:865][469]LogSavePackage: Save=10.966331ms
+[2015.11.17-02.57.12:865][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/cephalonPlanet_dup_AnimC90AF26444D12247412E0286487840DB.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Anim.uasset'
+[2015.11.17-02.57.12:867][469]LogSavePackage: Total save time: 13.421495ms
+[2015.11.17-02.57.12:867][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/CephalonPlanet/cephalonPlanet_dup_Anim.uasset
+[2015.11.17-02.57.12:906][469]LogSavePackage: Save=13.067395ms
+[2015.11.17-02.57.12:906][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/dragomirPlanet1D4E0259413D0F312F9682A12B913D3E.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/dragomirPlanet.uasset'
+[2015.11.17-02.57.12:908][469]LogSavePackage: Total save time: 15.311722ms
+[2015.11.17-02.57.12:908][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/dragomirPlanet.uasset
+[2015.11.17-02.57.12:950][469]LogSavePackage: Save=17.095041ms
+[2015.11.17-02.57.12:950][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/dragomirPlanet_Mat62FFA584475D7178D383C29D01046C7E.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/dragomirPlanet_Mat.uasset'
+[2015.11.17-02.57.12:952][469]LogSavePackage: Total save time: 19.394536ms
+[2015.11.17-02.57.12:952][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/dragomirPlanet_Mat.uasset
+[2015.11.17-02.57.15:922][469]LogSavePackage: Save=2843.449219ms
+[2015.11.17-02.57.15:922][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/DragmoirPlanet_ColorAC56B4164649AB70B3179E903AA3FC48.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/DragmoirPlanet_Color.uasset'
+[2015.11.17-02.57.15:924][469]LogSavePackage: Total save time: 2845.565163ms
+[2015.11.17-02.57.15:924][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/DragmoirPlanet_Color.uasset
+[2015.11.17-02.57.16:605][469]LogSavePackage: Save=663.121155ms
+[2015.11.17-02.57.16:606][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/DragomirPlanet_NormalMapBE706FD94382DE27F3563D9B73B3BFF9.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/DragomirPlanet_NormalMap.uasset'
+[2015.11.17-02.57.16:608][469]LogSavePackage: Total save time: 665.461253ms
+[2015.11.17-02.57.16:608][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/DragomirPlanet/DragomirPlanet_NormalMap.uasset
+[2015.11.17-02.57.17:503][469]LogSavePackage: Save=882.047485ms
+[2015.11.17-02.57.17:503][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HumanPlanet_Color00562B9F48A069CDCC9E3F98AADCD0C6.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/HumanPlanet_Color.uasset'
+[2015.11.17-02.57.17:505][469]LogSavePackage: Total save time: 884.287950ms
+[2015.11.17-02.57.17:505][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/HumanPlanet_Color.uasset
+[2015.11.17-02.57.17:516][469]LogSavePackage: Save=3.463997ms
+[2015.11.17-02.57.17:516][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_TheEarth_PhysicsAsset2029CC49434789A4F55CF78D4026B14D.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_PhysicsAsset.uasset'
+[2015.11.17-02.57.17:518][469]LogSavePackage: Total save time: 5.502198ms
+[2015.11.17-02.57.17:518][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_PhysicsAsset.uasset
+[2015.11.17-02.57.17:528][469]LogSavePackage: Save=3.143257ms
+[2015.11.17-02.57.17:528][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_TheEarth_Skeleton6EFED500408D0C13CCB692B483E89948.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Skeleton.uasset'
+[2015.11.17-02.57.17:531][469]LogSavePackage: Total save time: 5.999133ms
+[2015.11.17-02.57.17:531][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Skeleton.uasset
+[2015.11.17-02.57.17:567][469]LogSavePackage: Save=11.677947ms
+[2015.11.17-02.57.17:567][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_TheEarth_Anim4904D587497EE4770CC375BFFB50D5BF.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Anim.uasset'
+[2015.11.17-02.57.17:569][469]LogSavePackage: Total save time: 14.191270ms
+[2015.11.17-02.57.17:569][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_TheEarth_Anim.uasset
+[2015.11.17-02.57.17:608][469]LogSavePackage: Save=13.056276ms
+[2015.11.17-02.57.17:608][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/atmosphC0743060445BA4DFFE8690B86740399C.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/atmosph.uasset'
+[2015.11.17-02.57.17:610][469]LogSavePackage: Total save time: 15.294615ms
+[2015.11.17-02.57.17:610][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/atmosph.uasset
+[2015.11.17-02.57.17:621][469]LogSavePackage: Save=3.433634ms
+[2015.11.17-02.57.17:621][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_atmosphere_PhysicsAsset683F05344E55284AF81161A1703E57D7.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_PhysicsAsset.uasset'
+[2015.11.17-02.57.17:623][469]LogSavePackage: Total save time: 5.362350ms
+[2015.11.17-02.57.17:623][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_PhysicsAsset.uasset
+[2015.11.17-02.57.17:633][469]LogSavePackage: Save=3.184312ms
+[2015.11.17-02.57.17:633][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_atmosphere_Skeleton08773E3349F71BEAE69D57AF95BE3165.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Skeleton.uasset'
+[2015.11.17-02.57.17:635][469]LogSavePackage: Total save time: 5.286660ms
+[2015.11.17-02.57.17:635][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Skeleton.uasset
+[2015.11.17-02.57.17:654][469]LogSavePackage: Save=6.127426ms
+[2015.11.17-02.57.17:654][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/earthPlanet_atmosphere_Anim99D3129046F64A6CB5F42CAFB9F356BB.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Anim.uasset'
+[2015.11.17-02.57.17:656][469]LogSavePackage: Total save time: 8.259710ms
+[2015.11.17-02.57.17:656][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HumanPlanet/earthPlanet_atmosphere_Anim.uasset
+[2015.11.17-02.57.17:774][469]LogSavePackage: Save=38.133907ms
+[2015.11.17-02.57.17:774][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet9681553F42875CA8AABE698BC07C8266.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet.uasset'
+[2015.11.17-02.57.17:776][469]LogSavePackage: Total save time: 40.382080ms
+[2015.11.17-02.57.17:776][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet.uasset
+[2015.11.17-02.57.17:813][469]LogSavePackage: Save=11.991845ms
+[2015.11.17-02.57.17:813][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/light_cloudsF6BF2348410E5E68A3CE47BDED3CE695.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/light_clouds.uasset'
+[2015.11.17-02.57.17:815][469]LogSavePackage: Total save time: 14.231469ms
+[2015.11.17-02.57.17:815][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/light_clouds.uasset
+[2015.11.17-02.57.17:825][469]LogSavePackage: Save=3.310897ms
+[2015.11.17-02.57.17:825][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud_PhysicsAssetE021AD914C646505FE3A3FBC7EBCD472.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_PhysicsAsset.uasset'
+[2015.11.17-02.57.17:827][469]LogSavePackage: Total save time: 5.243890ms
+[2015.11.17-02.57.17:827][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_PhysicsAsset.uasset
+[2015.11.17-02.57.17:837][469]LogSavePackage: Save=3.086379ms
+[2015.11.17-02.57.17:837][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud_SkeletonB80174C94BC4457D8F4358B2FC99FDF3.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Skeleton.uasset'
+[2015.11.17-02.57.17:839][469]LogSavePackage: Total save time: 5.093358ms
+[2015.11.17-02.57.17:839][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Skeleton.uasset
+[2015.11.17-02.57.17:859][469]LogSavePackage: Save=7.346668ms
+[2015.11.17-02.57.17:859][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud_AnimB46896C84A11AA66464001B7429F39E6.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Anim.uasset'
+[2015.11.17-02.57.17:861][469]LogSavePackage: Total save time: 9.474248ms
+[2015.11.17-02.57.17:861][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud_Anim.uasset
+[2015.11.17-02.57.17:900][469]LogSavePackage: Save=13.116148ms
+[2015.11.17-02.57.17:900][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/darkcloudsD28FAFF24C1F1E40A4812BA80E15961A.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/darkclouds.uasset'
+[2015.11.17-02.57.17:902][469]LogSavePackage: Total save time: 15.329685ms
+[2015.11.17-02.57.17:902][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/darkclouds.uasset
+[2015.11.17-02.57.17:912][469]LogSavePackage: Save=3.484952ms
+[2015.11.17-02.57.17:912][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud1_PhysicsAssetFF9DD33C4485FE6D706748B7A83D2B28.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_PhysicsAsset.uasset'
+[2015.11.17-02.57.17:914][469]LogSavePackage: Total save time: 5.491506ms
+[2015.11.17-02.57.17:914][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_PhysicsAsset.uasset
+[2015.11.17-02.57.17:923][469]LogSavePackage: Save=3.112893ms
+[2015.11.17-02.57.17:923][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud1_SkeletonFA5C35414149DEE8809A06839F68D855.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Skeleton.uasset'
+[2015.11.17-02.57.17:925][469]LogSavePackage: Total save time: 5.023222ms
+[2015.11.17-02.57.17:925][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Skeleton.uasset
+[2015.11.17-02.57.17:945][469]LogSavePackage: Save=7.711884ms
+[2015.11.17-02.57.17:945][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_cloud1_AnimB0E4A396495273DFBBFE51B4C63EE5AE.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Anim.uasset'
+[2015.11.17-02.57.17:947][469]LogSavePackage: Total save time: 9.945948ms
+[2015.11.17-02.57.17:947][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_cloud1_Anim.uasset
+[2015.11.17-02.57.19:904][469]LogSavePackage: Save=1941.719360ms
+[2015.11.17-02.57.19:904][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HivePlanet_Color256AB75B4537DB5551BDB699DB033ED8.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/HivePlanet_Color.uasset'
+[2015.11.17-02.57.19:906][469]LogSavePackage: Total save time: 1944.016673ms
+[2015.11.17-02.57.19:906][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/HivePlanet_Color.uasset
+[2015.11.17-02.57.20:427][469]LogSavePackage: Save=503.477051ms
+[2015.11.17-02.57.20:427][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HivePlanet_Normal_Map9758EB034655D63AF4D625AB8B6F622F.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/HivePlanet_Normal_Map.uasset'
+[2015.11.17-02.57.20:430][469]LogSavePackage: Total save time: 506.161854ms
+[2015.11.17-02.57.20:430][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/HivePlanet_Normal_Map.uasset
+[2015.11.17-02.57.20:440][469]LogSavePackage: Save=3.481531ms
+[2015.11.17-02.57.20:440][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_dup_PhysicsAsset6A9CAC744A3C6E2AE60D398332B1EED4.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_PhysicsAsset.uasset'
+[2015.11.17-02.57.20:441][469]LogSavePackage: Total save time: 5.651444ms
+[2015.11.17-02.57.20:441][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_PhysicsAsset.uasset
+[2015.11.17-02.57.20:452][469]LogSavePackage: Save=2.952523ms
+[2015.11.17-02.57.20:452][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_dup_Skeleton293A30E44F1083D61F5F82BDD7865F41.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_Skeleton.uasset'
+[2015.11.17-02.57.20:454][469]LogSavePackage: Total save time: 5.348668ms
+[2015.11.17-02.57.20:454][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_Skeleton.uasset
+[2015.11.17-02.57.20:491][469]LogSavePackage: Save=11.271249ms
+[2015.11.17-02.57.20:491][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/hivePlanet_dup_Anim8CB6E7D1426E591EE07F0BB9DEBC3F6F.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_Anim.uasset'
+[2015.11.17-02.57.20:493][469]LogSavePackage: Total save time: 13.669960ms
+[2015.11.17-02.57.20:493][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HivePlanet/hivePlanet_dup_Anim.uasset
+[2015.11.17-02.57.20:530][469]LogSavePackage: Save=11.716436ms
+[2015.11.17-02.57.20:530][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/vultarriPlanet7961E9764A1125F9F528C1A42C6BCD5F.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet.uasset'
+[2015.11.17-02.57.20:532][469]LogSavePackage: Total save time: 14.084782ms
+[2015.11.17-02.57.20:532][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet.uasset
+[2015.11.17-02.57.20:573][469]LogSavePackage: Save=15.403669ms
+[2015.11.17-02.57.20:573][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/vultarriPlanet_Mat78DAD5B44B21CB1B784CD2ACA2E8AEAC.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Mat.uasset'
+[2015.11.17-02.57.20:575][469]LogSavePackage: Total save time: 17.647568ms
+[2015.11.17-02.57.20:575][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Mat.uasset
+[2015.11.17-02.57.22:337][469]LogSavePackage: Save=1747.035767ms
+[2015.11.17-02.57.22:337][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/VultarriPlanet_ColorAA33560746B1FD91A70CB5A06F524B7A.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Color.uasset'
+[2015.11.17-02.57.22:339][469]LogSavePackage: Total save time: 1749.187779ms
+[2015.11.17-02.57.22:339][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Color.uasset
+[2015.11.17-02.57.22:847][469]LogSavePackage: Save=491.646423ms
+[2015.11.17-02.57.22:847][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/VultarriPlanet_Normal7AEBDE754B80827E5704FE9166548B80.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Normal.uasset'
+[2015.11.17-02.57.22:849][469]LogSavePackage: Total save time: 493.844133ms
+[2015.11.17-02.57.22:849][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/VultarriPlanet_Normal.uasset
+[2015.11.17-02.57.22:859][469]LogSavePackage: Save=3.342116ms
+[2015.11.17-02.57.22:859][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/vultarriPlanet_PhysicsAsset646E11C24F3F9CD5899190BBEDB0075A.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_PhysicsAsset.uasset'
+[2015.11.17-02.57.22:861][469]LogSavePackage: Total save time: 5.793858ms
+[2015.11.17-02.57.22:861][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_PhysicsAsset.uasset
+[2015.11.17-02.57.22:871][469]LogSavePackage: Save=2.941404ms
+[2015.11.17-02.57.22:871][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/vultarriPlanet_Skeleton44B87F1F44F1D98D4995E4A94F285B06.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Skeleton.uasset'
+[2015.11.17-02.57.22:873][469]LogSavePackage: Total save time: 4.951809ms
+[2015.11.17-02.57.22:873][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Skeleton.uasset
+[2015.11.17-02.57.22:910][469]LogSavePackage: Save=12.065402ms
+[2015.11.17-02.57.22:910][469]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/vultarriPlanet_Anim2C40E9014CF7B5EA3E210CBC6AB5217B.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Anim.uasset'
+[2015.11.17-02.57.22:912][469]LogSavePackage: Total save time: 14.429901ms
+[2015.11.17-02.57.22:912][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/VultarriPlanet/vultarriPlanet_Anim.uasset
+[2015.11.17-02.57.30:068][960]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.17-02.57.30:069][960]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.17-02.57.30:354][961]Cmd: QUIT_EDITOR
+[2015.11.17-02.57.31:112][961]LogExit: Preparing to exit.
+[2015.11.17-02.57.32:470][961]LogExit: Editor shut down
+[2015.11.17-02.57.32:470][961]LogExit: Transaction tracking system shut down
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2FF19620
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3BC4B4C0
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3BC08540
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3BD08C20
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3B7AB4C0
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3B7AB2E0
+[2015.11.17-02.57.32:509][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3601EF20
+[2015.11.17-02.57.33:052][961]LogExit: Object subsystem successfully closed.
+[2015.11.17-02.57.33:164][961]LogD3D11RHI: Shutdown
+[2015.11.17-02.57.33:164][961]LogD3D11RHI: CleanupD3DDevice
+[2015.11.17-02.57.33:263][961]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (200)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.11.17-02.57.33:640][961]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.11.17-02.57.33:660][961]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.11.17-02.57.33:660][961]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.11.17-02.57.33:660][961]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.11.17-02.57.33:660][961]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.11.17-02.57.33:660][961]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.17-02.57.33:683][961]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.17-02.57.33:689][961]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.17-02.57.33:689][961]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.17-02.57.33:689][961]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.17-02.57.33:689][961]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.17-02.57.33:689][961]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.17-02.57.34:274][961]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.17-02.57.34:274][961]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.17-02.57.34:274][961]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.17-02.57.34:274][961]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.17-02.57.34:280][961]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.17-02.57.34:280][961]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.17-02.57.34:280][961]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.17-02.57.34:280][961]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.17-02.57.34:280][961]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.17-02.57.34:288][961]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.17-02.57.34:288][961]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.17-02.57.34:288][961]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.17-02.57.34:288][961]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.17-02.57.34:288][961]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.17-02.57.34:289][961]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.17-02.57.34:289][961]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.17-02.57.34:289][961]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.17-02.57.34:289][961]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.17-02.57.34:289][961]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.17-02.57.34:301][961]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.17-02.57.34:301][961]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.17-02.57.34:301][961]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.17-02.57.34:311][961]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.17-02.57.34:322][961]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.17-02.57.34:340][961]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.17-02.57.34:340][961]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.17-02.57.34:340][961]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.17-02.57.34:354][961]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.17-02.57.34:377][961]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.17-02.57.34:377][961]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.17-02.57.34:377][961]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.17-02.57.34:388][961]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.17-02.57.34:504][961]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.17-02.57.34:504][961]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.17-02.57.34:509][961]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.17-02.57.34:523][961]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.17-02.57.34:537][961]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.17-02.57.34:537][961]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.17-02.57.34:537][961]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.17-02.57.34:549][961]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.17-02.57.34:564][961]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.17-02.57.34:570][961]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.17-02.57.34:570][961]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.17-02.57.34:570][961]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.17-02.57.34:571][961]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.11.17-02.57.34:571][961]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.11.17-02.57.34:583][961]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.11.17-02.57.34:683][961]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.11.17-02.57.34:683][961]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.11.17-02.57.34:763][961]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.11.17-02.57.34:763][961]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.17-02.57.34:763][961]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.17-02.57.34:763][961]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.17-02.57.34:764][961]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.17-02.57.34:780][961]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.17-02.57.34:780][961]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.17-02.57.34:780][961]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.17-02.57.34:780][961]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.17-02.57.34:780][961]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.17-02.57.34:801][961]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.17-02.57.34:822][961]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.17-02.57.34:839][961]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.17-02.57.34:839][961]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.17-02.57.34:839][961]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.17-02.57.34:841][961]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.17-02.57.34:845][961]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.17-02.57.34:927][961]LogDerivedDataCache: Shutdown
+[2015.11.17-02.57.34:927][961]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.17-02.57.34:938][961]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.17-02.57.34:939][961]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.17-02.57.34:956][961]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.17-02.57.34:968][961]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.17-02.57.34:971][961]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.17-02.57.34:978][961]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.17-02.57.34:985][961]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.17-02.57.34:995][961]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.17-02.57.34:995][961]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.17-02.57.35:001][961]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.17-02.57.37:003][961]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.17-02.57.37:021][961]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.17-02.57.37:021][961]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.17-02.57.37:021][961]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.17-02.57.37:021][961]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.17-02.57.37:021][961]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.17-02.57.37:045][961]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.17-02.57.37:056][961]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.17-02.57.37:056][961]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.17-02.57.37:070][961]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.17-02.57.37:070][961]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.17-02.57.37:070][961]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.17-02.57.37:070][961]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.17-02.57.37:080][961]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.17-02.57.37:080][961]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.17-02.57.37:080][961]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.17-02.57.37:099][961]LogExit: Exiting.
+[2015.11.17-02.57.37:135][961]Log file closed, 11/16/15 21:57:37
