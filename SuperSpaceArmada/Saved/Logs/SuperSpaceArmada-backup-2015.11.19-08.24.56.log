@@ -1,0 +1,689 @@
+﻿[2015.11.19-05.21.15:149][  0]Log file open, 11/19/15 00:21:15
+[2015.11.19-05.21.15:149][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.11.19-05.21.15:149][  0]LogInit:Display: RandInit(-716427963) SRandInit(-716427963).
+[2015.11.19-05.21.15:149][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.19-05.21.15:149][  0]LogStats: Stats thread started at 0.130747
+[2015.11.19-05.21.15:149][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.19-05.21.15:149][  0]LogInit: API Version: 2672455
+[2015.11.19-05.21.15:149][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.11.19-05.21.15:149][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.19-05.21.15:149][  0]LogInit: Build Configuration: Development
+[2015.11.19-05.21.15:149][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.19-05.21.15:149][  0]LogInit: Command line:  
+[2015.11.19-05.21.15:149][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.9/Engine/Binaries/Win64/
+[2015.11.19-05.21.15:149][  0]LogInit: Rocket: 1
+[2015.11.19-05.21.15:417][  0]LogInit: Using libcurl 7.41.0
+[2015.11.19-05.21.15:417][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.19-05.21.15:417][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.19-05.21.15:417][  0]LogInit:  - other features:
+[2015.11.19-05.21.15:417][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.19-05.21.15:417][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.19-05.21.15:417][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.19-05.21.15:417][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.19-05.21.15:417][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.19-05.21.15:417][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.19-05.21.15:417][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.19-05.21.15:417][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.19-05.21.15:417][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.19-05.21.15:417][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.19-05.21.15:503][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.19-05.21.15:509][  0]LogInit: Object subsystem initialized
+[2015.11.19-05.21.15:510][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.19-05.21.15:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.19-05.21.15:526][  0]LogInit: Computer: LOU
+[2015.11.19-05.21.15:526][  0]LogInit: User: LouIII
+[2015.11.19-05.21.15:526][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.19-05.21.15:526][  0]LogInit: High frequency timer resolution =2.338333 MHz
+[2015.11.19-05.21.15:526][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.19-05.21.15:526][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-05.21.15:526][  0]LogMemory: Process Physical Memory: 54.87 MB used, 54.87 MB peak
+[2015.11.19-05.21.15:526][  0]LogMemory: Process Virtual Memory: 55.36 MB used, 55.36 MB peak
+[2015.11.19-05.21.15:526][  0]LogMemory: Physical Memory: 5835.73 MB used, 16303.71 MB total
+[2015.11.19-05.21.15:526][  0]LogMemory: Virtual Memory: 364.56 MB used, 134217728.00 MB total
+[2015.11.19-05.21.15:868][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.19-05.21.16:634][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.11.19-05.21.16:634][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2015.11.19-05.21.16:639][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.19-05.21.16:639][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.11.19-05.21.16:640][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.19-05.21.16:640][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2015.11.19-05.21.16:640][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.19-05.21.16:644][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.19-05.21.16:644][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.19-05.21.16:656][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.19-05.21.16:672][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/8180/).
+[2015.11.19-05.21.16:672][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/8E2D03B24C5D42C2529E76AFA41F7693/'.
+[2015.11.19-05.21.16:672][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.19-05.21.19:155][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.19-05.21.19:160][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.19-05.21.19:166][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.19-05.21.19:171][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.19-05.21.19:176][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.19-05.21.19:183][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.19-05.21.19:186][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.19-05.21.19:190][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.19-05.21.19:194][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.19-05.21.19:197][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.19-05.21.19:201][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.19-05.21.19:205][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.19-05.21.19:205][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.19-05.21.19:273][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.19-05.21.19:276][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.19-05.21.19:279][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.19-05.21.19:285][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.19-05.21.19:285][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.19-05.21.19:828][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache: Loaded boot cache 0.44s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.19-05.21.20:270][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.19-05.21.20:494][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.19-05.21.20:524][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.19-05.21.29:148][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.19-05.21.29:180][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.19-05.21.29:957][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.19-05.21.29:957][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.19-05.21.32:303][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.19-05.21.50:709][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.11.19-05.21.50:757][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.19-05.21.53:964][  0]SourceControl: Info Source control is disabled
+[2015.11.19-05.21.53:984][  0]SourceControl: Info Source control is disabled
+[2015.11.19-05.21.54:044][  0]SourceControl: Info Source control is disabled
+[2015.11.19-05.21.54:097][  0]SourceControl: Info Source control is disabled
+[2015.11.19-05.21.55:323][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.21.55:704][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.11.19-05.21.55:704][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.11.19-05.21.56:763][  0]LogEngine: Initializing Engine...
+[2015.11.19-05.21.56:819][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.19-05.21.56:859][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.19-05.21.57:720][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.19-05.21.57:857][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-05.21.57:870][  0]LogInit: FAudioDevice initialized.
+[2015.11.19-05.21.57:890][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.19-05.21.57:895][  0]LogInit: Texture streaming: Enabled
+[2015.11.19-05.21.58:060][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.19-05.21.58:060][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.19-05.21.58:060][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
+[2015.11.19-05.21.58:119][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.19-05.21.58:396][  0]LogInit: Transaction tracking system initialized
+[2015.11.19-05.21.58:794][  0]BlueprintLog: New page: Editor Load
+[2015.11.19-05.22.00:517][  0]LocalizationService: Info Localization service is disabled
+[2015.11.19-05.22.01:860][  0]LogConsoleResponse:Display: 
+[2015.11.19-05.22.03:701][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.11.19-05.22.03:701][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.19-05.22.04:523][  0]SourceControl: Info Source control is disabled
+[2015.11.19-05.22.04:530][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.19-05.22.04:632][  0]LightingResults: New page: Lighting Build
+[2015.11.19-05.22.04:703][  0]MapCheck: New page: Map Check
+[2015.11.19-05.22.04:703][  0]LightingResults: New page: Lighting Build
+[2015.11.19-05.22.05:365][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B272F8400
+[2015.11.19-05.22.05:365][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:403][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:495][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:522][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:569][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:603][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:652][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.05:687][  0]LogLinker:Warning: Asset '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-05.22.23:672][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.19-05.22.23:672][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.19-05.22.23:672][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.19-05.22.23:673][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.19-05.22.23:673][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Objects/Crystal_Spawner.uasset.
+[2015.11.19-05.22.23:673][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Objects/Crystal_Spawner : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.19-05.22.23:701][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.19-05.22.23:701][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.19-05.22.23:701][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.19-05.22.23:701][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.19-05.22.23:701][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.19-05.22.23:701][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.19-05.22.23:702][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2015.11.19-05.22.23:702][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.19-05.22.23:702][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap.
+[2015.11.19-05.22.23:702][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by StaticMeshComponent0
+[2015.11.19-05.22.23:702][  0]LoadErrors:Error: Error /Game/SSA/Maps/Home_Kratakos : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2015.11.19-05.22.43:073][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.11.19-05.22.43:092][  0]LogMaterial:Warning: Failed to compile Material /Game/Geometry/Meshes/KratakosFrigate/lambert1.lambert1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.19-05.22.43:092][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.19-05.22.45:329][  0]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.11.19-05.22.45:644][  0]LogEditorServer: Finished looking for orphan Actors (0.011 secs)
+[2015.11.19-05.22.45:789][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.19-05.22.45:950][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.522ms to complete.
+[2015.11.19-05.22.45:950][  0]LogFileHelpers: Loading map 'Home_Kratakos' took 41.420
+[2015.11.19-05.22.47:184][  0]LogCollectionManager: Loaded 0 collections in 0.002359 seconds
+[2015.11.19-05.22.47:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.11.19-05.22.47:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Developers/LouIII/Collections/' took 0.01s
+[2015.11.19-05.22.47:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.11.19-05.22.47:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0408 seconds. Added 1882 classes and 339 folders.
+[2015.11.19-05.22.47:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.19-05.22.47:392][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.19-05.22.49:743][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.19-05.22.49:758][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.19-05.22.50:300][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.19-05.22.50:415][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.19-05.22.50:567][  0]LogLoad: Full Startup: 96.57 seconds (BP compile: 2.08 seconds)
+[2015.11.19-05.22.50:907][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.11.19-05.22.51:350][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.19-05.22.51:746][  0]LogRenderer: Reallocating scene render targets to support 1312x552 (Frame:2).
+[2015.11.19-05.22.54:738][ 24]LogAssetRegistry: Asset discovery search completed in 64.0406 seconds
+[2015.11.19-05.22.54:738][ 24]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.11.19-05.22.54:754][ 24]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2015.11.19-05.23.23:713][438]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate.fbx)
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Texture, ItemCount : 3
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Model, ItemCount : 36
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: AnimationCurve, ItemCount : 10
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Deformer, ItemCount : 30
+[2015.11.19-05.23.23:749][438]LogFbx: ItemName: Video, ItemCount : 3
+[2015.11.19-05.23.23:754][438]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate.fbx
+[2015.11.19-05.23.23:788][438]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.23.26:057][438]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate.fbx
+[2015.11.19-05.23.26:077][438]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.23.26:081][438]LogFbx: =================================================
+[2015.11.19-05.23.26:081][438]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.23.26:081][438]LogFbx: 	Total Deformer Count 977099472.
+[2015.11.19-05.23.26:081][438]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.23.26:081][438]LogFbx: =================================================
+[2015.11.19-05.23.26:081][438]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.23.26:081][438]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.23.26:081][438]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.23.26:081][438]LogFbx: =================================================
+[2015.11.19-05.23.26:081][438]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.23.26:081][438]LogFbx: 	Total Deformer Count 977106640.
+[2015.11.19-05.23.26:081][438]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.23.26:081][438]LogFbx: =================================================
+[2015.11.19-05.23.26:081][438]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.23.26:081][438]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.23.26:081][438]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.23.26:084][438]LogFbx: Valid bind pose for Pose (skinCluster1) - HiveShip
+[2015.11.19-05.23.26:087][438]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.19-05.23.26:087][438]FBXImport:Error: Error Error, Could not import HiveShip.
+Duplicate bone name found ('front_right_wing_tip'). Each bone must have a unique name. 
+[2015.11.19-05.23.26:109][438]FBXImport:Error: Error Multiple roots found 
+[2015.11.19-05.23.26:109][438]FBXImport:Error: Error Import failed. 
+[2015.11.19-05.23.30:050][438]LogAssetTools:Warning: Failed to import '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate.fbx'. Failed to create asset '/Game/Geometry/Meshes/HiveShip/HiveFrigate'
+[2015.11.19-05.26.19:935][675]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx)
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Texture, ItemCount : 3
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Model, ItemCount : 36
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: AnimationCurve, ItemCount : 76
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Deformer, ItemCount : 30
+[2015.11.19-05.26.19:979][675]LogFbx: ItemName: Video, ItemCount : 3
+[2015.11.19-05.26.19:985][675]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.26.20:069][675]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.26.21:371][675]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.26.21:416][675]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.26.21:423][675]LogFbx: =================================================
+[2015.11.19-05.26.21:423][675]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.26.21:423][675]LogFbx: 	Total Deformer Count 835321408.
+[2015.11.19-05.26.21:423][675]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.26.21:423][675]LogFbx: =================================================
+[2015.11.19-05.26.21:423][675]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.26.21:423][675]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.26.21:423][675]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.26.21:423][675]LogFbx: =================================================
+[2015.11.19-05.26.21:423][675]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.26.21:423][675]LogFbx: 	Total Deformer Count 835311496.
+[2015.11.19-05.26.21:423][675]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.26.21:423][675]LogFbx: =================================================
+[2015.11.19-05.26.21:423][675]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.26.21:423][675]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.26.21:423][675]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.26.21:425][675]LogFbx: Valid bind pose for Pose (skinCluster1) - HiveShip
+[2015.11.19-05.26.21:427][675]FBXImport:Error: Error Error, Could not import HiveShip.
+Duplicate bone name found ('front_right_wing_tip'). Each bone must have a unique name. 
+[2015.11.19-05.26.21:427][675]FBXImport:Error: Error Multiple roots found 
+[2015.11.19-05.26.21:427][675]FBXImport:Error: Error Import failed. 
+[2015.11.19-05.26.26:220][675]LogAssetTools:Warning: Failed to import '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx'. Failed to create asset '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01'
+[2015.11.19-05.28.31:938][354]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx)
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Texture, ItemCount : 3
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Model, ItemCount : 36
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: AnimationCurve, ItemCount : 76
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Deformer, ItemCount : 30
+[2015.11.19-05.28.31:975][354]LogFbx: ItemName: Video, ItemCount : 3
+[2015.11.19-05.28.31:980][354]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.28.32:025][354]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.28.33:999][354]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.28.34:043][354]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.28.34:049][354]LogFbx: =================================================
+[2015.11.19-05.28.34:049][354]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.28.34:049][354]LogFbx: 	Total Deformer Count 790758360.
+[2015.11.19-05.28.34:049][354]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.28.34:049][354]LogFbx: =================================================
+[2015.11.19-05.28.34:049][354]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.28.34:049][354]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.28.34:049][354]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.28.34:049][354]LogFbx: =================================================
+[2015.11.19-05.28.34:049][354]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.28.34:049][354]LogFbx: 	Total Deformer Count 790758192.
+[2015.11.19-05.28.34:049][354]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.28.34:049][354]LogFbx: =================================================
+[2015.11.19-05.28.34:049][354]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.28.34:050][354]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.28.34:050][354]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.28.34:050][354]LogFbx: Valid bind pose for Pose (skinCluster1) - HiveShip
+[2015.11.19-05.28.34:053][354]FBXImport:Error: Error Error, Could not import HiveShip.
+Duplicate bone name found ('front_right_wing_tip'). Each bone must have a unique name. 
+[2015.11.19-05.28.34:053][354]FBXImport:Error: Error Multiple roots found 
+[2015.11.19-05.28.34:053][354]FBXImport:Error: Error Import failed. 
+[2015.11.19-05.28.36:472][354]LogAssetTools:Warning: Failed to import '../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx'. Failed to create asset '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01'
+[2015.11.19-05.31.05:989][478]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx)
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Texture, ItemCount : 3
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Model, ItemCount : 36
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: AnimationCurve, ItemCount : 76
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Deformer, ItemCount : 30
+[2015.11.19-05.31.06:022][478]LogFbx: ItemName: Video, ItemCount : 3
+[2015.11.19-05.31.06:026][478]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.31.06:072][478]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.31.07:247][478]LogFbx: Loading FBX Scene from ../../../../../../Users/luisr_000/Desktop/Super Space Armada/Hive Ship/HiveFrigate_01.fbx
+[2015.11.19-05.31.07:294][478]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.19-05.31.07:301][478]LogFbx: =================================================
+[2015.11.19-05.31.07:301][478]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.31.07:301][478]LogFbx: 	Total Deformer Count 786186664.
+[2015.11.19-05.31.07:301][478]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.31.07:301][478]LogFbx: =================================================
+[2015.11.19-05.31.07:301][478]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.31.07:301][478]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.31.07:301][478]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.31.07:301][478]LogFbx: =================================================
+[2015.11.19-05.31.07:301][478]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.31.07:301][478]LogFbx: 	Total Deformer Count 786187336.
+[2015.11.19-05.31.07:301][478]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.31.07:301][478]LogFbx: =================================================
+[2015.11.19-05.31.07:301][478]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.31.07:301][478]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.31.07:301][478]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.31.07:302][478]LogFbx: Valid bind pose for Pose (skinCluster1) - HiveShip
+[2015.11.19-05.31.07:303][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/Texture'
+[2015.11.19-05.31.07:303][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/Texture'
+[2015.11.19-05.31.07:304][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Color'
+[2015.11.19-05.31.07:304][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Color'
+[2015.11.19-05.31.07:304][478]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HiveShip/HiveFrigate_Color.HiveFrigate_Color'
+[2015.11.19-05.31.07:633][478]LogTexture:Display: Building textures: HiveFrigate_Color (AutoDXT)
+[2015.11.19-05.31.10:568][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Specular'
+[2015.11.19-05.31.10:568][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Specular'
+[2015.11.19-05.31.10:568][478]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HiveShip/HiveFrigate_Specular.HiveFrigate_Specular'
+[2015.11.19-05.31.10:856][478]LogTexture:Display: Building textures: HiveFrigate_Specular (AutoDXT)
+[2015.11.19-05.31.12:683][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Normal'
+[2015.11.19-05.31.12:683][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_Normal'
+[2015.11.19-05.31.12:683][478]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/HiveShip/HiveFrigate_Normal.HiveFrigate_Normal'
+[2015.11.19-05.31.12:725][478]LogTexture:Display: Building textures: HiveFrigate_Normal (AutoDXT)
+[2015.11.19-05.31.15:278][478]LogTexture:Display: Building textures: HiveFrigate_Normal (BC5)
+[2015.11.19-05.31.15:744][478]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.15:782][478]LogFbx:Warning: Bones digested - 29  Depth of hierarchy - 7
+[2015.11.19-05.31.15:801][478]LogSkeletalMesh: Chunk 0: 46 rigid vertices, 2211 soft vertices, 29 active bones
+[2015.11.19-05.31.15:803][478]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2562 triangles
+[2015.11.19-05.31.15:874][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_PhysicsAsset'
+[2015.11.19-05.31.15:874][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_PhysicsAsset'
+[2015.11.19-05.31.15:874][478]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HiveShip/HiveFrigate_01_PhysicsAsset.HiveFrigate_01_PhysicsAsset'
+[2015.11.19-05.31.15:877][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Skeleton'
+[2015.11.19-05.31.15:877][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Skeleton'
+[2015.11.19-05.31.15:877][478]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Skeleton.HiveFrigate_01_Skeleton'
+[2015.11.19-05.31.15:878][478]LogFbx: =================================================
+[2015.11.19-05.31.15:878][478]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.31.15:878][478]LogFbx: 	Total Deformer Count 357247912.
+[2015.11.19-05.31.15:878][478]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.31.15:878][478]LogFbx: =================================================
+[2015.11.19-05.31.15:878][478]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.31.15:878][478]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.31.15:878][478]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.31.15:878][478]LogFbx: =================================================
+[2015.11.19-05.31.15:878][478]LogFbx: Dumping Node START [HiveShip] 
+[2015.11.19-05.31.15:878][478]LogFbx: 	Total Deformer Count 357237048.
+[2015.11.19-05.31.15:878][478]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.19-05.31.15:878][478]LogFbx: =================================================
+[2015.11.19-05.31.15:878][478]LogFbx: 	Attribute () Type (4).
+[2015.11.19-05.31.15:878][478]LogFbx: 		[Node Attribute Child 1] HiveShip (Type Mesh).
+[2015.11.19-05.31.15:878][478]LogFbx: Dumping Node END [HiveShip]
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(0) master
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(1) front
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(2) head
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(3) front_right_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(4) front_right_wing_mid
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(5) front_right_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(6) front_left_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(7) front_left_wing_mid
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(8) front_left_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(9) back
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(10) back_right_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(11) back_right_wing_1
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(12) back_right_wing_2
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(13) back_right_wing_3
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(14) back_right_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(15) back_left_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(16) back_left_wing_1
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(17) back_left_wing_2
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(18) back_left_wing_3
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(19) back_left_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(20) tail
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(21) middle_right_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(22) middle_right_wing_1
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(23) middle_right_wing_2
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(24) middle_right_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(25) middle_left_wing
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(26) middle_left_wing_1
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(27) middle_left_wing_2
+[2015.11.19-05.31.15:879][478]LogFbx: SortedLinks :(28) middle_left_wing_tip
+[2015.11.19-05.31.15:879][478]LogFbx: Parsing AnimStack Take 001
+[2015.11.19-05.31.15:964][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Anim'
+[2015.11.19-05.31.15:964][478]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Anim'
+[2015.11.19-05.31.15:964][478]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/HiveShip/HiveFrigate_01_Anim.HiveFrigate_01_Anim'
+[2015.11.19-05.31.16:176][479]LogMaterial:Warning: Material /Game/Geometry/Meshes/HiveShip/Texture.Texture needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.19-05.31.16:183][479]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.16:202][479]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.19-05.31.25:607][873]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.25:673][873]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.25:685][873]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.19-05.31.25:709][873]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.19-05.31.25:712][873]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.19-05.31.25:734][873]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.19-05.31.28:989][ 22]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2015.11.19-05.31.28:989][ 22]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.19-05.31.28:989][ 22]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.19-05.31.37:753][585]LogMaterialEditor: Saving and Compiling material Texture
+[2015.11.19-05.31.38:422][585]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.38:450][585]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.19-05.31.38:513][585]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.38:557][585]LogMaterial: Missing cached shader map for material Texture, compiling. 
+[2015.11.19-05.31.38:580][585]LogMaterial: 0.001105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.19-05.31.44:220][585]LogSavePackage: Save=15.839062ms
+[2015.11.19-05.31.44:220][585]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/Texture2E8C354746F5AE6BB7036FB1AAE31F81.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/Texture.uasset'
+[2015.11.19-05.31.44:222][585]LogSavePackage: Total save time: 17.875127ms
+[2015.11.19-05.31.44:222][585]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/Texture.uasset
+[2015.11.19-05.31.44:229][585]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.11.19-05.31.44:229][585]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.19-05.31.44:229][585]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.11.19-05.32.13:403][530]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.11.19-05.32.13:464][530]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.19-05.32.50:107][392]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.11.19-05.32.50:211][392]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.19-05.32.50:287][392]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.11.19-05.33.10:784][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B16B67740
+[2015.11.19-05.33.10:785][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B30111E40
+[2015.11.19-05.33.10:785][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B2FCAEB60
+[2015.11.19-05.33.10:786][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B2FCAE700
+[2015.11.19-05.33.10:786][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B30745080
+[2015.11.19-05.33.10:787][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B30C37880
+[2015.11.19-05.33.10:787][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B2FCADA80
+[2015.11.19-05.33.10:843][ 96]LogSavePackage: Save=3.805703ms
+[2015.11.19-05.33.10:843][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigateE9C7FF134C3D47BD4000C58675D90402.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate.uasset'
+[2015.11.19-05.33.10:846][ 96]LogSavePackage: Total save time: 7.560086ms
+[2015.11.19-05.33.10:846][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate.uasset
+[2015.11.19-05.33.10:904][ 96]LogSavePackage: Save=22.552818ms
+[2015.11.19-05.33.10:904][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_01C4A98F9748F7F2C84F7F2D946192FE85.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01.uasset'
+[2015.11.19-05.33.10:906][ 96]LogSavePackage: Total save time: 25.124736ms
+[2015.11.19-05.33.10:906][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01.uasset
+[2015.11.19-05.33.11:576][ 96]LogSavePackage: Save=650.433044ms
+[2015.11.19-05.33.11:576][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_ColorBE4F722E461C7B1A0EC9F2BCBDCF4AAD.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Color.uasset'
+[2015.11.19-05.33.11:578][ 96]LogSavePackage: Total save time: 652.573008ms
+[2015.11.19-05.33.11:578][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Color.uasset
+[2015.11.19-05.33.11:955][ 96]LogSavePackage: Save=360.591064ms
+[2015.11.19-05.33.11:955][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_SpecularAB62CA4845CCF2B3D66A22B38BF95C8E.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Specular.uasset'
+[2015.11.19-05.33.11:956][ 96]LogSavePackage: Total save time: 362.524927ms
+[2015.11.19-05.33.11:956][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Specular.uasset
+[2015.11.19-05.33.12:537][ 96]LogSavePackage: Save=564.602661ms
+[2015.11.19-05.33.12:537][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_Normal0871AAA443928D827B10CD8C95083D24.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Normal.uasset'
+[2015.11.19-05.33.12:539][ 96]LogSavePackage: Total save time: 566.664372ms
+[2015.11.19-05.33.12:539][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_Normal.uasset
+[2015.11.19-05.33.12:552][ 96]LogSavePackage: Save=4.995867ms
+[2015.11.19-05.33.12:552][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_01_PhysicsAssetC2035B774595D056089AE18413D95995.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_PhysicsAsset.uasset'
+[2015.11.19-05.33.12:554][ 96]LogSavePackage: Total save time: 6.900642ms
+[2015.11.19-05.33.12:554][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_PhysicsAsset.uasset
+[2015.11.19-05.33.12:565][ 96]LogSavePackage: Save=3.424662ms
+[2015.11.19-05.33.12:565][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_01_SkeletonDB72061745776728A0E7748A232C5CCC.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_Skeleton.uasset'
+[2015.11.19-05.33.12:568][ 96]LogSavePackage: Total save time: 5.731862ms
+[2015.11.19-05.33.12:568][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_Skeleton.uasset
+[2015.11.19-05.33.12:611][ 96]LogSavePackage: Save=12.803566ms
+[2015.11.19-05.33.12:611][ 96]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Saved/HiveFrigate_01_Anim7E17C809488E0234374E9F89EC84F801.tmp' to '../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_Anim.uasset'
+[2015.11.19-05.33.12:613][ 96]LogSavePackage: Total save time: 14.943127ms
+[2015.11.19-05.33.12:613][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/luisr_000/Documents/Game-Files/SuperSpaceArmada/Content/Geometry/Meshes/HiveShip/HiveFrigate_01_Anim.uasset
+[2015.11.19-05.33.17:115][244]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.19-05.33.17:116][244]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.19-05.33.17:394][245]Cmd: QUIT_EDITOR
+[2015.11.19-05.33.17:700][245]LogExit: Preparing to exit.
+[2015.11.19-05.33.18:211][245]LogExit: Editor shut down
+[2015.11.19-05.33.18:211][245]LogExit: Transaction tracking system shut down
+[2015.11.19-05.33.18:250][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3C520680
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3A3B34C0
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3A2EC540
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3A3C9300
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3A3C94E0
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B3A3C98A0
+[2015.11.19-05.33.18:261][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B309DB100
+[2015.11.19-05.33.18:412][245]LogExit: Object subsystem successfully closed.
+[2015.11.19-05.33.18:531][245]LogD3D11RHI: Shutdown
+[2015.11.19-05.33.18:531][245]LogD3D11RHI: CleanupD3DDevice
+[2015.11.19-05.33.18:593][245]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.11.19-05.33.18:620][245]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.11.19-05.33.18:621][245]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.11.19-05.33.18:621][245]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.19-05.33.18:622][245]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.19-05.33.19:327][245]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.19-05.33.19:328][245]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.19-05.33.19:547][245]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.19-05.33.19:547][245]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.11.19-05.33.19:558][245]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.19-05.33.19:558][245]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.19-05.33.19:559][245]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.19-05.33.19:559][245]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.19-05.33.19:559][245]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.19-05.33.19:559][245]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.19-05.33.19:559][245]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.19-05.33.19:574][245]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.19-05.33.19:575][245]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.11.19-05.33.19:576][245]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.11.19-05.33.19:576][245]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.11.19-05.33.19:677][245]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.11.19-05.33.19:677][245]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.11.19-05.33.19:845][245]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.11.19-05.33.19:845][245]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.19-05.33.19:845][245]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.19-05.33.19:845][245]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.19-05.33.19:845][245]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.19-05.33.19:846][245]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.19-05.33.19:848][245]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.19-05.33.19:850][245]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.19-05.33.19:869][245]LogDerivedDataCache: Shutdown
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.19-05.33.19:869][245]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.19-05.33.21:872][245]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.19-05.33.21:873][245]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.19-05.33.21:874][245]LogExit: Exiting.
+[2015.11.19-05.33.21:901][245]Log file closed, 11/19/15 00:33:21
