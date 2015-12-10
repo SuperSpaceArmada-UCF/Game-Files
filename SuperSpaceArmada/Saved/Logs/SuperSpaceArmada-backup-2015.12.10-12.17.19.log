@@ -1,0 +1,915 @@
+﻿[2015.12.10-11.52.03:931][  0]Log file open, 12/10/15 06:52:03
+[2015.12.10-11.52.03:931][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.12.10-11.52.03:931][  0]LogInit:Display: RandInit(657344984) SRandInit(657344984).
+[2015.12.10-11.52.03:931][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.10-11.52.03:931][  0]LogStats: Stats thread started at 0.123162
+[2015.12.10-11.52.03:931][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.10-11.52.03:931][  0]LogInit: API Version: 2672455
+[2015.12.10-11.52.03:931][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.10-11.52.03:931][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.10-11.52.03:931][  0]LogInit: Build Configuration: Development
+[2015.12.10-11.52.03:931][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.10-11.52.03:931][  0]LogInit: Command line:  
+[2015.12.10-11.52.03:931][  0]LogInit: Base directory: X:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.10-11.52.03:931][  0]LogInit: Rocket: 1
+[2015.12.10-11.52.03:947][  0]LogInit: Using libcurl 7.41.0
+[2015.12.10-11.52.03:947][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.10-11.52.03:947][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.10-11.52.03:947][  0]LogInit:  - other features:
+[2015.12.10-11.52.03:947][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.10-11.52.03:947][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.10-11.52.03:947][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.10-11.52.03:947][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.10-11.52.03:947][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.10-11.52.03:947][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.10-11.52.03:947][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.10-11.52.03:947][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.10-11.52.03:947][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.10-11.52.03:947][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.10-11.52.03:963][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.10-11.52.03:978][  0]LogInit: Object subsystem initialized
+[2015.12.10-11.52.03:978][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-11.52.03:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.10-11.52.03:978][  0]LogInit: Computer: FALCON-PC
+[2015.12.10-11.52.03:978][  0]LogInit: User: Fâlcon
+[2015.12.10-11.52.03:978][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.10-11.52.03:978][  0]LogInit: High frequency timer resolution =2.725654 MHz
+[2015.12.10-11.52.03:978][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.10-11.52.03:978][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.10-11.52.03:978][  0]LogMemory: Process Physical Memory: 57.28 MB used, 57.28 MB peak
+[2015.12.10-11.52.03:978][  0]LogMemory: Process Virtual Memory: 58.98 MB used, 58.98 MB peak
+[2015.12.10-11.52.03:978][  0]LogMemory: Physical Memory: 3011.75 MB used, 8078.29 MB total
+[2015.12.10-11.52.03:978][  0]LogMemory: Virtual Memory: 338.60 MB used, 8388608.00 MB total
+[2015.12.10-11.52.04:056][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.10-11.52.04:816][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.12.10-11.52.04:816][  0]LogD3D11RHI: Adapter has 4036MB of dedicated video memory, 0MB of dedicated system memory, and 3783MB of shared system memory, 2 output[s]
+[2015.12.10-11.52.04:832][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro K4000M    (Feature Level 11_0)
+[2015.12.10-11.52.04:832][  0]LogD3D11RHI: Adapter has 4036MB of dedicated video memory, 0MB of dedicated system memory, and 3783MB of shared system memory, 0 output[s]
+[2015.12.10-11.52.04:832][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.10-11.52.04:839][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.10-11.52.04:839][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.10-11.52.04:852][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.10-11.52.04:861][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/3644/).
+[2015.12.10-11.52.04:861][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/D26901BB47E3278D788545B91C195174/'.
+[2015.12.10-11.52.04:861][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.10-11.52.06:558][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.10-11.52.06:564][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.10-11.52.06:571][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.10-11.52.06:577][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.10-11.52.06:583][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.10-11.52.06:587][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.10-11.52.06:591][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.10-11.52.06:595][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.10-11.52.06:599][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.10-11.52.06:603][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.10-11.52.06:608][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.10-11.52.06:612][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.10-11.52.06:615][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.10-11.52.06:636][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.10-11.52.06:640][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.10-11.52.06:644][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.10-11.52.06:648][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.10-11.52.06:648][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.10-11.52.06:781][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache: Loaded boot cache 0.11s 41MB C:/Users/Fâlcon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fâlcon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.10-11.52.06:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.10-11.52.07:054][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.10-11.52.07:065][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fâlcon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.10-11.52.07:583][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-11.52.07:584][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.10-11.52.07:613][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.10-11.52.07:613][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.10-11.52.07:973][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.10-11.52.10:153][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.12.10-11.52.10:172][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.10-11.52.10:462][  0]SourceControl: Info Source control is disabled
+[2015.12.10-11.52.10:463][  0]SourceControl: Info Source control is disabled
+[2015.12.10-11.52.10:477][  0]SourceControl: Info Source control is disabled
+[2015.12.10-11.52.10:492][  0]SourceControl: Info Source control is disabled
+[2015.12.10-11.52.10:700][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.10:815][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.12.10-11.52.10:815][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.12.10-11.52.10:873][  0]LogEngine: Initializing Engine...
+[2015.12.10-11.52.10:876][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.10-11.52.10:879][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.10-11.52.11:000][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.10-11.52.11:007][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.10-11.52.11:032][  0]LogInit: FAudioDevice initialized.
+[2015.12.10-11.52.11:050][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Fâlcon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.10-11.52.11:052][  0]LogInit: Texture streaming: Enabled
+[2015.12.10-11.52.11:059][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.10-11.52.11:059][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.10-11.52.11:059][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 084e75de446c370325dc5cbfa2c900f0|e4ca94b98a7b43aa9ed9a6b8595e3913|1fd778cf-c2f6-4b8a-b7a6-37adbc4dc300
+[2015.12.10-11.52.11:059][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.10-11.52.11:403][  0]LogInit: Transaction tracking system initialized
+[2015.12.10-11.52.11:439][  0]BlueprintLog: New page: Editor Load
+[2015.12.10-11.52.11:549][  0]LocalizationService: Info Localization service is disabled
+[2015.12.10-11.52.11:655][  0]LogConsoleResponse:Display: 
+[2015.12.10-11.52.11:782][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.10-11.52.11:869][  0]LogFileCache: Scanning file cache for directory 'X:/GITHUB/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.12.10-11.52.11:869][  0]SourceControl: Info Source control is disabled
+[2015.12.10-11.52.11:869][  0]Cmd: MAP LOAD FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-11.52.11:870][  0]LightingResults: New page: Lighting Build
+[2015.12.10-11.52.11:874][  0]MapCheck: New page: Map Check
+[2015.12.10-11.52.11:874][  0]LightingResults: New page: Lighting Build
+[2015.12.10-11.52.11:884][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029899620
+[2015.12.10-11.52.11:983][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:985][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:987][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:988][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:989][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:989][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:991][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.11:992][  0]LogLinker:Warning: Asset '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.52.18:971][  0]LogAIModule: Creating AISystem for world Home_Kratakos
+[2015.12.10-11.52.18:980][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-11.52.18:980][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-11.52.19:175][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 194.62ms to complete.
+[2015.12.10-11.52.19:175][  0]LogFileHelpers: Loading map 'Home_Kratakos' took 7.306
+[2015.12.10-11.52.19:287][  0]LogCollectionManager: Loaded 0 collections in 0.002522 seconds
+[2015.12.10-11.52.19:325][  0]LogFileCache: Scanning file cache for directory 'X:/GITHUB/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.12.10-11.52.19:325][  0]LogFileCache: Scanning file cache for directory 'X:/GITHUB/Game-Files/SuperSpaceArmada/Content/Developers/Fâlcon/Collections/' took 0.01s
+[2015.12.10-11.52.19:325][  0]LogFileCache: Scanning file cache for directory 'X:/GITHUB/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.12.10-11.52.19:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1882 classes and 339 folders.
+[2015.12.10-11.52.19:332][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.10-11.52.19:339][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.10-11.52.19:389][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.10-11.52.19:393][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.10-11.52.19:428][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.10-11.52.19:431][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.10-11.52.19:452][  0]LogLoad: Full Startup: 16.14 seconds (BP compile: 2.47 seconds)
+[2015.12.10-11.52.19:470][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.12.10-11.52.19:578][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.10-11.52.19:707][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.12.10-11.52.21:688][ 34]LogAssetRegistry: Asset discovery search completed in 11.5453 seconds
+[2015.12.10-11.52.21:688][ 34]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.10-11.52.21:688][ 34]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.12.10-11.52.51:013][851]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 X:\Desktop2\UCF FALL SEMESTER 2015\DIG 4725c Game Design Workshop\Gateway Games\Space Armada\Sounds-Music (Use These)\General Combat Announcer\Combat_EnemyShipDestroyed.wav)
+[2015.12.10-11.52.51:017][851]LogAudioDerivedData:Display: Building compressed audio format OGG wave Combat_EnemyShipDestroyed...
+[2015.12.10-11.52.51:070][851]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/SSA/Audio/General_Combat_Announcer/Combat_EnemyShipDestroyed.Combat_EnemyShipDestroyed.
+[2015.12.10-11.52.51:075][851]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 X:\Desktop2\UCF FALL SEMESTER 2015\DIG 4725c Game Design Workshop\Gateway Games\Space Armada\Sounds-Music (Use These)\General Combat Announcer\Combat_PlayerShipDestroyed.wav)
+[2015.12.10-11.52.51:078][851]LogAudioDerivedData:Display: Building compressed audio format OGG wave Combat_PlayerShipDestroyed...
+[2015.12.10-11.52.51:099][851]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/SSA/Audio/General_Combat_Announcer/Combat_PlayerShipDestroyed.Combat_PlayerShipDestroyed.
+[2015.12.10-11.53.44:551][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-11.53.44:551][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.10-11.53.44:552][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.10-11.53.44:552][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.10-11.53.44:552][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.10-11.53.44:553][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.10-11.54.53:755][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-11.54.53:756][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.10-11.54.53:756][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.10-11.56.07:429][848]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.07:429][848]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.07:429][848]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.07:429][848]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.07:430][848]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.09:584][966]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.09:584][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.09:584][966]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.09:585][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.10:845][ 41]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.10:845][ 41]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.10:846][ 41]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-11.56.10:846][ 41]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-11.56.11:783][ 94]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-11.56.12:358][ 94]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.12.10-11.59.10:330][369]LogSavePackage: Save=45.990063ms
+[2015.12.10-11.59.10:330][369]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Kratakos_CombatMusic_Cue5C6CD69E40636712313356A55C4F2F36.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Kratakos_CombatMusic_Cue.uasset'
+[2015.12.10-11.59.10:333][369]LogSavePackage: Total save time: 52.844562ms
+[2015.12.10-11.59.10:333][369]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Kratakos_CombatMusic_Cue.uasset
+[2015.12.10-12.00.25:918][999]LogSavePackage: Save=2.474269ms
+[2015.12.10-12.00.25:918][999]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/MainMenu_Music_Cue78B3A9CA442754F1A06758AAB60131C1.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/MainMenu_Music_Cue.uasset'
+[2015.12.10-12.00.25:919][999]LogSavePackage: Total save time: 4.149098ms
+[2015.12.10-12.00.25:919][999]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/MainMenu_Music_Cue.uasset
+[2015.12.10-12.01.16:890][728]LogMaterial: Missing cached shader map for material CepalonStars, compiling. 
+[2015.12.10-12.01.17:035][728]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.12.10-12.01.17:111][728]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.12.10-12.01.17:118][728]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.12.10-12.01.17:123][728]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.12.10-12.01.17:129][728]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.12.10-12.01.17:132][728]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.12.10-12.01.17:136][728]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.12.10-12.01.17:144][728]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.12.10-12.01.17:160][728]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.12.10-12.01.17:164][728]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.12.10-12.01.17:167][728]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.12.10-12.01.17:169][728]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.12.10-12.01.17:174][728]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.12.10-12.01.17:181][728]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.12.10-12.01.17:186][728]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.12.10-12.01.17:188][728]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.12.10-12.01.17:194][728]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.12.10-12.01.17:200][728]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.12.10-12.01.17:209][728]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.12.10-12.01.17:212][728]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.12.10-12.01.17:255][728]LogAIModule: Creating AISystem for world Home_Cephalon
+[2015.12.10-12.01.17:257][728]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.01.17:257][728]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.01.17:257][728]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.01.17:257][728]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.01.17:258][728]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.01.32:106][262]LogSavePackage: Save=2.335219ms
+[2015.12.10-12.01.32:106][262]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Cephalon_CombatMusic_Cue9719889E4E4D05C3261A4B80E64A0FB8.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Cephalon_CombatMusic_Cue.uasset'
+[2015.12.10-12.01.32:107][262]LogSavePackage: Total save time: 4.283011ms
+[2015.12.10-12.01.32:107][262]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Cephalon_CombatMusic_Cue.uasset
+[2015.12.10-12.02.05:814][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Kratakos" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.02.05:816][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.12.10-12.02.05:817][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.12.10-12.02.05:818][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.12.10-12.02.05:818][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.12.10-12.02.06:029][606]LogSavePackage: Save=158.916718ms
+[2015.12.10-12.02.06:029][606]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Kratakos3929170A4F50314D77A94F9F441FAD9A.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap'
+[2015.12.10-12.02.06:032][606]LogSavePackage: Total save time: 181.283098ms
+[2015.12.10-12.02.06:032][606]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Kratakos.umap
+[2015.12.10-12.02.13:374][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Cephalon" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.02.13:376][888]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.02.13:376][888]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.02.13:376][888]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.02.13:377][888]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.02.13:377][888]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.02.13:604][888]LogSavePackage: Save=177.678085ms
+[2015.12.10-12.02.13:604][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Cephalon7D31CA7B44A14267AA3663AF62FF2F5F.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap'
+[2015.12.10-12.02.13:606][888]LogSavePackage: Total save time: 197.682098ms
+[2015.12.10-12.02.13:606][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap
+[2015.12.10-12.02.13:607][888]LogFileHelpers: Saving map 'Home_Cephalon' took 0.459
+[2015.12.10-12.02.13:615][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Menues/MainMenu" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset" SILENT=true
+[2015.12.10-12.02.13:826][888]LogSavePackage: Save=201.793045ms
+[2015.12.10-12.02.13:826][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/MainMenu53A50B51458E8BE287036B8E9E682A58.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset'
+[2015.12.10-12.02.13:828][888]LogSavePackage: Total save time: 211.679108ms
+[2015.12.10-12.02.13:828][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/MainMenu.uasset
+[2015.12.10-12.02.13:848][888]LogSavePackage: Save=3.763500ms
+[2015.12.10-12.02.13:848][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Combat_EnemyShipDestroyed9525EAFC407D8FEF00A31F8434973A3F.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/General_Combat_Announcer/Combat_EnemyShipDestroyed.uasset'
+[2015.12.10-12.02.13:850][888]LogSavePackage: Total save time: 5.491525ms
+[2015.12.10-12.02.13:850][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/General_Combat_Announcer/Combat_EnemyShipDestroyed.uasset
+[2015.12.10-12.02.13:869][888]LogSavePackage: Save=3.734150ms
+[2015.12.10-12.02.13:869][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Combat_PlayerShipDestroyed2BB546B445EA1628663FBBB54C6E9BB7.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/General_Combat_Announcer/Combat_PlayerShipDestroyed.uasset'
+[2015.12.10-12.02.13:871][888]LogSavePackage: Total save time: 5.525280ms
+[2015.12.10-12.02.13:871][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/General_Combat_Announcer/Combat_PlayerShipDestroyed.uasset
+[2015.12.10-12.02.13:885][888]LogSavePackage: Save=2.392087ms
+[2015.12.10-12.02.13:885][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/BuildArmada_Music_Cue50D234874A922B9FF2A0678DC61A6A7C.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/BuildArmada_Music_Cue.uasset'
+[2015.12.10-12.02.13:886][888]LogSavePackage: Total save time: 4.064713ms
+[2015.12.10-12.02.13:886][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/BuildArmada_Music_Cue.uasset
+[2015.12.10-12.02.13:901][888]LogSavePackage: Save=2.481973ms
+[2015.12.10-12.02.13:901][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/CreditsScreen_Music_Cue828321864CB65EA4DA8F4AA7C56EC676.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/CreditsScreen_Music_Cue.uasset'
+[2015.12.10-12.02.13:902][888]LogSavePackage: Total save time: 4.185051ms
+[2015.12.10-12.02.13:902][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/CreditsScreen_Music_Cue.uasset
+[2015.12.10-12.02.13:914][888]LogSavePackage: Save=2.615519ms
+[2015.12.10-12.02.13:914][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Dragomir_CombatMusic_Cue607513FA45E318F7F6341CA936056A88.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Dragomir_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.13:915][888]LogSavePackage: Total save time: 4.459482ms
+[2015.12.10-12.02.13:915][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Dragomir_CombatMusic_Cue.uasset
+[2015.12.10-12.02.13:934][888]LogSavePackage: Save=1.569165ms
+[2015.12.10-12.02.13:934][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Kratakos_CombatMusic_CueC605DE1B4428DB74335E50891EFB6881.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Kratakos_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.13:935][888]LogSavePackage: Total save time: 10.573242ms
+[2015.12.10-12.02.13:935][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Kratakos_CombatMusic_Cue.uasset
+[2015.12.10-12.02.13:949][888]LogSavePackage: Save=2.442717ms
+[2015.12.10-12.02.13:949][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Human_CombatMusic_CueCF38564E43D8D9E94941BDBF12CB7238.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.13:951][888]LogSavePackage: Total save time: 4.156433ms
+[2015.12.10-12.02.13:951][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset
+[2015.12.10-12.02.13:968][888]LogSavePackage: Save=1.545317ms
+[2015.12.10-12.02.13:968][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/MainMenu_Music_Cue56452BFE4A567CEB751052B6FDD85DA8.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/MainMenu_Music_Cue.uasset'
+[2015.12.10-12.02.13:970][888]LogSavePackage: Total save time: 10.669731ms
+[2015.12.10-12.02.13:970][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/MainMenu_Music_Cue.uasset
+[2015.12.10-12.02.13:982][888]LogSavePackage: Save=2.500317ms
+[2015.12.10-12.02.13:982][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Mercenary_CombatMusic_Cue85DDC27A4E4B51A79CDB1F813BA6B1CE.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Mercenary_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.13:983][888]LogSavePackage: Total save time: 4.322264ms
+[2015.12.10-12.02.13:983][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Mercenary_CombatMusic_Cue.uasset
+[2015.12.10-12.02.13:997][888]LogSavePackage: Save=2.458126ms
+[2015.12.10-12.02.13:997][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/PlayerDefeat_Music_Cue20DD1D76409964307E34EE86B4D4B13F.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/PlayerDefeat_Music_Cue.uasset'
+[2015.12.10-12.02.13:999][888]LogSavePackage: Total save time: 4.120480ms
+[2015.12.10-12.02.13:999][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/PlayerDefeat_Music_Cue.uasset
+[2015.12.10-12.02.14:011][888]LogSavePackage: Save=2.475736ms
+[2015.12.10-12.02.14:011][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/PlayerVictory_Music_Cue74D3D19E47489E6AEECA049936E258D8.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/PlayerVictory_Music_Cue.uasset'
+[2015.12.10-12.02.14:013][888]LogSavePackage: Total save time: 4.266866ms
+[2015.12.10-12.02.14:013][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/PlayerVictory_Music_Cue.uasset
+[2015.12.10-12.02.14:024][888]LogSavePackage: Save=2.391720ms
+[2015.12.10-12.02.14:024][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/ShipSelection_Music_Cue919CAB6C4BB48BF753F640A18E7CB87F.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/ShipSelection_Music_Cue.uasset'
+[2015.12.10-12.02.14:026][888]LogSavePackage: Total save time: 4.212566ms
+[2015.12.10-12.02.14:026][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/ShipSelection_Music_Cue.uasset
+[2015.12.10-12.02.14:038][888]LogSavePackage: Save=2.497382ms
+[2015.12.10-12.02.14:038][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/The_Hive_CombatMusic_CueFD48E62D41250ABF1761479FC47EFD63.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/The_Hive_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.14:040][888]LogSavePackage: Total save time: 4.234947ms
+[2015.12.10-12.02.14:040][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/The_Hive_CombatMusic_Cue.uasset
+[2015.12.10-12.02.14:052][888]LogSavePackage: Save=2.543610ms
+[2015.12.10-12.02.14:053][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/TournamentDialogue_BackgroundMusic_Cue67E32D9C4A32FC75B0678EA92F77AED9.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/TournamentDialogue_BackgroundMusic_Cue.uasset'
+[2015.12.10-12.02.14:054][888]LogSavePackage: Total save time: 4.341710ms
+[2015.12.10-12.02.14:054][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/TournamentDialogue_BackgroundMusic_Cue.uasset
+[2015.12.10-12.02.14:066][888]LogSavePackage: Save=2.429509ms
+[2015.12.10-12.02.14:066][888]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Vultaari_CombatMusic_CueC9FB38254CDC1E8A1C7B4D9001291AC7.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Vultaari_CombatMusic_Cue.uasset'
+[2015.12.10-12.02.14:068][888]LogSavePackage: Total save time: 4.105803ms
+[2015.12.10-12.02.14:068][888]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Vultaari_CombatMusic_Cue.uasset
+[2015.12.10-12.04.11:596][745]LogAIModule: Creating AISystem for world Home_Dragomir
+[2015.12.10-12.04.11:597][745]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.04.11:598][745]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.04.11:598][745]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.04.11:598][745]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.04.11:598][745]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.04.24:354][272]LogSavePackage: Save=1.627499ms
+[2015.12.10-12.04.24:354][272]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Dragomir_CombatMusic_CueA2395AB34E9281D2C91800867A1AFFBC.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Dragomir_CombatMusic_Cue.uasset'
+[2015.12.10-12.04.24:355][272]LogSavePackage: Total save time: 10.439329ms
+[2015.12.10-12.04.24:355][272]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Dragomir_CombatMusic_Cue.uasset
+[2015.12.10-12.04.51:567][374]LogMaterial: Missing cached shader map for material HiveStar, compiling. 
+[2015.12.10-12.04.51:717][374]LogAIModule: Creating AISystem for world Home_Hive
+[2015.12.10-12.04.51:719][374]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.04.51:719][374]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.04.51:719][374]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.04.51:719][374]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.04.51:720][374]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.05.04:560][836]LogSavePackage: Save=1.558525ms
+[2015.12.10-12.05.04:560][836]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/The_Hive_CombatMusic_CueEE61AC6043D89D97910639ACA1869534.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/The_Hive_CombatMusic_Cue.uasset'
+[2015.12.10-12.05.04:561][836]LogSavePackage: Total save time: 10.823093ms
+[2015.12.10-12.05.04:561][836]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/The_Hive_CombatMusic_Cue.uasset
+[2015.12.10-12.05.27:448][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020598900
+[2015.12.10-12.05.27:656][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Dragomir" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Dragomir.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.05.27:658][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.05.27:658][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.05.27:659][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.05.27:659][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.05.27:659][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Dragomir.Home_Dragomir:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.05.27:960][807]LogSavePackage: Save=251.375259ms
+[2015.12.10-12.05.27:960][807]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Dragomir09138B1044D07BA0FB40559D83441856.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Dragomir.umap'
+[2015.12.10-12.05.27:963][807]LogSavePackage: Total save time: 270.518564ms
+[2015.12.10-12.05.27:963][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Dragomir.umap
+[2015.12.10-12.05.27:964][807]LogFileHelpers: Saving map 'Home_Dragomir' took 0.493
+[2015.12.10-12.05.28:148][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Hive" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.05.28:150][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.05.28:150][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.05.28:150][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.05.28:150][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.05.28:150][807]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.05.28:393][807]LogSavePackage: Save=155.984589ms
+[2015.12.10-12.05.28:393][807]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_HiveF2E767154510FE43A779A4A09B90751C.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap'
+[2015.12.10-12.05.28:396][807]LogSavePackage: Total save time: 212.606955ms
+[2015.12.10-12.05.28:396][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap
+[2015.12.10-12.05.28:397][807]LogFileHelpers: Saving map 'Home_Hive' took 0.430
+[2015.12.10-12.05.33:082][  3]LogAIModule: Creating AISystem for world Home_Human
+[2015.12.10-12.05.33:083][  3]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.05.33:083][  3]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.05.33:083][  3]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.05.33:083][  3]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.05.33:084][  3]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.05.42:723][385]LogSavePackage: Save=1.588243ms
+[2015.12.10-12.05.42:723][385]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Human_CombatMusic_Cue3110CAD04418E7B76F3478BAC8E618CA.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset'
+[2015.12.10-12.05.42:724][385]LogSavePackage: Total save time: 10.006040ms
+[2015.12.10-12.05.42:724][385]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset
+[2015.12.10-12.05.47:547][598]LogSavePackage: Save=1.564395ms
+[2015.12.10-12.05.47:547][598]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Human_CombatMusic_Cue75FFFF4B45EE9CA2EC27F09BD9D227D9.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset'
+[2015.12.10-12.05.47:548][598]LogSavePackage: Total save time: 8.717541ms
+[2015.12.10-12.05.47:548][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Human_CombatMusic_Cue.uasset
+[2015.12.10-12.06.06:976][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Human" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.06.06:978][397]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.06.06:978][397]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.06.06:978][397]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.06.06:978][397]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.06.06:978][397]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.06.07:183][397]LogSavePackage: Save=155.685944ms
+[2015.12.10-12.06.07:183][397]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_HumanAAC04C91459631936CFEAAB09316FB94.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap'
+[2015.12.10-12.06.07:185][397]LogSavePackage: Total save time: 173.393615ms
+[2015.12.10-12.06.07:185][397]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap
+[2015.12.10-12.06.07:186][397]LogFileHelpers: Saving map 'Home_Human' took 0.395
+[2015.12.10-12.06.54:840][309]LogSavePackage: Save=1.741600ms
+[2015.12.10-12.06.54:840][309]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/BuildArmada_Music_Cue1E82B3774112581C35855886BED41A2B.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/BuildArmada_Music_Cue.uasset'
+[2015.12.10-12.06.54:842][309]LogSavePackage: Total save time: 11.489350ms
+[2015.12.10-12.06.54:842][309]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/BuildArmada_Music_Cue.uasset
+[2015.12.10-12.06.59:405][475]LogSavePackage: Save=528.221863ms
+[2015.12.10-12.06.59:405][475]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Ship_Selection8E1A582144E6BB6AA6DB4BA568AEF67A.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/Ship_Selection/Ship_Selection.uasset'
+[2015.12.10-12.06.59:408][475]LogSavePackage: Total save time: 540.591728ms
+[2015.12.10-12.06.59:408][475]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Menues/Ship_Selection/Ship_Selection.uasset
+[2015.12.10-12.07.21:246][363]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.12.10-12.07.21:285][363]Cmd: MAP LOAD FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Ship_Selection.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-12.07.21:285][363]LightingResults: New page: Lighting Build
+[2015.12.10-12.07.21:311][363]LoadErrors: New page: Loading map: Ship_Selection.umap
+[2015.12.10-12.07.21:373][363]MapCheck: New page: Map Check
+[2015.12.10-12.07.21:373][363]LightingResults: New page: Lighting Build
+[2015.12.10-12.07.21:402][363]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DEFBE20
+[2015.12.10-12.07.21:403][363]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037A58F40
+[2015.12.10-12.07.21:602][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-12.07.21:683][363]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-12.07.21:934][363]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 250.863ms to complete.
+[2015.12.10-12.07.21:936][363]LogFileHelpers: Loading map 'Ship_Selection' took 0.651
+[2015.12.10-12.07.23:389][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection' with GeneratedClass '/Game/SSA/Maps/Ship_Selection.Ship_Selection_C' with ClassGeneratedBy '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection'
+[2015.12.10-12.07.23:389][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.10-12.07.23:407][418]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2015.12.10-12.07.23:556][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 167 ms (4 blueprints)
+[2015.12.10-12.07.23:596][418]LogPlayLevel: [PlayLevel] Compiling Ship_Selection before play...
+[2015.12.10-12.07.23:843][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 453 ms (5 blueprints)
+[2015.12.10-12.07.23:846][418]LogPlayLevel: [PlayLevel] Compiling SSAGameInstance before play...
+[2015.12.10-12.07.24:068][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 679 ms (26 blueprints)
+[2015.12.10-12.07.24:071][418]LogPlayLevel: [PlayLevel] Compiling ProfileSelector before play...
+[2015.12.10-12.07.24:268][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 879 ms (26 blueprints)
+[2015.12.10-12.07.24:269][418]LogPlayLevel: [PlayLevel] Compiling Ship_Selection before play...
+[2015.12.10-12.07.24:340][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 951 ms (26 blueprints)
+[2015.12.10-12.07.24:341][418]LogPlayLevel: [PlayLevel] Compiling Arena_Boundary before play...
+[2015.12.10-12.07.24:410][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 1021 ms (26 blueprints)
+[2015.12.10-12.07.24:415][418]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2015.12.10-12.07.24:736][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-12.07.24:736][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.12.10-12.07.24:736][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.12.10-12.07.26:507][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 3118 ms (42 blueprints)
+[2015.12.10-12.07.26:509][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Cephalon before play...
+[2015.12.10-12.07.26:863][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 3473 ms (42 blueprints)
+[2015.12.10-12.07.26:864][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Human before play...
+[2015.12.10-12.07.27:481][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 4092 ms (42 blueprints)
+[2015.12.10-12.07.27:482][418]LogPlayLevel: [PlayLevel] Compiling Human_Torpedo before play...
+[2015.12.10-12.07.27:614][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 4224 ms (42 blueprints)
+[2015.12.10-12.07.27:615][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Kratakos before play...
+[2015.12.10-12.07.28:044][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 4654 ms (42 blueprints)
+[2015.12.10-12.07.28:045][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Dragomir before play...
+[2015.12.10-12.07.28:395][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 5005 ms (42 blueprints)
+[2015.12.10-12.07.28:396][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Hive before play...
+[2015.12.10-12.07.28:749][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 5359 ms (42 blueprints)
+[2015.12.10-12.07.28:750][418]LogPlayLevel: [PlayLevel] Compiling Enemy_Vultari before play...
+[2015.12.10-12.07.29:116][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 5727 ms (42 blueprints)
+[2015.12.10-12.07.29:117][418]LogPlayLevel: [PlayLevel] Compiling Player_Cephalon before play...
+[2015.12.10-12.07.29:388][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 5999 ms (42 blueprints)
+[2015.12.10-12.07.29:389][418]LogPlayLevel: [PlayLevel] Compiling Player_Human before play...
+[2015.12.10-12.07.29:824][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 6434 ms (42 blueprints)
+[2015.12.10-12.07.29:824][418]LogPlayLevel: [PlayLevel] Compiling Player_Kratakos before play...
+[2015.12.10-12.07.30:257][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 6868 ms (42 blueprints)
+[2015.12.10-12.07.30:258][418]LogPlayLevel: [PlayLevel] Compiling Player_Dragomir before play...
+[2015.12.10-12.07.30:535][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 7145 ms (42 blueprints)
+[2015.12.10-12.07.30:536][418]LogPlayLevel: [PlayLevel] Compiling Hive_Drones before play...
+[2015.12.10-12.07.30:682][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 7293 ms (42 blueprints)
+[2015.12.10-12.07.30:683][418]LogPlayLevel: [PlayLevel] Compiling Player_Hive before play...
+[2015.12.10-12.07.30:942][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 7552 ms (42 blueprints)
+[2015.12.10-12.07.30:943][418]LogPlayLevel: [PlayLevel] Compiling Player_Vultaari before play...
+[2015.12.10-12.07.31:212][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 7822 ms (42 blueprints)
+[2015.12.10-12.07.31:212][418]LogPlayLevel: [PlayLevel] Compiling Crystal_Spawner before play...
+[2015.12.10-12.07.31:366][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 7976 ms (42 blueprints)
+[2015.12.10-12.07.31:368][418]LogPlayLevel: [PlayLevel] Compiling Home_Cephalon before play...
+[2015.12.10-12.07.31:494][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8105 ms (42 blueprints)
+[2015.12.10-12.07.31:496][418]LogPlayLevel: [PlayLevel] Compiling Home_Hive before play...
+[2015.12.10-12.07.31:622][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8232 ms (42 blueprints)
+[2015.12.10-12.07.31:623][418]LogPlayLevel: [PlayLevel] Compiling Home_Human before play...
+[2015.12.10-12.07.31:763][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8373 ms (42 blueprints)
+[2015.12.10-12.07.31:765][418]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2015.12.10-12.07.32:002][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8612 ms (42 blueprints)
+[2015.12.10-12.07.32:003][418]LogPlayLevel: [PlayLevel] Compiling Debris before play...
+[2015.12.10-12.07.32:178][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8788 ms (42 blueprints)
+[2015.12.10-12.07.32:178][418]LogPlayLevel: [PlayLevel] Compiling AI_Ram_Trigger before play...
+[2015.12.10-12.07.32:335][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 8945 ms (42 blueprints)
+[2015.12.10-12.07.32:335][418]LogPlayLevel: [PlayLevel] Compiling Kratakos_Rail_Gun before play...
+[2015.12.10-12.07.32:505][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9115 ms (42 blueprints)
+[2015.12.10-12.07.32:505][418]LogPlayLevel: [PlayLevel] Compiling Player_PowerWave_Trigger before play...
+[2015.12.10-12.07.32:658][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9268 ms (42 blueprints)
+[2015.12.10-12.07.32:658][418]LogPlayLevel: [PlayLevel] Compiling Player_Phaser_Trigger before play...
+[2015.12.10-12.07.32:811][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9421 ms (42 blueprints)
+[2015.12.10-12.07.32:811][418]LogPlayLevel: [PlayLevel] Compiling Player_Ram_Trigger before play...
+[2015.12.10-12.07.32:950][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9560 ms (42 blueprints)
+[2015.12.10-12.07.32:950][418]LogPlayLevel: [PlayLevel] Compiling Player_FireBreath before play...
+[2015.12.10-12.07.33:096][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9706 ms (42 blueprints)
+[2015.12.10-12.07.33:096][418]LogPlayLevel: [PlayLevel] Compiling Hive_SelfDestruct before play...
+[2015.12.10-12.07.33:234][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9844 ms (42 blueprints)
+[2015.12.10-12.07.33:235][418]LogPlayLevel: [PlayLevel] Compiling Player_Mine before play...
+[2015.12.10-12.07.33:381][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 9992 ms (42 blueprints)
+[2015.12.10-12.07.33:382][418]LogPlayLevel: [PlayLevel] Compiling Vultaari_machine before play...
+[2015.12.10-12.07.33:541][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10151 ms (42 blueprints)
+[2015.12.10-12.07.33:541][418]LogPlayLevel: [PlayLevel] Compiling Energy_Crate before play...
+[2015.12.10-12.07.33:676][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10287 ms (42 blueprints)
+[2015.12.10-12.07.33:677][418]LogPlayLevel: [PlayLevel] Compiling Health_Crate before play...
+[2015.12.10-12.07.33:813][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10424 ms (42 blueprints)
+[2015.12.10-12.07.33:814][418]LogPlayLevel: [PlayLevel] Compiling PP_Crate before play...
+[2015.12.10-12.07.33:948][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10558 ms (42 blueprints)
+[2015.12.10-12.07.33:949][418]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2015.12.10-12.07.34:109][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10718 ms (42 blueprints)
+[2015.12.10-12.07.34:109][418]LogPlayLevel: [PlayLevel] Compiling Debris_Spawner before play...
+[2015.12.10-12.07.34:254][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 10863 ms (42 blueprints)
+[2015.12.10-12.07.34:254][418]LogPlayLevel: [PlayLevel] Compiling PauseMenu before play...
+[2015.12.10-12.07.34:394][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 11004 ms (42 blueprints)
+[2015.12.10-12.07.34:624][418]PIE: New page: PIE session: Ship_Selection (Dec 10, 2015, 2:07:34 AM)
+[2015.12.10-12.07.34:624][418]LogPlayLevel: Creating play world package: /Game/SSA/Maps/UEDPIE_0_Ship_Selection
+[2015.12.10-12.07.34:629][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004257s)
+[2015.12.10-12.07.34:629][418]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.12.10-12.07.34:629][418]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2015.12.10-12.07.34:629][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Ship_Selection.Ship_Selection to /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection (0.005056s)
+[2015.12.10-12.07.34:667][418]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.10-12.07.34:675][418]LogInit: FAudioDevice initialized.
+[2015.12.10-12.07.34:732][418]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-12.07.34:732][418]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-12.07.34:732][418]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-12.07.34:732][418]LogWorld: Game class is 'GameMode'
+[2015.12.10-12.07.34:734][418]LogWorld: Bringing World /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection up for play (max tick rate 60) at 2015.12.10-07.07.34
+[2015.12.10-12.07.34:734][418]LogActor:Warning: GameSession /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-12.07.34:735][418]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/UEDPIE_0_Ship_Selection.Ship_Selection:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-12.07.34:735][418]LogWorld: Bringing up level for play took: 0.001847
+[2015.12.10-12.07.34:765][418]PIE: Info Play in editor start time for /Game/SSA/Maps/UEDPIE_0_Ship_Selection 11.542
+[2015.12.10-12.07.34:765][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection' with GeneratedClass '/Game/SSA/Maps/Ship_Selection.Ship_Selection_C' with ClassGeneratedBy '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection'
+[2015.12.10-12.07.35:045][419]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:372).
+[2015.12.10-12.08.34:634][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-12.08.34:635][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.12.10-12.08.34:635][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.12.10-12.08.34:636][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.12.10-12.09.04:058][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection' with GeneratedClass '/Game/SSA/Maps/Ship_Selection.Ship_Selection_C' with ClassGeneratedBy '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection'
+[2015.12.10-12.09.04:092][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection' with GeneratedClass '/Game/SSA/Maps/Ship_Selection.Ship_Selection_C' with ClassGeneratedBy '/Game/SSA/Maps/Ship_Selection.Ship_Selection:PersistentLevel.Ship_Selection'
+[2015.12.10-12.09.04:144][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CF00180
+[2015.12.10-12.09.33:156][359]LogAIModule: Creating AISystem for world Home_Vultaari
+[2015.12.10-12.09.33:157][359]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.09.33:157][359]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.09.33:157][359]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.09.33:157][359]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.09.33:157][359]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.09.33:480][359]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.12.10-12.09.56:046][269]LogSavePackage: Save=1.664555ms
+[2015.12.10-12.09.56:047][269]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Vultaari_CombatMusic_Cue6C5142ED445D9B919EEB9B861941D0D5.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Vultaari_CombatMusic_Cue.uasset'
+[2015.12.10-12.09.56:048][269]LogSavePackage: Total save time: 11.430282ms
+[2015.12.10-12.09.56:048][269]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Audio/Background_Music/Vultaari_CombatMusic_Cue.uasset
+[2015.12.10-12.10.41:783][629]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !bIsWorldInitialized [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 846]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Engine.dll!UWorld::InitWorld() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\world.cpp:846]
+UE4Editor-UnrealEd.dll!UEditorEngine::OnAssetLoaded() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\editorengine.cpp:6297]
+UE4Editor-UnrealEd.dll!TBaseUObjectMethodDelegateInstance<0,UEditorEngine,void __cdecl(UObject * __ptr64)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:772]
+UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void,UObject * __ptr64>::Broadcast() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:809]
+UE4Editor-CoreUObject.dll!EndLoad() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1301]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1041]
+UE4Editor-CoreUObject.dll!UPackage::FullyLoad() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\package.cpp:157]
+UE4Editor-UnrealEd.dll!FEditorFileUtils::PromptForCheckoutAndSave() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\filehelpers.cpp:2998]
+UE4Editor-UnrealEd.dll!InternalSavePackages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\filehelpers.cpp:2595]
+UE4Editor-UnrealEd.dll!FEditorFileUtils::SaveDirtyPackages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\filehelpers.cpp:2709]
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::SaveAll() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\mainframe\private\frame\mainframeactions.cpp:226]
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:921]
+UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:87]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:979]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:939]
+UE4Editor-Slate.dll!TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64>::operator()<>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:440]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:236]
+UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:361]
+UE4Editor-Slate.dll!<lambda_df946b2745ea2bbab398d4acc9cc3d04>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4273]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_df946b2745ea2bbab398d4acc9cc3d04> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
+UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4276]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4660]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4638]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:1403]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:1708]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:706]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:628]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launchengineloop.cpp:2392]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__tmainCRTStartup() [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+
+[2015.12.10-12.10.44:164][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.44:164][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.44:164][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.44:164][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.44:165][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.44:449][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Cephalon" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.10.44:451][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.44:451][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.44:451][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.44:451][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.44:451][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Cephalon.Home_Cephalon:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.44:716][629]LogSavePackage: Save=205.474716ms
+[2015.12.10-12.10.44:716][629]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_CephalonCC7F71C04A39E0556E2573A748896877.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap'
+[2015.12.10-12.10.44:719][629]LogSavePackage: Total save time: 227.527779ms
+[2015.12.10-12.10.44:719][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Cephalon.umap
+[2015.12.10-12.10.44:720][629]LogFileHelpers: Saving map 'Home_Cephalon' took 0.542
+[2015.12.10-12.10.44:748][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.44:749][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.44:749][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.44:749][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.44:749][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:024][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Human" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.10.45:026][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:026][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.45:026][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.45:026][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.45:026][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Human.Home_Human:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:260][629]LogSavePackage: Save=188.551819ms
+[2015.12.10-12.10.45:260][629]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Human5C83BC244E624B5AF7D5E5B6E15E608A.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap'
+[2015.12.10-12.10.45:263][629]LogSavePackage: Total save time: 198.095944ms
+[2015.12.10-12.10.45:263][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Human.umap
+[2015.12.10-12.10.45:264][629]LogFileHelpers: Saving map 'Home_Human' took 0.511
+[2015.12.10-12.10.45:293][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:293][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.45:293][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.45:293][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.45:293][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:670][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Hive" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.10.45:671][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:672][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.10.45:672][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.10.45:672][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.10.45:672][629]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Hive.Home_Hive:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.10.45:878][629]LogSavePackage: Save=155.542480ms
+[2015.12.10-12.10.45:878][629]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Hive679997EB4072AD35C435D793592DE7C8.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap'
+[2015.12.10-12.10.45:881][629]LogSavePackage: Total save time: 172.070265ms
+[2015.12.10-12.10.45:881][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Hive.umap
+[2015.12.10-12.10.45:882][629]LogFileHelpers: Saving map 'Home_Hive' took 0.499
+[2015.12.10-12.11.10:768][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Maps/Home_Vultaari" FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Vultaari.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-12.11.10:770][601]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long_2.ParticleSystemComponent0
+[2015.12.10-12.11.10:770][601]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long2.ParticleSystemComponent0
+[2015.12.10-12.11.10:770][601]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long3.ParticleSystemComponent0
+[2015.12.10-12.11.10:771][601]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Radiation_Long.P_Radiation_Long Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Radiation_Long4.ParticleSystemComponent0
+[2015.12.10-12.11.10:771][601]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Effects/Particles/P_Stars.P_Stars Component=/Game/SSA/Maps/Home_Vultaari.Home_Vultaari:PersistentLevel.P_Stars_2.ParticleSystemComponent0
+[2015.12.10-12.11.10:982][601]LogSavePackage: Save=160.608063ms
+[2015.12.10-12.11.10:982][601]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/Home_Vultaari97CA1B2142E8BFE76FBC6FA6ED7E3836.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Vultaari.umap'
+[2015.12.10-12.11.10:984][601]LogSavePackage: Total save time: 176.999357ms
+[2015.12.10-12.11.10:984][601]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Home_Vultaari.umap
+[2015.12.10-12.11.10:985][601]LogFileHelpers: Saving map 'Home_Vultaari' took 0.426
+[2015.12.10-12.12.33:330][ 28]LogAIModule: Creating AISystem for world IntroNarrative
+[2015.12.10-12.12.33:374][ 28]Cmd: MAP LOAD FILE="../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Narratives/IntroNarrative.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-12.12.33:374][ 28]LightingResults: New page: Lighting Build
+[2015.12.10-12.12.33:397][ 28]LoadErrors: New page: Loading map: IntroNarrative.umap
+[2015.12.10-12.12.33:398][ 28]MapCheck: New page: Map Check
+[2015.12.10-12.12.33:398][ 28]LightingResults: New page: Lighting Build
+[2015.12.10-12.12.33:429][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034D89580
+[2015.12.10-12.12.33:637][ 28]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-12.12.33:718][ 28]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-12.12.33:928][ 28]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 210.107ms to complete.
+[2015.12.10-12.12.33:929][ 28]LogFileHelpers: Loading map 'IntroNarrative' took 0.557
+[2015.12.10-12.12.35:425][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative' with GeneratedClass '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative_C' with ClassGeneratedBy '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative'
+[2015.12.10-12.12.35:425][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.10-12.12.35:425][ 89]PIE: New page: PIE session: IntroNarrative (Dec 10, 2015, 2:12:35 AM)
+[2015.12.10-12.12.35:425][ 89]LogPlayLevel: Creating play world package: /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative
+[2015.12.10-12.12.35:427][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001604s)
+[2015.12.10-12.12.35:427][ 89]LogAIModule: Creating AISystem for world IntroNarrative
+[2015.12.10-12.12.35:427][ 89]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2015.12.10-12.12.35:427][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative to /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative.IntroNarrative (0.002361s)
+[2015.12.10-12.12.35:427][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-12.12.35:428][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.12.10-12.12.35:428][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.12.10-12.12.35:468][ 89]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.10-12.12.35:475][ 89]LogInit: FAudioDevice initialized.
+[2015.12.10-12.12.35:526][ 89]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-12.12.35:527][ 89]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/TopDownGameMode'
+[2015.12.10-12.12.35:527][ 89]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode_C'
+[2015.12.10-12.12.35:527][ 89]LogWorld: Game class is 'GameMode'
+[2015.12.10-12.12.35:529][ 89]LogWorld: Bringing World /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative.IntroNarrative up for play (max tick rate 60) at 2015.12.10-07.12.35
+[2015.12.10-12.12.35:529][ 89]LogActor:Warning: GameSession /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative.IntroNarrative:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-12.12.35:529][ 89]LogActor:Warning: GameNetworkManager /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative.IntroNarrative:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-12.12.35:529][ 89]LogWorld: Bringing up level for play took: 0.000885
+[2015.12.10-12.12.35:585][ 89]PIE: Info Play in editor start time for /Game/SSA/Maps/Narratives/UEDPIE_0_IntroNarrative 0.348
+[2015.12.10-12.12.35:586][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative' with GeneratedClass '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative_C' with ClassGeneratedBy '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative'
+[2015.12.10-12.12.48:274][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative' with GeneratedClass '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative_C' with ClassGeneratedBy '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative'
+[2015.12.10-12.12.48:303][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel' has LevelScriptBlueprint '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative' with GeneratedClass '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative_C' with ClassGeneratedBy '/Game/SSA/Maps/Narratives/IntroNarrative.IntroNarrative:PersistentLevel.IntroNarrative'
+[2015.12.10-12.12.48:346][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005CB92AC0
+[2015.12.10-12.19.56:205][ 46]LogSavePackage: Save=79.692070ms
+[2015.12.10-12.19.56:205][ 46]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/IntroNarrative6602550E48CFE59B3DC544989EB386BB.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Narratives/IntroNarrative.umap'
+[2015.12.10-12.19.56:206][ 46]LogSavePackage: Total save time: 89.524571ms
+[2015.12.10-12.19.56:206][ 46]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Narratives/IntroNarrative.umap
+[2015.12.10-12.19.58:985][150]LogSavePackage: Save=77.170471ms
+[2015.12.10-12.19.58:985][150]LogSavePackage: Moving '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Saved/IntroNarrativeAEFC745840429D5D082D5AA2E186167F.tmp' to '../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Narratives/IntroNarrative.umap'
+[2015.12.10-12.19.58:985][150]LogSavePackage: Total save time: 84.707379ms
+[2015.12.10-12.19.58:985][150]LogSavePackage:Warning: Finished SavePackage ../../../../../../GITHUB/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Narratives/IntroNarrative.umap
+[2015.12.10-12.20.20:141][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069981620
+[2015.12.10-12.20.20:142][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069980F40
+[2015.12.10-12.20.20:143][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000594BB240
+[2015.12.10-12.20.20:144][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FD428E0
+[2015.12.10-12.20.20:144][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C895580
+[2015.12.10-12.20.20:145][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244E1940
+[2015.12.10-12.20.20:147][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244E36A0
+[2015.12.10-12.20.20:148][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050F37D80
+[2015.12.10-12.20.20:149][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050F37380
+[2015.12.10-12.20.20:389][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A555A80
+[2015.12.10-12.20.20:696][ 91]Cmd: QUIT_EDITOR
+[2015.12.10-12.20.20:988][ 91]LogExit: Preparing to exit.
+[2015.12.10-12.20.21:707][ 91]LogExit: Editor shut down
+[2015.12.10-12.20.21:707][ 91]LogExit: Transaction tracking system shut down
+[2015.12.10-12.20.21:726][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034D88AE0
+[2015.12.10-12.20.21:728][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034D89080
+[2015.12.10-12.20.21:728][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000413E74C0
+[2015.12.10-12.20.21:728][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EDB4540
+[2015.12.10-12.20.21:728][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DBA23E0
+[2015.12.10-12.20.21:728][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228B07C0
+[2015.12.10-12.20.21:777][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C75F380
+[2015.12.10-12.20.22:430][ 91]LogExit: Object subsystem successfully closed.
+[2015.12.10-12.20.22:574][ 91]LogD3D11RHI: Shutdown
+[2015.12.10-12.20.22:574][ 91]LogD3D11RHI: CleanupD3DDevice
+[2015.12.10-12.20.22:679][ 91]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module SoundCueEditor (201)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.12.10-12.20.23:122][ 91]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.12.10-12.20.23:123][ 91]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.12.10-12.20.23:125][ 91]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.12.10-12.20.23:125][ 91]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.12.10-12.20.23:126][ 91]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.12.10-12.20.23:128][ 91]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.12.10-12.20.23:128][ 91]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.12.10-12.20.23:131][ 91]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.12.10-12.20.23:133][ 91]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.12.10-12.20.23:134][ 91]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.12.10-12.20.23:135][ 91]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.12.10-12.20.23:135][ 91]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.12.10-12.20.23:136][ 91]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.12.10-12.20.23:136][ 91]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.12.10-12.20.23:528][ 91]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.12.10-12.20.23:528][ 91]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.12.10-12.20.23:528][ 91]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.12.10-12.20.23:528][ 91]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.12.10-12.20.23:529][ 91]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.12.10-12.20.23:529][ 91]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.12.10-12.20.23:530][ 91]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.12.10-12.20.23:530][ 91]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.12.10-12.20.23:530][ 91]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.12.10-12.20.23:531][ 91]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.12.10-12.20.23:531][ 91]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.12.10-12.20.23:531][ 91]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.12.10-12.20.23:532][ 91]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.12.10-12.20.23:533][ 91]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.12.10-12.20.23:533][ 91]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.12.10-12.20.23:535][ 91]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.12.10-12.20.23:536][ 91]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.12.10-12.20.23:537][ 91]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.12.10-12.20.23:537][ 91]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.12.10-12.20.23:537][ 91]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.12.10-12.20.23:538][ 91]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.12.10-12.20.23:538][ 91]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.12.10-12.20.23:539][ 91]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.12.10-12.20.23:543][ 91]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.12.10-12.20.23:543][ 91]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.12.10-12.20.23:544][ 91]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.12.10-12.20.23:544][ 91]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.12.10-12.20.23:546][ 91]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.12.10-12.20.23:546][ 91]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.12.10-12.20.23:546][ 91]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.12.10-12.20.23:546][ 91]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.12.10-12.20.23:546][ 91]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.12.10-12.20.23:547][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.12.10-12.20.23:547][ 91]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.12.10-12.20.23:547][ 91]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.12.10-12.20.23:548][ 91]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.12.10-12.20.23:549][ 91]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.12.10-12.20.23:549][ 91]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.12.10-12.20.23:549][ 91]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.12.10-12.20.23:790][ 91]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.12.10-12.20.23:792][ 91]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.12.10-12.20.23:793][ 91]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.10-12.20.23:890][ 91]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.10-12.20.23:890][ 91]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.10-12.20.23:890][ 91]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.10-12.20.23:890][ 91]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.10-12.20.23:893][ 91]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.10-12.20.23:895][ 91]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.10-12.20.23:895][ 91]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.10-12.20.23:895][ 91]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.10-12.20.23:896][ 91]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.10-12.20.23:896][ 91]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.10-12.20.23:897][ 91]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.10-12.20.23:897][ 91]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.10-12.20.23:897][ 91]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.10-12.20.23:898][ 91]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.10-12.20.23:901][ 91]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.10-12.20.23:902][ 91]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.10-12.20.23:902][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.10-12.20.23:902][ 91]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.10-12.20.23:903][ 91]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.10-12.20.23:903][ 91]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.10-12.20.23:904][ 91]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.10-12.20.23:905][ 91]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.10-12.20.23:906][ 91]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.10-12.20.23:906][ 91]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.10-12.20.23:907][ 91]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.12.10-12.20.23:908][ 91]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.12.10-12.20.23:910][ 91]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.12.10-12.20.24:010][ 91]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.12.10-12.20.24:010][ 91]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.12.10-12.20.24:124][ 91]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.12.10-12.20.24:127][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.10-12.20.24:127][ 91]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.10-12.20.24:128][ 91]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.10-12.20.24:133][ 91]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.10-12.20.24:133][ 91]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.10-12.20.24:135][ 91]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.10-12.20.24:135][ 91]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.10-12.20.24:135][ 91]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.10-12.20.24:135][ 91]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.10-12.20.24:137][ 91]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.10-12.20.24:137][ 91]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.10-12.20.24:139][ 91]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.10-12.20.24:139][ 91]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.10-12.20.24:139][ 91]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.10-12.20.24:139][ 91]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.10-12.20.24:141][ 91]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.10-12.20.24:141][ 91]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.10-12.20.24:141][ 91]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.10-12.20.24:141][ 91]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.10-12.20.24:143][ 91]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.10-12.20.24:144][ 91]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.10-12.20.24:148][ 91]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.10-12.20.24:187][ 91]LogDerivedDataCache: Shutdown
+[2015.12.10-12.20.24:187][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.10-12.20.24:187][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.10-12.20.24:187][ 91]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.10-12.20.24:188][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.10-12.20.24:189][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.10-12.20.24:189][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.10-12.20.24:189][ 91]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.10-12.20.24:189][ 91]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.10-12.20.24:190][ 91]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.10-12.20.24:190][ 91]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.10-12.20.24:190][ 91]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.10-12.20.24:190][ 91]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.10-12.20.24:190][ 91]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.10-12.20.24:191][ 91]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.10-12.20.24:191][ 91]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.10-12.20.24:192][ 91]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.10-12.20.24:193][ 91]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.10-12.20.24:193][ 91]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.10-12.20.24:194][ 91]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.10-12.20.24:194][ 91]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.10-12.20.24:194][ 91]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.10-12.20.24:195][ 91]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.10-12.20.24:195][ 91]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.10-12.20.24:196][ 91]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.10-12.20.26:196][ 91]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.10-12.20.26:200][ 91]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.10-12.20.26:200][ 91]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.10-12.20.26:200][ 91]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.10-12.20.26:200][ 91]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.10-12.20.26:200][ 91]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.10-12.20.26:203][ 91]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.10-12.20.26:204][ 91]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.10-12.20.26:204][ 91]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.10-12.20.26:204][ 91]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.10-12.20.26:205][ 91]LogExit: Exiting.
+[2015.12.10-12.20.26:245][ 91]Log file closed, 12/10/15 07:20:26

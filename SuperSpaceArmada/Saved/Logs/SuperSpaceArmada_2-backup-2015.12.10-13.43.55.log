@@ -1,0 +1,47 @@
+﻿[2015.12.10-18.43.54:616][  0]Log file open, 12/10/15 13:43:54
+[2015.12.10-18.43.54:616][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.12.10-18.43.54:616][  0]LogInit:Display: RandInit(1721625161) SRandInit(1721625161).
+[2015.12.10-18.43.54:616][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.10-18.43.54:616][  0]LogStats: Stats thread started at 0.066608
+[2015.12.10-18.43.54:616][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.12.10-18.43.54:616][  0]LogInit: API Version: 2672455
+[2015.12.10-18.43.54:616][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.12.10-18.43.54:616][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.10-18.43.54:616][  0]LogInit: Build Configuration: Development
+[2015.12.10-18.43.54:616][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.10-18.43.54:616][  0]LogInit: Command line:  /Temp/Autosaves/Game/SSA/Maps/UEDPCShip_Selection -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.12.10-18.43.54:616][  0]LogInit: Base directory: F:/Program Files/Unreal/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.10-18.43.54:616][  0]LogInit: Rocket: 1
+[2015.12.10-18.43.54:623][  0]LogInit: Using libcurl 7.41.0
+[2015.12.10-18.43.54:623][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.10-18.43.54:623][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.10-18.43.54:623][  0]LogInit:  - other features:
+[2015.12.10-18.43.54:623][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.10-18.43.54:623][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.10-18.43.54:623][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.10-18.43.54:623][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.10-18.43.54:623][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.10-18.43.54:623][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.10-18.43.54:623][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.10-18.43.54:623][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.10-18.43.54:623][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.10-18.43.54:623][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.10-18.43.54:628][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.10-18.43.54:634][  0]LogInit: Object subsystem initialized
+[2015.12.10-18.43.54:635][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-18.43.54:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.10-18.43.54:636][  0]LogInit: Computer: ANDREW_2015
+[2015.12.10-18.43.54:636][  0]LogInit: User: aehrlich92
+[2015.12.10-18.43.54:636][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.10-18.43.54:636][  0]LogInit: High frequency timer resolution =3.984641 MHz
+[2015.12.10-18.43.54:636][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.10-18.43.54:636][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.10-18.43.54:636][  0]LogMemory: Process Physical Memory: 55.85 MB used, 55.85 MB peak
+[2015.12.10-18.43.54:636][  0]LogMemory: Process Virtual Memory: 57.32 MB used, 57.32 MB peak
+[2015.12.10-18.43.54:636][  0]LogMemory: Physical Memory: 8149.39 MB used, 16322.88 MB total
+[2015.12.10-18.43.54:637][  0]LogMemory: Virtual Memory: 367.50 MB used, 134217728.00 MB total
+[2015.12.10-18.43.54:677][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.10-18.43.55:128][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.12.10-18.43.55:128][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 3 output[s]
+[2015.12.10-18.43.55:130][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.10-18.43.55:130][  0]
