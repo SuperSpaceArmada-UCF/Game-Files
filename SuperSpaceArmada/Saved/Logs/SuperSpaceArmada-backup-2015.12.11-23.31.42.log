@@ -1,0 +1,1208 @@
+﻿[2015.12.12-01.16.53:740][  0]Log file open, 12/11/15 20:16:53
+[2015.12.12-01.16.53:740][  0]LogInit:Display: Running engine for game: SuperSpaceArmada
+[2015.12.12-01.16.53:740][  0]LogInit:Display: RandInit(2119599097) SRandInit(2119599097).
+[2015.12.12-01.16.53:740][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.12-01.16.53:740][  0]LogStats: Stats thread started at 0.195861
+[2015.12.12-01.16.53:740][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.12.12-01.16.53:740][  0]LogInit: API Version: 2672455
+[2015.12.12-01.16.53:740][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.12.12-01.16.53:740][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.12-01.16.53:740][  0]LogInit: Build Configuration: Development
+[2015.12.12-01.16.53:740][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.12-01.16.53:740][  0]LogInit: Command line:  
+[2015.12.12-01.16.53:740][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.12-01.16.53:740][  0]LogInit: Rocket: 1
+[2015.12.12-01.16.53:812][  0]LogInit: Using libcurl 7.41.0
+[2015.12.12-01.16.53:812][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.12-01.16.53:812][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.12-01.16.53:812][  0]LogInit:  - other features:
+[2015.12.12-01.16.53:812][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.12-01.16.53:812][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.12-01.16.53:812][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.12-01.16.53:812][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.12-01.16.53:812][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.12-01.16.53:812][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.12-01.16.53:812][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.12-01.16.53:812][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.12-01.16.53:812][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.12-01.16.53:812][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.12-01.16.53:830][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.12-01.16.53:839][  0]LogInit: Object subsystem initialized
+[2015.12.12-01.16.53:841][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.12-01.16.53:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.12-01.16.53:852][  0]LogInit: Computer: PERSONAL-PC
+[2015.12.12-01.16.53:852][  0]LogInit: User: MEnrique
+[2015.12.12-01.16.53:852][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.12-01.16.53:852][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2015.12.12-01.16.53:852][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.12-01.16.53:852][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-01.16.53:852][  0]LogMemory: Process Physical Memory: 53.45 MB used, 53.45 MB peak
+[2015.12.12-01.16.53:852][  0]LogMemory: Process Virtual Memory: 59.06 MB used, 59.06 MB peak
+[2015.12.12-01.16.53:852][  0]LogMemory: Physical Memory: 11608.40 MB used, 16299.39 MB total
+[2015.12.12-01.16.53:852][  0]LogMemory: Virtual Memory: 354.16 MB used, 134217728.00 MB total
+[2015.12.12-01.16.53:995][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.12-01.16.55:301][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 940M          (Feature Level 11_0)
+[2015.12.12-01.16.55:301][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.12.12-01.16.55:325][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2015.12.12-01.16.55:325][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory, 0 output[s]
+[2015.12.12-01.16.55:327][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.12-01.16.55:327][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.12-01.16.55:327][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.12-01.16.55:333][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.12-01.16.55:334][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.12-01.16.55:351][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.12-01.16.55:370][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Intermediate/Shaders/WorkingDirectory/4852/).
+[2015.12.12-01.16.55:370][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Intermediate/Shaders/tmp/A0FA85554A7AF47C17B083B428260FCA/'.
+[2015.12.12-01.16.55:370][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.12-01.16.59:266][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.12-01.16.59:288][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.12-01.16.59:296][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.12-01.16.59:314][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.12-01.16.59:321][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.12-01.16.59:326][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.12-01.16.59:331][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.12-01.16.59:337][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.12-01.16.59:367][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.12-01.16.59:373][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.12-01.16.59:378][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.12-01.16.59:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.12-01.16.59:415][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.12-01.16.59:463][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.12-01.16.59:470][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.12-01.16.59:477][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.12-01.16.59:484][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.12-01.16.59:484][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.12-01.16.59:733][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.12-01.17.07:957][  0]LogDerivedDataCache: Loaded boot cache 8.22s 41MB C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.12-01.17.07:957][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.12-01.17.07:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.12-01.17.07:957][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.12-01.17.07:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.12-01.17.07:958][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.12-01.17.08:170][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.12-01.17.08:205][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MEnrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.12-01.17.24:813][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.12-01.17.25:017][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.12-01.17.27:433][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.12-01.17.27:433][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.12-01.17.33:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.12-01.18.29:296][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2015.12.12-01.18.29:571][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.12-01.18.42:016][  0]SourceControl: Info Source control is disabled
+[2015.12.12-01.18.42:016][  0]SourceControl: Info Source control is disabled
+[2015.12.12-01.18.42:469][  0]SourceControl: Info Source control is disabled
+[2015.12.12-01.18.42:736][  0]SourceControl: Info Source control is disabled
+[2015.12.12-01.18.48:892][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.18.51:000][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.12.12-01.18.51:000][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.12.12-01.18.55:181][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 2.25s
+[2015.12.12-01.18.55:489][  0]LogEngine: Initializing Engine...
+[2015.12.12-01.18.55:645][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.12-01.18.55:914][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.12-01.18.58:197][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.12-01.18.58:681][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.12-01.19.01:014][  0]LogInit: FAudioDevice initialized.
+[2015.12.12-01.19.01:041][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/MEnrique/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.12-01.19.01:080][  0]LogInit: Texture streaming: Enabled
+[2015.12.12-01.19.01:181][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.12-01.19.01:182][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.12.12-01.19.01:182][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 90a4bcb3439f64e419d9378050b206b3|656f284bf5d54f8f9452234d119bf9d4|9a3458ae-8410-4c63-b423-f9054b45c157
+[2015.12.12-01.19.01:221][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.12-01.19.01:654][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.12-01.19.01:654][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.12-01.19.02:722][  0]LogInit: Transaction tracking system initialized
+[2015.12.12-01.19.06:039][  0]BlueprintLog: New page: Editor Load
+[2015.12.12-01.19.29:288][  0]LocalizationService: Info Localization service is disabled
+[2015.12.12-01.19.38:179][  0]LogConsoleResponse:Display: 
+[2015.12.12-01.19.49:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/' took 0.02s
+[2015.12.12-01.19.49:689][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.12-01.19.59:785][  0]SourceControl: Info Source control is disabled
+[2015.12.12-01.20.01:278][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Ship_Selection.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-01.20.01:475][  0]LightingResults: New page: Lighting Build
+[2015.12.12-01.20.02:100][  0]MapCheck: New page: Map Check
+[2015.12.12-01.20.02:100][  0]LightingResults: New page: Lighting Build
+[2015.12.12-01.20.02:128][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2E1579620
+[2015.12.12-01.20.35:994][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:067][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:164][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:245][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:329][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:402][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:488][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.20.36:548][  0]LogLinker:Warning: Asset '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.21.06:441][  0]LogMaterial: Missing cached shader map for material light_clouds, compiling. 
+[2015.12.12-01.21.36:026][  0]LogMaterial: Missing cached shader map for material Layer_Cloud, compiling. 
+[2015.12.12-01.21.53:546][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.12.12-01.21.55:863][  0]LogTexture:Display: Building textures: RING_07 (BGRA8)
+[2015.12.12-01.21.55:963][  0]LogTexture:Display: Building textures: RING_06 (BGRA8)
+[2015.12.12-01.22.02:871][  0]LogAIModule: Creating AISystem for world Ship_Selection
+[2015.12.12-01.22.03:869][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-01.22.04:182][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-01.22.04:436][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 253.744ms to complete.
+[2015.12.12-01.22.04:437][  0]LogFileHelpers: Loading map 'Ship_Selection' took 123.988
+[2015.12.12-01.22.06:929][  0]LogCollectionManager: Loaded 0 collections in 0.011872 seconds
+[2015.12.12-01.22.07:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Collections/' took 0.01s
+[2015.12.12-01.22.07:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Developers/MEnrique/Collections/' took 0.01s
+[2015.12.12-01.22.07:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/Collections/' took 0.01s
+[2015.12.12-01.22.07:129][  0]LogContentBrowser: Native class hierarchy populated in 0.0773 seconds. Added 1882 classes and 339 folders.
+[2015.12.12-01.22.07:273][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.12-01.22.07:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.12.12-01.22.12:206][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.12-01.22.13:137][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.12.12-01.22.15:552][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.12-01.22.15:845][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.12-01.22.15:928][  0]LogLoad: Full Startup: 323.75 seconds (BP compile: 5.00 seconds)
+[2015.12.12-01.22.15:947][  0]LoadErrors:Error: Error /Game/SSA/Blueprints/Player : Failed import for Player_C /Game/SSA/Blueprints/Player/Player.Default__Player_C
+[2015.12.12-01.22.17:238][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.12-01.22.18:598][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.12.12-01.22.21:712][ 34]LogAssetRegistry: Asset discovery search completed in 232.4399 seconds
+[2015.12.12-01.22.21:712][ 34]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.12.12-01.22.21:712][ 34]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.12.12-01.25.18:143][474]MapCheck: New page: Map Check
+[2015.12.12-01.25.18:254][474]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.12-01.25.18:254][474]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.12-01.25.19:365][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.25.19:384][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.12-01.25.19:384][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.12-01.25.20:223][474]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.12.12-01.25.20:223][474]LogStats:          STAT_HLOD_BuildClusters - 889.590 ms
+[2015.12.12-01.25.20:398][474]LightingResults: New page: Lighting Build - Dec 11, 2015, 3:25:20 PM
+[2015.12.12-01.26.03:973][474]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.12-01.26.03:973][474]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.12-01.26.03:973][474]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.12-01.26.03:973][474]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.12-01.26.03:974][474]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.12-01.26.08:253][474]LogEditorBuildUtils: Build time 0:00:50
+[2015.12.12-01.26.08:478][474]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DragomirBG_Mat, compiling. 
+[2015.12.12-01.26.08:552][474]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DragomirBG_Mat, compiling. 
+[2015.12.12-01.26.09:053][475]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Layer_Cloud, compiling. 
+[2015.12.12-01.26.09:134][475]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Layer_Cloud, compiling. 
+[2015.12.12-01.26.26:249][767]Job is a success!
+[2015.12.12-01.26.26:809][768]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.12.12-01.26.26:949][768]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.12.12-01.26.26:958][768]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.12.12-01.26.26:959][768]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.12.12-01.26.27:037][768]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.12.12-01.26.27:056][768]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.12.12-01.26.28:502][768]Lightmass on PERSONAL-PC: 5.22 sec total, 672 ms importing, 23 ms setup, 407 ms photons, 1.77 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 7.05 sec total, 1.61 sec processing.
+[2015.12.12-01.26.28:641][768]LogStaticLightingSystem: Illumination: 1:08 min (299 ms encoding lightmaps)
+[2015.12.12-01.26.28:641][768]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.12.12-01.26.28:641][768]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.12.12-01.26.28:917][769]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.12.12-01.26.28:917][769]MapCheck: New page: Ship_Selection - Dec 11, 2015, 3:26:28 PM
+[2015.12.12-01.26.30:008][769]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,091.147ms to complete.
+[2015.12.12-01.26.51:585][808]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-01.26.53:657][808]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0086 seconds. Added 107 classes and 0 folders.
+[2015.12.12-01.27.19:221][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.27.19:221][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.12-01.27.19:221][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.12-01.27.19:221][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.12-01.27.19:221][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.12-01.27.19:222][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.12-01.27.19:222][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.12-01.27.19:222][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.12-01.27.19:223][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.12-01.27.19:223][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.12-01.27.19:223][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.12-01.27.19:224][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.12-01.27.20:985][249]LogSavePackage: Save=974.052490ms
+[2015.12.12-01.27.20:985][249]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Ship_SelectionADB6360B4EDCFED5EEF98DB83466E2AF.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Ship_Selection.umap'
+[2015.12.12-01.27.21:025][249]LogSavePackage: Total save time: 1091.704451ms
+[2015.12.12-01.27.21:025][249]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Maps/Ship_Selection.umap
+[2015.12.12-01.27.21:274][249]LogFileHelpers: Saving map 'Ship_Selection' took 1.766
+[2015.12.12-01.27.44:497][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.28.30:759][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.12.12-01.28.36:535][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.12.12-01.32.38:158][644]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.33.14:868][422]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.33.55:173][420]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.37.19:225][386]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.38.44:719][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12828
+[2015.12.12-01.38.44:719][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12828
+[2015.12.12-01.38.44:719][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12828.EdGraphPin_66604) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12826.EdGraphPin_66583).  Import failed...
+[2015.12.12-01.38.44:719][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12828.EdGraphPin_66604''
+[2015.12.12-01.38.44:719][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129 or K2Node_Knot /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_Knot_129
+[2015.12.12-01.38.44:719][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129.EdGraphPin_21739) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12826.EdGraphPin_66583).  Import failed...
+[2015.12.12-01.38.44:719][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_129.EdGraphPin_21739''
+[2015.12.12-01.38.44:827][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.44:827][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.45:189][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66627) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66589).  Import failed...
+[2015.12.12-01.38.45:189][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66627''
+[2015.12.12-01.38.45:189][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129 or K2Node_Knot /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_Knot_129
+[2015.12.12-01.38.45:189][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129.EdGraphPin_21740) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66590).  Import failed...
+[2015.12.12-01.38.45:189][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_129.EdGraphPin_21740''
+[2015.12.12-01.38.45:190][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43
+[2015.12.12-01.38.45:190][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_66645) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66592).  Import failed...
+[2015.12.12-01.38.45:190][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_43.EdGraphPin_66645''
+[2015.12.12-01.38.45:190][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12829
+[2015.12.12-01.38.45:190][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12829
+[2015.12.12-01.38.45:190][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12829.EdGraphPin_66613) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12828.EdGraphPin_66605).  Import failed...
+[2015.12.12-01.38.45:190][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12829.EdGraphPin_66613''
+[2015.12.12-01.38.45:191][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.45:191][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.45:191][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66625) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12829.EdGraphPin_66615).  Import failed...
+[2015.12.12-01.38.45:191][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66625''
+[2015.12.12-01.38.45:192][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12830 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12830
+[2015.12.12-01.38.45:192][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12830 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12830
+[2015.12.12-01.38.45:192][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12830.EdGraphPin_66637) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66626).  Import failed...
+[2015.12.12-01.38.45:192][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12830.EdGraphPin_66637''
+[2015.12.12-01.38.45:193][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4917
+[2015.12.12-01.38.45:193][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917
+[2015.12.12-01.38.45:193][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66724) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4916.EdGraphPin_66705).  Import failed...
+[2015.12.12-01.38.45:193][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4917.EdGraphPin_66724''
+[2015.12.12-01.38.45:193][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_637 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableSet_637
+[2015.12.12-01.38.45:193][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableSet_637.EdGraphPin_21385) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4916.EdGraphPin_66706).  Import failed...
+[2015.12.12-01.38.45:193][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_637.EdGraphPin_21385''
+[2015.12.12-01.38.45:194][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43
+[2015.12.12-01.38.45:194][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_66643) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66723).  Import failed...
+[2015.12.12-01.38.45:194][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_43.EdGraphPin_66643''
+[2015.12.12-01.38.45:194][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.45:194][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.45:194][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918.EdGraphPin_66738) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66726).  Import failed...
+[2015.12.12-01.38.45:194][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_66738''
+[2015.12.12-01.38.45:195][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.45:195][821]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.45:195][821]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918.EdGraphPin_66737) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_VariableGet_909.EdGraphPin_21430).  Import failed...
+[2015.12.12-01.38.45:195][821]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_66737''
+[2015.12.12-01.38.45:370][821]LogBlueprint:Warning: [Enemy_Hive] CreatePinForVariable: 'MaxEnergy' variable not found. Base class was probably changed.
+[2015.12.12-01.38.48:250][959]LogEditorTransaction: Undo Paste clipboard contents
+[2015.12.12-01.38.49:198][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.12.12-01.38.51:238][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12828
+[2015.12.12-01.38.51:238][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12828 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12828
+[2015.12.12-01.38.51:238][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12828.EdGraphPin_66604) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12826.EdGraphPin_66583).  Import failed...
+[2015.12.12-01.38.51:238][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12828.EdGraphPin_66604''
+[2015.12.12-01.38.51:238][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129 or K2Node_Knot /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_Knot_129
+[2015.12.12-01.38.51:238][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129.EdGraphPin_21739) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12826.EdGraphPin_66583).  Import failed...
+[2015.12.12-01.38.51:238][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_129.EdGraphPin_21739''
+[2015.12.12-01.38.51:239][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.51:239][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.51:239][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66627) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66589).  Import failed...
+[2015.12.12-01.38.51:239][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66627''
+[2015.12.12-01.38.51:239][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129 or K2Node_Knot /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_Knot_129
+[2015.12.12-01.38.51:239][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_Knot_129.EdGraphPin_21740) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66590).  Import failed...
+[2015.12.12-01.38.51:239][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_129.EdGraphPin_21740''
+[2015.12.12-01.38.51:239][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43
+[2015.12.12-01.38.51:240][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_66645) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12827.EdGraphPin_66592).  Import failed...
+[2015.12.12-01.38.51:240][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_43.EdGraphPin_66645''
+[2015.12.12-01.38.51:240][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12829
+[2015.12.12-01.38.51:240][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12829 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12829
+[2015.12.12-01.38.51:241][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12829.EdGraphPin_66613) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12828.EdGraphPin_66605).  Import failed...
+[2015.12.12-01.38.51:241][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12829.EdGraphPin_66613''
+[2015.12.12-01.38.51:241][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.51:241][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682 or K2Node_CommutativeAssociativeBinaryOperator /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682
+[2015.12.12-01.38.51:241][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66625) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12829.EdGraphPin_66615).  Import failed...
+[2015.12.12-01.38.51:242][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66625''
+[2015.12.12-01.38.51:243][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12830 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12830
+[2015.12.12-01.38.51:243][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12830 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_12830
+[2015.12.12-01.38.51:243][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_12830.EdGraphPin_66637) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_682.EdGraphPin_66626).  Import failed...
+[2015.12.12-01.38.51:243][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12830.EdGraphPin_66637''
+[2015.12.12-01.38.51:245][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4917
+[2015.12.12-01.38.51:245][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4917 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917
+[2015.12.12-01.38.51:245][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66724) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4916.EdGraphPin_66705).  Import failed...
+[2015.12.12-01.38.51:245][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4917.EdGraphPin_66724''
+[2015.12.12-01.38.51:245][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableSet_637 or K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableSet_637
+[2015.12.12-01.38.51:245][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableSet_637.EdGraphPin_21385) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4916.EdGraphPin_66706).  Import failed...
+[2015.12.12-01.38.51:245][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_637.EdGraphPin_21385''
+[2015.12.12-01.38.51:246][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_43 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43
+[2015.12.12-01.38.51:246][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_SpawnActorFromClass_43.EdGraphPin_66643) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66723).  Import failed...
+[2015.12.12-01.38.51:246][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_43.EdGraphPin_66643''
+[2015.12.12-01.38.51:246][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.51:246][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.51:247][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918.EdGraphPin_66738) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4917.EdGraphPin_66726).  Import failed...
+[2015.12.12-01.38.51:247][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_66738''
+[2015.12.12-01.38.51:247][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.51:247][ 70]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_4918 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_4918
+[2015.12.12-01.38.51:247][ 70]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_4918.EdGraphPin_66737) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_VariableGet_909.EdGraphPin_21430).  Import failed...
+[2015.12.12-01.38.51:247][ 70]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4918.EdGraphPin_66737''
+[2015.12.12-01.38.51:258][ 70]LogBlueprint:Warning: [Enemy_Hive] CreatePinForVariable: 'MaxEnergy' variable not found. Base class was probably changed.
+[2015.12.12-01.39.16:498][327]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.39.21:742][566]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.39.22:649][566]LogBlueprint:Warning: [compiler Enemy_Hive] Warning Could not find a variable named "MaxEnergy" in 'Enemy_Hive_C'.
+Make sure 'Enemy_Hive_C' has been compiled for  Get MaxEnergy 
+[2015.12.12-01.39.22:997][566]LogBlueprint:Error: [compiler Enemy_Hive] Error The property associated with  Max Energy  could not be found
+[2015.12.12-01.39.25:598][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.12.12-01.39.25:941][566]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.39.25:944][566]LogBlueprint:Warning: [compiler Enemy_Hive] Warning [1353.77] Compile of Enemy_Hive failed. 1 Fatal Issue(s) 1 Warning(s) [in 4,202 ms]
+[2015.12.12-01.39.26:170][566]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.39.26:170][566]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "MaxEnergy" in 'Enemy_Hive_C'.
+Make sure 'Enemy_Hive_C' has been compiled for  Get MaxEnergy 
+[2015.12.12-01.39.26:170][566]BlueprintEditorCompileResults:Error: Error The property associated with  Max Energy  could not be found
+[2015.12.12-01.39.26:170][566]BlueprintEditorCompileResults:Warning: Warning [1353.77] Compile of Enemy_Hive failed. 1 Fatal Issue(s) 1 Warning(s) [in 4,202 ms]
+[2015.12.12-01.39.26:475][566]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.39.42:053][434]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.39.42:991][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.39.42:991][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.12.12-01.39.43:118][434]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.39.43:118][434]BlueprintEditorCompileResults: Info [1370.94] Compile of Enemy_Hive successful! [in 1,065 ms]
+[2015.12.12-01.40.01:783][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.40.01:784][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.12.12-01.40.28:471][458]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.40.28:922][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.12.12-01.40.29:094][458]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.40.29:094][458]BlueprintEditorCompileResults: Info [1416.92] Compile of Enemy_Hive successful! [in 622 ms]
+[2015.12.12-01.40.37:844][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Enemy_Hive" FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset" SILENT=true
+[2015.12.12-01.40.38:486][743]LogSavePackage: Save=493.804993ms
+[2015.12.12-01.40.38:486][743]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_Hive62B3551141696F63C13E65BAD92F0271.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset'
+[2015.12.12-01.40.38:523][743]LogSavePackage: Total save time: 677.057810ms
+[2015.12.12-01.40.38:523][743]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset
+[2015.12.12-01.41.53:543][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.41.53:543][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.12.12-01.41.53:543][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.12.12-01.41.53:543][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.12.12-01.41.53:544][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.12.12-01.41.53:544][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.12.12-01.41.53:544][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.12.12-01.41.59:011][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.12.12-01.42.51:966][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11867 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11867
+[2015.12.12-01.42.51:966][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11867 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11867
+[2015.12.12-01.42.51:966][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11867.EdGraphPin_66925) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_5614.EdGraphPin_66795).  Import failed...
+[2015.12.12-01.42.51:966][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11867.EdGraphPin_66925''
+[2015.12.12-01.42.51:966][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44374 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_44374
+[2015.12.12-01.42.51:966][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44374.EdGraphPin_66933) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_5614.EdGraphPin_66796).  Import failed...
+[2015.12.12-01.42.51:966][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_44374.EdGraphPin_66933''
+[2015.12.12-01.42.51:967][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_28065 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_28065
+[2015.12.12-01.42.51:967][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_28065.EdGraphPin_66844) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_109.EdGraphPin_66813).  Import failed...
+[2015.12.12-01.42.51:967][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_28065.EdGraphPin_66844''
+[2015.12.12-01.42.51:967][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11532 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11532
+[2015.12.12-01.42.51:967][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11532 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11532
+[2015.12.12-01.42.51:967][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11532.EdGraphPin_66894) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_109.EdGraphPin_66814).  Import failed...
+[2015.12.12-01.42.51:967][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11532.EdGraphPin_66894''
+[2015.12.12-01.42.51:968][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_5615 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5615
+[2015.12.12-01.42.51:968][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_5615 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_5615
+[2015.12.12-01.42.51:968][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_5615.EdGraphPin_66838) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_109.EdGraphPin_66816).  Import failed...
+[2015.12.12-01.42.51:968][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5615.EdGraphPin_66838''
+[2015.12.12-01.42.51:969][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44374 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_44374
+[2015.12.12-01.42.51:969][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44374.EdGraphPin_66934) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_28065.EdGraphPin_66843).  Import failed...
+[2015.12.12-01.42.51:969][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_44374.EdGraphPin_66934''
+[2015.12.12-01.42.51:971][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11867 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11867
+[2015.12.12-01.42.51:971][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11867 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11867
+[2015.12.12-01.42.51:971][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11867.EdGraphPin_66924) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_62247.EdGraphPin_110068).  Import failed...
+[2015.12.12-01.42.51:971][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11867.EdGraphPin_66924''
+[2015.12.12-01.42.51:971][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1002 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_IfThenElse_1002
+[2015.12.12-01.42.51:971][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_IfThenElse_1002.EdGraphPin_21543) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_62247.EdGraphPin_110067).  Import failed...
+[2015.12.12-01.42.51:971][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1002.EdGraphPin_21543''
+[2015.12.12-01.42.51:972][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11533 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11533
+[2015.12.12-01.42.51:972][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11533 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11533
+[2015.12.12-01.42.51:972][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11533.EdGraphPin_66907) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11531.EdGraphPin_110079).  Import failed...
+[2015.12.12-01.42.51:972][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11533.EdGraphPin_66907''
+[2015.12.12-01.42.51:973][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11533 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11533
+[2015.12.12-01.42.51:973][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11533 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11533
+[2015.12.12-01.42.51:973][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11533.EdGraphPin_66906) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11532.EdGraphPin_66895).  Import failed...
+[2015.12.12-01.42.51:973][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11533.EdGraphPin_66906''
+[2015.12.12-01.42.51:974][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_CallFunction_11531 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11531
+[2015.12.12-01.42.51:974][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_11531.EdGraphPin_110079) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11533.EdGraphPin_66907).  Import failed...
+[2015.12.12-01.42.51:974][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11531.EdGraphPin_110079''
+[2015.12.12-01.42.51:975][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_VariableGet_2489 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableGet_2489
+[2015.12.12-01.42.51:975][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player.Player:EventGraph.K2Node_VariableGet_2489 or K2Node_VariableGet /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_VariableGet_2489
+[2015.12.12-01.42.51:975][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_VariableGet_2489.EdGraphPin_21700) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_11867.EdGraphPin_66926).  Import failed...
+[2015.12.12-01.42.51:975][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2489.EdGraphPin_21700''
+[2015.12.12-01.42.51:976][ 69]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44375 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_44375
+[2015.12.12-01.42.51:976][ 69]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_CallFunction_44375.EdGraphPin_66961) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_44374.EdGraphPin_66938).  Import failed...
+[2015.12.12-01.42.51:977][ 69]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_44375.EdGraphPin_66961''
+[2015.12.12-01.44.56:947][371]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.45.13:201][ 77]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.45.32:222][976]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.45.32:685][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.12.12-01.45.33:035][976]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.45.33:035][976]BlueprintEditorCompileResults: Info [1720.86] Compile of Enemy_Hive successful! [in 812 ms]
+[2015.12.12-01.45.42:977][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.45.42:978][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.12.12-01.46.27:344][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.12.12-01.46.27:549][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Enemy_Hive" FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset" SILENT=true
+[2015.12.12-01.46.28:005][441]LogSavePackage: Save=438.110748ms
+[2015.12.12-01.46.28:005][441]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_Hive669E584B44A87C3FCD2DD6A0F02E7F3B.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset'
+[2015.12.12-01.46.28:394][441]LogSavePackage: Total save time: 842.420556ms
+[2015.12.12-01.46.28:394][441]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset
+[2015.12.12-01.46.37:676][924]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.46.38:155][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.46.38:318][924]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.46.38:318][924]BlueprintEditorCompileResults: Info [1786.14] Compile of Enemy_Hive successful! [in 641 ms]
+[2015.12.12-01.46.39:707][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Enemy_Hive" FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset" SILENT=true
+[2015.12.12-01.46.40:048][992]LogSavePackage: Save=328.133484ms
+[2015.12.12-01.46.40:048][992]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_HiveF4C84FB646C273418C98069256730CC4.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset'
+[2015.12.12-01.46.40:050][992]LogSavePackage: Total save time: 342.051920ms
+[2015.12.12-01.46.40:050][992]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset
+[2015.12.12-01.47.07:092][ 78]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.47.18:081][619]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Hive', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.47.56:266][616]BlueprintLog: New page: Compile Enemy_Hive
+[2015.12.12-01.47.56:913][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.47.56:913][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.12.12-01.47.57:122][616]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.47.57:122][616]BlueprintEditorCompileResults: Info [1864.94] Compile of Enemy_Hive successful! [in 855 ms]
+[2015.12.12-01.48.01:464][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SSA/Blueprints/Enemy_Hive" FILE="../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset" SILENT=true
+[2015.12.12-01.48.02:064][720]LogSavePackage: Save=583.328003ms
+[2015.12.12-01.48.02:064][720]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_HiveABA27B4143C43C642687218E655A508B.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset'
+[2015.12.12-01.48.02:068][720]LogSavePackage: Total save time: 603.576556ms
+[2015.12.12-01.48.02:068][720]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Hive.uasset
+[2015.12.12-01.48.17:712][993]LogSavePackage: Save=248.693298ms
+[2015.12.12-01.48.17:712][993]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Player_Hive8891C2E54641E0877EDDD9B7A903FDF6.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Ships/Player_Hive.uasset'
+[2015.12.12-01.48.18:139][993]LogSavePackage: Total save time: 693.685431ms
+[2015.12.12-01.48.18:139][993]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Player_Ships/Player_Hive.uasset
+[2015.12.12-01.48.19:541][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.12-01.48.54:967][859]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.48.54:967][859]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.48.54:967][859]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.48.54:967][859]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.02:985][ 93]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.02:985][ 93]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.02:985][ 93]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.02:985][ 93]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:687][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:687][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:687][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:687][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.12.12-01.49.10:690][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.12.12-01.49.10:691][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.12.12-01.49.10:691][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.12.12-01.49.10:692][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.12.12-01.49.10:692][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.12.12-01.49.10:693][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.12.12-01.49.10:731][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:731][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:731][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.49.10:731][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.50.05:568][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.12.12-01.50.05:712][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2ECACA200
+[2015.12.12-01.50.05:753][604]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SSA/Maps/Ship_Selection' took 0.185
+[2015.12.12-01.50.05:783][604]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SSA/Blueprints/Enemy_Vultari] ([1] browsable assets)...
+[2015.12.12-01.50.05:806][604]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari]
+[2015.12.12-01.50.05:806][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/SSA/Blueprints/Enemy_Vultari]
+[2015.12.12-01.50.06:359][604]LogSavePackage: Save=504.285095ms
+[2015.12.12-01.50.06:359][604]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_Vultari_Auto1A06B8469478CB680FDBAFFAC62C804B3.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Enemy_Vultari_Auto1.uasset'
+[2015.12.12-01.50.06:372][604]LogSavePackage: Total save time: 565.215979ms
+[2015.12.12-01.50.06:372][604]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Autosaves/Game/SSA/Blueprints/Enemy_Vultari_Auto1.uasset
+[2015.12.12-01.50.06:373][604]LogFileHelpers: Auto-saving content packages took 0.619
+[2015.12.12-01.52.02:737][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.52.03:353][ 53]LogSavePackage: Save=350.770081ms
+[2015.12.12-01.52.03:353][ 53]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_VultariE490111F489CAA1451DDB0BEC324AFEA.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset'
+[2015.12.12-01.52.03:384][ 53]LogSavePackage: Total save time: 428.766500ms
+[2015.12.12-01.52.03:385][ 53]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset
+[2015.12.12-01.53.00:642][981]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.00:642][981]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.00:642][981]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.00:642][981]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.05:765][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.05:765][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.05:765][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.05:765][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.53.05:767][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Kratakos.Player_Kratakos:EventGraph.K2Node_InputKey_679 or K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_InputKey_679
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Kratakos.Player_Kratakos:EventGraph.K2Node_InputKey_679 or K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_InputKey_679
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Kratakos.Player_Kratakos:EventGraph.K2Node_InputKey_679 or K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Hive.Player_Hive:EventGraph.K2Node_InputKey_679
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Kratakos.Player_Kratakos:EventGraph.K2Node_InputKey_679 or K2Node_InputKey /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_InputKey_679
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_InputKey_679.EdGraphPin_19705) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_20158).  Import failed...
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_679.EdGraphPin_19705''
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_InputKey_305.EdGraphPin_20371) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_20158).  Import failed...
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_305.EdGraphPin_20371''
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3354.EdGraphPin_68358) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_20159).  Import failed...
+[2015.12.12-01.53.32:803][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3354.EdGraphPin_68358''
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_12836
+[2015.12.12-01.53.32:803][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_12836
+[2015.12.12-01.53.32:804][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_12836 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_12836
+[2015.12.12-01.53.32:804][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_12836.EdGraphPin_121884) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1601.EdGraphPin_20160).  Import failed...
+[2015.12.12-01.53.32:804][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12836.EdGraphPin_121884''
+[2015.12.12-01.53.32:804][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:804][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:804][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:804][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3354 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_3354
+[2015.12.12-01.53.32:804][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3354.EdGraphPin_68356) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableGet_392.EdGraphPin_20170).  Import failed...
+[2015.12.12-01.53.32:804][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3354.EdGraphPin_68356''
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_3357
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_3357
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3357
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_3357 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_3357
+[2015.12.12-01.53.32:805][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_3357.EdGraphPin_68382) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_12836.EdGraphPin_121887).  Import failed...
+[2015.12.12-01.53.32:805][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3357.EdGraphPin_68382''
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:805][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_68415) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_12836.EdGraphPin_121885).  Import failed...
+[2015.12.12-01.53.32:805][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_68415''
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_394 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_VariableGet_394
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_394 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_VariableGet_394
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_394 or K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_394
+[2015.12.12-01.53.32:805][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_VariableGet_394 or K2Node_VariableGet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableGet_394
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_394.EdGraphPin_20212) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_3357.EdGraphPin_68381).  Import failed...
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_394.EdGraphPin_20212''
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_68416) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_AddComponent_62.EdGraphPin_68391).  Import failed...
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_68416''
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:806][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_20344) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_AddComponent_62.EdGraphPin_68392).  Import failed...
+[2015.12.12-01.53.32:806][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1965.EdGraphPin_20344''
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_SpawnActorFromClass_140 or K2Node_SpawnActorFromClass /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_SpawnActorFromClass_140
+[2015.12.12-01.53.32:807][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_68421) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_AddComponent_62.EdGraphPin_68393).  Import failed...
+[2015.12.12-01.53.32:807][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_140.EdGraphPin_68421''
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Hive.Enemy_Hive:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Kratakos.Enemy_Kratakos:EventGraph.K2Node_CallFunction_9741 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_9741
+[2015.12.12-01.53.32:808][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_9741.EdGraphPin_68440) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_SpawnActorFromClass_140.EdGraphPin_68418).  Import failed...
+[2015.12.12-01.53.32:808][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9741.EdGraphPin_68440''
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056 or K2Node_VariableSet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableSet_1056
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056.EdGraphPin_20312) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6196.EdGraphPin_68445).  Import failed...
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1056.EdGraphPin_20312''
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056 or K2Node_VariableSet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableSet_1056
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056.EdGraphPin_20314) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6196.EdGraphPin_68447).  Import failed...
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1056.EdGraphPin_20314''
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_20347) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6195.EdGraphPin_68457).  Import failed...
+[2015.12.12-01.53.32:809][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1965.EdGraphPin_20347''
+[2015.12.12-01.53.32:809][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_IfThenElse_1912
+[2015.12.12-01.53.32:810][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_IfThenElse_1912
+[2015.12.12-01.53.32:810][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1912
+[2015.12.12-01.53.32:810][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1912 or K2Node_IfThenElse /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1912
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_20329) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6195.EdGraphPin_68457).  Import failed...
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1912.EdGraphPin_20329''
+[2015.12.12-01.53.32:810][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056 or K2Node_VariableSet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableSet_1056
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056.EdGraphPin_20311) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6195.EdGraphPin_68458).  Import failed...
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1056.EdGraphPin_20311''
+[2015.12.12-01.53.32:810][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056 or K2Node_VariableSet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableSet_1056
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableSet_1056.EdGraphPin_20313) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_6195.EdGraphPin_68465).  Import failed...
+[2015.12.12-01.53.32:810][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1056.EdGraphPin_20313''
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_IfThenElse_1965 or K2Node_IfThenElse /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1965
+[2015.12.12-01.53.32:811][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_20346) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_20326).  Import failed...
+[2015.12.12-01.53.32:811][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1965.EdGraphPin_20346''
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_20551
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_20551
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_20551
+[2015.12.12-01.53.32:811][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20551 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_20551
+[2015.12.12-01.53.32:811][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_20551.EdGraphPin_68485) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1912.EdGraphPin_20327).  Import failed...
+[2015.12.12-01.53.32:811][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20551.EdGraphPin_68485''
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_1966
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966 or K2Node_VariableGet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableGet_1966
+[2015.12.12-01.53.32:812][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966.EdGraphPin_20365) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_20551.EdGraphPin_68484).  Import failed...
+[2015.12.12-01.53.32:812][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1966.EdGraphPin_20365''
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Cephalon.Player_Cephalon:EventGraph.K2Node_CallFunction_20987
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Dragomir.Player_Dragomir:EventGraph.K2Node_CallFunction_20987
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_20987
+[2015.12.12-01.53.32:812][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SSA/Blueprints/Player_Ships/Player_Human.Player_Human:EventGraph.K2Node_CallFunction_20987 or K2Node_CallFunction /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_20987
+[2015.12.12-01.53.32:812][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_CallFunction_20987.EdGraphPin_68492) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_IfThenElse_1965.EdGraphPin_20345).  Import failed...
+[2015.12.12-01.53.32:812][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20987.EdGraphPin_68492''
+[2015.12.12-01.53.32:813][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_1966
+[2015.12.12-01.53.32:813][855]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966 or K2Node_VariableGet /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_VariableGet_1966
+[2015.12.12-01.53.32:813][855]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari:EventGraph.K2Node_VariableGet_1966.EdGraphPin_20365) from referencer (EdGraphPin /Game/SSA/Blueprints/Enemy_Vultari.Enemy_Vultari:EventGraph.K2Node_CallFunction_20987.EdGraphPin_68491).  Import failed...
+[2015.12.12-01.53.32:813][855]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1966.EdGraphPin_20365''
+[2015.12.12-01.53.32:821][855]LogBlueprint:Warning: [Enemy_Vultari] CreatePinForVariable: 'Energy' variable not found. Base class was probably changed.
+[2015.12.12-01.53.32:821][855]LogBlueprint:Warning: [Enemy_Vultari] CreatePinForVariable: 'MaxEnergy' variable not found. Base class was probably changed.
+[2015.12.12-01.53.32:823][855]LogBlueprint:Warning: [Enemy_Vultari] CreatePinForVariable: 'FirstAtk' variable not found. Base class was probably changed.
+[2015.12.12-01.53.32:823][855]LogBlueprint:Warning: [Enemy_Vultari] CreatePinForVariable: 'FirstAtk' variable not found. Base class was probably changed.
+[2015.12.12-01.53.32:823][855]LogBlueprint:Warning: [Enemy_Vultari] CreatePinForVariable: 'FirstAtk' variable not found. Base class was probably changed.
+[2015.12.12-01.54.14:069][975]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.54.24:302][488]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.54.27:131][647]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.55.03:829][762]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-01.55.03:902][762]LogBlueprint:Warning: [compiler Enemy_Vultari] Warning Could not find a variable named "FirstAtk" in 'Enemy_Vultari_C'.
+Make sure 'Enemy_Vultari_C' has been compiled for  Get FirstAtk 
+[2015.12.12-01.55.03:902][762]LogBlueprint:Warning: [compiler Enemy_Vultari] Warning Could not find a variable named "FirstAtk" in 'Enemy_Vultari_C'.
+Make sure 'Enemy_Vultari_C' has been compiled for  Set FirstAtk 
+[2015.12.12-01.55.03:911][762]LogBlueprint:Error: [compiler Enemy_Vultari] Error Dependency cycle detected, preventing node  Play  from being scheduled
+[2015.12.12-01.55.03:913][762]LogBlueprint:Error: [compiler Enemy_Vultari] Error The property associated with  First Atk  could not be found
+[2015.12.12-01.55.03:914][762]LogBlueprint:Error: [compiler Enemy_Vultari] Error The property associated with  First Atk  could not be found
+[2015.12.12-01.55.04:149][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:149][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:149][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:149][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:266][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:266][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:266][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:266][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:270][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.12.12-01.55.04:301][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:301][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:301][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:301][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:487][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:487][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:487][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:487][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.55.04:492][762]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.55.04:495][762]LogBlueprint:Warning: [compiler Enemy_Vultari] Warning [2292.32] Compile of Enemy_Vultari failed. 3 Fatal Issue(s) 2 Warning(s) [in 665 ms]
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "FirstAtk" in 'Enemy_Vultari_C'.
+Make sure 'Enemy_Vultari_C' has been compiled for  Get FirstAtk 
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "FirstAtk" in 'Enemy_Vultari_C'.
+Make sure 'Enemy_Vultari_C' has been compiled for  Set FirstAtk 
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Play  from being scheduled
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Error: Error The property associated with  First Atk  could not be found
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Error: Error The property associated with  First Atk  could not be found
+[2015.12.12-01.55.04:495][762]BlueprintEditorCompileResults:Warning: Warning [2292.32] Compile of Enemy_Vultari failed. 3 Fatal Issue(s) 2 Warning(s) [in 665 ms]
+[2015.12.12-01.55.04:602][762]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.55.37:171][637]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.56.07:695][380]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-01.56.08:040][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:040][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:040][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:040][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:166][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:166][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:166][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:166][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:167][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.56.08:171][380]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.56.08:187][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:187][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:187][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:187][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:307][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:307][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:307][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:307][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.08:312][380]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.56.08:315][380]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.56.08:315][380]BlueprintEditorCompileResults: Info [2356.14] Compile of Enemy_Vultari successful! [in 619 ms]
+[2015.12.12-01.56.08:400][380]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.56.10:357][471]LogSavePackage: Save=312.304291ms
+[2015.12.12-01.56.10:357][471]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_VultariE376D5FB422455DF71E60FB56DDEEAE8.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset'
+[2015.12.12-01.56.10:361][471]LogSavePackage: Total save time: 350.226957ms
+[2015.12.12-01.56.10:361][471]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset
+[2015.12.12-01.56.18:544][927]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.18:544][927]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.18:544][927]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.18:544][927]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.18:546][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.56.35:065][761]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-01.56.35:386][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:386][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:386][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:386][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:529][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:529][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:529][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:529][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:530][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.12.12-01.56.35:550][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:550][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:550][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:550][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:701][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:701][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:701][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:701][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.56.35:711][761]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-01.56.35:711][761]BlueprintEditorCompileResults: Info [2383.53] Compile of Enemy_Vultari successful! [in 646 ms]
+[2015.12.12-01.56.37:156][815]LogSavePackage: Save=305.411377ms
+[2015.12.12-01.56.37:156][815]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_VultariAE0C751445003972333CA8A31755F8FD.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset'
+[2015.12.12-01.56.37:160][815]LogSavePackage: Total save time: 320.646118ms
+[2015.12.12-01.56.37:160][815]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset
+[2015.12.12-01.56.38:594][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.57.04:548][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.04:548][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.04:548][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.04:548][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.09:426][544]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.09:426][544]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.09:426][544]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.09:426][544]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-01.57.09:427][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-01.59.28:626][617]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.59.33:586][660]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-01.59.40:912][869]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-02.00.06:967][385]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-02.01.37:092][623]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-02.01.37:393][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:393][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:393][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:393][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:507][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:507][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:507][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:507][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:508][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.12.12-02.01.37:524][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:524][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:524][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:524][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:637][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:637][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:637][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:637][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.01.37:643][623]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-02.01.37:643][623]BlueprintEditorCompileResults: Info [2685.47] Compile of Enemy_Vultari successful! [in 551 ms]
+[2015.12.12-02.02.03:303][ 51]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.03:304][ 51]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.03:304][ 51]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.03:304][ 51]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.03:306][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-02.02.08:160][331]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.08:160][331]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.08:160][331]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.08:160][331]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.08:161][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2015.12.12-02.02.17:332][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.17:332][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.17:332][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.17:332][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.17:333][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2015.12.12-02.02.26:760][394]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.02.33:653][807]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.02.44:101][428]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.44:101][428]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.44:101][428]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.44:101][428]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.44:103][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2015.12.12-02.02.44:283][428]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.48:074][653]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.48:074][653]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.48:074][653]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.48:075][653]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.48:076][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2015.12.12-02.02.48:184][653]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.51:533][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:533][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:533][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:533][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:534][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2015.12.12-02.02.51:551][831]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.51:578][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:578][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:578][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:578][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:582][831]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.51:609][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:609][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:609][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:609][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.51:613][831]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.51:713][831]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.59:151][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.59:151][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.59:151][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.59:151][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.02.59:152][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.12.12-02.02.59:167][274]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.02.59:322][274]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.04:334][573]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.04:334][573]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.04:334][573]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.04:334][573]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.04:335][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.12.12-02.03.04:444][573]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.06:395][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:395][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:395][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:395][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:397][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.12.12-02.03.06:414][689]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.06:441][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:441][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:441][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:441][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:446][689]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.06:471][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:471][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:471][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:471][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.06:476][689]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.06:580][689]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.10:884][942]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.03.19:165][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:165][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:165][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:165][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:166][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.12.12-02.03.19:182][425]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.19:210][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:210][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:210][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:210][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:215][425]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.19:243][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:243][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:243][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:244][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.03.19:249][425]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.19:373][425]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.29:099][  7]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.36:668][375]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.03.36:987][391]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.04.20:144][876]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.04.49:547][610]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.04.50:668][673]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.05.30:216][932]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.05.30:216][932]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.05.30:216][932]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.05.30:216][932]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.05.30:220][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.12.12-02.06.14:827][485]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.06.25:722][ 41]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.25:722][ 41]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.25:722][ 41]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.25:722][ 41]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.25:724][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.12.12-02.06.28:998][225]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.28:998][225]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.28:998][225]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.28:998][225]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.06.29:000][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2015.12.12-02.06.45:306][ 76]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.12-02.07.21:500][ 22]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.07.34:629][735]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.07.35:256][770]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.07.46:213][419]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-02.07.47:763][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:763][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:763][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:763][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:859][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:859][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:859][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.47:859][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:154][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:154][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:154][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:154][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:156][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2015.12.12-02.07.48:160][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.07.48:173][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:173][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:173][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:173][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:179][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.07.48:313][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:313][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:313][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:313][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.07.48:317][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.07.48:320][419]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-02.07.48:320][419]BlueprintEditorCompileResults: Info [3056.14] Compile of Enemy_Vultari successful! [in 2,106 ms]
+[2015.12.12-02.07.48:424][419]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.07.59:335][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.08.00:263][122]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.08.26:819][436]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.08.40:294][174]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.08.41:206][223]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.09.02:274][366]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.Player_Vultaari_C'
+[2015.12.12-02.09.10:111][741]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.09.19:660][311]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.09.20:873][380]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Enemy_Vultari.SKEL_Enemy_Vultari_C'
+[2015.12.12-02.09.53:365][248]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-02.09.53:799][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:799][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:799][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:799][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:932][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:932][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:932][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:932][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:932][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-02.09.53:949][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:949][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:949][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:949][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.53:955][248]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.09.54:082][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.54:082][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.54:082][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.54:082][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.09.54:089][248]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-02.09.54:089][248]BlueprintEditorCompileResults: Info [3181.91] Compile of Enemy_Vultari successful! [in 723 ms]
+[2015.12.12-02.10.02:791][709]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.10.02:792][709]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.10.02:792][709]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.10.02:792][709]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.10.02:793][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-02.10.59:541][504]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-02.11.24:787][808]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Enemy_Vultari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player.Player_C'
+[2015.12.12-02.11.42:589][784]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-02.11.42:932][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.42:932][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.42:932][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.42:932][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:064][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:064][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:064][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:064][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:089][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2015.12.12-02.11.43:107][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:107][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:107][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:107][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:114][784]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.11.43:244][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:244][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:244][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:244][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.11.43:252][784]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-02.11.43:252][784]BlueprintEditorCompileResults: Info [3291.07] Compile of Enemy_Vultari successful! [in 662 ms]
+[2015.12.12-02.12.03:476][946]BlueprintLog: New page: Compile Enemy_Vultari
+[2015.12.12-02.12.04:969][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.04:969][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.04:969][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.04:969][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:098][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:098][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:098][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:098][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:099][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-02.12.05:116][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:116][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:116][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:116][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:123][946]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Player_Vultaari', cached variable property's owner is '/Game/SSA/Blueprints/Player_Ships/Player_Vultaari.SKEL_Player_Vultaari_C'
+[2015.12.12-02.12.05:252][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:252][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:252][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:252][946]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.12-02.12.05:259][946]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_153) had an invalid function signature - it has now been fixed.
+[2015.12.12-02.12.05:259][946]BlueprintEditorCompileResults: Info [3313.08] Compile of Enemy_Vultari successful! [in 1,782 ms]
+[2015.12.12-02.12.08:598][973]LogSavePackage: Save=418.510925ms
+[2015.12.12-02.12.08:598][973]LogSavePackage: Moving '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Saved/Enemy_Vultari5DE6D86143973DC990A565AA3003FD2C.tmp' to '../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset'
+[2015.12.12-02.12.08:652][973]LogSavePackage: Total save time: 2263.830122ms
+[2015.12.12-02.12.08:652][973]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/MEnrique/Documents/GitHub/Game-Files/SuperSpaceArmada/Content/SSA/Blueprints/Enemy_Vultari.uasset
+[2015.12.12-02.12.14:081][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-02.12.16:023][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.12-02.12.16:076][236]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.12-02.12.16:083][236]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.12-02.12.19:307][237]Cmd: QUIT_EDITOR
+[2015.12.12-02.12.49:747][237]LogExit: Preparing to exit.
+[2015.12.12-02.13.12:107][237]LogExit: Editor shut down
+[2015.12.12-02.13.12:108][237]LogExit: Transaction tracking system shut down
+[2015.12.12-02.13.17:335][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2EA22BD80
+[2015.12.12-02.13.17:342][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2899CA7A0
+[2015.12.12-02.13.17:348][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2F7D88EA0
+[2015.12.12-02.13.20:034][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2EF058B80
+[2015.12.12-02.13.20:060][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2F6899B20
+[2015.12.12-02.13.20:060][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2ECCF7880
+[2015.12.12-02.13.20:089][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2ECD88540
+[2015.12.12-02.13.20:090][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C281025760
+[2015.12.12-02.19.49:370][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2810254E0
+[2015.12.12-02.19.49:370][237]LogExit: Object subsystem successfully closed.
+[2015.12.12-02.19.55:226][237]LogD3D11RHI: Shutdown
+[2015.12.12-02.19.55:226][237]LogD3D11RHI: CleanupD3DDevice
+[2015.12.12-02.19.56:692][237]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.12-02.20.26:288][237]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.12.12-02.20.26:288][237]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.12.12-02.20.26:288][237]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.12.12-02.20.26:347][237]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.12.12-02.20.26:347][237]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.12.12-02.20.26:347][237]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.12.12-02.20.26:403][237]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.12.12-02.20.26:403][237]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.12.12-02.20.26:471][237]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.12.12-02.20.26:799][237]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.12.12-02.20.26:822][237]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.12.12-02.20.27:299][237]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.12.12-02.20.27:299][237]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.12.12-02.20.27:299][237]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.12.12-02.20.27:299][237]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.12.12-02.20.27:300][237]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.12.12-02.20.27:300][237]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.12.12-02.20.27:365][237]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.12.12-02.20.27:365][237]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.12.12-02.20.27:365][237]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.12.12-02.20.27:365][237]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.12.12-02.20.27:587][237]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.12.12-02.20.27:677][237]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.12.12-02.20.27:865][237]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.12.12-02.20.27:865][237]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.12.12-02.20.27:887][237]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.12.12-02.20.27:887][237]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.12.12-02.20.28:580][237]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.12.12-02.20.28:580][237]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.12.12-02.20.28:580][237]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.12.12-02.20.28:580][237]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.12.12-02.20.29:120][237]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.12.12-02.20.29:120][237]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.12.12-02.20.29:160][237]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.12.12-02.20.29:160][237]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.12.12-02.20.29:189][237]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.12.12-02.20.29:299][237]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.12.12-02.20.29:299][237]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.12.12-02.20.29:299][237]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.12.12-02.20.29:440][237]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.12.12-02.20.29:441][237]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.12.12-02.20.29:441][237]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.12.12-02.20.29:606][237]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.12.12-02.20.29:606][237]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.12.12-02.20.29:667][237]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.12.12-02.20.29:667][237]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.12.12-02.20.29:972][237]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.12.12-02.20.29:972][237]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.12.12-02.20.30:274][237]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.12.12-02.20.30:407][237]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.12.12-02.20.30:509][237]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.12.12-02.20.30:595][237]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.12.12-02.20.30:595][237]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.12.12-02.20.30:644][237]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.12.12-02.20.30:799][237]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.12.12-02.20.30:922][237]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.12.12-02.20.31:447][237]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.12.12-02.20.31:447][237]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.12.12-02.20.31:614][237]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.12.12-02.20.31:614][237]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.12.12-02.20.31:943][237]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.12.12-02.20.31:943][237]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.12.12-02.20.31:943][237]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.12.12-02.20.31:945][237]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.12.12-02.20.31:945][237]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.12.12-02.20.32:144][237]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.12.12-02.20.32:144][237]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.12.12-02.20.32:186][237]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.12.12-02.20.32:240][237]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.12.12-02.20.32:241][237]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.12.12-02.20.32:304][237]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.12.12-02.20.32:389][237]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.12.12-02.20.32:389][237]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.12.12-02.20.32:389][237]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.12.12-02.20.32:421][237]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.12.12-02.20.32:421][237]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.12.12-02.20.32:461][237]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.12.12-02.20.32:592][237]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.12.12-02.20.32:815][237]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.12.12-02.20.32:841][237]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.12-02.20.33:227][237]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.12-02.20.33:366][237]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.12-02.20.33:366][237]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.12-02.20.33:366][237]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.12-02.20.33:965][237]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.12-02.20.34:096][237]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.12-02.20.34:096][237]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.12-02.20.34:096][237]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.12-02.20.34:439][237]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.12-02.20.34:440][237]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.12-02.20.34:460][237]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.12-02.20.34:625][237]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.12-02.20.34:625][237]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.12-02.20.34:948][237]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.12-02.20.35:159][237]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.12-02.20.35:268][237]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.12-02.20.35:307][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.12-02.20.35:307][237]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.12-02.20.35:331][237]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.12-02.20.35:376][237]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.12-02.20.35:455][237]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.12-02.20.35:560][237]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.12-02.20.35:606][237]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.12-02.20.35:606][237]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.12-02.20.36:169][237]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.12.12-02.20.36:171][237]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.12.12-02.20.36:524][237]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.12.12-02.20.36:625][237]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.12.12-02.20.36:662][237]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.12.12-02.20.44:596][237]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.12.12-02.20.45:010][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.12-02.20.45:010][237]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.12-02.20.45:108][237]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.12-02.20.45:248][237]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.12-02.20.45:527][237]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.12-02.20.45:814][237]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.12-02.20.45:814][237]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.12-02.20.45:814][237]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.12-02.20.46:492][237]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.12-02.20.46:627][237]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.12-02.20.47:149][237]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.12-02.20.47:341][237]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.12-02.20.47:807][237]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.12-02.20.47:807][237]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.12-02.20.48:186][237]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.12-02.20.48:628][237]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.12-02.20.48:995][237]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.12-02.20.49:124][237]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.12-02.20.49:124][237]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.12-02.20.50:399][237]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.12-02.20.50:399][237]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.12-02.20.50:467][237]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.12-02.20.50:517][237]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.12-02.20.50:586][237]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.12-02.20.51:275][237]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.12-02.20.51:372][237]LogDerivedDataCache: Shutdown
+[2015.12.12-02.20.51:372][237]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.12-02.20.51:479][237]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.12-02.20.51:681][237]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.12-02.20.51:708][237]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.12-02.20.51:733][237]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.12-02.20.51:845][237]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.12-02.20.51:961][237]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.12-02.20.51:975][237]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.12-02.20.51:975][237]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.12-02.20.51:998][237]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.12-02.20.52:033][237]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.12-02.20.52:110][237]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.12-02.20.52:241][237]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.12-02.20.52:330][237]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.12-02.20.52:363][237]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.12-02.20.52:411][237]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.12-02.20.52:467][237]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.12-02.20.52:467][237]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.12-02.20.52:490][237]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.12-02.20.52:547][237]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.12-02.20.52:592][237]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.12-02.20.52:646][237]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.12-02.20.52:686][237]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.12-02.20.52:733][237]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.12-02.20.52:857][237]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.12-02.20.52:909][237]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.12-02.20.52:953][237]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.12-02.20.52:953][237]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.12-02.20.53:007][237]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.12-02.20.53:058][237]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.12-02.20.53:090][237]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.12-02.20.53:129][237]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.12-02.20.53:253][237]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.12-02.20.53:254][237]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.12-02.20.53:286][237]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.12-02.20.53:327][237]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.12-02.20.55:329][237]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.12-02.20.55:629][237]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.12-02.20.55:629][237]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.12-02.20.55:695][237]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.12-02.20.55:695][237]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.12-02.20.55:748][237]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.12-02.21.01:722][237]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.12-02.21.01:895][237]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.12-02.21.01:895][237]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.12-02.21.01:925][237]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.12-02.21.01:925][237]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.12-02.21.02:004][237]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.12-02.21.02:004][237]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.12-02.21.02:043][237]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.12-02.21.02:088][237]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.12-02.21.02:183][237]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.12-02.21.03:702][237]LogExit: Exiting.
+[2015.12.12-02.21.04:217][237]Log file closed, 12/11/15 21:21:04
